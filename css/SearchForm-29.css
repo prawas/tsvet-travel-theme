@@ -1,0 +1,1073 @@
+@media screen and (max-width: 767px) {
+	body:not(.no_mobile).search-results-page section#main section.mainbottom section.main div.levall div#search-results div.btn-load-more-offers {
+		margin: 0 -10px 40px -10px;
+	}
+
+	body:not(.no_mobile).search-results-page section#main section.mainbottom section.main div.levall div#search-results div.btn-load-more-offers a {
+		width: 100%;
+		margin: 0;
+		padding: 5px 0;
+
+		border-radius: 0;
+		background: #10447d;
+
+		font-size: 16px;
+	}
+
+	body:not(.no_mobile).search-results-page section#main section.mainbottom section.main div.levall div#search-results div.btn-load-more-offers a:after {
+		display: none;
+	}
+
+	body:not(.no_mobile).search-results-page div.datepicker-dropdown.dropdown-menu {
+		z-index: 9999 !important;
+		top: 39px !important;
+		right: 0 !important;
+		left: auto !important;
+
+		box-sizing: border-box;
+		width: 240px !important;
+		min-width: 0;
+	}
+
+	body:not(.no_mobile).lang-ru.search-results-page section#main section.maintop form#search-form .searchbig_filters div.sort-type label {
+		width: 140px;
+	}
+
+	body:not(.no_mobile).lang-en.search-results-page section#main section.maintop form#search-form .searchbig_filters div.sort-type label {
+		width: 75px;
+	}
+
+	body:not(.no_mobile).productpage section#main .cloned-gallery {
+		display: none !important;
+	}
+
+	body:not(.no_mobile).productpage section#main .cloned-gallery #slider_mobile {
+		display: none;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom {
+		margin: 0;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev5 {
+		margin: 0;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev5 .cloned-gallery {
+		padding: 0;
+
+		border-radius: 0;
+		box-shadow: none;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev5 .cloned-gallery,body:not(.no_mobile).productpage section#main section.mainbottom div.lev5 .cloned-gallery #slider_mobile {
+		display: block !important;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev5 .cloned-gallery li a {
+		position: relative!important;
+
+		display: block;
+
+		height: inherit;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev5 .cloned-gallery li a img {
+		position: absolute;
+		bottom: 0;
+
+		display: block;
+
+		width: 100%;
+		min-height: 100%;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev5 .cloned-gallery div.flex-caption-wraper,body:not(.no_mobile).productpage section#main section.mainbottom div.lev5 .cloned-gallery div.flex-icons {
+		display: none;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 {
+		display: table;
+
+		width: 100%;
+		padding: 0;
+
+		-webkit-transform: none;
+		transform: none;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_info,body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 section.recommendation,body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_related {
+		display: none !important;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page {
+		display: table-footer-group;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page div#carousel {
+		display: none;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page div#gallery {
+		display: none;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page div.event-information {
+		padding: 0;
+
+		border: none;
+		border-radius: 0;
+		background: none;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page div.event-information ul#event-tabs {
+		display: none;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page div.event-information div.tab-content {
+		margin-bottom: 25px;
+
+		-webkit-box-shadow: none;
+		-moz-box-shadow: none;
+		box-shadow: none;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page div.event-information div.tab-content div.tab-pane {
+		display: none !important;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page div.event-information div.tab-content div.tab-pane.product-overall {
+		display: block !important;
+
+		opacity: 1 !important;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page div.event-information div.tab-content span.acc-trigger {
+		display: block;
+
+		width: 90%;
+		margin: 0 5%;
+
+		cursor: pointer;
+
+		color: #10447d;
+
+		line-height: 36px;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page div.event-information div.tab-content span.acc-trigger i {
+		float: right;
+
+		-webkit-transition: rotate ease-out .2s;
+		transition: rotate ease-out .2s;
+
+		color: inherit;
+
+		font-size: 28px;
+		line-height: 36px;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page div.event-information div.tab-content span.acc-trigger.active {
+		border-color: #fff;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page div.event-information div.tab-content span.acc-trigger.active i {
+		-webkit-transform: rotate(90deg);
+		transform: rotate(90deg);
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page div.event-information div.tab-content span.acc-trigger:last-of-type {
+		border: none;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page div.event-information div.tab-content div.product-overall div.product-asset {
+		margin: 0 0 15px 0;
+		padding: 15px 10px;
+
+		background: #eff5fc;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page div.event-information div.tab-content div.product-overall div.product-asset h3 {
+		margin-top: 0;
+
+		font-weight: bold;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page div.event-information div.tab-content div.product-overall div.product-asset ul {
+		margin: 0 15px;
+		padding: 0 20px;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page div.event-information div.tab-content div.product-overall div.product-asset ul li {
+		line-height: 1.3em;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page div.event-information div.tab-content div.product-overall div.acc-trigger-element > div,body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page div.event-information div.tab-content div.product-overall div.acc-trigger-element > table {
+		overflow: hidden;
+
+		border: none;
+		background: #eff5fc;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page div.event-information div.tab-content div.product-overall table.event-assetsandopinion td.opinion_stats #best_people {
+		margin: 0 0 30px 0;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page div.event-information div.tab-content div.product-overall table.event-assetsandopinion td.opinion_stats h4 {
+		display: block;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page div.event-information div.tab-content div.product-overall div.event-short {
+		display: none;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page div.event-information div.tab-content div.product-overall div#event-summary-accordion div.accordion-group,body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page div.event-information div.tab-content div.product-overall div#event-summary-accordion-mobile div.accordion-group {
+		border: none;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page div.event-information div.tab-content div.product-overall div#event-summary-accordion div.accordion-group div.accordion-heading a,body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page div.event-information div.tab-content div.product-overall div#event-summary-accordion-mobile div.accordion-group div.accordion-heading a {
+		color: #000;
+		background: #eff5fc;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page div.event-information div.tab-content div.product-overall div#event-summary-accordion div.accordion-group div.accordion-heading a:after,body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page div.event-information div.tab-content div.product-overall div#event-summary-accordion-mobile div.accordion-group div.accordion-heading a:after {
+		display: none;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page div.event-information div.tab-content div.product-overall div#event-summary-accordion div.accordion-group div.accordion-heading span,body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page div.event-information div.tab-content div.product-overall div#event-summary-accordion-mobile div.accordion-group div.accordion-heading span {
+		display: none;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page div.event-information div.tab-content div.product-overall div#event-summary-accordion div.accordion-group div.accordion-body,body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page div.event-information div.tab-content div.product-overall div#event-summary-accordion-mobile div.accordion-group div.accordion-body {
+		height: auto !important;
+
+		box-shadow: none;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page div.event-information div.tab-content div.product-overall div#event-summary-accordion div.accordion-group div.accordion-body:before,body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page div.event-information div.tab-content div.product-overall div#event-summary-accordion div.accordion-group div.accordion-body:after,body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page div.event-information div.tab-content div.product-overall div#event-summary-accordion-mobile div.accordion-group div.accordion-body:before,body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page div.event-information div.tab-content div.product-overall div#event-summary-accordion-mobile div.accordion-group div.accordion-body:after {
+		display: none;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page div.event-information div.tab-content div.product-overall div#event-summary-accordion div.accordion-group div.accordion-body .accordion-inner,body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page div.event-information div.tab-content div.product-overall div#event-summary-accordion-mobile div.accordion-group div.accordion-body .accordion-inner {
+		color: #000;
+		border: none;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page div.event-information div.tab-content div.product-overall div#event-summary-accordion div.accordion-group div.accordion-body .accordion-inner p,body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page div.event-information div.tab-content div.product-overall div#event-summary-accordion-mobile div.accordion-group div.accordion-body .accordion-inner p {
+		color: inherit;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page div.event-information div.tab-content div.product-destination {
+		display: block !important;
+
+		opacity: 1 !important;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page div.event-information div.tab-content div.product-destination div.acc-trigger-element {
+		margin: 0 10px;
+		padding: 0;
+
+		border: 0;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page div.event-information div.tab-content div.product-destination div.acc-trigger-element.in {
+		display: block;
+
+		height: 300px;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page div.event-information div.tab-content div.product-localtrips,body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page div.event-information div.tab-content div.product-opinions,body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page div.event-information div.tab-content div.product-hotelextradescription {
+		display: block !important;
+
+		opacity: 1 !important;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page div.event-information div.tab-content div.product-localtrips div.acc-trigger-element,body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page div.event-information div.tab-content div.product-opinions div.acc-trigger-element,body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page div.event-information div.tab-content div.product-hotelextradescription div.acc-trigger-element {
+		background: #eff5fc;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form {
+		position: relative!important;
+
+		display: table-header-group;
+		float: none;
+		clear: both;
+
+		margin: 0;
+		padding-bottom: 45px;
+
+		-webkit-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-o-transform: none !important;
+		transform: none !important;
+
+		-webkit-backface-visibility: hidden;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form > div {
+		position: relative!important;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form .clipboard-box {
+		position: absolute;
+		z-index: 1;
+		right: 0;
+		bottom: 6px;
+
+		width: 50%;
+		height: 30px;
+		margin: 0;
+		padding: 0 5px;
+
+		text-align: right;
+
+		border: 0;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form .clipboard-box .clipboard_add {
+		padding: 0;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form .clipboard-box .clipboard_add a {
+		display: block;
+
+		text-align: right;
+
+		color: #10447d;
+
+		font-size: 12px !important;
+		font-weight: normal;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form .clipboard-box .clipboard_add a.visible-xs {
+		display: inline-block !important;
+
+		vertical-align: top;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form .clipboard-box .clipboard_add span {
+		display: block;
+
+		width: 100%;
+
+		color: #000;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form div#form-and-offers {
+		margin-bottom: 0;
+		padding-bottom: 60px;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form div#form-and-offers .summary-box > div.ask-box {
+		display: none;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form h2.product-main-title {
+		position: relative!important;
+
+		padding: 0 10px 20px 10px;
+
+		color: #999;
+
+		font-size: 16px;
+		font-weight: normal;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form h2.product-main-title span.event-code {
+		display: none;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form h2.product-main-title span.destination-title {
+		display: block;
+
+		margin-top: 3px;
+
+		font-size: 12px !important;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form h2.product-main-title span.stars {
+		position: absolute;
+		bottom: 0;
+		left: 10px;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form h2.product-main-title ul.product-icon-attribute {
+		display: none;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form div.event-navi,body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form .well h3 {
+		display: none;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form div.event-navi.offers-not-available,body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form .well h3.offers-not-available {
+		display: block;
+
+		margin: 0;
+
+		text-align: center;
+
+		background: #eff5fc;
+
+		font-size: 20px;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form div.well {
+		border: none;
+		border-radius: 0;
+		background: #fff;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form form#search-form {
+		margin: 15px 0 0 0;
+		padding: 0 10px;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form form#search-form #childs-ages {
+		width: 100%;
+		margin-top: -5px;
+
+		background: #eff5fc;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form form#search-form div.fRow {
+		position: relative!important;
+
+		min-height: 24px;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form form#search-form div.fRow.fPersonMain > label {
+		line-height: 36px;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form form#search-form div.fRow.fParticipants {
+		display: inline-block;
+		float: none !important;
+
+		margin-bottom: 0;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form form#search-form div.fRow.fParticipants > label {
+		display: none;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form form#search-form div.fRow.onlyOne div.dropdown a {
+		color: #90accb;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form form#search-form div.fRow.onlyOne select {
+		height: 24px !important;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form form#search-form div.fRow label {
+		display: block;
+		float: left;
+
+		width: 30%;
+
+		color: #556d93;
+
+		font-size: 12px;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form form#search-form div.fRow div.dropdown {
+		position: static;
+
+		float: right;
+
+		width: 65%;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form form#search-form div.fRow div.dropdown a {
+		color: #556d93;
+		border: none;
+		border-radius: 0;
+		background: none;
+
+		font-size: 12px;
+		font-weight: bold;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form form#search-form div.fRow div.dropdown a.dropdown-toggle:after {
+		width: 5px;
+		margin: 0;
+
+		content: '\f0d7';
+
+		background: none;
+
+		font-family: 'FontAwesome';
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form form#search-form div.fRow div.dropdown.open a.dropdown-toggle:after {
+		margin-top: 10px;
+
+		-webkit-transform: rotate(-180deg);
+		transform: rotate(-180deg);
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form form#search-form div.fRow div.dropdown.open div.dropdown-menu,body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form form#search-form div.fRow div.dropdown.open ul.dropdown-menu {
+		position: absolute;
+		top: 30px;
+		left: 0;
+
+		box-sizing: none;
+		width: 100% !important;
+		margin: 0 -15px;
+		padding: 10px 15px !important;
+
+		border: 1px solid #90accb;
+		border-width: 1px 0;
+		border-radius: 0;
+		box-shadow: none;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form form#search-form div.fRow div.dropdown.open div.dropdown-menu div.jspContainer,body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form form#search-form div.fRow div.dropdown.open ul.dropdown-menu div.jspContainer {
+		width: 100% !important;
+		height: 100% !important;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form form#search-form div.fRow div.dropdown.open ul.dropdown-menu li a {
+		color: #90accb;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form form#search-form div.fRow div.dropdown.open ul.dropdown-menu li.selected a {
+		color: #10447d;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form form#search-form div.fPersonMain {
+		padding: 0;
+
+		text-align: right;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form form#search-form div.fPersonMain > label {
+		width: 30%;
+
+		text-align: left;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form form#search-form div.fPersonMain div.fPerson {
+		position: relative!important;
+
+		display: inline-block;
+
+		width: 32.5%;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form form#search-form div.fPersonMain div.fPerson > select {
+		position: absolute;
+		z-index: 1;
+		top: 0;
+		left: 0;
+
+		opacity: 0;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form form#search-form div.fPersonMain div.fPerson > label {
+		position: relative!important;
+
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		width: 100%;
+		padding: 0 9px;
+
+		text-align: left;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form form#search-form div.fPersonMain div.fPerson > label strong {
+		margin-left: 10px;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form form#search-form div.fPersonMain div.fPerson > label:after {
+		position: absolute;
+		top: 0;
+		right: 0;
+
+		display: block;
+
+		content: '';
+
+		color: inherit;
+		color: #556d93;
+		background: none;
+
+		font-family: 'FontAwesome';
+		font-size: 22px;
+		font-size: 12px;
+		font-weight: normal;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form form#search-form div.fPersonMain div.fPerson div.selectable button {
+		position: absolute;
+		top: 0;
+		left: 0;
+
+		opacity: 0;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form form#search-form div.fPersonMain div.fPerson.fKids > label {
+		padding-left: 15px;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form form#search-form div.fPersonMain .fParticipants .dropdown-toggle:after {
+		width: 5px;
+		margin: 0;
+
+		content: '\f0d7';
+
+		background: none;
+
+		font-family: 'FontAwesome';
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form div.fFly,body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form div.fBus {
+		min-height: 1px;
+		margin: 0 !important;
+		padding-top: 0;
+
+		border-width: 1px 0;
+		border-style: solid;
+		border-color: #90accb;
+		border-bottom-width: 0;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form div.fFly .popover,body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form div.fBus .popover {
+		position: relative!important;
+		top: 0 !important;
+		left: 0 !important;
+
+		box-sizing: border-box;
+		width: 100%;
+		min-width: 1px;
+		max-width: 100%;
+		margin: 0;
+		padding: 10px;
+
+		border: none;
+		background: #eff5fc;
+		box-shadow: none;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form div.fFly .popover .arrow,body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form div.fFly .popover .arrow:after,body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form div.fFly .popover .arrow:before,body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form div.fBus .popover .arrow,body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form div.fBus .popover .arrow:after,body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form div.fBus .popover .arrow:before {
+		display: none;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form div.fFly .popover .popover-close,body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form div.fBus .popover .popover-close {
+		position: absolute;
+		top: -45px;
+		right: 0;
+
+		width: 100%;
+		height: 45px;
+		padding: 0;
+
+		background: none;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form div.fFly .popover .popover-close:before,body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form div.fBus .popover .popover-close:before {
+		display: none;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form div.fFly .popover .popover-content ul li span span,body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form div.fBus .popover .popover-content ul li span span {
+		position: relative!important;
+		top: 0;
+		left: 0;
+
+		display: block;
+		clear: both;
+
+		color: #225b99;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form div.fFly .popover .popover-content ul li span span.st_plane,body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form div.fFly .popover .popover-content ul li span span.st_time,body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form div.fBus .popover .popover-content ul li span span.st_plane,body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form div.fBus .popover .popover-content ul li span span.st_time {
+		width: 100%;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form div.fFly .popover .popover-content ul li span span.st_plane i,body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form div.fFly .popover .popover-content ul li span span.st_time i,body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form div.fBus .popover .popover-content ul li span span.st_plane i,body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form div.fBus .popover .popover-content ul li span span.st_time i {
+		font-style: normal;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form div.fFly .popover .popover-content ul li span span.st_plane:before,body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form div.fFly .popover .popover-content ul li span span.st_time:before,body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form div.fBus .popover .popover-content ul li span span.st_plane:before,body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form div.fBus .popover .popover-content ul li span span.st_time:before {
+		width: 20px;
+		height: auto;
+
+		text-align: left;
+
+		background: none;
+
+		font-family: 'FontAwesome';
+		font-size: 14px;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form div.fFly .popover .popover-content ul li span span.st_plane.st_plane:before,body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form div.fFly .popover .popover-content ul li span span.st_time.st_plane:before,body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form div.fBus .popover .popover-content ul li span span.st_plane.st_plane:before,body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form div.fBus .popover .popover-content ul li span span.st_time.st_plane:before {
+		content: '\f072';
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form div.fFly .popover .popover-content ul li span span.st_plane.st_time,body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form div.fFly .popover .popover-content ul li span span.st_time.st_time,body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form div.fBus .popover .popover-content ul li span span.st_plane.st_time,body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form div.fBus .popover .popover-content ul li span span.st_time.st_time {
+		margin-bottom: 10px;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form div.fFly .popover .popover-content ul li span span.st_plane.st_time:before,body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form div.fFly .popover .popover-content ul li span span.st_time.st_time:before,body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form div.fBus .popover .popover-content ul li span span.st_plane.st_time:before,body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form div.fBus .popover .popover-content ul li span span.st_time.st_time:before {
+		content: '\f017';
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form div.fFly .popover .popover-content ul li span span.st_info,body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form div.fBus .popover .popover-content ul li span span.st_info {
+		float: left;
+
+		width: 100%;
+		margin-left: 20px;
+
+		color: #90accb;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form div.fFly .popover .popover-content ul li:last-child span span.st_plane:before,body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form div.fBus .popover .popover-content ul li:last-child span span.st_plane:before {
+		height: 16px;
+		margin-top: 9px;
+
+		-webkit-transform: rotate(90deg);
+		transform: rotate(90deg);
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form div.fFly .popover .popover-content div.summary-transport li.no-rata span span,body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form div.fBus .popover .popover-content div.summary-transport li.no-rata span span {
+		line-height: 1em;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form div.fFly .popover .popover-content div.summary-transport li.no-rata span span:before,body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form div.fBus .popover .popover-content div.summary-transport li.no-rata span span:before {
+		margin-right: 10px;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form div.fFly a#check-timetable,body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form div.fBus a#check-timetable {
+		display: block;
+
+		padding: 10px;
+
+		color: #10447d;
+
+		font-size: 14px;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form div.fFly a#check-timetable:before,body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form div.fBus a#check-timetable:before {
+		float: right;
+
+		width: auto;
+		height: auto;
+
+		content: '\F105';
+
+		color: #10447d;
+		background: none;
+
+		font-family: 'FontAwesome';
+		font-size: 28px;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form div.fFly.active,body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form div.fBus.active {
+		margin-bottom: 0 !important;
+
+		border-bottom: 0;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form div.fFly.active a:before,body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form div.fBus.active a:before {
+		-webkit-transform: rotate(90deg);
+		transform: rotate(90deg);
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form div.summary-box {
+		position: relative!important;
+
+		margin: 0;
+		padding: 0;
+
+		background-color: #fff !important;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form div.summary-box div.price-box {
+		height: 40px;
+		padding: 0;
+
+		border: none;
+		border-width: 1px 0;
+		border-style: solid;
+		border-color: #f05050;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form div.summary-box div.price-box strong {
+		display: none;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form div.summary-box div.price-box strong.price-common-info {
+		display: block;
+		clear: both;
+
+		margin: 15px;
+		padding: 0;
+
+		color: #666;
+
+		font-size: 14px;
+		line-height: 30px;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form div.summary-box div.price-box strong.price-common-info strong {
+		display: block;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form div.summary-box div.price-box strong.price-common-info > span {
+		display: none;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form div.summary-box div.price-box strong.price-common-info a {
+		display: block;
+
+		width: auto;
+
+		text-decoration: none;
+		text-indent: 0;
+
+		background: none;
+
+		line-height: 30px;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form div.summary-box div.price-box strong.price-common-info a:before {
+		margin-right: 10px;
+
+		content: '\f05a';
+
+		font-family: 'FontAwesome';
+		font-size: 16px;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form div.summary-box div.price-box strong.price-common-info div.popover {
+		position: fixed;
+		top: 0 !important;
+		left: 0 !important;
+
+		box-sizing: border-box;
+		width: 100%;
+		max-width: 100%;
+		height: 100%;
+		margin: 0;
+		padding: 40px 0 0 0;
+
+		border: none;
+		border-radius: 0;
+
+		-webkit-backface-visibility: hidden;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form div.summary-box div.price-box strong.price-common-info div.popover div.popover-content {
+		overflow-y: scroll;
+
+		height: 100%;
+		padding-bottom: 20px;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form div.summary-box div.price-box strong.price-common-info div.popover a.popover-close {
+		z-index: 100;
+		top: 45px;
+		right: 10px;
+
+		overflow: hidden;
+
+		width: 20px;
+		height: 20px;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form div.summary-box div.price-box strong.price-common-info div.popover a.popover-close:before {
+		width: 20px;
+		height: 20px;
+
+		content: '\f00d';
+
+		font-family: 'FontAwesome';
+		font-size: 20px;
+		line-height: 20px;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form div.summary-box div.price-box strong.price-common-info div.popover div.price-details-mobile .tfg-info {
+		padding: 10px;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form div.summary-box div.price-box strong.price-common-info div.popover div.price-details-mobile a:before {
+		display: none;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form div.summary-box div.price-box strong.price-common-info div.popover div.price-details-mobile header {
+		display: block;
+
+		padding: 10px 40px 10px 10px;
+
+		color: #000;
+
+		line-height: 20px;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form div.summary-box div.price-box strong.price-common-info div.popover div.price-details-mobile img {
+		width: 100%;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form div.summary-box div.price-box strong.price-common-info div.popover div.price-details-mobile ul {
+		margin-top: 10px;
+		padding: 0 10px;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form div.summary-box div.price-box strong.price-common-info div.popover div.price-details-mobile ul li {
+		margin: 0 0 10px 0;
+
+		color: #000;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form div.summary-box div.price-box strong.price-common-info div.popover div.price-details-mobile ul li strong {
+		display: inline;
+		float: right;
+
+		color: #f05050;
+
+		font-weight: normal;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form div.summary-box div.price-box strong.price-common-info div.popover div.price-details-mobile div.price-details-sumary {
+		padding: 10px;
+
+		text-align: right;
+		text-transform: uppercase;
+
+		color: #000;
+		border: none;
+
+		font-size: 16px;
+		font-weight: normal;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form div.summary-box div.price-box strong.price-common-info div.popover div.price-details-mobile div.price-details-sumary strong {
+		display: inline;
+		float: right;
+
+		margin-left: 10px;
+
+		color: #f05050;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form div.summary-box div.price-box strong.price-common-info div.popover div.price-details-mobile span.price {
+		float: right;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form div.summary-box div.price-box strong.price-common-info div.popover div.price-details-mobile span.stars {
+		margin: 0 0 3px 5px;
+
+		vertical-align: middle;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form div.summary-box div.price-box strong.price-common-info div.popover div.price-details-mobile a.button_submit,body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form div.summary-box div.price-box strong.price-common-info div.popover div.price-details-mobile span.powrot {
+		display: block;
+
+		width: 100%;
+		padding: 10px 0;
+
+		text-align: center;
+		text-decoration: none;
+
+		font-weight: bold;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form div.summary-box div.price-box strong.price-common-info div.popover div.price-details-mobile a.button_submit {
+		padding: 0;
+
+		text-transform: uppercase;
+
+		color: #fff;
+		border-radius: 0;
+		background: #f05050;
+
+		line-height: 36px;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form div.summary-box div.price-box strong.price-common-info div.popover div.price-details-mobile a.button_submit:after,body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form div.summary-box div.price-box strong.price-common-info div.popover div.price-details-mobile a.button_submit:before {
+		display: none;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form div.summary-box div.price-box strong.price-common-info div.popover div.price-details-mobile span.powrot {
+		position: relative!important;
+		top: 0;
+		right: 0;
+
+		height: auto;
+		margin-top: 10px;
+
+		text-indent: 0;
+
+		color: #10447d;
+		border: solid #90accb;
+		border-width: 1px 0;
+		background: none;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form div.summary-box div.price-box > span.price {
+		float: left;
+
+		width: 40%;
+
+		text-align: center;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form div.summary-box div.price-box > span.price:after,body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form div.summary-box div.price-box > span.price.price-black {
+		display: none;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form div.summary-box div.price-box > span.price strong {
+		display: inline-block;
+
+		height: auto;
+
+		line-height: 40px;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form div.summary-box div.price-box > span.price span {
+		position: relative!important;
+
+		display: inline-block;
+
+		margin: 5px 0 0 5px;
+
+		font-size: 14px;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form div.summary-box div.price-box > span.price span:after {
+		position: absolute;
+		top: 16px;
+		left: 7px;
+
+		content: '\F007';
+
+		font-family: 'FontAwesome';
+		font-size: 16px;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form div.summary-box div.submit-box {
+		position: absolute !important;
+		top: 1px;
+		right: 0;
+
+		box-sizing: border-box;
+		width: 60%;
+		padding: 0;
+
+		border: none;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form div.summary-box div.submit-box span.button_call,body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form div.summary-box div.submit-box a.button_call {
+		float: right;
+
+		margin-right: 10px;
+		padding-top: 5px;
+	}
+
+	body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form div.summary-box div.submit-box span.button_call strong,body:not(.no_mobile).productpage section#main section.mainbottom div.lev6 div.product_page_form div.summary-box div.submit-box a.button_call strong {
+		margin-top: 3px;
+
+		line-height: 18px;
+	}
+}

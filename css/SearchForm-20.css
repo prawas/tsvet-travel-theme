@@ -1,0 +1,1038 @@
+#date-range .placeholder-focus label.infield-to:before,#date-range .placeholder-focus label.infield-from:before {
+	position: absolute;
+	bottom: -6px;
+	left: 9px;
+
+	display: block;
+
+	height: 0;
+
+	content: '';
+
+	border-top: 6px solid #7795b6;
+	border-right: 6px solid transparent;
+	border-left: 6px solid transparent;
+}
+
+#date-range span:not(lightholder) label.infield-to,#date-range span:not(lightholder) label.infield-from {
+	opacity: 1.00;
+	background: white;
+
+	filter: alpha(opacity=100);
+	-moz-opacity: 1.00;
+}
+
+#date-range span.lightholder label.infield-to,#date-range span.lightholder label.infield-from {
+	opacity: .40;
+	background: white;
+	background-color: rgba(158,198,240,.65);
+
+	filter: alpha(opacity=40);
+	-moz-opacity: .40;
+}
+
+#date-range span.lightholder label.infield-to {
+	border-right: 5px solid rgba(243,63,51,.65);
+}
+
+#date-range span.lightholder label.infield-from {
+	border-left: 5px solid rgba(16,68,125,.65);
+}
+
+#date-range span .blocked {
+	opacity: .70 !important;
+
+	filter: alpha(opacity=70) !important;
+	-moz-opacity: .70 !important;
+}
+
+#date-range span .blocked {
+	opacity: .70 !important;
+
+	filter: alpha(opacity=70) !important;
+	-moz-opacity: .70 !important;
+}
+
+.placeholder-hide label {
+	top: -9999px;
+	right: auto;
+	bottom: auto;
+	left: -9999px;
+
+	opacity: 0;
+}
+
+#search-form div.searchbig span.infield-label.placeholder-focus label {
+	top: -18px;
+
+	font-size: 11px;
+	line-height: 15px;
+}
+
+#search-form div.searchbig span.infield-label.placeholder-focus label:before {
+	width: 0;
+	height: 0;
+
+	background: none;
+}
+
+#search-form div.searchbig label.infield-to {
+	left: 0;
+}
+
+.searchbig .fRow > label:first-child {
+	position: relative!important;
+	top: 0;
+
+	display: block;
+
+	transition: top .5s;
+}
+
+span.lightholder.placeholder-focus label.infield-from:after {
+	position: absolute;
+	bottom: -5px;
+	left: 10px;
+
+	display: block;
+
+	height: 0;
+
+	content: '';
+
+	border-top: 5px solid rgba(0,128,0,.65);
+	border-right: 5px solid transparent;
+	border-left: 5px solid transparent;
+}
+
+span.lightholder.placeholder-focus label.infield-to:after {
+	position: absolute;
+	bottom: -5px;
+	left: 10px;
+
+	display: block;
+
+	height: 0;
+
+	content: '';
+
+	border-top: 5px solid rgba(255,37,37,.65);
+	border-right: 5px solid transparent;
+	border-left: 5px solid transparent;
+}
+
+.no-rgba .placeholder-focus label:after {
+	border-top-color: #111;
+}
+
+.infield-label-image.placeholder-focus label {
+	top: -122px;
+}
+
+span.lightholder.placeholder-focus label.infield-to:after,span.lightholder.placeholder-focus label.infield-from:after {
+	border-top: 5px solid white;
+}
+
+#reservation-form #step1 dd span label.infield-label {
+	font-size: 11px;
+	line-height: 15px;
+}
+
+.reservation-form span.control-group.infield-label label {
+	font-size: 11px;
+	line-height: 15px;
+}
+
+.reservation-form span.control-group.infield-label.placeholder-focus label {
+	top: -18px;
+}
+
+.reservation-form span.control-group.infield-label.placeholder-hide label {
+	top: -18px;
+}
+
+.control-group.placeholder-focus label {
+	border: 1px solid #b1b8c1;
+}
+
+span.control-group.infield-label.persistent label,span.control-group.infield-label.placeholder-focus label,#date-range .placeholder-focus label {
+	top: -17px;
+	right: auto;
+	bottom: auto;
+	left: 0;
+
+	display: block;
+
+	width: auto;
+	min-width: 55px;
+	padding: 1px 7px 1px 4px;
+
+	opacity: 1;
+	color: #10447d;
+	border-radius: 2px;
+	background: white;
+	-webkit-box-shadow: 0 0 8px rgba(0,0,0,.3);
+	-moz-box-shadow: 0 0 8px rgba(0,0,0,.3);
+	box-shadow: 0 0 8px rgba(0,0,0,.3);
+
+	font-size: 12px;
+	line-height: 16px;
+
+	filter: alpha(opacity=100);
+	-moz-opacity: 1;
+}
+
+.control-group.infield-label {
+	float: none;
+}
+
+.control-group.infield-label label {
+	top: -19px;
+
+	margin-left: 20px;
+
+	text-align: left;
+
+	font-weight: normal;
+}
+
+.control-group.infield-label.placeholder-focus label {
+	background-color: rgba(158,198,240,.65);
+}
+
+.control-group.placeholder-focus label:after,.placeholder-focus label.infield-from:after {
+	position: absolute;
+	bottom: -5px;
+	left: 10px;
+
+	display: block;
+
+	height: 0;
+
+	content: '';
+
+	border-top: 5px solid white;
+	border-right: 5px solid transparent;
+	border-left: 5px solid transparent;
+}
+
+.placeholder-focus label.infield-to:after,.placeholder-focus label.infield-from:after {
+	border-top-color: white;
+}
+
+.control-group.placeholder-focus label:before,.placeholder-focus label.infield-to:before,.placeholder-focus label.infield-from:before {
+	position: absolute;
+	bottom: -6px;
+	left: 9px;
+
+	display: block;
+
+	height: 0;
+
+	content: '';
+
+	border-top: 6px solid #7795b6;
+	border-right: 6px solid transparent;
+	border-left: 6px solid transparent;
+}
+
+span.lightholder.placeholder-focus label.infield-from:after {
+	position: absolute;
+	bottom: -5px;
+	left: 10px;
+
+	display: block;
+
+	height: 0;
+
+	content: '';
+
+	border-top: 5px solid white;
+	border-right: 5px solid transparent;
+	border-left: 5px solid transparent;
+}
+
+.placeholder-focus label.infield-to:after {
+	position: absolute;
+	bottom: -5px;
+	left: 10px;
+
+	display: block;
+
+	height: 0;
+
+	content: '';
+
+	border-top: 5px solid white;
+	border-right: 5px solid transparent;
+	border-left: 5px solid transparent;
+}
+
+span.lightholder.placeholder-focus label.infield-to:after {
+	position: absolute;
+	bottom: -5px;
+	left: 10px;
+
+	display: block;
+
+	height: 0;
+
+	content: '';
+
+	border-top: 5px solid white;
+	border-right: 5px solid transparent;
+	border-left: 5px solid transparent;
+}
+
+.no-rgba .placeholder-focus label:after {
+	border-top-color: #111;
+}
+
+.infield-label-image.placeholder-focus label {
+	top: -122px;
+}
+
+.placeholder-hide:not(persistent) label {
+	top: -9999px;
+	right: auto;
+	bottom: auto;
+	left: -9999px;
+
+	opacity: 0;
+
+	filter: alpha(opacity=0);
+	-moz-opacity: 0;
+}
+
+#date-range .placeholder-focus label {
+	top: -26px;
+	right: auto;
+	bottom: auto;
+	min-width: 55px;
+	padding: 1px 7px 1px 4px;
+	color: #10447d;
+	border-radius: 2px;
+	background: white;
+	-webkit-box-shadow: 0 0 8px rgba(0,0,0,.3);
+	-moz-box-shadow: 0 0 8px rgba(0,0,0,.3);
+	box-shadow: 0 0 8px rgba(0,0,0,.3);
+	font-size: 12px;
+	line-height: 16px;
+}
+
+.dropdown a:hover {
+	text-decoration: none;
+}
+
+.datepickerGreenHover {
+	background-color: green !important;
+}
+
+.datepickerRedHover {
+	background-color: red !important;
+}
+
+.fhotels .moreLink {
+	display: none !important;
+}
+
+.datepickers {
+	display: none;
+}
+
+.calendar.popover-close {
+	display: block;
+	float: left;
+	float: right;
+
+	width: 25px;
+	height: 25px;
+	margin: -20px -13px 0 0;
+
+	content: '';
+	text-indent: -5000px;
+
+	background: url(https://www.itaka.pl/cms/img/1/ico/ikonymale.png) no-repeat -100px -250px;
+}
+
+table.datepickerViewDays tbody.datepickerMonths,table.datepickerViewDays tbody.datepickerYears {
+	display: none;
+}
+
+table.datepickerViewMonths tbody.datepickerDays,table.datepickerViewMonths tbody.datepickerYears,table.datepickerViewMonths tr.datepickerDoW {
+	display: none;
+}
+
+table.datepickerViewYears tbody.datepickerDays,table.datepickerViewYears tbody.datepickerMonths,table.datepickerViewYears tr.datepickerDoW {
+	display: none;
+}
+
+.dropdown-menu.popover {
+	max-width: none !important;
+	margin: 0;
+}
+
+.popover {
+	top: 36px;
+}
+
+.datepicker.datepicker-dropdown.dropdown-menu,.popover .popover-content {
+	padding: 10px;
+}
+
+.datepicker.datepicker-dropdown.dropdown-menu {
+	min-width: 235px;
+}
+
+.datepicker,.datepickerContainer {
+	width: auto !important;
+	height: auto !important;
+}
+
+.datepickerDoW th {
+	padding-bottom: 10px;
+}
+
+.datepicker .table-condensed th,.datepicker .table-condensed td {
+	width: 20px;
+	height: 20px;
+	margin: 1px;
+	padding: 5px;
+
+	text-align: center;
+
+	border-radius: 4px;
+}
+
+.datepickerDays span {
+	width: 20px;
+	height: 20px;
+	margin: 1px;
+	padding: 5px;
+
+	text-align: center;
+}
+
+.datepickerDays span {
+	display: block;
+	width: 20px;
+	height: 20px;
+	margin: 1px;
+	padding: 0;
+	cursor: default;
+	text-align: center;
+	color: #ccc;
+	line-height: 20px;
+}
+
+td.datepickerRight:not(.datepickerDisabled) span:after {
+	position: relative!important;
+	z-index: 999999;
+	top: -25px;
+	left: 21px;
+
+	display: block;
+
+	width: 4px;
+	height: 30px;
+
+	content: '';
+
+	background-color: red;
+}
+
+td.datepickerLeft:not(.datepickerDisabled) span:after {
+	position: relative!important;
+	z-index: 9999999;
+	top: -25px;
+	left: -5px;
+
+	display: block;
+
+	width: 4px;
+	height: 30px;
+
+	content: '';
+
+	background-color: green;
+}
+
+.datepickerDays .datepickerDisabled span {
+	cursor: default !important;
+
+	color: #ccc !important;
+}
+
+.datepickerDays .datepickerFuture span {
+	cursor: pointer;
+
+	color: #404040;
+}
+
+.datepicker .datepicker-days,.datepicker .datepicker-months,.datepicker .datepicker-years {
+	width: 100%;
+}
+
+.datepicker .table-condensed {
+	width: 100%;
+}
+
+.datepicker .datepicker-months span,.datepicker .datepicker-years span {
+	display: block;
+	float: left;
+
+	width: 23%;
+	height: 54px;
+	margin: 1%;
+
+	cursor: pointer;
+
+	border-radius: 4px;
+
+	line-height: 54px;
+}
+
+.datepickerContainer th {
+	position: relative!important;
+
+	height: 25px;
+
+	text-align: center;
+}
+
+.datepickerContainer .datepickerSpace div {
+	width: 20px;
+}
+
+.datepickerContainer .datepickerGoPrev,.datepickerContainer .datepickerGoNext {
+	position: absolute;
+	top: 0;
+	display: block;
+	width: 25px;
+	height: 25px;
+	margin: 0 2px;
+}
+
+.datepickerContainer .datepickerGoPrev {
+	left: 0;
+}
+
+.datepickerContainer .datepickerGoNext {
+	right: 0;
+}
+
+.datepickerContainer .datepickerFirstView .datepickerGoNext,.datepickerContainer .datepickerLastView .datepickerGoPrev {
+	display: none;
+}
+
+.datepickerContainer .datepickerMonth {
+	display: block;
+
+	margin: 0 25px;
+
+	text-align: center;
+
+	line-height: 25px;
+}
+
+.datepicker .table-condensed .next,.datepicker .table-condensed .prev {
+	width: 25px;
+	padding: 0;
+}
+
+.datepicker a:hover {
+	text-decoration: none;
+}
+
+.datepicker .icon-arrow-left,.datepicker .icon-arrow-right {
+	background: none;
+}
+
+.datepicker .icon-arrow-left {
+	display: block;
+	float: left;
+
+	width: 25px;
+	height: 25px;
+
+	content: '';
+
+	background: url(https://www.itaka.pl/cms/img/1/ico/ikonymale.png) no-repeat -75px -25px;
+}
+
+.datepicker .icon-arrow-right {
+	display: block;
+	float: left;
+	float: right;
+
+	width: 25px;
+	height: 25px;
+
+	content: '';
+
+	background: url(https://www.itaka.pl/cms/img/1/ico/ikonymale.png) no-repeat -25px -25px;
+}
+
+.datepicker .datepicker-switch,.datepicker .table-condensed .day {
+	color: #10447d;
+}
+
+.datepicker .table-condensed .new,.datepicker .table-condensed .old {
+	color: #404040;
+}
+
+.datepicker .table-condensed .disabled {
+	color: #999 !important;
+}
+
+.datepicker .table-condensed .day.active {
+	color: #fff !important;
+	background: #10447d !important;
+}
+
+.datepicker .icon-arrow-left:hover {
+	display: block;
+	float: left;
+
+	width: 25px;
+	height: 25px;
+
+	content: '';
+
+	opacity: .8;
+	background: url(https://www.itaka.pl/cms/img/1/ico/ikonymale.png) no-repeat -75px -724px;
+}
+
+.datepicker .icon-arrow-right:hover {
+	display: block;
+	float: left;
+	float: right;
+
+	width: 25px;
+	height: 25px;
+
+	content: '';
+
+	opacity: .8;
+	background: url(https://www.itaka.pl/cms/img/1/ico/ikonymale.png) no-repeat -25px -724px;
+}
+
+.reservation-form span.control-group.infield-label label {
+	font-size: 11px;
+	line-height: 15px;
+}
+
+.reservation-form span.control-group.infield-label.persistent label {
+	opacity: .7;
+
+	filter: alpha(opacity=70);
+	-moz-opacity: .7;
+}
+
+.reservation-form span.control-group.infield-label.placeholder-focus label {
+	opacity: 1;
+
+	filter: alpha(opacity=100);
+	-moz-opacity: 1;
+}
+
+div.hotel-list-item div.hotel-list-content header h2 {
+	position: relative!important;
+	margin-top: 5px;
+}
+
+div.hotel-list-item div.hotel-list-content header h2 a {
+	z-index: 1;
+	top: 0;
+	overflow: hidden;
+	width: 100%;
+	text-indent: -999em;
+	background: url(https://www.itaka.pl/cms/img/1/sp.gif);
+}
+
+.destination-information div.hotel-list-item div.hotel-list-content header h2 {
+	width: 70%;
+}
+
+.selectable-container fieldset {
+	-webkit-margin-end: 2px;
+	-moz-margin-end: 2px;
+	-webkit-margin-start: 2px;
+	-moz-margin-start: 2px;
+	-webkit-padding-after: .625em;
+	-moz-padding-after: .625em;
+	-webkit-padding-before: .35em;
+	-moz-padding-before: .35em;
+	-webkit-padding-end: .75em;
+	-moz-padding-end: .75em;
+	-webkit-padding-start: .75em;
+	-moz-padding-start: .75em;
+}
+
+.selectable-container .options-container ul li label {
+	width: 100%;
+	font-size: 13px;
+	font-weight: normal;
+}
+
+.selectable-container .options-container fieldset {
+	padding: 0 0 5px;
+	margin-right: 25px;
+}
+
+.filters.affix {
+	padding: 0;
+}
+
+.filters.affix .btn-filters {
+	position: absolute;
+	right: 0;
+	bottom: -3px;
+
+	display: block;
+
+	width: 38px;
+	height: 25px;
+
+	text-align: right;
+
+	background: url(https://www.itaka.pl/cms/img/1/ico/ikonymale.png) no-repeat 6px -50px #10447d;
+	box-shadow: 3px 3px 3px #999;
+}
+
+.filters.affix .fcollapse {
+	bottom: -1px;
+
+	border-radius: 5px 5px 0 0;
+	background-position: 6px -50px;
+}
+
+.filters.affix .fexpand {
+	border-radius: 0 0 5px 5px;
+	border-radius: 0 0 5px 5px;
+	background-position: -44px -50px;
+}
+
+#filters-txt {
+	position: absolute;
+	z-index: 999;
+	right: 66px;
+	bottom: 2px;
+
+	width: 200px;
+
+	color: #999;
+
+	line-height: 9px;
+}
+
+.filters.affix-top .btn-filters {
+	display: none;
+}
+
+.sort-type.fRow {
+	float: left;
+
+	width: 400px;
+}
+
+.offer-not-found {
+	padding: 20px;
+
+	border: 1px solid #d9e1ea;
+	border-radius: 4px;
+	background-color: aliceblue;
+
+	font-size: 26px;
+}
+
+.st_bag .st_info span br {
+	padding: 3px;
+
+	line-height: 15px;
+}
+
+.flex-gallery {
+	text-align: left;
+}
+
+.accordion-heading[data-block-type*='summary'] {
+	display: none;
+}
+
+.flex-gallery ul li:first-child a:first-child img {
+	max-width: 100% !important;
+}
+
+.dropdown-menu:not(multi) input[type='checkbox'],.dropdown-menu input[type='radio'] {
+	display: none;
+}
+
+.lev6 .plo {
+	color: white;
+}
+
+.modul:first-of-type > div {
+	display: inline-block;
+}
+
+.newsletter-resp {
+	display: none;
+}
+
+.plain .katalog {
+	float: left;
+
+	margin-right: 25px;
+}
+
+.plain .katalog input {
+	display: block;
+
+	margin: auto;
+}
+
+.sekcja .spryCatalog {
+	display: block;
+
+	margin: 5px 0 0 0;
+}
+
+.sekcja .spryCatalog input {
+	margin: 0;
+}
+
+.sekcja .spryCatalog label {
+	display: block;
+	float: left;
+
+	width: 132px;
+	margin-right: 20px;
+	padding-top: 5px;
+
+	text-align: right;
+
+	font-weight: bold;
+}
+
+.sekcja .spryCatalog:after {
+	clear: both;
+}
+
+.sekcja .groupForm {
+	display: block;
+
+	margin: 5px 0 10px 0;
+}
+
+.sekcja .groupForm input {
+	margin: 0;
+}
+
+.sekcja .groupForm label {
+	display: block;
+	float: left;
+
+	width: 132px;
+	margin-right: 20px;
+	padding-top: 5px;
+
+	text-align: right;
+}
+
+.sekcja .groupForm:after {
+	clear: both;
+}
+
+.sms-code {
+	color: red;
+}
+
+.catalog-form {
+	margin-top: 20px;
+	padding: 20px;
+
+	background: #eff5fc;
+}
+
+.label_star:after {
+	margin-left: 5px;
+
+	content: '*';
+
+	color: #f33;
+}
+
+.catalog-form .chbox.col-sm-2.control-label > span {
+	display: block;
+	float: left;
+
+	width: 162px;
+	height: 93px;
+	margin: 10px 0;
+}
+
+.catalog-form .chbox.col-sm-2.control-label > span:after {
+	clear: both;
+}
+
+.catalog-email .catalogs-list-container {
+	margin: 0;
+	margin: 0 0 10px 0;
+
+	list-style: none;
+}
+
+.catalog-email .catalogs-list-container li {
+	float: left;
+}
+
+.catalog-email .catalogs-list-container input {
+	display: block;
+
+	margin: auto;
+}
+
+.catalog-email h3.form-title {
+	font-size: 24px;
+}
+
+.plain .catalog-email .catalogs-list-container li {
+	margin: 0 50px 50px 0;
+}
+
+.via-email-title {
+	margin: 0;
+}
+
+.groupPersonNumber button {
+	display: block;
+
+	height: 36px;
+	padding: 0 10px;
+
+	text-decoration: none;
+
+	color: #fff;
+	border: none;
+	border-radius: 3px;
+	background: #023772;
+	background: -moz-linear-gradient(top, #10447d 0%, #023772 100%);
+	background: -webkit-linear-gradient(top, #10447d 0%, #023772 100%);
+	background: -o-linear-gradient(top, #10447d 0%, #023772 100%);
+	background: -ms-linear-gradient(top, #10447d 0%, #023772 100%);
+	background: linear-gradient(to bottom, #10447d 0%, #023772 100%);
+	text-shadow: none;
+
+	line-height: 36px;
+}
+
+.groupPersonNumber button:hover {
+	text-decoration: none;
+
+	color: #fff;
+	background: #10447d;
+}
+
+.incentive .selectable-container .options-container ul li label {
+	width: 96%;
+}
+
+.embbed_form {
+	background: #eff5fc;
+}
+
+.rezerw.incentive h1 {
+	display: block;
+
+	padding: 10px 0 10px 0;
+
+	color: black;
+	border-bottom: 1px solid #d9e1ea;
+
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.rezerw.incentive .rezerwmain.searchwell h2 {
+	display: block;
+
+	margin-bottom: 0;
+	padding: 0 10px 10px 10px;
+
+	color: #999;
+
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.rezerw.incentive .rezerwmain.searchwell form .fRow {
+	margin: 0;
+}
+
+.rezerw.incentive .rezerwmain.searchwell form .fRow .dropdown-menu {
+	left: 0;
+}
+
+.rezerw.incentive .rezerwmain.searchwell #participants_count-select {
+	width: 100px;
+}
+
+.rezerwmain__ofert {
+	display: block;
+
+	margin: 6px 10px;
+}
+
+.rezerwmain__first-col > tbody {
+	vertical-align: top;
+}
+
+.form-group-textarea {
+	width: 100%;
+}
+
+.waiting {
+	background: url(https://www.itaka.pl/cms/img/1/ajax-loader.gif) no-repeat center center;
+	background-color: white;
+}
+
+.offers-not-available {
+	font-weight: bold;
+}
+
+.offers-not__info legend,.offers-not__info ul {
+	padding: 10px;
+}
+
+.offers-not__info li {
+	list-style: none;
+}
+
+.grid-sizer {
+	widht: 30%;
+}
+
+.masonry-h0 {
+	height: 150px;
+}
+
+.masonry-h1 {
+	height: 300px;
+}
+
+.masonry-h2 {
+	height: 450px;
+}
+
+.masonry-h3 {
+	height: 600px;
+}
+
+.masonry-h4 {
+	height: 750px;
+}
+
+.masonry-h5 {
+	height: 900px;
+}

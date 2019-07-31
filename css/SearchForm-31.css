@@ -1,0 +1,998 @@
+@media screen and (max-width: 767px) {
+	body:not(.no_mobile).rezerwacja #main section.mainbottom div.lev4 form#reservation-form div#reservation-form-inner div.step3 div.accordion-body div.accordion-inner div.step-add-serv div.localtrip-wrapper div.localtrip-imagebox input,body:not(.no_mobile).rezerwacja #main section.main div.lev4 form#reservation-form div#reservation-form-inner div.step3 div.accordion-body div.accordion-inner div.step-add-serv div.localtrip-wrapper div.localtrip-imagebox input {
+		display: block;
+		float: none;
+
+		margin: 20px auto;
+	}
+
+	body:not(.no_mobile).rezerwacja #main section.mainbottom div.lev4 form#reservation-form div#reservation-form-inner div.step3 div.accordion-body div.accordion-inner div.step-add-serv div.localtrip-wrapper div.localtrip-imagebox img,body:not(.no_mobile).rezerwacja #main section.main div.lev4 form#reservation-form div#reservation-form-inner div.step3 div.accordion-body div.accordion-inner div.step-add-serv div.localtrip-wrapper div.localtrip-imagebox img {
+		width: 100%;
+	}
+
+	body:not(.no_mobile).rezerwacja #main section.mainbottom div.lev4 form#reservation-form div#reservation-form-inner div.step3 div.accordion-body div.accordion-inner div.step-add-serv div.localtrip-wrapper article.localtrip-content header,body:not(.no_mobile).rezerwacja #main section.main div.lev4 form#reservation-form div#reservation-form-inner div.step3 div.accordion-body div.accordion-inner div.step-add-serv div.localtrip-wrapper article.localtrip-content header {
+		border: 0;
+	}
+
+	body:not(.no_mobile).rezerwacja #main section.mainbottom div.lev4 form#reservation-form div#reservation-form-inner div.step3 div.accordion-body div.accordion-inner div.step-add-serv div#additional-services,body:not(.no_mobile).rezerwacja #main section.main div.lev4 form#reservation-form div#reservation-form-inner div.step3 div.accordion-body div.accordion-inner div.step-add-serv div#additional-services {
+		background: #eff5fc;
+	}
+
+	body:not(.no_mobile).rezerwacja #main section.mainbottom div.lev4 form#reservation-form div#reservation-form-inner div.step3 div.accordion-body div.accordion-inner div.step-add-serv div#additional-services h4,body:not(.no_mobile).rezerwacja #main section.main div.lev4 form#reservation-form div#reservation-form-inner div.step3 div.accordion-body div.accordion-inner div.step-add-serv div#additional-services h4 {
+		display: none;
+	}
+
+	body:not(.no_mobile).rezerwacja #main section.mainbottom div.lev4 form#reservation-form div#reservation-form-inner div.step3 div.accordion-body div.accordion-inner div.step-add-serv div#additional-services fieldset,body:not(.no_mobile).rezerwacja #main section.main div.lev4 form#reservation-form div#reservation-form-inner div.step3 div.accordion-body div.accordion-inner div.step-add-serv div#additional-services fieldset {
+		margin: 15px 0 0 0;
+		padding: 0 0 15px 0;
+
+		color: #10447d;
+		border-bottom: 1px solid #10447d;
+	}
+
+	body:not(.no_mobile).rezerwacja #main section.mainbottom div.lev4 form#reservation-form div#reservation-form-inner div.step3 div.accordion-body div.accordion-inner div.step-add-serv div#additional-services fieldset div.controls,body:not(.no_mobile).rezerwacja #main section.main div.lev4 form#reservation-form div#reservation-form-inner div.step3 div.accordion-body div.accordion-inner div.step-add-serv div#additional-services fieldset div.controls {
+		float: left;
+
+		width: 100%;
+		margin: 0 0 10px 0;
+	}
+
+	body:not(.no_mobile).rezerwacja #main section.mainbottom div.lev4 form#reservation-form div#reservation-form-inner div.step3 div.accordion-body div.accordion-inner div.step-add-serv div#additional-services fieldset div.controls label,body:not(.no_mobile).rezerwacja #main section.main div.lev4 form#reservation-form div#reservation-form-inner div.step3 div.accordion-body div.accordion-inner div.step-add-serv div#additional-services fieldset div.controls label {
+		display: block;
+
+		width: 90%;
+	}
+
+	body:not(.no_mobile).rezerwacja #main section.mainbottom div.lev4 form#reservation-form div#reservation-form-inner div.step3 div.accordion-body div.accordion-inner div.step-add-serv div#additional-services fieldset div.controls input[type='text'],body:not(.no_mobile).rezerwacja #main section.main div.lev4 form#reservation-form div#reservation-form-inner div.step3 div.accordion-body div.accordion-inner div.step-add-serv div#additional-services fieldset div.controls input[type='text'] {
+		display: inline-block;
+
+		margin-right: 10px;
+
+		vertical-align: top;
+	}
+
+	body:not(.no_mobile).rezerwacja #main section.mainbottom div.lev4 form#reservation-form div#reservation-form-inner div.step3 div.accordion-body div.accordion-inner div.step-add-serv div#additional-services fieldset div.controls a.submit-unicef,body:not(.no_mobile).rezerwacja #main section.main div.lev4 form#reservation-form div#reservation-form-inner div.step3 div.accordion-body div.accordion-inner div.step-add-serv div#additional-services fieldset div.controls a.submit-unicef {
+		vertical-align: top;
+	}
+
+	body:not(.no_mobile).rezerwacja #main section.mainbottom div.lev4 form#reservation-form div#reservation-form-inner div.step3 div.accordion-body div.accordion-inner div.step-add-serv div#additional-services fieldset div.controls strong,body:not(.no_mobile).rezerwacja #main section.main div.lev4 form#reservation-form div#reservation-form-inner div.step3 div.accordion-body div.accordion-inner div.step-add-serv div#additional-services fieldset div.controls strong {
+		display: inline-block;
+	}
+
+	body:not(.no_mobile).rezerwacja #main section.mainbottom div.lev4 form#reservation-form div#reservation-form-inner div.step3 div.accordion-body div.accordion-inner div.step-add-serv div#additional-services fieldset div.controls span.end,body:not(.no_mobile).rezerwacja #main section.main div.lev4 form#reservation-form div#reservation-form-inner div.step3 div.accordion-body div.accordion-inner div.step-add-serv div#additional-services fieldset div.controls span.end {
+		display: none;
+	}
+
+	body:not(.no_mobile).rezerwacja #main section.mainbottom div.lev4 form#reservation-form div#reservation-form-inner div.step3 div.accordion-body div.accordion-inner div.step-add-serv div#additional-services fieldset div.controls span.pln,body:not(.no_mobile).rezerwacja #main section.main div.lev4 form#reservation-form div#reservation-form-inner div.step3 div.accordion-body div.accordion-inner div.step-add-serv div#additional-services fieldset div.controls span.pln {
+		display: inline-block;
+
+		text-decoration: none !important;
+
+		font-size: inherit;
+	}
+
+	body:not(.no_mobile).rezerwacja #main section.mainbottom div.lev4 form#reservation-form div#reservation-form-inner div.step3 div.accordion-body div.accordion-inner div.step-add-serv div#additional-services fieldset label[for='service-parking-input'].service-included-label,body:not(.no_mobile).rezerwacja #main section.main div.lev4 form#reservation-form div#reservation-form-inner div.step3 div.accordion-body div.accordion-inner div.step-add-serv div#additional-services fieldset label[for='service-parking-input'].service-included-label {
+		margin-left: 0;
+	}
+
+	body:not(.no_mobile).rezerwacja #main section.mainbottom div.lev4 form#reservation-form div#reservation-form-inner div.step3 div.accordion-body div.accordion-inner div.step-add-serv div#additional-services fieldset label[for='service-parking-input'].service-included-label:after,body:not(.no_mobile).rezerwacja #main section.mainbottom div.lev4 form#reservation-form div#reservation-form-inner div.step3 div.accordion-body div.accordion-inner div.step-add-serv div#additional-services fieldset label[for='service-parking-input'].service-included-label:before,body:not(.no_mobile).rezerwacja #main section.main div.lev4 form#reservation-form div#reservation-form-inner div.step3 div.accordion-body div.accordion-inner div.step-add-serv div#additional-services fieldset label[for='service-parking-input'].service-included-label:after,body:not(.no_mobile).rezerwacja #main section.main div.lev4 form#reservation-form div#reservation-form-inner div.step3 div.accordion-body div.accordion-inner div.step-add-serv div#additional-services fieldset label[for='service-parking-input'].service-included-label:before {
+		display: none;
+	}
+
+	body:not(.no_mobile).rezerwacja #main section.mainbottom div.lev4 form#reservation-form div#reservation-form-inner div.step3 div.accordion-body div.accordion-inner div.step-add-serv div#additional-services fieldset a.reservation-image-popup,body:not(.no_mobile).rezerwacja #main section.main div.lev4 form#reservation-form div#reservation-form-inner div.step3 div.accordion-body div.accordion-inner div.step-add-serv div#additional-services fieldset a.reservation-image-popup {
+		font-size: 14px;
+	}
+
+	body:not(.no_mobile).rezerwacja #main section.mainbottom div.lev4 form#reservation-form div#reservation-form-inner div.step3 div.accordion-body div.accordion-inner div.step-add-serv div#additional-services fieldset a.reservation-image-popup:before,body:not(.no_mobile).rezerwacja #main section.main div.lev4 form#reservation-form div#reservation-form-inner div.step3 div.accordion-body div.accordion-inner div.step-add-serv div#additional-services fieldset a.reservation-image-popup:before {
+		display: block;
+
+		content: '';
+
+		color: inherit;
+		background: none;
+		background: none;
+
+		font-family: 'FontAwesome';
+		font-size: 22px;
+		font-size: 18px;
+		font-weight: normal;
+	}
+
+	body:not(.no_mobile).rezerwacja #main section.mainbottom div.lev4 form#reservation-form div#reservation-form-inner div.step3 div.accordion-body div.accordion-inner div.step-add-serv div#additional-services fieldset a.reservation-image-popup:after,body:not(.no_mobile).rezerwacja #main section.main div.lev4 form#reservation-form div#reservation-form-inner div.step3 div.accordion-body div.accordion-inner div.step-add-serv div#additional-services fieldset a.reservation-image-popup:after {
+		display: none;
+	}
+
+	body:not(.no_mobile).rezerwacja #main section.mainbottom div.lev4 form#reservation-form div#reservation-form-inner div.step3 div.accordion-body div.accordion-inner div.step-add-serv div#additional-services fieldset legend,body:not(.no_mobile).rezerwacja #main section.main div.lev4 form#reservation-form div#reservation-form-inner div.step3 div.accordion-body div.accordion-inner div.step-add-serv div#additional-services fieldset legend {
+		margin: 0 0 20px 0;
+
+		text-transform: uppercase;
+
+		font-size: 13px;
+	}
+
+	body:not(.no_mobile).rezerwacja #main section.mainbottom div.lev4 form#reservation-form div#reservation-form-inner div.step3 div.accordion-body div.accordion-inner div.step-add-serv div.checkbox-acceptation,body:not(.no_mobile).rezerwacja #main section.main div.lev4 form#reservation-form div#reservation-form-inner div.step3 div.accordion-body div.accordion-inner div.step-add-serv div.checkbox-acceptation {
+		padding: 10px !important;
+	}
+
+	body:not(.no_mobile).rezerwacja #main section.mainbottom div.lev4 form#reservation-form div#reservation-form-inner div.step3 div.accordion-body div.accordion-inner div.step-add-serv div.checkbox-acceptation div.summary-box,body:not(.no_mobile).rezerwacja #main section.main div.lev4 form#reservation-form div#reservation-form-inner div.step3 div.accordion-body div.accordion-inner div.step-add-serv div.checkbox-acceptation div.summary-box {
+		display: none;
+	}
+
+	body:not(.no_mobile).rezerwacja #main section.mainbottom div.lev4 form#reservation-form div#reservation-form-inner div.step3 div.accordion-body div.accordion-inner div.step-add-serv div.checkbox-acceptation div.well,body:not(.no_mobile).rezerwacja #main section.main div.lev4 form#reservation-form div#reservation-form-inner div.step3 div.accordion-body div.accordion-inner div.step-add-serv div.checkbox-acceptation div.well {
+		margin: 0 0 20px 0;
+		padding: 0 !important;
+
+		color: #5f89b6 !important;
+		border: none !important;
+
+		font-size: 10px !important;
+	}
+
+	body:not(.no_mobile).rezerwacja #main section.mainbottom div.lev4 form#reservation-form div#reservation-form-inner div.step3 div.accordion-body div.accordion-inner div.step-add-serv div.checkbox-acceptation div.control-group,body:not(.no_mobile).rezerwacja #main section.main div.lev4 form#reservation-form div#reservation-form-inner div.step3 div.accordion-body div.accordion-inner div.step-add-serv div.checkbox-acceptation div.control-group {
+		overflow: hidden;
+	}
+
+	body:not(.no_mobile).rezerwacja #main section.mainbottom div.lev4 form#reservation-form div#reservation-form-inner div.step3 div.accordion-body div.accordion-inner div.step-add-serv div.checkbox-acceptation div.control-group span.input-error,body:not(.no_mobile).rezerwacja #main section.main div.lev4 form#reservation-form div#reservation-form-inner div.step3 div.accordion-body div.accordion-inner div.step-add-serv div.checkbox-acceptation div.control-group span.input-error {
+		display: block;
+
+		margin: 0 0 10px 0 !important;
+
+		text-align: center;
+
+		color: #fff;
+		background: #f05050;
+
+		font-size: 12px;
+	}
+
+	body:not(.no_mobile).rezerwacja #main section.mainbottom div.lev4 form#reservation-form div#reservation-form-inner div.step3 div.accordion-body div.accordion-inner div.step-add-serv div.checkbox-acceptation div.control-group span.input-error:before,body:not(.no_mobile).rezerwacja #main section.main div.lev4 form#reservation-form div#reservation-form-inner div.step3 div.accordion-body div.accordion-inner div.step-add-serv div.checkbox-acceptation div.control-group span.input-error:before {
+		display: none;
+	}
+
+	body:not(.no_mobile).rezerwacja #main section.mainbottom div.lev4 form#reservation-form div#reservation-form-inner div.step3 div.accordion-body div.accordion-inner div.step-add-serv div.checkbox-acceptation div.control-group.error div.controls label.control-label:before,body:not(.no_mobile).rezerwacja #main section.main div.lev4 form#reservation-form div#reservation-form-inner div.step3 div.accordion-body div.accordion-inner div.step-add-serv div.checkbox-acceptation div.control-group.error div.controls label.control-label:before {
+		border-color: #f05050;
+	}
+
+	body:not(.no_mobile).rezerwacja #main section.mainbottom div.lev4 form#reservation-form div#reservation-form-inner div.step3 div.accordion-body div.accordion-inner div.step-add-serv div.checkbox-acceptation div.control-group.error-required input,body:not(.no_mobile).rezerwacja #main section.main div.lev4 form#reservation-form div#reservation-form-inner div.step3 div.accordion-body div.accordion-inner div.step-add-serv div.checkbox-acceptation div.control-group.error-required input {
+		border-color: #f33 !important;
+	}
+
+	body:not(.no_mobile).rezerwacja #main section.mainbottom div.lev4 form#reservation-form div#reservation-form-inner div.step3 div.accordion-body div.accordion-inner div.step-add-serv div.checkbox-acceptation div.control-group input,body:not(.no_mobile).rezerwacja #main section.main div.lev4 form#reservation-form div#reservation-form-inner div.step3 div.accordion-body div.accordion-inner div.step-add-serv div.checkbox-acceptation div.control-group input {
+		display: none;
+
+		margin: 0;
+
+		opacity: 0;
+		border: 1px solid #fff !important;
+	}
+
+	body:not(.no_mobile).rezerwacja #main section.mainbottom div.lev4 form#reservation-form div#reservation-form-inner div.step3 div.accordion-body div.accordion-inner div.step-add-serv div.checkbox-acceptation div.control-group input:checked + label:after,body:not(.no_mobile).rezerwacja #main section.main div.lev4 form#reservation-form div#reservation-form-inner div.step3 div.accordion-body div.accordion-inner div.step-add-serv div.checkbox-acceptation div.control-group input:checked + label:after {
+		position: absolute;
+		top: 6px;
+		left: 3px;
+
+		display: block;
+
+		width: 6px;
+		height: 6px;
+
+		content: ' ';
+
+		background: #90accb;
+	}
+
+	body:not(.no_mobile).rezerwacja #main section.mainbottom div.lev4 form#reservation-form div#reservation-form-inner div.step3 div.accordion-body div.accordion-inner div.step-add-serv div.checkbox-acceptation div.control-group label,body:not(.no_mobile).rezerwacja #main section.main div.lev4 form#reservation-form div#reservation-form-inner div.step3 div.accordion-body div.accordion-inner div.step-add-serv div.checkbox-acceptation div.control-group label {
+		position: relative!important;
+
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		width: 100%;
+		margin-left: 0;
+		padding-left: 20px;
+
+		color: #5f89b6;
+
+		font-size: 12px;
+		line-height: 1.3em;
+	}
+
+	body:not(.no_mobile).rezerwacja #main section.mainbottom div.lev4 form#reservation-form div#reservation-form-inner div.step3 div.accordion-body div.accordion-inner div.step-add-serv div.checkbox-acceptation div.control-group label.control-label:before,body:not(.no_mobile).rezerwacja #main section.main div.lev4 form#reservation-form div#reservation-form-inner div.step3 div.accordion-body div.accordion-inner div.step-add-serv div.checkbox-acceptation div.control-group label.control-label:before {
+		position: absolute;
+		top: 3px;
+		left: 0;
+
+		display: block;
+
+		width: 10px;
+		height: 10px;
+
+		content: ' ';
+
+		border: 1px solid #90accb;
+		background: #fff;
+	}
+
+	body:not(.no_mobile).rezerwacja #main section.mainbottom div.lev4 form#reservation-form div#reservation-form-inner div.step3 div.accordion-body div.accordion-inner div.step-add-serv div.checkbox-acceptation div.control-group label span,body:not(.no_mobile).rezerwacja #main section.main div.lev4 form#reservation-form div#reservation-form-inner div.step3 div.accordion-body div.accordion-inner div.step-add-serv div.checkbox-acceptation div.control-group label span {
+		font-size: inherit;
+	}
+
+	body:not(.no_mobile).rezerwacja #main section.mainbottom div.lev4 form#reservation-form div#reservation-form-inner div.step3 div.accordion-body div.accordion-inner div.price-summary-mobile fieldset ul,body:not(.no_mobile).rezerwacja #main section.main div.lev4 form#reservation-form div#reservation-form-inner div.step3 div.accordion-body div.accordion-inner div.price-summary-mobile fieldset ul {
+		overflow: hidden;
+
+		margin: 0;
+		padding: 10px;
+	}
+
+	body:not(.no_mobile).rezerwacja #main section.mainbottom div.lev4 form#reservation-form div#reservation-form-inner div.step3 div.accordion-body div.accordion-inner div.price-summary-mobile fieldset ul li,body:not(.no_mobile).rezerwacja #main section.main div.lev4 form#reservation-form div#reservation-form-inner div.step3 div.accordion-body div.accordion-inner div.price-summary-mobile fieldset ul li {
+		float: left;
+		clear: both;
+
+		width: 100%;
+
+		color: #90accb;
+
+		line-height: 24px;
+	}
+
+	body:not(.no_mobile).rezerwacja #main section.mainbottom div.lev4 form#reservation-form div#reservation-form-inner div.step3 div.accordion-body div.accordion-inner div.price-summary-mobile fieldset ul li label,body:not(.no_mobile).rezerwacja #main section.main div.lev4 form#reservation-form div#reservation-form-inner div.step3 div.accordion-body div.accordion-inner div.price-summary-mobile fieldset ul li label {
+		width: auto;
+
+		color: #90accb;
+
+		line-height: inherit;
+	}
+
+	body:not(.no_mobile).rezerwacja #main section.mainbottom div.lev4 form#reservation-form div#reservation-form-inner div.step3 div.accordion-body div.accordion-inner div.price-summary-mobile fieldset ul li span.price,body:not(.no_mobile).rezerwacja #main section.main div.lev4 form#reservation-form div#reservation-form-inner div.step3 div.accordion-body div.accordion-inner div.price-summary-mobile fieldset ul li span.price {
+		display: block;
+		float: right;
+
+		font-size: 14px;
+		line-height: inherit;
+	}
+
+	body:not(.no_mobile).rezerwacja #main section.mainbottom div.lev4 form#reservation-form div#reservation-form-inner div.step3 div.accordion-body div.accordion-inner div.price-summary-mobile fieldset ul li span.price strong,body:not(.no_mobile).rezerwacja #main section.mainbottom div.lev4 form#reservation-form div#reservation-form-inner div.step3 div.accordion-body div.accordion-inner div.price-summary-mobile fieldset ul li span.price span,body:not(.no_mobile).rezerwacja #main section.main div.lev4 form#reservation-form div#reservation-form-inner div.step3 div.accordion-body div.accordion-inner div.price-summary-mobile fieldset ul li span.price strong,body:not(.no_mobile).rezerwacja #main section.main div.lev4 form#reservation-form div#reservation-form-inner div.step3 div.accordion-body div.accordion-inner div.price-summary-mobile fieldset ul li span.price span {
+		display: block;
+		float: left;
+
+		font-size: inherit;
+		line-height: inherit;
+	}
+
+	body:not(.no_mobile).rezerwacja #main section.mainbottom div.lev4 form#reservation-form div#reservation-form-inner div.step3 div.accordion-body div.accordion-inner div.price-summary-mobile fieldset ul li span.price span,body:not(.no_mobile).rezerwacja #main section.main div.lev4 form#reservation-form div#reservation-form-inner div.step3 div.accordion-body div.accordion-inner div.price-summary-mobile fieldset ul li span.price span {
+		text-decoration: none !important;
+	}
+
+	body:not(.no_mobile).rezerwacja #main section.mainbottom div.lev4 form#reservation-form div#switch-header,body:not(.no_mobile).rezerwacja #main section.main div.lev4 form#reservation-form div#switch-header {
+		overflow: hidden;
+
+		padding: 15px 0;
+	}
+
+	body:not(.no_mobile).rezerwacja #main section.mainbottom div.lev4 form#reservation-form div#switch-header span.reservation-type,body:not(.no_mobile).rezerwacja #main section.main div.lev4 form#reservation-form div#switch-header span.reservation-type {
+		display: block;
+		float: left;
+
+		width: 50%;
+
+		cursor: pointer;
+		text-align: center;
+
+		color: #5f89b6;
+
+		font-weight: bold;
+	}
+
+	body:not(.no_mobile).rezerwacja #main section.mainbottom div.lev4 form#reservation-form div#switch-header span.reservation-type span.circle,body:not(.no_mobile).rezerwacja #main section.main div.lev4 form#reservation-form div#switch-header span.reservation-type span.circle {
+		position: relative!important;
+
+		display: block;
+		float: left;
+
+		width: 20px;
+		height: 20px;
+		margin: 0 0 0 20px;
+
+		border: 1px solid #10447d;
+		border-radius: 50%;
+	}
+
+	body:not(.no_mobile).rezerwacja #main section.mainbottom div.lev4 form#reservation-form div#switch-header span.reservation-type.active span.circle:after,body:not(.no_mobile).rezerwacja #main section.main div.lev4 form#reservation-form div#switch-header span.reservation-type.active span.circle:after {
+		position: absolute;
+		top: 15%;
+		left: 15%;
+
+		display: block;
+
+		width: 70%;
+		height: 70%;
+
+		content: ' ';
+
+		border-radius: 50%;
+		background: #10447d;
+	}
+
+	body:not(.no_mobile).rezerwacja #main h1.reservation-number {
+		margin: 0;
+		padding: 15px 10px;
+
+		color: #fff;
+		background: #5f89b6;
+
+		font-size: 16px;
+		font-weight: normal;
+	}
+
+	body:not(.no_mobile).rezerwacja #main div.reservation-confirmation div#reservation-summary .reservation-reminder,body:not(.no_mobile).rezerwacja #main div.reservation-confirmation div#reservation-summary .reservation-fast-reminder {
+		padding: 20px 10px;
+
+		border-color: #10447d;
+		background: #eff5fc;
+	}
+
+	body:not(.no_mobile).rezerwacja #main div.reservation-confirmation div#reservation-summary .reservation-reminder h2,body:not(.no_mobile).rezerwacja #main div.reservation-confirmation div#reservation-summary .reservation-reminder span,body:not(.no_mobile).rezerwacja #main div.reservation-confirmation div#reservation-summary .reservation-fast-reminder h2,body:not(.no_mobile).rezerwacja #main div.reservation-confirmation div#reservation-summary .reservation-fast-reminder span {
+		color: #10447d;
+
+		font-size: 12px;
+	}
+
+	body:not(.no_mobile).rezerwacja #main div.reservation-confirmation div#reservation-summary .reservation-reminder h2,body:not(.no_mobile).rezerwacja #main div.reservation-confirmation div#reservation-summary .reservation-fast-reminder h2 {
+		margin: 0 0 5px 0;
+	}
+
+	body:not(.no_mobile).rezerwacja #main div.reservation-confirmation div#reservation-summary div.reservation-summary_payment_online {
+		padding: 10px 0;
+
+		border-bottom: 1px solid #10447d;
+	}
+
+	body:not(.no_mobile).rezerwacja #main div.reservation-confirmation div#reservation-summary div.reservation-summary_payment_online form button.przycisk_czerwony {
+		top: 0;
+		right: 0;
+	}
+
+	body:not(.no_mobile).rezerwacja #main div.reservation-confirmation div#reservation-summary div.reservation-summary_title {
+		padding: 0;
+
+		border: 0;
+		background: #eff5fc;
+	}
+
+	body:not(.no_mobile).rezerwacja #main div.reservation-confirmation div#reservation-summary div.reservation-summary_title.reservation-summary_payment_online {
+		padding-bottom: 10px;
+	}
+
+	body:not(.no_mobile).rezerwacja #main div.reservation-confirmation div#reservation-summary div.reservation-summary_title.reservation-summary_payment_online + div.reservation-summary_title {
+		border-top: 1px solid #90accb;
+	}
+
+	body:not(.no_mobile).rezerwacja #main div.reservation-confirmation div#reservation-summary div.reservation-summary_title.reservation-summary_payment_online p {
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		margin: 0 !important;
+		padding: 0 10px 10px 10px;
+	}
+
+	body:not(.no_mobile).rezerwacja #main div.reservation-confirmation div#reservation-summary div.reservation-summary_title.reservation-summary_payment_online form {
+		margin: 0 10px;
+	}
+
+	body:not(.no_mobile).rezerwacja #main div.reservation-confirmation div#reservation-summary div.reservation-summary_title.reservation-summary_payment_online button.przycisk_czerwony {
+		clear: both;
+	}
+
+	body:not(.no_mobile).rezerwacja #main div.reservation-confirmation div#reservation-summary div.reservation-summary_title.reservation-summary_payment_online div.title {
+		margin-bottom: 10px;
+	}
+
+	body:not(.no_mobile).rezerwacja #main div.reservation-confirmation div#reservation-summary div.reservation-summary_title.reservation-summary_payment_online div.title:after {
+		display: none !important;
+	}
+
+	body:not(.no_mobile).rezerwacja #main div.reservation-confirmation div#reservation-summary div.reservation-summary_title div.title {
+		position: relative!important;
+
+		box-sizing: border-box;
+
+		border-width: 0;
+		border-top: 0;
+
+		line-height: 24px;
+	}
+
+	body:not(.no_mobile).rezerwacja #main div.reservation-confirmation div#reservation-summary div.reservation-summary_title div.title:after {
+		position: absolute;
+		top: 10px;
+		right: 10px;
+
+		display: block;
+
+		content: '';
+
+		color: inherit;
+		background: none;
+
+		font-family: 'FontAwesome';
+		font-size: 22px;
+		font-size: 30px;
+		font-weight: normal;
+	}
+
+	body:not(.no_mobile).rezerwacja #main div.reservation-confirmation div#reservation-summary div.reservation-summary_title div.title.toggled:after {
+		-webkit-transform: rotate(90deg);
+		-moz-transform: rotate(90deg);
+		-ms-transform: rotate(90deg);
+		-o-transform: rotate(90deg);
+		transform: rotate(90deg);
+	}
+
+	body:not(.no_mobile).rezerwacja #main div.reservation-confirmation div#reservation-summary div.reservation-summary_title div.title.toggle {
+		border-width: 0 0 1px 0;
+	}
+
+	body:not(.no_mobile).rezerwacja #main div.reservation-confirmation div#reservation-summary div.reservation-summary_title div.reservation-accordion-mobile {
+		overflow: hidden;
+	}
+
+	body:not(.no_mobile).rezerwacja #main div.reservation-confirmation div#reservation-summary div.reservation-summary_title p {
+		margin: 0 10px;
+	}
+
+	body:not(.no_mobile).rezerwacja #main div.reservation-confirmation div#reservation-summary div.reservation-summary_title p:first-of-type {
+		margin-top: 10px;
+	}
+
+	body:not(.no_mobile).rezerwacja #main div.reservation-confirmation div#reservation-summary div.reservation-summary_title p:last-of-type {
+		margin-bottom: 10px;
+	}
+
+	body:not(.no_mobile).rezerwacja #main div.reservation-confirmation div#reservation-summary div.reservation-summary_title p label {
+		width: 100%;
+		margin: 0;
+
+		text-align: left;
+
+		color: #556d93;
+
+		font-size: 14px;
+		font-weight: bold;
+	}
+
+	body:not(.no_mobile).rezerwacja #main div.reservation-confirmation div#reservation-summary div.reservation-summary_title p span {
+		color: #10447d;
+
+		font-size: 13px;
+	}
+
+	body:not(.no_mobile).rezerwacja #main div.reservation-confirmation div#reservation-summary div.reservation-summary_title p span.price span,body:not(.no_mobile).rezerwacja #main div.reservation-confirmation div#reservation-summary div.reservation-summary_title p span.price strong {
+		display: inline;
+
+		padding: 0;
+
+		color: #f33;
+
+		font-size: 16px;
+	}
+
+	body:not(.no_mobile).rezerwacja #main div.reservation-confirmation div#reservation-summary div.reservation-summary_title p span.price span.pln {
+		text-decoration: none !important;
+		text-transform: uppercase;
+	}
+
+	body:not(.no_mobile).rezerwacja #main div.reservation-confirmation div#reservation-summary div.reservation-summary_title p span.payment-deadline strong {
+		display: block;
+
+		color: #556d93;
+
+		font-size: 14px;
+	}
+
+	body:not(.no_mobile).rezerwacja #main div.reservation-confirmation div#reservation-summary div.reservation-summary_title p.double-cols {
+		float: left;
+
+		width: 100%;
+		margin: 0 10px 10px 10px;
+	}
+
+	body:not(.no_mobile).rezerwacja #main div.reservation-confirmation div#reservation-summary div.reservation-summary_title p.double-cols label {
+		float: left;
+
+		width: 50%;
+	}
+
+	body:not(.no_mobile).rezerwacja #main div.reservation-confirmation div#reservation-summary div.reservation-summary_title p.double-cols span.price {
+		float: left;
+		clear: left;
+
+		width: 50%;
+	}
+
+	body:not(.no_mobile).rezerwacja #main div.reservation-confirmation div#reservation-summary div.reservation-summary_title p.double-cols span.payment-deadline {
+		float: right;
+		clear: none;
+
+		width: 50%;
+		margin: -25px 0 0 0;
+	}
+
+	body:not(.no_mobile).rezerwacja #main div.reservation-confirmation div#reservation-summary div.reservation-summary_title div.pay-info {
+		padding: 20px 10px;
+
+		color: #10447d;
+		border-width: 1px 0;
+		border-style: solid;
+		border-color: #10447d;
+		background: #eff5fc;
+	}
+
+	body:not(.no_mobile).rezerwacja #main div.reservation-confirmation div#reservation-summary div.reservation-summary_title div.pay-info:before {
+		display: none;
+	}
+
+	body:not(.no_mobile).rezerwacja #main div.reservation-confirmation div#reservation-summary div.reservation-documents {
+		padding: 20px 10px;
+	}
+
+	body:not(.no_mobile).rezerwacja #main div.reservation-confirmation div#reservation-summary div.reservation-documents h2 {
+		margin: 0 0 10px 0;
+
+		text-transform: uppercase;
+
+		color: #10447d;
+	}
+
+	body:not(.no_mobile).rezerwacja #main div.reservation-confirmation div#reservation-summary div.reservation-documents h2 small {
+		display: block;
+
+		text-transform: lowercase;
+
+		color: #5f89b6;
+
+		font-style: normal;
+	}
+
+	body:not(.no_mobile).rezerwacja #main div.reservation-confirmation div#reservation-summary div.reservation-documents a {
+		height: 36px;
+
+		line-height: 36px;
+	}
+
+	body:not(.no_mobile).rezerwacja #main div.reservation-confirmation div#reservation-summary div.reservation-documents a:before {
+		display: block;
+
+		width: 24px;
+
+		content: '';
+
+		color: inherit;
+		background: none;
+		background: none;
+
+		font-family: 'FontAwesome';
+		font-size: 22px;
+		font-size: 20px;
+		font-weight: normal;
+	}
+
+	body:not(.no_mobile).rezerwacja #main div.reservation-confirmation div#reservation-summary div.reservation-documents a:after {
+		display: block;
+
+		margin: 0 0 0 10px;
+
+		content: '';
+
+		color: inherit;
+		color: #eb2f2f;
+		background: none;
+
+		font-family: 'FontAwesome';
+		font-size: 22px;
+		font-weight: normal;
+	}
+
+	body:not(.no_mobile).rezerwacja #main div.reservation-confirmation div#reservation-summary div#product-code {
+		padding: 20px 10px;
+
+		color: #10447d;
+	}
+
+	body:not(.no_mobile).rezerwacja #main div.reservation-confirmation div#reservation-summary div#product-code p {
+		margin: 0;
+
+		line-height: 1.3em;
+	}
+
+	body:not(.no_mobile).rezerwacja #main div.reservation-confirmation div#reservation-summary div#product-code p:before {
+		display: none;
+	}
+
+	body:not(.no_mobile).rezerwacja #main div.reservation-confirmation div#reservation-summary div#product-code a {
+		display: none;
+	}
+
+	body:not(.no_mobile).rezerwacja #main div.reservation-confirmation div#reservation-summary div.control-submit {
+		height: auto;
+		padding: 0;
+	}
+
+	body:not(.no_mobile).rezerwacja #main div.reservation-confirmation div#reservation-summary div.control-submit a {
+		margin: 15px 0 0 0;
+	}
+
+	body:not(.no_mobile).rezerwacja #main div.reservation-confirmation div#reservation-summary div.control-submit a.btn_myitaka {
+		height: 44px;
+		padding: 0;
+
+		text-transform: none;
+
+		border-radius: 0;
+		background: #5f89b6;
+
+		line-height: 44px;
+	}
+
+	body:not(.no_mobile).rezerwacja #main div.reservation-confirmation div#reservation-summary div.control-submit a.btn_myitaka:before,body:not(.no_mobile).rezerwacja #main div.reservation-confirmation div#reservation-summary div.control-submit a.btn_myitaka:after {
+		display: none;
+	}
+
+	body:not(.no_mobile).rezerwacja #main div.reservation-confirmation div#reservation-summary div.control-submit a.btn_home {
+		position: relative!important;
+		top: 0;
+		right: 0;
+
+		float: none;
+
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		width: 100%;
+		height: auto;
+		margin-top: 10px;
+
+		text-indent: 0;
+
+		color: #10447d;
+		border: solid #90accb;
+		border-width: 1px 0;
+		border-radius: 0;
+		background: none;
+	}
+
+	body:not(.no_mobile).rezerwacja #main div.reservation-confirmation div#reservation-summary div.control-submit a.btn_home:before,body:not(.no_mobile).rezerwacja #main div.reservation-confirmation div#reservation-summary div.control-submit a.btn_home:after {
+		display: none;
+	}
+
+	body:not(.no_mobile).rezerwacja #main .native-mobile-show {
+		display: none;
+	}
+
+	body:not(.no_mobile) div.fhotels {
+		padding-top: 20px;
+	}
+
+	body:not(.no_mobile) div.fhotels ul li {
+		border-bottom: 0;
+	}
+
+	body:not(.no_mobile) div.fhotels ul li a {
+		padding: 10px 30px 10px 15px;
+	}
+
+	body:not(.no_mobile) div.form-wrapper {
+		padding: 10px;
+
+		border: 0;
+		border-radius: 0;
+	}
+
+	body:not(.no_mobile) div.form-wrapper div.inquiry.clipboard {
+		width: 100%;
+	}
+
+	body:not(.no_mobile) div.form-wrapper h4 {
+		margin: 0;
+
+		font-size: 18px;
+		font-weight: normal;
+		line-height: 1em;
+	}
+
+	body:not(.no_mobile) div.form-wrapper h4 + h4 {
+		font-size: 14px;
+	}
+
+	body:not(.no_mobile) div.form-wrapper form > div.controls {
+		margin: 0 0 10px 0;
+
+		font-size: 12px;
+	}
+
+	body:not(.no_mobile) div.form-wrapper div.control-group label {
+		display: block;
+
+		width: 100%;
+		margin: 0;
+
+		text-align: left;
+	}
+
+	body:not(.no_mobile) div.form-wrapper div.control-group div.controls {
+		display: block;
+		float: none;
+		clear: both;
+	}
+
+	body:not(.no_mobile) div.form-wrapper div.control-group div.controls input,body:not(.no_mobile) div.form-wrapper div.control-group div.controls textarea {
+		box-sizing: border-box;
+		width: 100%;
+		height: 35px;
+		margin: 0;
+
+		-webkit-box-shadow: none;
+		-moz-box-shadow: none;
+		box-shadow: none;
+	}
+
+	body:not(.no_mobile) div.form-wrapper div.control-group div.controls textarea {
+		height: auto;
+	}
+
+	body:not(.no_mobile) div.form-wrapper div.checkbox-acceptation {
+		overflow: hidden;
+
+		margin: 20px 0 0 0;
+		padding: 0;
+	}
+
+	body:not(.no_mobile) div.form-wrapper div.checkbox-acceptation div.controls label {
+		padding: 0;
+
+		text-align: right;
+	}
+
+	body:not(.no_mobile) div.form-wrapper div.checkbox-acceptation div.controls label input,body:not(.no_mobile) div.form-wrapper div.checkbox-acceptation div.controls label span.agreement-txt {
+		height: auto;
+	}
+
+	body:not(.no_mobile) div.form-wrapper div.checkbox-acceptation div.controls label span.agreement-txt {
+		display: block;
+
+		padding: 0 25px;
+
+		text-align: left;
+	}
+
+	body:not(.no_mobile) div.form-wrapper div.checkbox-acceptation div.controls label input {
+		width: auto;
+		margin: 0 10px 0 0;
+	}
+
+	body:not(.no_mobile) div.form-wrapper div.checkbox-acceptation div.controls label a.showFull {
+		clear: both;
+	}
+
+	body:not(.no_mobile) div.form-wrapper div.control-group div.inquiry-send {
+		top: 0;
+		left: 0;
+	}
+
+	body:not(.no_mobile) div.cliphead {
+		height: auto;
+	}
+
+	body:not(.no_mobile) div.cliphead div.clipshare,body:not(.no_mobile) div.cliphead div.cliplink {
+		display: block;
+		float: none;
+		clear: both;
+
+		width: 100%;
+
+		text-align: center;
+	}
+
+	body:not(.no_mobile) div.cliphead div.clipshare label,body:not(.no_mobile) div.cliphead div.clipshare a {
+		display: inline-block;
+		float: none;
+
+		vertical-align: top;
+	}
+
+	body:not(.no_mobile) div.cliphead div.cliplink {
+		overflow: hidden;
+
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		padding: 0 10px;
+	}
+
+	body:not(.no_mobile) div.cliphead div.cliplink label {
+		margin: 0;
+	}
+
+	body:not(.no_mobile) div.cliphead div.cliplink input {
+		width: 80%;
+	}
+
+	body:not(.no_mobile) div.clip-as-list {
+		margin: 20px 0;
+
+		text-align: center;
+	}
+
+	body:not(.no_mobile) div.clip-as-list div.hotel-list-item div.hotel-list-content {
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		padding: 0 10px;
+	}
+
+	body:not(.no_mobile) div.clip-as-list div.hotel-list-configuration span.pricing {
+		display: none;
+	}
+
+	body:not(.no_mobile).lev5 {
+		margin: 0;
+	}
+
+	body:not(.no_mobile).lev5 div.reservation-well {
+		border: 0;
+		border-radius: 0;
+		background: #fff;
+	}
+
+	body:not(.no_mobile).lev5 div.reservation-well div.summary-box span.price:after,body:not(.no_mobile).lev5 div.reservation-well div.summary-box span.price:before {
+		display: none;
+	}
+
+	body:not(.no_mobile).lev5 div.reservation-well div.summary-box span.price span.pln {
+		text-decoration: none !important;
+
+		font-size: 20px;
+	}
+
+	body:not(.no_mobile) div.modal {
+		left: 0;
+
+		width: 100%;
+		margin: 0;
+
+		-webkit-border-radius: 0;
+		-moz-border-radius: 0;
+		border-radius: 0;
+	}
+
+	body:not(.no_mobile) div.modal button.close {
+		top: 0;
+		right: 5px;
+
+		padding: 0;
+
+		text-indent: 0;
+
+		background: none;
+	}
+
+	body:not(.no_mobile) div.modal button.close:after {
+		position: absolute;
+		top: 0;
+		left: 4px;
+
+		display: block;
+
+		content: '';
+
+		color: inherit;
+		background: none;
+
+		font-family: 'FontAwesome';
+		font-size: 22px;
+		font-weight: normal;
+	}
+
+	body:not(.no_mobile) section.mainbottom div.lev1 {
+		display: none;
+	}
+
+	body:not(.no_mobile) section.tab-page-main {
+		margin: 0;
+
+		border: 0;
+	}
+
+	body:not(.no_mobile) section.tab-page-main ul.nav-tabs li a {
+		border-radius: 0;
+	}
+
+	body:not(.no_mobile) section.tab-page-main a.przycisk_niebieski {
+		margin-bottom: 20px;
+	}
+
+	body:not(.no_mobile) section.tab-page-main div.kontakt_box {
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		width: 100% !important;
+		height: auto !important;
+		min-height: 200px !important;
+	}
+
+	body:not(.no_mobile).points_of_sale_main section.mainbottom div.lev1 {
+		display: none;
+	}
+
+	body:not(.no_mobile).points_of_sale_main div#tdid_106900 {
+		margin: 0 !important;
+		padding: 0 10px;
+	}
+
+	body:not(.no_mobile).points_of_sale_main div#tdid_106900 ol > li {
+		margin: 0 0 20px 0;
+	}
+
+	body:not(.no_mobile).points_of_sale_main div#tdid_106900 ol > li br {
+		display: block;
+		clear: both;
+
+		width: 100%;
+		margin: 0 0 5px 0;
+	}
+
+	body:not(.no_mobile).points_of_sale_main div#tdid_106900 ol > li a:first-of-type {
+		clear: both;
+	}
+
+	body:not(.no_mobile).points_of_sale_main div#tdid_106900 ol > li a:first-of-type:before {
+		display: block;
+
+		width: 100%;
+		height: 10px;
+
+		content: '';
+	}
+
+	body:not(.no_mobile).points_of_sale_main div#tdid_106900 ol > li a:first-of-type,body:not(.no_mobile).points_of_sale_main div#tdid_106900 ol > li a:first-of-type + a {
+		width: auto;
+	}
+
+	body:not(.no_mobile).points_of_sale_main div#tdid_106900 ol > li a:nth-child(4) {
+		float: left !important;
+
+		margin: 15px 0 !important;
+	}
+
+	body:not(.no_mobile).is_mobile form#search-form div.fRow {
+		position: relative!important;
+
+		padding: 0;
+	}
+
+	body:not(.no_mobile).is_mobile form#search-form div.fRow > label {
+		position: relative!important;
+		z-index: 0;
+
+		margin: 0;
+
+		line-height: 26px;
+	}
+
+	body:not(.no_mobile).is_mobile form#search-form div.fRow > select {
+		position: absolute;
+		z-index: 1;
+		bottom: 0;
+		left: 0;
+
+		display: block !important;
+
+		width: 100%;
+		padding: 0 !important;
+
+		opacity: 0 !important;
+	}
+
+	body:not(.no_mobile).is_mobile form#search-form div.fRow .selectable-container {
+		display: none;
+	}
+}

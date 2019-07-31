@@ -1,0 +1,1017 @@
+.masonry-h6 {
+	height: 1050px;
+}
+
+.masonry-h7 {
+	height: 1200px;
+}
+
+.hotel-list-item-ourdirections.hotel-list-item header .hotel-list-configuration {
+	float: none;
+}
+
+.hotel-list-item-ourdirections .ourdirections-date {
+	float: right;
+}
+
+.our_directions .fhotel_subregions.subregions-collapse {
+	height: auto;
+}
+
+.our_directions .fhotels .fhotel_main .fhotel_img_container img {
+	max-height: none;
+}
+
+.destination_summary img {
+	position: absolute;
+	bottom: -261px;
+	left: 0;
+
+	float: right;
+
+	width: 272px;
+}
+
+.form-wrapper {
+	margin: 0 auto;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 20px;
+
+	border: 1px solid #dadfe6;
+	border-radius: 5px;
+	background: #eff5fc;
+}
+
+.form-wrapper .message-success,.form-wrapper .form-error-message {
+	display: none;
+}
+
+.form-wrapper .controls > span {
+	color: #f33;
+}
+
+.form-wrapper .controls a {
+	font-size: 14px;
+}
+
+.form-wrapper .error-message {
+	white-space: nowrap;
+
+	color: red;
+}
+
+.form-wrapper .questions {
+	margin: 10px 0 10px 23%;
+}
+
+.form-wrapper .questions a {
+	text-decoration: none;
+
+	color: black;
+
+	font-size: 23px;
+}
+
+.form-wrapper .form-group {
+	display: block;
+}
+
+.form-wrapper .form-group button {
+	width: 127px;
+}
+
+.form-wrapper .form-group label {
+	display: inline-block;
+
+	width: 69%;
+}
+
+.form-wrapper .form-group input {
+	margin: 0 10px 0 0;
+}
+
+.form-wrapper .form-group .vat {
+	line-height: 45px;
+}
+
+.form-wrapper .form-horizontal .control-label {
+	float: left;
+
+	width: 23%;
+	margin-right: 20px;
+
+	text-align: right;
+
+	font-weight: bold;
+	line-height: 25px;
+}
+
+.form-wrapper .chbox {
+	display: inline-block;
+
+	width: 23%;
+
+	text-align: left;
+	vertical-align: top;
+}
+
+.form-wrapper .chbox span {
+	float: right;
+}
+
+.form-wrapper .form-submit {
+	display: block;
+
+	height: 36px;
+	padding: 0 10px;
+
+	text-decoration: none;
+
+	color: #fff;
+	border: none;
+	border-radius: 3px;
+	background: #eb2f2f;
+	background: -moz-linear-gradient(top, #f33 0%, #eb2f2f 100%);
+	background: -webkit-linear-gradient(top, #f33 0%, #eb2f2f 100%);
+	background: -o-linear-gradient(top, #f33 0%, #eb2f2f 100%);
+	background: -ms-linear-gradient(top, #f33 0%, #eb2f2f 100%);
+	background: linear-gradient(to bottom, #f33 0%, #eb2f2f 100%);
+	text-shadow: none;
+
+	font-weight: normal;
+	line-height: 36px;
+}
+
+.form-wrapper .form-submit:hover {
+	text-decoration: none;
+
+	color: #fff;
+	background: #f33;
+}
+
+.form-wrapper .form-submit:hover {
+	text-decoration: none;
+
+	background: #f33;
+}
+
+.form-wrapper .checkbox {
+	padding-left: 0;
+}
+
+.form-wrapper .control-label:after {
+	margin-left: 5px;
+
+	content: ' ';
+}
+
+.form-wrapper .required-star:after {
+	margin-left: 5px;
+
+	content: '*';
+
+	color: #f33;
+}
+
+.form-wrapper .check-label {
+	white-space: normal;
+
+	font-weight: normal;
+}
+
+.form-wrapper .regulationsAcceptation label {
+	font-size: 11px;
+	line-height: 13px;
+}
+
+.form-wrapper .agreement-text {
+	font-size: 13px;
+}
+
+.message-success {
+	margin: 0;
+	padding: 10px;
+
+	color: #3a87ad;
+	border-color: #bce8f1;
+	border-radius: 4px;
+	background-color: #d9edf7;
+	text-shadow: 0 1px 0 rgba(255,255,255,.5);
+}
+
+.form-error-messages,.form-error-message {
+	margin: 0;
+	padding: 10px;
+
+	color: #b94a48;
+	border-color: #eed3d7;
+	border-radius: 4px;
+	background-color: #f2dede;
+	text-shadow: 0 1px 0 rgba(255,255,255,.5);
+}
+
+.form-error-messages li {
+	margin: 0 0 0 13px;
+}
+
+.landing-page-form input[type='checkbox'] {
+	float: left;
+
+	margin: 4px -7px 0 10px;
+	padding: 2px 5px;
+
+	text-align: righ;
+
+	color: #666;
+	border: 1px solid #ccc;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	background: #fff;
+	-webkit-box-shadow: #bbb 0 1px 3px;
+	-moz-box-shadow: #bbb 0 1px 3px;
+	box-shadow: #bbb 0 1px 3px;
+
+	font-size: 20px;
+
+	-ms-border-radius: 4px;
+	-o-border-radius: 4px;
+}
+
+.landing-page-form textarea {
+	width: 50%;
+}
+
+.landing-page-form .controls {
+	margin: 0 0 10px 0;
+}
+
+.landing-page-form .controls input {
+	width: 50%;
+}
+
+.landing-page-form .question a {
+	font-size: 28px;
+}
+
+.landing-page-form .chbox {
+	width: 26%;
+	margin-right: 27px;
+}
+
+.form-title {
+	display: block;
+
+	color: black;
+
+	font-size: 24px;
+	font-weight: normal;
+}
+
+.loyalty-form {
+	width: 99%;
+}
+
+.loyalty-form.kontakt_box {
+	border: none;
+}
+
+.loyalty-form .col-sm-2 {
+	float: left;
+
+	width: 26%;
+}
+
+.loyalty-form .col-sm-4 {
+	float: left;
+
+	width: 50%;
+}
+
+.loyalty-form .col-sm-4 input {
+	width: 30%;
+}
+
+.loyalty-form .col-sm-10 {
+	float: left;
+
+	width: 53%;
+}
+
+.loyalty-form .col-sm-8 {
+	float: left;
+
+	width: 60%;
+}
+
+.loyalty-form .form-control {
+	float: left;
+
+	width: 62%;
+}
+
+.loyalty-form label {
+	display: inline-block;
+
+	margin: 0 4% 0 0;
+	margin-bottom: 5px;
+
+	white-space: nowrap;
+
+	font-weight: bold;
+}
+
+.loyalty-form .form-group {
+	margin: 10px 0 0 0;
+}
+
+.loyalty-form .form-group ul {
+	float: left;
+
+	margin: 0;
+
+	list-style: none;
+}
+
+.loyalty-form .form-group .parsley-error-list li {
+	margin: 0;
+
+	line-height: 30px;
+}
+
+.loyalty-form .form-group .float-none .btn {
+	margin: 0;
+}
+
+.parsley-error input,.parsley-error textarea {
+	color: #b94a48 !important;
+	border: 1px solid #eed3d7 !important;
+}
+
+.parsley-success input,.parsley-success textarea {
+	color: #468847 !important;
+	border: 1px solid #d6e9c6 !important;
+}
+
+.parsley-error-list {
+	color: #f33;
+}
+
+#date_from,#date_to,#date_end {
+	cursor: pointer;
+
+	background: #fff url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6QTZFRUE5OTVGQjRDMTFFMjkyMUFGRjYyOUJCQjgyRTciIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6QTZFRUE5OTZGQjRDMTFFMjkyMUFGRjYyOUJCQjgyRTciPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpBNkVFQTk5M0ZCNEMxMUUyOTIxQUZGNjI5QkJCODJFNyIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpBNkVFQTk5NEZCNEMxMUUyOTIxQUZGNjI5QkJCODJFNyIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PlazORUAAAGjSURBVHja7NZLKERRGMDxucZghpFXlGLBihSSbCVsZYWyILK0wNpCykKWNjZk4bFmN2VlIcpj4VEWXiuPkvJIMtf/1HfruN07c2cMSb76dWdOc+93znfu+RrDNE3fd0ea7wfi7yRJtw/kt43rX+vQj0ncujxjGrtY1gfvIxNxVxJEFqoxjCLkoVhTggyMoQMBhJwm7pRkBNfYxLOMqQRnuNRcoBkPuJFkd3JfQ7wkqjRhWY0q0R6ekI1MGwNbOJWVq3ua0BIvSVCuYZntoNv+EQUYwIKU1Ir3mBuvRRmu5Aa/y2+W8CaT9Xt+u2wPeJHPpn12En4pmYooepCTSJIh2YtEotUpSazDWChX9brOylmoQiV2xKGo1VaWULmsztmFRpTLG3aMPtmLOXnwQbJtxar1PDrxqu2Lmn0F6jGait71KAkDchasw6naySK2U5GkBlPIlYNail7V5jCTVIPUIipX1SrWsSa9Se3FEdpx/tUkITn9KsmqNq7KtmHrDvZ9NLwm2dfeMK8RtFXBNckKuh1m6TVOEPm0vP8/Er8uyYcAAwD9Y1FsdsNH+wAAAABJRU5ErkJggg==') right 4px no-repeat;
+	background-position-x: 92px;
+}
+
+.searchbig #date_from,.searchbig #date_to,.searchbig #date_end {
+	cursor: pointer;
+	background: #fff url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6QTZFRUE5OTVGQjRDMTFFMjkyMUFGRjYyOUJCQjgyRTciIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6QTZFRUE5OTZGQjRDMTFFMjkyMUFGRjYyOUJCQjgyRTciPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpBNkVFQTk5M0ZCNEMxMUUyOTIxQUZGNjI5QkJCODJFNyIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpBNkVFQTk5NEZCNEMxMUUyOTIxQUZGNjI5QkJCODJFNyIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PlazORUAAAGjSURBVHja7NZLKERRGMDxucZghpFXlGLBihSSbCVsZYWyILK0wNpCykKWNjZk4bFmN2VlIcpj4VEWXiuPkvJIMtf/1HfruN07c2cMSb76dWdOc+93znfu+RrDNE3fd0ea7wfi7yRJtw/kt43rX+vQj0ncujxjGrtY1gfvIxNxVxJEFqoxjCLkoVhTggyMoQMBhJwm7pRkBNfYxLOMqQRnuNRcoBkPuJFkd3JfQ7wkqjRhWY0q0R6ekI1MGwNbOJWVq3ua0BIvSVCuYZntoNv+EQUYwIKU1Ir3mBuvRRmu5Aa/y2+W8CaT9Xt+u2wPeJHPpn12En4pmYooepCTSJIh2YtEotUpSazDWChX9brOylmoQiV2xKGo1VaWULmsztmFRpTLG3aMPtmLOXnwQbJtxar1PDrxqu2Lmn0F6jGait71KAkDchasw6naySK2U5GkBlPIlYNail7V5jCTVIPUIipX1SrWsSa9Se3FEdpx/tUkITn9KsmqNq7KtmHrDvZ9NLwm2dfeMK8RtFXBNckKuh1m6TVOEPm0vP8/Er8uyYcAAwD9Y1FsdsNH+wAAAABJRU5ErkJggg==') right 0 no-repeat;
+	background-position: left 10px top 6px;
+}
+
+#date_from {
+	border-right: 0;
+}
+
+.searchbig #date_from,.searchbig #date_to,.searchbig #date_end {
+	display: block;
+	width: 100%;
+	height: 40px;
+	x 0 6px;
+	text-align: left;
+	color: #10447d;
+	border: 1px solid #dadfe6;
+	line-height: 40px;
+	padding-left: 40px;
+	padding-right: 0;
+}
+
+.searchwell form .fRow.fDate .dropdown-menu {
+	left: 0;
+}
+
+.search-hidden-input {
+	display: none !important;
+}
+
+.searchbig .calendar.popover-close {
+	display: none;
+}
+
+.searchbig .calendar.popover-close {
+	display: none;
+}
+
+.itaka_gala .fhotels.tab-pane {
+	margin-top: 20px;
+}
+
+.itaka_gala .fhotels .fhotel_main .fhotel_img_container img {
+	max-height: none;
+}
+
+.internal_cms_table .blue {
+	color: #10447d;
+}
+
+.internal_cms_table thead {
+	background-color: #f5f5f5;
+}
+
+.internal_cms_table th {
+	font-weight: normal;
+}
+
+.internal_cms_table tbody tr {
+	border-bottom: 1px solid #d9e1ea;
+}
+
+.event-information .internal_cms_list {
+	border-top: 1px solid whitesmoke;
+}
+
+.internal_cms_list {
+	position: relative!important;
+	top: -1px;
+	left: -5px;
+
+	padding: 0 20px 0 36px;
+
+	border-top: 1px solid #fff;
+}
+
+.itaka-internal-register .accordion-group {
+	border-radius: 5px !important;
+}
+
+#event-summary-accordion.itaka-internal-register .accordion-group .accordion-heading a:after {
+	position: relative!important;
+	top: 24px;
+}
+
+.well .button_submit.button_submit-waiting {
+	cursor: default;
+	text-indent: -9999px;
+
+	background-color: #f33;
+	background-position: 36px 6px;
+}
+
+.well .button_submit.button_submit-waiting:hover {
+	cursor: default;
+	text-indent: -9999px;
+
+	background-color: #f33;
+	background-position: 36px 6px;
+}
+
+.lang-ru .nav-tabs > li > a {
+	padding-right: 7px;
+	padding-left: 9px;
+}
+
+.button_submit-waiting:after {
+	display: none !important;
+}
+
+.page_kierunki .fhotel_main:hover {
+	opacity: 1;
+}
+
+.page_kierunki .subregion_box.small_box:hover {
+	opacity: .8;
+}
+
+.promo_gallery .btn-red {
+	display: block;
+
+	height: 36px;
+	padding: 0 10px;
+
+	text-decoration: none;
+
+	color: #fff;
+	border: none;
+	border-radius: 3px;
+	background: #eb2f2f;
+	background: -moz-linear-gradient(top, #f33 0%, #eb2f2f 100%);
+	background: -webkit-linear-gradient(top, #f33 0%, #eb2f2f 100%);
+	background: -o-linear-gradient(top, #f33 0%, #eb2f2f 100%);
+	background: -ms-linear-gradient(top, #f33 0%, #eb2f2f 100%);
+	background: linear-gradient(to bottom, #f33 0%, #eb2f2f 100%);
+	text-shadow: none;
+
+	line-height: 36px;
+}
+
+.promo_gallery .btn-red {
+	background: #f33;
+}
+
+.impt0.bd0 #main .lev1 {
+	position: relative!important;
+	position: 1;
+
+	float: right;
+
+	width: 770px;
+	margin: 0;
+}
+
+.bd5.lang-pl .gm-style-iw {
+	overflow: hidden !important;
+
+	min-width: 130px !important;
+	min-height: 70px !important;
+}
+
+.bd5.lang-pl .gm-style-iw > div {
+	overflow: hidden !important;
+}
+
+.packageFormSection {
+	margin: 20px 10px 0 10px;
+
+	text-align: center;
+
+	border-top: 1px solid #d7dfe9;
+}
+
+.packageFormSection-holiday {
+	position: relative!important;
+	top: -8px;
+
+	margin: 10px;
+	padding: 0 1em;
+
+	background-color: #eff5fc;
+
+	font-weight: bold;
+}
+
+.well .fRow.hotelExtra {
+	margin-top: 5px;
+
+	text-align: center;
+}
+
+.hotelExtra-txt {
+	position: relative!important;
+
+	display: inline-block;
+
+	margin: 3px auto 0;
+	padding: 10px;
+
+	text-align: center;
+
+	background-color: #eff5fc;
+
+	font-size: 13px;
+}
+
+.hotelExtra-txt span {
+	display: inline-block;
+
+	height: 25px;
+
+	vertical-align: top;
+
+	font-size: 12px;
+	line-height: 25px;
+}
+
+.hotelExtra-wrapper {
+	position: relative!important;
+	top: 20px;
+
+	border-top: 1px solid #d7dfe9;
+}
+
+.addHotel-txt:before {
+	position: relative!important;
+	bottom: 5px;
+
+	display: block;
+	float: left;
+
+	width: 25px;
+	width: 25px;
+	height: 25px;
+	height: 25px;
+
+	content: '';
+
+	background: url(https://www.itaka.pl/cms/img/1/ico/ikonymale.png) no-repeat -100px -100px;
+
+	display-inline: block;
+}
+
+.removeHotel-txt:before {
+	position: relative!important;
+	bottom: 5px;
+
+	display: block;
+	float: left;
+
+	width: 25px;
+	width: 25px;
+	height: 25px;
+	height: 25px;
+
+	content: '';
+
+	background: url(https://www.itaka.pl/cms/img/1/ico/ikonymale.png) no-repeat -125px -100px;
+
+	display-inline: block;
+}
+
+.localtrip-list-item {
+	display: table;
+
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 100%;
+}
+
+.localtrip-wrapper {
+	margin: 20px;
+}
+
+.localtrip-imagebox {
+	width: 232px;
+}
+
+.localtrip-content {
+	width: auto;
+}
+
+.localtrip-imagebox,.localtrip-imagebox input[type='checkbox'],.localtrip-content {
+	display: table-cell;
+
+	vertical-align: top;
+}
+
+.localtrip-imagebox input[type='checkbox'] {
+	margin: 62px 5px 0 0;
+}
+
+.localtrip-imagebox img {
+	width: 205px;
+
+	cursor: pointer;
+	transition: all .5s ease-in-out;
+
+	border-radius: 3px;
+}
+
+.localtrip-list-content {
+	display: inline-block;
+}
+
+.localtrip-imagebox-required {
+	color: #666;
+
+	font-size: 10px;
+}
+
+.localtrip-imagebox-required:before {
+	display: inline-block;
+
+	content: '*';
+
+	font-size: 5px;
+}
+
+.localtrip-imagebox-label,.localtrip-imagebox-price,.localtrip-imagebox-required {
+	display: inline-block;
+
+	vertical-align: bottom;
+}
+
+.localtrip-imagebox-label {
+	font-size: 12px;
+}
+
+.localtrip-imagebox-info {
+	margin-top: 10px;
+}
+
+.localtrip-imagebox-imgwrap {
+	overflow: hidden;
+
+	width: 205px;
+	height: 136px;
+}
+
+.localtrip-imagebox-imgwrap:hover img {
+	transform: scale(1.1);
+}
+
+.localtrip-content-description-full {
+	display: none;
+
+	line-height: 1.3em;
+}
+
+.localtrip-list-item.active .localtrip-content-description-full {
+	display: inline;
+}
+
+.localtrip-list-item.active .localtrip-content-separator {
+	display: none;
+}
+
+.localtrip-list-item.active .localtrip-content-more {
+	display: none;
+}
+
+.localtrip-list-item .localtrip-content-title {
+	display: inline-block;
+
+	margin-top: 0;
+	margin-bottom: 6px;
+}
+
+.localtrip-content-header {
+	border-bottom: 1px solid #d8d8d8;
+}
+
+.hotel-list-offer-details > p {
+	margin: 0;
+	padding: 10px 0 5px;
+
+	border: 0;
+}
+
+.main .localtrip-list-item .more a {
+	float: right;
+
+	font-size: 12px;
+}
+
+.main .localtrip-list-item .more a.localtrip-content-toggle:before {
+	background-position: -100px -850px;
+}
+
+.main .localtrip-list-item.active .more a.localtrip-content-toggle:before {
+	background-position: -125px -850px;
+}
+
+.main .localtrip-list-item .more a.localtrip-content-less {
+	display: none;
+}
+
+.main .localtrip-list-item.active .more a.localtrip-content-less {
+	display: block;
+}
+
+.localtrip-content-discount {
+	display: inline-block;
+	float: right;
+
+	padding: 3px 8px;
+
+	color: #fff;
+	border-radius: 5px;
+	background: #e24a49;
+
+	font-size: 12px;
+}
+
+.localtrip-content-discount .bold {
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.localtrip-content-attributes,.localtrip-content-attribute {
+	padding: 5px 0 0;
+}
+
+.localtrip-content-attributes {
+	display: none;
+
+	margin: 0;
+}
+
+.localtrip-list-item.active .localtrip-content-attributes {
+	display: block;
+}
+
+.localtrip-content-attributes-item {
+	display: inline-block;
+
+	margin-right: 26px;
+
+	list-style-type: none;
+
+	vertical-align: top;
+
+	color: #c9c9c9;
+}
+
+.localtrip-content-attributes-item span {
+	color: #333;
+}
+
+.localtrip-content-attribute-item {
+	margin-bottom: 5px;
+	margin-left: 41px;
+
+	list-style-type: disc;
+
+	text-indent: -5px;
+}
+
+.localtrip-content-attribute-item:first-child {
+	position: relative!important;
+
+	margin-left: 0;
+
+	list-style-type: none;
+
+	font-weight: bold;
+}
+
+.localtrip-content-attribute-item:first-child span {
+	margin-left: 30px;
+
+	line-height: 25px;
+}
+
+.localtrip-content-attribute-list:before,.localtrip-content-attribute-time:before,.localtrip-content-attribute-lang:before,.localtrip-content-attribute-prices:before {
+	position: absolute;
+	left: 0;
+	left: 0;
+
+	display: inline-block;
+
+	width: 20px;
+	height: 20px;
+
+	content: '';
+
+	background: url('https://www.itaka.pl/cms/img/1/ico/ikonymale.png');
+}
+
+.localtrip-content-attribute-list:before {
+	background-position: -100px -900px;
+}
+
+.localtrip-content-attribute-time:before {
+	background-position: -125px -900px;
+}
+
+.localtrip-content-attribute-lang:before {
+	background-position: -100px -925px;
+}
+
+.localtrip-content-attribute-prices:before {
+	background-position: -125px -925px;
+}
+
+.reservation-form .localtrip-imagebox-info {
+	padding: 0 5px 0 15px;
+}
+
+.reservation-form .localtrip-list-item .localtrip-content-title {
+	margin-bottom: 6px;
+	padding-bottom: 0;
+
+	border: 0;
+}
+
+.reservation-form .localtrip-wrapper {
+	margin: 20px 5px;
+}
+
+.reservation-form .localtrip-content-attribute-item {
+	line-height: 1em;
+}
+
+.reservation-form .localtrip-content-discount {
+	margin-top: 4px;
+}
+
+.step-add-serv .local-trips-list.ajax-loading {
+	text-align: center;
+}
+
+.additional-services .localtrip-reservation-footer {
+	font-weight: bold;
+	line-height: 25px;
+}
+
+.localtrip-reservation-footer:before {
+	display: block;
+	float: left;
+
+	width: 25px;
+	height: 25px;
+
+	content: '';
+
+	background: url(https://www.itaka.pl/cms/img/1/ico/ikonymale.png) no-repeat -100px -75px;
+}
+
+.reservation-services-Inaccessible {
+	text-align: center;
+
+	line-height: 2em;
+}
+
+.recommendation {
+	display: none;
+}
+
+h3.hotel-section-tittle {
+	font-size: 20px;
+}
+
+.point_of_sale_phone_agent,.point_of_sale_phone_saloon {
+	display: inline-block;
+
+	margin: 5px;
+	margin-top: 7px;
+	padding: 5px;
+
+	cursor: pointer;
+
+	color: #10447d;
+	border-radius: 3px;
+	background-color: #eff5fc;
+
+	font-size: 14px;
+}
+
+.point_of_sale_phone_clicked {
+	cursor: default;
+
+	color: #333;
+	background-color: white;
+}
+
+.fRow.fFromHotelsDisable .hotels_query {
+	background-color: #eff5fc;
+}
+
+.searchwell form .fRow .hotels_query {
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.hotels-autosuggest.dropdown-error .error-message {
+	width: 235px;
+	height: 17px;
+	margin-top: -6px;
+	margin-bottom: 5px;
+	margin-left: 73px;
+	padding: 5px;
+
+	opacity: 1;
+
+	font-size: 13px;
+	line-height: 16px;
+}
+
+.hotels-autosuggest .error-message {
+	position: absolute;
+	top: 2.46429rem !important;
+	left: 0;
+
+	overflow: hidden;
+
+	width: 100%;
+	height: 0;
+
+	-webkit-transition: all .2s ease-in;
+	-moz-transition: all .2s ease-in;
+	-o-transition: all .2s ease-in;
+	transition: all .2s ease-in;
+
+	opacity: 0;
+	color: white;
+	background: red;
+}
+
+.hotels-autosuggest-list.dropdown-menu li a {
+	margin: 0;
+	padding: 3px 5px;
+	padding: 4px 74px 3px 4px;
+}
+
+.hotels-autosuggest-list li {
+	position: relative!important;
+
+	margin: 0 10px 0 10px;
+
+	white-space: nowrap;
+}
+
+.hotels-autosuggest-list li a {
+	display: block;
+	overflow: hidden;
+}

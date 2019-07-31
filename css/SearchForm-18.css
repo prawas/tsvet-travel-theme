@@ -1,0 +1,1045 @@
+.our_directions .fhotel_main:hover .fhotel_img_container:before,.our_directions .fhotel_main:hover .fhotel_img_container:after {
+	display: none;
+}
+
+.our_directions .fhotel_img_container:hover a:before {
+	position: absolute;
+	top: 0;
+	left: 0;
+
+	display: inline;
+
+	width: 100%;
+	height: 100%;
+
+	content: '';
+
+	opacity: .8;
+	border-radius: 3px;
+	background-color: #10447d;
+}
+
+.our_directions .fhotel_img_container:hover a:after {
+	position: absolute;
+	top: 45%;
+	left: 45%;
+
+	display: block;
+	float: left;
+
+	width: 25px;
+	height: 25px;
+
+	content: '';
+
+	background: url(https://www.itaka.pl/cms/img/1/ico/ikonymale.png) no-repeat -25px -100px;
+}
+
+.our_directions .fhotel_region_name {
+	display: inline-block;
+
+	width: 70%;
+
+	vertical-align: top;
+}
+
+.our_directions .fhotel_price {
+	display: inline-block;
+
+	width: 30%;
+
+	vertical-align: top;
+}
+
+.destination_summary .assets {
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+
+	border-bottom: 1px solid #d9e1ea;
+
+	line-height: 1.3em;
+}
+
+.destination_summary .assets ul {
+	margin: 0;
+	padding: 0 0 0 15px;
+}
+
+.destination_summary .assets li {
+	padding: 0 0 10px 0;
+}
+
+.destination_summary .btn {
+	position: relative!important;
+
+	display: block;
+
+	height: 36px;
+	height: auto;
+	margin: 5px 0;
+	padding: 0 10px;
+	padding: 10px 30px 10px 10px;
+
+	text-align: left;
+	text-decoration: none;
+
+	color: #fff;
+	border: none;
+	border-radius: 3px;
+	background: #eb2f2f;
+	background: -moz-linear-gradient(top, #f33 0%, #eb2f2f 100%);
+	background: -webkit-linear-gradient(top, #f33 0%, #eb2f2f 100%);
+	background: -o-linear-gradient(top, #f33 0%, #eb2f2f 100%);
+	background: -ms-linear-gradient(top, #f33 0%, #eb2f2f 100%);
+	background: linear-gradient(to bottom, #f33 0%, #eb2f2f 100%);
+	text-shadow: none;
+
+	font-weight: normal;
+	font-weight: bold;
+	line-height: 36px;
+	line-height: 16px;
+}
+
+.destination_summary .btn:hover {
+	text-decoration: none;
+
+	color: #fff;
+	background: #f33;
+}
+
+.destination_summary .btn:after {
+	position: absolute;
+	top: 0;
+	right: 10px;
+	bottom: 0;
+
+	display: block;
+	float: left;
+
+	width: 25px;
+	height: 25px;
+	margin: auto auto;
+
+	content: '';
+
+	background: url(https://www.itaka.pl/cms/img/1/ico/ikonymale.png) no-repeat -25px -75px;
+}
+
+.destination_summary .type-0 {
+	background: #ff3737;
+}
+
+.destination_summary .type-5 {
+	background: #aa388b;
+}
+
+.destination_summary .type-6 {
+	background: #735592;
+}
+
+.destination_summary .type-7 {
+	background: #7d93e4;
+}
+
+.destination_summary .type-8 {
+	background: #fa3232;
+}
+
+.destination_summary .type-9 {
+	background: #24a780;
+}
+
+.destination_summary .type-11 {
+	background: #a9132a;
+}
+
+.impt11 .destination_summary .assets {
+	border: none;
+}
+
+.impt11 .destination_summary h3:first-child {
+	display: block !important;
+}
+
+.subregion_box {
+	clear: both;
+
+	max-width: 870px;
+
+	border-bottom: 1px solid #d9e1ea;
+}
+
+.subregion_box .fhotel_region_foto,.subregion_box .fhotel_region_description {
+	display: inline-block;
+
+	vertical-align: top;
+}
+
+.subregion_box .fhotel_region_foto {
+	text-align: center;
+
+	background: url(https://www.itaka.pl/cms/img/1/ajax-loader.gif) no-repeat center center;
+}
+
+.subregion_box .fhotel_region_foto img {
+	max-width: 100%;
+}
+
+.subregion_box .fhotel_region_description {
+	max-width: 470px;
+}
+
+.subregion_box .price {
+	display: block;
+
+	margin: 10px 0;
+}
+
+.subregion_box .price .pre strong {
+	display: inline;
+
+	color: #404040;
+}
+
+.subregion_box .price .pre {
+	color: #f33;
+}
+
+.subregion_box .btn-details {
+	float: right;
+
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.small_box {
+	clear: none;
+
+	border: none;
+}
+
+.small_box .fhotel_region_foto {
+	width: 100%;
+}
+
+.destination_tabs {
+	clear: both;
+
+	margin: 0 0 15px 0;
+	padding: 10px;
+	padding: 10px 0 0 0;
+
+	border: 1px solid #dadfe6;
+	border-radius: 5px;
+	background-color: #eff5fc;
+}
+
+.destination_tabs .nav {
+	margin-bottom: 0;
+}
+
+.destination_tabs .nav-tabs {
+	padding-left: 10px;
+}
+
+.destination_tabs .tab-content {
+	border-radius: 0 0 5px 5px;
+	background-color: #fff;
+}
+
+.destination_tabs .destination-information h3 {
+	padding: 10px 0 0 20px;
+}
+
+.destination_tabs .destination-information .nav-tabs li {
+	margin-bottom: -1px;
+}
+
+.destination_tabs p strong:first-child {
+	margin-bottom: 0;
+
+	line-height: 20px;
+}
+
+.destination_tabs p {
+	margin: 0 20px;
+	padding: 10px 0;
+
+	border-bottom: 1px solid #dadfe6;
+}
+
+#image-gallery ul {
+	margin: 20px 0 0 20px;
+	padding: 0;
+
+	list-style: none;
+}
+
+#image-gallery li {
+	display: inline-block;
+
+	margin: 0 20px 0 0;
+	padding: 0;
+}
+
+#image-gallery li a {
+	display: block;
+
+	text-align: center;
+
+	background: url(https://www.itaka.pl/cms/img/1/ajax-loader.gif) no-repeat center center;
+}
+
+.cliphead {
+	height: 50px;
+}
+
+.cliphead > div {
+	display: block;
+
+	width: 50%;
+}
+
+.cliphead label {
+	display: block;
+	float: left;
+
+	margin-right: 10px;
+
+	line-height: 30px;
+}
+
+.cliphead .clipshare label:before {
+	display: block;
+	float: left;
+
+	width: 25px;
+	height: 25px;
+	margin-right: 10px;
+
+	content: '';
+
+	background: url(https://www.itaka.pl/cms/img/1/ico/ikonymale.png) no-repeat -75px -850px;
+}
+
+.cliphead .clipshare {
+	float: left;
+}
+
+.cliphead .clipshare .position-holder {
+	position: relative!important;
+
+	float: left;
+}
+
+.cliphead .clipshare .position-holder div {
+	position: absolute;
+	top: 0;
+
+	width: 30px;
+	height: 25px;
+
+	cursor: pointer;
+}
+
+.cliphead .clipshare .position-holder div.google-ph {
+	left: 32px;
+}
+
+.cliphead .clipshare .position-holder div.twitter-ph {
+	left: 64px;
+}
+
+.cliphead .cliplink {
+	float: right;
+}
+
+.cliphead .cliplink label {
+	margin-left: -40px;
+}
+
+.cliphead .cliplink input {
+	float: right;
+
+	width: 95%;
+	margin: 0;
+
+	cursor: auto;
+}
+
+.cliphead a[href*='facebook'],.cliphead a[href*='google'],.cliphead a[href*='twitter'],.cliphead a[href*='goldenline'] {
+	display: inline-block;
+	overflow: hidden;
+
+	width: 25px;
+	height: 25px;
+	margin: 2px;
+}
+
+.cliphead a[href*='facebook']:before {
+	display: block;
+	float: left;
+
+	width: 25px;
+	height: 25px;
+
+	content: '';
+
+	background: url(https://www.itaka.pl/cms/img/1/ico/ikonymale.png) no-repeat -100px -175px;
+}
+
+.cliphead a[href*='google']:before {
+	display: block;
+	float: left;
+
+	width: 25px;
+	height: 25px;
+
+	content: '';
+
+	background: url(https://www.itaka.pl/cms/img/1/ico/ikonymale.png) no-repeat -125px -175px;
+}
+
+.cliphead a[href*='twitter']:before {
+	display: block;
+	float: left;
+
+	width: 25px;
+	height: 25px;
+
+	content: '';
+
+	background: url(https://www.itaka.pl/cms/img/1/ico/ikonymale.png) no-repeat -125px -200px;
+}
+
+.cliphead a[href*='goldenline']:before {
+	display: block;
+	float: left;
+
+	width: 25px;
+	height: 25px;
+
+	content: '';
+
+	background: url(https://www.itaka.pl/cms/img/1/ico/ikonymale.png) no-repeat -100px -200px;
+}
+
+.inquiry h4 {
+	padding: 0 0 10px 0;
+
+	border-bottom: 1px solid #d9e1ea;
+
+	line-height: 25px;
+}
+
+.inquiry small {
+	line-height: 25px;
+}
+
+.inquiry label {
+	float: left;
+
+	text-align: right;
+
+	font-weight: bold;
+	line-height: 25px;
+}
+
+.inquiry input[type='text'] {
+	width: 50%;
+	height: 25px;
+	margin: 0;
+	margin-left: 20px;
+	padding: 0 5px;
+
+	color: #10447d;
+	border: 1px solid #dadfe6;
+	border-radius: 3px;
+	background-color: #fff;
+
+	font-weight: bold;
+	font-weight: normal;
+	line-height: 25px;
+}
+
+.inquiry textarea {
+	width: 50%;
+	height: 25px;
+	height: 100px;
+	margin: 0;
+	margin-left: 20px;
+	padding: 0 5px;
+
+	color: #10447d;
+	border: 1px solid #dadfe6;
+	border-radius: 3px;
+	background-color: #fff;
+
+	font-weight: bold;
+	font-weight: normal;
+	line-height: 25px;
+}
+
+.inquiry .control-group {
+	clear: both;
+
+	margin: 0 0 10px 0;
+}
+
+.inquiry .controls label {
+	padding: 0 0 0 40px;
+
+	text-align: left;
+}
+
+.inquiry .inquiry-send {
+	position: relative!important;
+	top: 10px;
+	left: 18px;
+}
+
+.inquiry .control-required label:after {
+	margin-left: 5px;
+
+	content: '*';
+
+	color: #f33;
+}
+
+.inquiry .checkbox-acceptation label {
+	width: auto;
+
+	font-weight: normal;
+	line-height: 20px;
+}
+
+.inquiry .btn {
+	display: block;
+
+	height: 36px;
+	margin-top: 10px;
+	padding: 0 10px;
+	padding: 0 5px;
+
+	text-decoration: none;
+
+	color: #fff;
+	border: none;
+	border-radius: 3px;
+	background: #eb2f2f;
+	background: -moz-linear-gradient(top, #f33 0%, #eb2f2f 100%);
+	background: -webkit-linear-gradient(top, #f33 0%, #eb2f2f 100%);
+	background: -o-linear-gradient(top, #f33 0%, #eb2f2f 100%);
+	background: -ms-linear-gradient(top, #f33 0%, #eb2f2f 100%);
+	background: linear-gradient(to bottom, #f33 0%, #eb2f2f 100%);
+	text-shadow: none;
+
+	font-weight: normal;
+	line-height: 36px;
+}
+
+.inquiry .btn:hover {
+	text-decoration: none;
+
+	color: #fff;
+	background: #f33;
+}
+
+.inquiry .btn:after {
+	display: block;
+	float: left;
+	float: right;
+
+	width: 25px;
+	height: 25px;
+	margin: 5px 0 0 5px;
+
+	content: '';
+
+	background: url(https://www.itaka.pl/cms/img/1/ico/ikonymale.png) no-repeat -25px -75px;
+}
+
+.inquiry .btn:hover {
+	text-decoration: none;
+
+	background: #f33;
+}
+
+.inquiry-btn {
+	overflow: hidden;
+}
+
+.inquiry.clipboard {
+	width: 815px;
+	margin: 20px auto;
+
+	background: #eff5fc;
+}
+
+.inquiry.clipboard .form-title {
+	border: none;
+}
+
+.inquiry .agreement-txt {
+	font-size: 13px;
+}
+
+.step-add-serv .checkbox-acceptation .tfg-info {
+	display: none;
+}
+
+#incentive_form input[type='text'],#incentive_form input[type='email'] {
+	width: 399px;
+	height: 25px;
+	margin: 0;
+	margin-left: 20px;
+	padding: 0 5px;
+
+	color: #10447d;
+	border: 1px solid #b1b8c1;
+	border-radius: 3px;
+	background-color: #fff;
+
+	font-weight: bold;
+	line-height: 25px;
+}
+
+#incentive_form .error {
+	position: relative!important;
+
+	color: #f33;
+}
+
+#incentive_form .error input[type='text'],#incentive_form .error select,#incentive_form .error textarea {
+	border-color: #f33;
+}
+
+#incentive_form .error label {
+	color: #f33;
+}
+
+#incentive_form label {
+	float: left;
+
+	width: 180px;
+
+	text-align: right;
+
+	font-weight: bold;
+	line-height: 25px;
+}
+
+#incentive_form .control-required label:after {
+	margin-left: 5px;
+
+	content: '*';
+
+	color: #f33;
+}
+
+#incentive_form .control-optional {
+	display: none;
+}
+
+#incentive_form {
+	position: relative!important;
+
+	margin-top: 30px;
+	padding: 20px;
+
+	background-color: #eff5fc;
+	box-shadow: 0 3px 9px -5px #10447d inset;
+}
+
+#incentive_form .captchaHolder {
+	display: inline-block;
+
+	margin-left: 25px;
+}
+
+#incentive_form .captchaHolder input {
+	width: 20px;
+	margin: 0;
+}
+
+#incentive_form .captcha-holder {
+	display: none;
+}
+
+#incentive_form h1 {
+	display: block;
+
+	padding: 10px 0 10px 0;
+
+	color: black;
+	border-bottom: 1px solid #d9e1ea;
+
+	font-size: 30px;
+	font-weight: bold;
+}
+
+#incentive_form select,#incentive_form textarea {
+	width: 411px;
+	height: 30px;
+	margin: 0;
+	margin-left: 20px;
+	padding: 5px 5px;
+
+	color: #10447d;
+	border: 1px solid #b1b8c1;
+	border-radius: 3px;
+	background-color: #fff;
+
+	font-weight: bold;
+	line-height: 25px;
+}
+
+#incentive_form textarea {
+	width: 399px;
+	height: 75px;
+}
+
+@media (max-width: 640px) {
+	#incentive_form textarea,#incentive_form select,#incentive_form input[type='text'],#incentive_form input[type='email'] {
+		max-width: 80%;
+	}
+}
+
+#banner_ai {
+	float: left;
+	clear: both;
+
+	width: 1084px;
+	height: 65px;
+	margin-bottom: 20px;
+	padding: 40px;
+
+	background: url('https://www.itaka.pl/cms/img/1/banners/all_in.jpg');
+
+	font-family: 'ITAKALIGHT';
+}
+
+#banner_ai #banner_ai_line1 {
+	text-transform: uppercase;
+
+	color: #13447e;
+
+	font-size: 40px;
+}
+
+#banner_ai #banner_ai_line2 {
+	padding-top: 10px;
+
+	color: #e54851;
+
+	font-family: 'ITAKA';
+	font-size: 22px;
+}
+
+#search-form.hasAI {
+	margin-bottom: 220px;
+}
+
+@media screen and (max-width: 1200px) and (min-width: 1020px) {
+	#banner_ai {
+		width: 860px;
+
+		background-position-x: -190px;
+	}
+}
+
+@media screen and (max-width: 1020px) and (min-width: 768px) {
+	#banner_ai {
+		width: 650px;
+
+		background-position-x: -275px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	#banner_ai {
+		display: none;
+	}
+
+	#search-form.hasAI {
+		margin-bottom: 0;
+	}
+}
+
+.tn_gsm_logo {
+	display: none;
+}
+
+.tn_gsm_logo:before {
+	display: block;
+	float: left;
+
+	width: 25px;
+	height: 25px;
+
+	content: '';
+
+	background: url(https://www.itaka.pl/cms/img/1/ico/ikonymale.png) no-repeat -50px -200px;
+
+	font-size: 25px;
+}
+
+.lang-en .tn_gsm,.lang-ru .tn_gsm,.lang-cz .tn_gsm,.lang-lt .tn_gsm {
+	display: none;
+}
+
+.lang-lt .searchwell,.lang-ru .searchwell,.lang-cz .searchwell,.lang-en .searchwell {
+	padding-top: 30px;
+}
+
+.lang-lt .searchwell form .fRow,.lang-ru .searchwell form .fRow,.lang-cz .searchwell form .fRow,.lang-en .searchwell form .fRow {
+	margin-bottom: 10px;
+}
+
+.lang-lt .searchwell form .fRow label,.lang-ru .searchwell form .fRow label,.lang-cz .searchwell form .fRow label,.lang-en .searchwell form .fRow label {
+	font-size: 12px;
+}
+
+.lang-ru .well .selectable-container li.active label:after,.lang-ru .well .dropdown-menu li.selected a:after {
+	content: 'отборный';
+}
+
+.lang-en .well .selectable-container li.active label:after,.lang-en .well .dropdown-menu li.selected a:after {
+	content: 'selected';
+}
+
+.lang-lt .well .selectable-container li.active label:after,.lang-lt .well .dropdown-menu li.selected a:after {
+	content: 'pasirinktas';
+}
+
+.lang-lt .well .ask-box,.lang-ru .well .ask-box {
+	text-align: right;
+}
+
+.lang-lt .well .ask-box .more,.lang-ru .well .ask-box .more {
+	float: none;
+}
+
+.lang-eu.rezerwacja #head .lev3:after {
+	content: 'Security';
+}
+
+.lang-ru.rezerwacja #head .lev3:after {
+	content: 'Безопасность';
+}
+
+.lang-en .reservation-form .validation-success a.accordion-toggle:after {
+	content: 'Edit';
+}
+
+.lang-ru .reservation-form .validation-success a.accordion-toggle:after {
+	content: 'Pедактировать';
+}
+
+.lang-ru .reservation-confirmation .pdf {
+	font-weight: normal;
+}
+
+.lang-ru .reservation-well .summary-event label,.lang-ru .summary-transport label {
+	font-weight: normal;
+}
+
+.lang-en #mail_recipient option[value='3'],.lang-ru #mail_recipient option[value='3'] {
+	display: none;
+}
+
+.lang-cz.bd0 #main .main .lev15,.lang-cz.bd0 #main .main .lev13 {
+	display: none;
+}
+
+.flag:before {
+	display: block;
+	float: left;
+
+	width: 13px;
+	height: 10px;
+	margin: 1px 4px 0 0;
+
+	content: '';
+
+	border: 1px solid #ddd;
+}
+
+.flag-ru:before {
+	background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAKCAIAAADgjEOTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH4AYcDQEr8mD39wAAACVJREFUGNNj/P//PwMRgImBOECsOkZl1wkDYS/R7vvEzDwQ9gIANXIE/+NE7G8AAAAASUVORK5CYII=');
+}
+
+.flag-bl:before {
+	background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAKCAYAAABv7tTEAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH4AYcDQQoFh5SCAAAAEtJREFUKM9jvOXm9v/Trl0MpAAmRkZGBlIBEwM5mhhZWUnX9O/nTzJsYmYmWRPLCV1mhnsfSdQ02+03wyF1EjWx/GVgYPhDapCTAQBvqw91or2KAwAAAABJRU5ErkJggg==');
+}
+
+.cookie-bar {
+	position: fixed;
+	bottom: 0;
+
+	width: 96%;
+	padding: 10px 2%;
+
+	text-align: center;
+
+	border-top: 1px solid #bbb;
+	background: #fcfcfc;
+	box-shadow: 0 -10px 20px #eee;
+}
+
+.abandon-reservation-bar {
+	display: none;
+
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 100%;
+	padding: 0 2%;
+
+	text-align: left;
+
+	color: #10447d;
+	border-top: 1px solid #bbb;
+	background: #e6eff8;
+	box-shadow: 0 -10px 20px #eee;
+}
+
+.abandon-reservation-bar .head {
+	padding: 15px 0;
+}
+
+.abandon-reservation-bar .head:before {
+	display: block;
+	float: left;
+
+	width: 25px;
+	height: 22px;
+	margin-top: 6px;
+	margin-right: 10px;
+
+	content: '';
+
+	background: url(https://www.itaka.pl/cms/img/1/ico/ikonymale.png) no-repeat -1px -901px;
+}
+
+.abandon-reservation-bar a.abandon-link {
+	display: inline-block;
+
+	margin-left: 15px;
+	padding: 10px;
+
+	color: white;
+	border-radius: 5px;
+	background-color: #10447d;
+}
+
+.abandon-reservation-bar a.abandon-link:after {
+	display: block;
+	float: right;
+
+	width: 18px;
+	height: 17px;
+	margin-top: -2px;
+	margin-left: 4px;
+
+	content: '';
+
+	background: url(https://www.itaka.pl/cms/img/1/ico/ikonymale.png) no-repeat -28px -79px;
+}
+
+.abandon-reservation-bar .close-abandon-bar {
+	display: block;
+	float: right;
+
+	width: 20px;
+	height: 20px;
+	margin-top: 7px;
+
+	color: #e6eff8;
+	border-radius: 10px;
+	background: #c5d2e5;
+	background: url(https://www.itaka.pl/cms/img/1/ico/iks.png) no-repeat;
+
+	font-family: ITAKA;
+	font-weight: bold;
+}
+
+@media (max-width: 1020px) {
+	.abandon-reservation-bar .head,.abandon-reservation-bar .head span {
+		font-size: 12px;
+	}
+}
+
+#participants-data .reservation-client,.participants-client-summary .reservation-client,.participants-client-summary .reservation-participants,#participants-data .reservation-participants {
+	float: left;
+
+	width: 50%;
+}
+
+.feedback-review img {
+	width: auto;
+	max-height: 250px;
+}
+
+.feedback-footer {
+	height: 35px;
+	padding: 15px;
+
+	line-height: 35px;
+}
+
+button.feedback-btn {
+	display: block;
+
+	height: 36px;
+	padding: 0 10px;
+
+	text-decoration: none;
+
+	color: #fff;
+	border: none;
+	border-radius: 3px;
+	background: #023772;
+	background: -moz-linear-gradient(top, #10447d 0%, #023772 100%);
+	background: -webkit-linear-gradient(top, #10447d 0%, #023772 100%);
+	background: -o-linear-gradient(top, #10447d 0%, #023772 100%);
+	background: -ms-linear-gradient(top, #10447d 0%, #023772 100%);
+	background: linear-gradient(to bottom, #10447d 0%, #023772 100%);
+	text-shadow: none;
+
+	line-height: 36px;
+}
+
+button.feedback-btn:hover {
+	text-decoration: none;
+
+	color: #fff;
+	background: #10447d;
+}
+
+button.feedback-btn:after {
+	display: block;
+	float: left;
+	float: right;
+
+	width: 25px;
+	height: 25px;
+	margin: 5px 0 0 5px;
+
+	content: '';
+
+	background: url(https://www.itaka.pl/cms/img/1/ico/ikonymale.png) no-repeat -25px -75px;
+}
+
+button.feedback-btn:hover {
+	color: #fff;
+	background-color: #10447d;
+}
+
+.feedback-glass {
+	z-index: 3000;
+}
+
+.feedback-modal {
+	z-index: 3050;
+}

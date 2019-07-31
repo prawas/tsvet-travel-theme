@@ -1,0 +1,629 @@
+.impt6.bd0 #main .lev11 > div {
+	height: 160px;
+	padding-left: 405px;
+
+	border-radius: 5px;
+	background-image: url('https://www.itaka.pl/cms/img/u/bar_banner/bar_banner_hotel.jpg');
+	background-repeat: no-repeat;
+	background-position: 0 center;
+}
+
+.bd0 #main .lev11 div.plo a {
+	padding: 34px 0;
+}
+
+.impt6.bd0 #main .lev11 > div a strong {
+	display: block;
+
+	color: #ed4749;
+	text-shadow: 1px 1px #fff;
+
+	font-family: ITAKA,Arial;
+	font-size: 24px !important;
+	line-height: 37px;
+}
+
+.impt6 .plaza_napis {
+	margin-top: -14px;
+}
+
+.impt6.bd0 #main .lev11 > div a::before {
+	display: block;
+	float: right;
+
+	width: 25px;
+	height: 25px;
+	margin: 25px 35px 0 0;
+
+	content: '';
+
+	background: transparent url('https://www.itaka.pl/cms/img/1/ico/ikonymale.png') no-repeat scroll -123px -126px;
+}
+
+.oferyKAT a > span {
+	font-weight: 400;
+}
+
+.bd0 #main .lev4 {
+	margin: 0 0 30px;
+}
+
+.bd0 #main .lev11 > div {
+	position: relative!important;
+}
+
+.bd0 #main .lev11 > div a::before {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.bd0 #main .lev11 {
+	clear: both;
+
+	margin-bottom: 0;
+
+	background: transparent linear-gradient(to right, #fff 0%, #f0f0f0 100%) repeat scroll 0 0;
+	box-shadow: none;
+}
+
+.bd0 #main .lev11:hover {
+	background: transparent linear-gradient(to right, #fff 0%, #e0e0e0 100%) repeat scroll 0 0;
+}
+
+.bd0 .lev10 h1 {
+	color: #6d6d6d;
+}
+
+.searchwell form .fRow input,.searchwell form .fRow select {
+	font-weight: 400;
+}
+
+.searchwell form #event-types label {
+	margin: 0 3px 5px 0;
+}
+
+.fhotels .fhotel_main .hotel_name {
+	color: #5f82a8;
+
+	font-weight: 400;
+	line-height: 1.2em;
+}
+
+.searchwell form .fPerson label,.searchwell form .fRow > label {
+	color: #333;
+}
+
+.searchwell form .fBut button {
+	font-weight: 400;
+}
+
+.oferyKAT a > span {
+	font-weight: 400;
+}
+
+.oferyTOP .offer-group > strong {
+	font-weight: 400;
+}
+
+.oferyKAT a > span {
+	font-weight: 400;
+}
+
+.price .pre,.price strong {
+	font-weight: 400;
+}
+
+.oferyKAT a {
+	background: transparent none repeat scroll 0 0 !important;
+}
+
+.fhotels .fhotel_main .fhotel_img_container .hotel_flag {
+	border-radius: 3px;
+}
+
+.hotel-list-configuration .offer-variants {
+	margin-bottom: 0;
+	cursor: default;
+	pointer-events: initial;
+}
+
+.hotel-list-bottom {
+	border-top: medium none;
+}
+
+.searchbig #search-form > div label {
+	font-weight: 400;
+}
+
+.searchbig_filters label,.searchbig_filters .switchType a {
+	font-weight: 400;
+}
+
+.searchbig .fRow label {
+	color: #000;
+	font-size: 12px;
+	font-weight: 600;
+}
+
+.searchbig_filters label {
+	color: #333;
+}
+
+.selectable-container .options-container ul li label {
+	color: #10447d;
+}
+
+.searchbig .fRow .dropdown-toggle {
+	color: #10447d;
+}
+
+.searchbig_filters .fRow .dropdown-toggle,.searchbig .fParticipants .dropdown-menu .fPerson select,.searchbig .fRow .dropdown-toggle {
+	box-sizing: border-box;
+	color: #683c87;
+	line-height: 38px;
+}
+
+.nav-tabs > li > a {
+	font-weight: 600;
+}
+
+#path .path h1 {
+	font-weight: 400;
+}
+
+.as-thumbs div.hotel-list-description ul {
+	margin: 115px 75px 25px;
+}
+
+.hotel-list-item .hotel-list-photo-preview {
+	padding: 0;
+
+	box-shadow: none;
+}
+
+.as-thumbs .hotel-list-item .hotel-list-photo-preview {
+	width: 100%;
+	height: auto;
+}
+
+.as-thumbs .hotel-list-item .hotel-list-photo-preview img {
+	width: 100%;
+	height: auto;
+}
+
+.as-thumbs div.hotel-list-description {
+	top: 60px;
+	left: 0;
+
+	width: 100%;
+	height: 285px;
+}
+
+.as-thumbs .hotel-list-item .hotel-list-attributes {
+	top: 60px;
+	right: 58px;
+}
+
+.as-thumbs .hotel-list-item .hotel-list-flag {
+	top: 60px;
+	right: 10px;
+}
+
+.fBus > a,.fFly > a {
+	font-weight: 400;
+}
+
+.events-in-country h3 {
+	color: #000;
+
+	font-weight: 400;
+}
+
+.main .lev5 .td_info h3 {
+	font-size: 13px;
+	font-weight: 700;
+}
+
+ul.event-image-gallery-preface-list li a,#hotel-extra-gallery li a,#event-image-gallery li a {
+	box-shadow: none;
+}
+
+.fRow label, .form-bron label {
+	color: #000;
+	font-weight: 700;
+}
+
+.dropdown-toggle, .bron-tour .wpcf7-form-control {
+	line-height: 40px;
+	width: 100%;
+}
+
+.fPersonMain {
+	padding: 10px 0 0;
+}
+
+#childs-ages {
+	margin-bottom: 0;
+	padding: 20px 0 12px 12px;
+
+	background: #fff none repeat scroll 0 0;
+}
+
+.our_directions .fhotel_main .fhotel_img_container {
+	overflow: hidden;
+
+	height: 180px !important;
+}
+
+.our_directions.fhotels .fhotel_main {
+	margin-bottom: 20px;
+}
+
+.our_directions.fhotels .fhotel_main .fhotel_region_header .fhotel_price {
+	margin-top: -4px;
+}
+
+.przycisk_niebieski_wstecz,.przycisk_niebieski,.control-submit .change-params-button,.control-submit .btn,.reservation-form .accordion-body label,.reservation-form .accordion-body dl dt,.reservation-form .accordion-heading a,.reservation-form .accordion-body h3 {
+	font-weight: 400;
+}
+
+.rezerwacja .reservation-title .event-back {
+	font-weight: 400;
+}
+
+.rezerwacja .reservation-title h1 {
+	float: right;
+
+	color: #f33;
+
+	font-size: 25px;
+	font-weight: 400;
+}
+
+.participants-client-summary {
+	overflow: hidden;
+}
+
+.reservation-form .additional-services-link,.reservation-form .additional-local-trips-link,.reservation-form .additional-itaka-active-link {
+	overflow: hidden;
+
+	height: auto;
+	padding: 10px;
+
+	border: 1px solid #eee;
+	background: #fff none repeat scroll 0 0;
+}
+
+.reservation-form .additional-services {
+	padding: 0 10px;
+
+	border-bottom: medium none;
+	background: #fff none repeat scroll 0 0;
+}
+
+.reservation-confirmation .pdf {
+	font-weight: 400;
+}
+
+.lev1,.lev2 {
+	box-shadow: none;
+}
+
+.lev1 {
+	margin-right: 0;
+}
+
+.lev2 {
+	box-sizing: border-box;
+
+	border-left: 1px solid #eee;
+}
+
+.lev1 .td1 {
+	box-shadow: none;
+}
+
+.main .lev1 .menu_v li:last-child {
+	border-radius: 0 0 0 3px;
+}
+
+.lev2 > div {
+	margin: 0 25px 25px;
+}
+
+.datepickerNotInMonth span {
+	visibility: hidden;
+
+	color: #fff;
+	background-color: transparent !important;
+}
+
+.datepickerDays .datepickerSaturday span,.datepickerDays .datepickerSunday span {
+	color: #e22f2f;
+}
+
+.datepickerDays .datepickerSelected span {
+	cursor: pointer;
+
+	color: #fff;
+	background: #225b99 none repeat scroll 0 0;
+}
+
+.datepickerDays td span:hover {
+	cursor: pointer;
+
+	color: #fff;
+	background: #10447d none repeat scroll 0 0;
+}
+
+.datepickerDays .datepickerToday span {
+	font-weight: 700;
+}
+
+.fDate-cal__to .datepickerDays .datepickerSelected span {
+	color: #fff;
+	background: #f33 none repeat scroll 0 0;
+	text-shadow: 0 0 3px #fff;
+}
+
+.fDate-cal__to .datepickerDays td span:hover {
+	color: #fff;
+	background: #eb2f2f none repeat scroll 0 0;
+}
+
+.datepickerDays .datepickerDisabled span,.datepickerDays .datepickerDisabled span:hover,.datepickerDays .datepickerDisabled a:hover {
+	cursor: default !important;
+
+	background-color: transparent !important;
+}
+
+.datepickerDays .datepickerDisabled span {
+	color: #ddd !important;
+}
+
+.datepicker .datepickerMonth {
+	cursor: default !important;
+	overflow: hidden;
+}
+
+.datepickers-footer {
+	clear: both;
+
+	margin-top: 10px;
+}
+
+.datepickers-footer a {
+	display: block;
+
+	width: 75px;
+	padding: 5px 10px;
+
+	text-align: center;
+
+	line-height: 25px;
+}
+
+.datepickerDays span {
+	margin: 0;
+}
+
+td.datepickerLeft:not(.datepickerDisabled) span::after {
+	position: relative!important;
+	z-index: 9999999;
+	top: -25px;
+	left: -8px;
+
+	display: block;
+
+	width: 5px;
+	height: 24px;
+
+	content: '';
+
+	border-width: 3px 0 3px 3px;
+	border-style: solid;
+	border-color: #10447d;
+	background-color: transparent;
+}
+
+td.datepickerRight:not(.datepickerDisabled) span::after {
+	position: relative!important;
+	z-index: 999999;
+	top: -25px;
+	left: 20px;
+
+	display: block;
+
+	width: 5px;
+	height: 24px;
+
+	content: '';
+
+	border-width: 3px 3px 3px 0;
+	border-style: solid;
+	border-color: #f33;
+	background-color: transparent;
+}
+
+.datepicker-days .datepicker-switch:hover,.datepicker-months .datepicker-switch:hover {
+	cursor: pointer;
+
+	color: #fff;
+	background: #10447d none repeat scroll 0 0;
+}
+
+.datepicker .table-condensed .month:hover,.datepicker .table-condensed .year:hover,.datepicker .table-condensed .day:hover {
+	cursor: pointer;
+
+	color: #fff;
+	background: #10447d none repeat scroll 0 0;
+}
+
+.datepicker-years .datepicker-switch,.datepicker .table-condensed .day {
+	cursor: default;
+
+	color: #404040;
+}
+
+.datepicker-days .old,.datepicker-days .new {
+	visibility: hidden;
+
+	cursor: default;
+}
+
+.datepicker .next,.datepicker .prev {
+	cursor: pointer;
+}
+
+.datepicker-days .day {
+	color: #404040;
+}
+
+#childs-ages input,.reservation-form .accordion-body input[type='text'] {
+	font-weight: 400;
+}
+
+.popover {
+	position: absolute;
+
+	display: none;
+
+	max-width: 410px;
+	padding: 14px;
+
+	text-align: justify;
+
+	line-height: 33px;
+}
+
+.bd0 #main .lev11 > div {
+	height: 123px;
+	padding-left: 300px;
+
+	border-radius: 5px;
+	background-repeat: no-repeat;
+	background-position: 0 center;
+}
+
+.bd0 #main .lev11 {
+	clear: both;
+
+	margin-bottom: 0;
+
+	background: transparent linear-gradient(to right, #fff 0%, #eff5fc 100%) repeat scroll 0 0;
+	box-shadow: none;
+}
+
+.bd0 #main .lev11:hover {
+	background: transparent linear-gradient(to right, #fff 0%, #e8f1fa 100%) repeat scroll 0 0;
+}
+
+.bd0 #main .lev11 > div a {
+	padding: 34px 0;
+
+	color: #fff;
+}
+
+.bd0 #main .lev11 > div p {
+	height: 60px;
+	padding: 0;
+
+	color: #fff;
+
+	line-height: 43px;
+}
+
+.bd0 #main .lev11 > div a::before {
+	display: block;
+	float: right;
+
+	width: 25px;
+	height: 25px;
+	margin: 74px 40px 0 0;
+
+	content: '';
+
+	background: transparent url(https://www.itaka.pl/cms/img/1/ico/ikonymale.png) no-repeat scroll -25px -50px;
+}
+
+.bd0 #main .lev11 > div a strong {
+	display: inline;
+
+	text-shadow: 2px 2px #a2bfce;
+
+	line-height: 45px;
+}
+
+#last-minute .fhotel_main {
+	margin-bottom: 30px;
+}
+
+.plaza_napis {
+	display: block;
+
+	margin-top: -43px;
+}
+
+.impt0.bd0 #main .lev11 > div {
+	height: 140px;
+	padding-left: 405px;
+
+	border-radius: 5px;
+	background-image: url(/cms/img/u/bar_banner/wycieczka_maroko.jpg);
+	background-repeat: no-repeat;
+	background-position: 0 center;
+}
+
+.impt0.bd0 #main .lev11 {
+	clear: both;
+
+	margin-bottom: 20px;
+
+	background: transparent linear-gradient(to right, #fff 0%, #eff5fc 100%) repeat scroll 0 0;
+	box-shadow: none;
+}
+
+.impt0.bd0 #main .lev11:hover {
+	background: transparent linear-gradient(to right, #fff 0%, #e8f1fa 100%) repeat scroll 0 0;
+}
+
+.impt0.bd0 #main .lev11 > div a {
+	padding: 64px 0;
+
+	color: #fff;
+}
+
+.impt0.bd0 #main .lev11 > div a::before {
+	display: block;
+	float: right;
+
+	width: 25px;
+	height: 25px;
+	margin: 65px 30px 0 0;
+
+	content: '';
+
+	background: transparent url(https://www.itaka.pl/cms/img/1/ico/ikonymale.png) no-repeat scroll -25px -50px;
+}
+
+.impt0.bd0 #main .lev11 > div p,.bd0 #main .lev11 > div strong,.bd0 #main .lev13 .td1 h2 {
+	font-size: 22px;
+}
+
+.impt0.bd0 #main .lev11 > div a strong {
+	display: block;
+
+	padding-top: 50px;
+
+	color: #9a8369;
+	text-shadow: 1px 1px #fff;
+
+	font-family: ITAKA,Arial;
+	font-size: 22px;
+	line-height: 22px;
+}
+
+.maroko_itaka_class a:hover {
+	text-decoration: none;
+}

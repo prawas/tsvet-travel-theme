@@ -1,0 +1,1331 @@
+@media screen and (min-width: 1020px) and (max-width: 1200px) {
+	.head,.main,#foot > section > div,.bteaser .inner,.path {
+		width: 940px;
+	}
+
+	.event-navi {
+		width: 240px;
+	}
+
+	.price {
+		display: table-row;
+
+		margin: 0;
+		padding: 0;
+
+		line-height: 1em;
+	}
+
+	.price strong,.price .pre,.price .end,.price .pln {
+		display: table-cell;
+
+		margin: 0;
+		padding: 0;
+
+		vertical-align: top;
+	}
+
+	.price .pre,.price strong {
+		height: 16px;
+
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 16px;
+	}
+
+	.price strong {
+		padding: 0 3px;
+
+		color: #f33;
+	}
+
+	.price .pre {
+		color: #10447d;
+
+		font-weight: normal;
+	}
+
+	.price .pln {
+		text-decoration: underline !important;
+		text-transform: uppercase;
+
+		color: #f33;
+	}
+
+	.price .end {
+		color: #f33;
+	}
+
+	.price .pln {
+		font-size: 7.2px;
+	}
+
+	.fhotels .price {
+		display: table-row;
+
+		margin: 0;
+		padding: 0;
+
+		line-height: 1em;
+	}
+
+	.fhotels .price strong,.fhotels .price .pre,.fhotels .price .end,.fhotels .price .pln {
+		display: table-cell;
+
+		margin: 0;
+		padding: 0;
+
+		vertical-align: top;
+	}
+
+	.fhotels .price .pre,.fhotels .price strong {
+		height: 19px;
+
+		font-size: 19px;
+		font-weight: 400;
+		line-height: 19px;
+	}
+
+	.fhotels .price strong {
+		padding: 0 3px;
+
+		color: #f33;
+	}
+
+	.fhotels .price .pre {
+		color: #10447d;
+
+		font-weight: normal;
+	}
+
+	.fhotels .price .pln {
+		text-decoration: underline !important;
+		text-transform: uppercase;
+
+		color: #f33;
+	}
+
+	.fhotels .price .end {
+		color: #f33;
+	}
+
+	.fhotels .price .pln {
+		font-size: 8.55px;
+	}
+
+	.summary-box {
+		display: block;
+		clear: both;
+
+		margin: 0;
+		padding: 10px 0 0 0;
+
+		border-top: 1px solid #d9e1ea;
+	}
+
+	.summary-box .price-box {
+		position: relative!important;
+
+		min-height: 28px;
+	}
+
+	.summary-box .price-box > strong {
+		display: block;
+		float: left;
+
+		padding-top: 12px;
+
+		vertical-align: bottom;
+
+		font-size: 16px;
+	}
+
+	.summary-box .price-box > p {
+		clear: both;
+
+		padding-top: 10px;
+
+		font-size: 12px;
+	}
+
+	.summary-box .price-box > .price {
+		position: relative!important;
+
+		display: table-row;
+		float: right;
+
+		margin: 0;
+		padding: 0;
+
+		line-height: 1em;
+	}
+
+	.summary-box .price-box > .price strong,.summary-box .price-box > .price .pre,.summary-box .price-box > .price .end,.summary-box .price-box > .price .pln {
+		display: table-cell;
+
+		margin: 0;
+		padding: 0;
+
+		vertical-align: top;
+	}
+
+	.summary-box .price-box > .price .pre,.summary-box .price-box > .price strong {
+		height: 28px;
+
+		font-size: 28px;
+		font-weight: 400;
+		line-height: 28px;
+	}
+
+	.summary-box .price-box > .price strong {
+		padding: 0 3px;
+
+		color: #f33;
+	}
+
+	.summary-box .price-box > .price .pre {
+		color: #10447d;
+
+		font-weight: normal;
+	}
+
+	.summary-box .price-box > .price .pln {
+		text-decoration: underline !important;
+		text-transform: uppercase;
+
+		color: #f33;
+	}
+
+	.summary-box .price-box > .price .end {
+		color: #f33;
+	}
+
+	.summary-box .price-box > .price .pln {
+		font-size: 12.6px;
+	}
+
+	.summary-box .price-box > .price:after {
+		position: absolute;
+		right: 0;
+		bottom: -5px;
+
+		display: block;
+		float: left;
+
+		width: 25px;
+		height: 25px;
+
+		content: '';
+
+		background: url(https://www.itaka.pl/cms/img/1/ico/ikonymale.png) no-repeat 0 -300px;
+	}
+
+	.checkbox-acceptation .summary-box .price-box > .price:after,.reservation-well .summary-box .price-box > .price:after {
+		position: absolute;
+		right: 0;
+		bottom: -5px;
+
+		display: block;
+		float: left;
+
+		width: 25px;
+		height: 25px;
+
+		content: '';
+
+		background: url(https://www.itaka.pl/cms/img/1/ico/ikonymale.png) no-repeat -25px -300px;
+	}
+
+	.bd0 #main .lev1 {
+		width: 620px;
+		margin: 0 0 20px 20px;
+	}
+
+	.bd0 #main .lev4 {
+		width: 300px;
+		margin: 0 0 20px 0;
+	}
+
+	.lev1 {
+		width: 240px;
+		margin-right: 20px;
+	}
+
+	.lev5,.product_page_form,.product_page_info {
+		width: 240px;
+		margin-left: 20px;
+	}
+
+	.lev4,.product_page,.lev2 {
+		/* width: 680px; */
+	}
+
+	.bd15 #main .lev1 {
+		width: 240px;
+		margin-right: 20px;
+	}
+
+	.bd15 #main .lev5 {
+		width: 240px;
+		margin-left: 20px;
+	}
+
+	.bd15 #main .lev4,.bd15 #main .lev2 {
+		width: 680px;
+	}
+
+	.mainbottom {
+		margin-top: 0;
+	}
+
+	.lev1 .td1 {
+		margin-bottom: 20px;
+	}
+
+	#foot .contact ul li strong,.path h1,.lev1 .title h2,.main .td0 h2,.main .td1 h2,.main .td8 h2,.main .td9 h2,.main .td6 h2 {
+		font-size: 17px;
+	}
+
+	.bd0 .lev10 h1,.fhotels .fhotel_main .fhotel_region_name,.fhotels .fhotel_main .fhotel_name,.head .search_hotel .sr_hotel_price,.main .td0 h3,.main .td1 h3,.main .td6 h3,.main .td0 h4,.main .td1 h4,.main .td6 h4 {
+		font-size: 16px;
+	}
+
+	.head .lev3 div.menu_h a {
+		font-size: 14px;
+	}
+
+	.path a {
+		font-size: 14px;
+	}
+
+	.head .search_hotel .sr_hotel_name {
+		font-size: 13px;
+	}
+
+	#foot .contact ul li.offc strong sup,#foot .lev6 p,.head .search_hotel .sr_region {
+		font-size: 12px;
+	}
+
+	.oferty ul li img {
+		width: 145px;
+		height: 95px;
+	}
+
+	.oferyTOP li {
+		width: 300px;
+	}
+
+	.oferyKAT li {
+		width: 145px;
+	}
+
+	.oferyTOP a {
+		height: 95px;
+	}
+
+	.oferyTOP .offer-group {
+		width: 145px;
+		height: 95px;
+	}
+
+	.fhotels .fhotel_main {
+		width: 300px;
+		margin: 0 20px 0 0;
+	}
+
+	.fhotels .fhotel_main .fhotel_img_container {
+		position: relative!important;
+
+		display: block;
+
+		background: url(https://www.itaka.pl/cms/img/1/ajax-loader.gif) no-repeat center center;
+	}
+
+	.fhotels .fhotel_main .fhotel_img_container img {
+		width: 100%;
+		max-height: 145px;
+
+		border-radius: 3px;
+	}
+
+	.fhotels .fhotel_main .fhotel_img_container img.slick-loading {
+		height: 145px;
+	}
+
+	.fhotels .fhotel_main .fhotel_img_container .hotel_flags {
+		position: absolute;
+		right: 0;
+		bottom: 0;
+	}
+
+	.fhotels .fhotel_main .fhotel_img_container .hotel_flag {
+		display: block;
+		float: right;
+
+		width: 35px;
+		height: 35px;
+		margin-left: 3px;
+
+		text-align: center;
+
+		color: #fff;
+
+		font-size: 15px;
+		font-weight: bold;
+		line-height: 35px;
+	}
+
+	.fhotels .fhotel_main .fhotel_img_container .hotel_rank {
+		background-color: #7eb92f;
+	}
+
+	.fhotels .fhotel_main .fhotel_img_container .hotel_lm {
+		background-color: #f33;
+	}
+
+	.fhotels .fhotel_main .fhotel_img_container .hotel_lm span:before {
+		display: block;
+		float: left;
+
+		width: 25px;
+		height: 25px;
+		margin: 5px;
+
+		content: '';
+
+		background: url(https://www.itaka.pl/cms/img/1/ico/ikonymale.png) no-repeat -50px -150px;
+	}
+
+	.fhotels .fhotel_main .fhotel_img_container .hotel_ai {
+		background-color: #10447d;
+	}
+
+	.fhotels .fhotel_main .fhotel_img_container .hotel_ai span:before {
+		display: block;
+		float: left;
+
+		width: 25px;
+		height: 25px;
+		margin: 5px;
+
+		content: '';
+
+		background: url(https://www.itaka.pl/cms/img/1/ico/ikonymale.png) no-repeat -75px -150px;
+	}
+
+	.fhotels .fhotel_main .fhotel_img_container .hotel_ih {
+		background-color: #f33;
+	}
+
+	.fhotels .fhotel_main .fhotel_img_container .hotel_ih i {
+		color: #fff48f;
+
+		font-size: 18px;
+	}
+
+	.fhotel_main:hover .fhotel_img_container:after {
+		top: 60.5px;
+		left: 180px;
+	}
+
+	.lang-ru .fhotel_main:hover .fhotel_img_container:after {
+		left: 190px;
+	}
+
+	.fhotel_main:hover .fhotel_img_container:before {
+		line-height: 145px;
+	}
+
+	.bd0.lang-en #main .lev1 .oferty .oferyTOP .price .pre,.bd0 h3.hotel-section-tittle,.bd0 #main .lev15 h3 {
+		font-size: 17px;
+	}
+
+	.bd0 h3.hotel-section-tittle a,.bd0 #main .lev11 div.plo a,.bd0 #main .lev15 h3 a {
+		font-size: 14px;
+	}
+
+	.bd0 h3.hotel-section-tittle a:before,.bd0 #main .lev15 h3 a:before,.bd0 #main .lev13 .td1 {
+		width: 300px;
+		margin-right: 20px;
+	}
+
+	.bd0 #main .lev11 div.plo p,.bd0 #main .lev11 div.plo strong,.bd0 #main .lev13 .td1 h2 {
+		font-size: 16px;
+	}
+
+	.bd0 #main .lev11 div.plo {
+		padding-left: 320px;
+	}
+
+	#childs-ages {
+		padding: 20px 0 20px 20px;
+	}
+
+	#childs-ages .datepicker {
+		width: 117px !important;
+	}
+
+	#childs-ages .datepicker input {
+		width: 72px !important;
+	}
+
+	.lm-tab h4 em {
+		font-size: 14px;
+	}
+
+	.searchbig .fRow .dropdown-toggle {
+		font-size: 12px;
+	}
+
+	.searchbig .fParticipants .dropdown-menu .fPerson select {
+		width: 63px;
+	}
+
+	.searchbig_filters,.affix .affix-wrapper {
+		width: 940px;
+		margin: auto;
+	}
+
+	.results-loading {
+		font-size: 28px;
+	}
+
+	.searchwell form .fRow {
+		min-height: 36px;
+	}
+
+	.searchwell form .fPerson label,.searchwell form .fRow > label {
+		display: block;
+		float: left;
+
+		width: 55px;
+
+		line-height: 36px;
+	}
+
+	.searchwell h1 {
+		font-size: 17px;
+	}
+
+	.searchwell form .fPerson label {
+		width: 40px;
+	}
+
+	.searchwell form .fRow > label {
+		width: 55px;
+	}
+
+	.searchwell #childs-ages input,.searchwell form .fRow input,.searchwell form .fRow select {
+		width: 155px;
+	}
+
+	.searchwell form .fRow .hotels_query {
+		width: 225px;
+	}
+
+	.searchwell form .fRow .dropdown-menu {
+		top: 36px;
+		left: 55px;
+	}
+
+	.searchwell form .fRow .fPerson .dropdown-menu {
+		top: 34px;
+	}
+
+	.searchwell form .fRow .fPerson .dropdown-menu {
+		width: 62px;
+		min-width: 62px;
+	}
+
+	.searchwell form .fRow .fAdults {
+		width: 120px;
+	}
+
+	.searchwell form .fRow .fKids {
+		width: 106px;
+	}
+
+	.searchwell form .fPerson button {
+		width: 64px;
+	}
+
+	.searchwell form .fBut {
+		margin: 0 20px 0 20px;
+	}
+
+	.searchwell form .fDate input {
+		width: 101px;
+	}
+
+	.searchwell form .fTo .dropdown-menu,.searchwell form .fFrom .dropdown-menu {
+		width: 225px;
+	}
+
+	.searchwell form .activity button,.searchwell form .fTo button,.searchwell form .fToPopup button,.searchwell form .fFrom button,.searchwell form .fParticipants button {
+		width: 225px;
+		height: 36px;
+	}
+
+	.hotel-list-item {
+		margin-bottom: 20px;
+	}
+
+	.hotel-list-item .hotel-list-photo-preview {
+		width: 360px;
+		height: 180px;
+		margin-right: 30px;
+	}
+
+	.hotel-list-item .hotel-list-photo-preview.hotel-list-content-ourdirections {
+		width: 342px;
+		height: auto;
+	}
+
+	.hotel-list-item .hotel-list-content.hotel-list-content-ourdirections {
+		width: 545px;
+	}
+
+	.hotel-list-item h2 {
+		font-size: 17px;
+	}
+
+	.hotel-list-flag .hotel-rank span {
+		font-size: 17px !important;
+	}
+
+	.hotel-list-item .price {
+		display: table-row;
+
+		margin: 0;
+		padding: 0;
+
+		line-height: 1em;
+	}
+
+	.hotel-list-item .price strong,.hotel-list-item .price .pre,.hotel-list-item .price .end,.hotel-list-item .price .pln {
+		display: table-cell;
+
+		margin: 0;
+		padding: 0;
+
+		vertical-align: top;
+	}
+
+	.hotel-list-item .price .pre,.hotel-list-item .price strong {
+		height: 31px;
+
+		font-size: 31px;
+		font-weight: 400;
+		line-height: 31px;
+	}
+
+	.hotel-list-item .price strong {
+		padding: 0 3px;
+
+		color: #f33;
+	}
+
+	.hotel-list-item .price .pre {
+		color: #10447d;
+
+		font-weight: normal;
+	}
+
+	.hotel-list-item .price .pln {
+		text-decoration: underline !important;
+		text-transform: uppercase;
+
+		color: #f33;
+	}
+
+	.hotel-list-item .price .end {
+		color: #f33;
+	}
+
+	.hotel-list-item .price .pln {
+		font-size: 13.95px;
+	}
+
+	.hotel-list-item .event-combination-data {
+		padding: 10px 0 10px 20px;
+	}
+
+	.as-thumbs .hotel-list-item {
+		max-width: 460px;
+	}
+
+	.as-thumbs .hotel-list-item:nth-child(2n+0) {
+		margin-left: 20px;
+	}
+
+	.as-thumbs .hotel-list-item .hotel-list-photo-preview {
+		width: 454px;
+		height: 227px;
+	}
+
+	.as-thumbs .hotel-list-item .hotel-list-content {
+		width: 460px;
+	}
+
+	.as-thumbs .hotel-list-item .hotel-list-photo-preview img {
+		width: 454px;
+		height: 227px;
+	}
+
+	.as-thumbs .hotel-list-item header h2 {
+		font-size: 16px;
+	}
+
+	.as-thumbs .hotel-list-item header {
+		width: 460px;
+	}
+
+	.as-thumbs .hotel-list-item .pricing {
+		top: 303px;
+	}
+
+	.as-thumbs div.hotel-list-description-show {
+		top: 252px;
+	}
+
+	.as-thumbs div.hotel-list-description {
+		width: 454px;
+		height: 227px;
+	}
+
+	.as-thumbs .hotel-list-item.plus7 .first-event-data,.as-thumbs .hotel-list-item.plus7 .second-event-data {
+		width: 460px;
+	}
+
+	.as-thumbs .hotel-list-item.plus7 .second-event-data {
+		margin-left: 16px;
+	}
+
+	.as-thumbs .hotel-list-item.plus7 .hotel-list-offer-details {
+		margin-top: 252px;
+	}
+
+	.hotel-list-item.plus7 .second-event-data .hotel-list-photo-preview:after {
+		left: 150px;
+	}
+
+	.as-thumbs .hotel-list-item.plus7 .second-event-data .hotel-list-photo-preview:after {
+		top: 88.5px;
+	}
+
+	#load-more-offers {
+		margin: 50px auto 20px auto;
+	}
+
+	.events-in-country h3 {
+		font-size: 16px;
+	}
+
+	.events-in-country ul li {
+		width: 300px;
+		margin-right: 15px;
+	}
+
+	.event-information h2 {
+		font-size: 17px;
+	}
+
+	.event-information h3 {
+		font-size: 16px;
+	}
+
+	.event-information h4 {
+		font-size: 14px;
+	}
+
+	.event-information .event-opinion .add-opinion-desc {
+		margin: 10px 0;
+	}
+
+	.event-information .event-opinion .add-opinion {
+		margin: 0 0 20px 0;
+		padding: 20px;
+	}
+
+	.event-information .event-opinion .add-opinion a {
+		font-size: 18px;
+	}
+
+	.event-information .event-short h2 .event-code {
+		font-size: 12px;
+	}
+
+	.event-information .event-short h2 .destination-title {
+		font-size: 14px;
+	}
+
+	.event-information .event-assetsandopinion .good-opinion-percentage {
+		font-size: 16px;
+	}
+
+	.gallery-parial .flowplayer {
+		height: 335px;
+	}
+
+	#event-description h3,.opinion_stats #best_people,.event-weather .weather_box .weather_temp .tmax,.event-short .weather_box .weather_temp .tmax,.event-information .weather_box .weather_temp .tmax {
+		font-size: 16px;
+	}
+
+	.event-weather .meteo,.event-short .meteo,.event-information .meteo,.event-weather .weather_box .weather_temp,.event-short .weather_box .weather_temp,.event-information .weather_box .weather_temp,.event-weather .weather_box .weather_details,.event-short .weather_box .weather_details,.event-information .weather_box .weather_details,#opinions_sort .dropdown-menu li {
+		font-size: 12px;
+	}
+
+	.flex-slider,.flex-slider ul.flex-slides,.flex-slider ul.flex-slides li,.flex-slider #mapGallery {
+		height: 335px;
+	}
+
+	.flex-carousel {
+		height: 61px;
+	}
+
+	.flex-carousel > div {
+		width: 590px;
+	}
+
+	.flex-carousel ul {
+		height: 61px;
+	}
+
+	.flex-carousel .flex-slides li {
+		width: 120px;
+		height: 61px;
+
+		line-height: 61px;
+	}
+
+	.flex-carousel .flex-active-slide:after,.flex-carousel .flex-active-slide:before {
+		left: 40px;
+	}
+
+	.flex-carousel .flex-direction-nav {
+		margin-top: -61px;
+	}
+
+	.flex-carousel .flex-direction-nav .flex-prev:before,.flex-carousel .flex-direction-nav .flex-next:before {
+		margin: 18.5px 5px;
+	}
+
+	#event-image-gallery .event-trip-map:before {
+		font-size: 16px;
+	}
+
+	.well h3,.well .summary-box .button_call strong {
+		font-size: 16px;
+	}
+
+	.fRow label,.fRow input,#childs-ages label,#childs-ages input,.fDates ul li,.well .summary-box .button_call,.well .ask-box .more a,.well .ask-box .more .clipboard-added {
+		font-size: 12px;
+	}
+
+	.fDates ul li .pricesmall {
+		font-size: 16px;
+	}
+
+	.well .price-details .price {
+		display: table-row;
+
+		margin: 0;
+		padding: 0;
+
+		line-height: 1em;
+	}
+
+	.well .price-details .price strong,.well .price-details .price .pre,.well .price-details .price .end,.well .price-details .price .pln {
+		display: table-cell;
+
+		margin: 0;
+		padding: 0;
+
+		vertical-align: top;
+	}
+
+	.well .price-details .price .pre,.well .price-details .price strong {
+		height: 28px;
+
+		font-size: 28px;
+		font-weight: 400;
+		line-height: 28px;
+	}
+
+	.well .price-details .price strong {
+		padding: 0 3px;
+
+		color: #f33;
+	}
+
+	.well .price-details .price .pre {
+		color: #10447d;
+
+		font-weight: normal;
+	}
+
+	.well .price-details .price .pln {
+		text-decoration: underline !important;
+		text-transform: uppercase;
+
+		color: #f33;
+	}
+
+	.well .price-details .price .end {
+		color: #f33;
+	}
+
+	.well .price-details .price .pln {
+		font-size: 12.6px;
+	}
+
+	.well .popover {
+		width: 220px;
+	}
+
+	.bd0 .popover {
+		left: 55px;
+	}
+
+	.well .popover .price {
+		display: table-row;
+
+		margin: 0;
+		padding: 0;
+
+		line-height: 1em;
+	}
+
+	.well .popover .price strong,.well .popover .price .pre,.well .popover .price .end,.well .popover .price .pln {
+		display: table-cell;
+
+		margin: 0;
+		padding: 0;
+
+		vertical-align: top;
+	}
+
+	.well .popover .price .pre,.well .popover .price strong {
+		height: 16px;
+
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 16px;
+	}
+
+	.well .popover .price strong {
+		padding: 0 3px;
+
+		color: #f33;
+	}
+
+	.well .popover .price .pre {
+		color: #10447d;
+
+		font-weight: normal;
+	}
+
+	.well .popover .price .pln {
+		text-decoration: underline !important;
+		text-transform: uppercase;
+
+		color: #f33;
+	}
+
+	.well .popover .price .end {
+		color: #f33;
+	}
+
+	.well .popover .price .pln {
+		font-size: 7.2px;
+	}
+
+	.main .lev5 .td_info h3 {
+		font-size: 14px;
+	}
+
+	.main .lev5 .td_info p,.main .lev5 .td_info li,.main .lev5 .td_info li.hours span {
+		font-size: 12px;
+	}
+
+	.main .lev5 .td_info li.tel,.main .lev5 .td_info li.gsm {
+		font-size: 16px;
+	}
+
+	.rezerwacja #main .lev4 {
+		width: 620px;
+	}
+
+	.rezerwacja #main .lev5 {
+		width: 300px;
+	}
+
+	.rezerwacja .reservation-title {
+		width: 940px;
+	}
+
+	.reservation-confirmation #account-number-container {
+		font-size: 17px;
+	}
+
+	.rezerwacja .reservation-title h1 {
+		font-size: 28px;
+	}
+
+	.reservation-form .service-price,.alert-error {
+		font-size: 16px;
+	}
+
+	.reservation-form .accordion-heading a span.step-summary,.reservation-form .accordion-body h3 span {
+		font-size: 14px;
+	}
+
+	.rezerwacja #head .lev3:after,.rezerwacja .maintop p em,.reservation-form .help-inline,.reservation-confirmation small {
+		font-size: 12px;
+	}
+
+	.reservation-form .reservation-payment-info {
+		margin: 10px 10px 10px 130px;
+	}
+
+	.reservation-form .accordion-body label,.reservation-form .accordion-body dl dt {
+		width: 130px;
+	}
+
+	.reservation-form .accordion-body input[type='text'],.reservation-form .accordion-body input[type='email'] {
+		width: 165px;
+	}
+
+	.reservation-form .accordion-body input.participant-birthdate {
+		width: 142px;
+	}
+
+	.reservation-form .error .input-error {
+		font-size: 11px;
+	}
+
+	.participants-client-summary fieldset {
+		width: 400px;
+	}
+
+	.participants-client-summary fieldset legend {
+		font-size: 14px;
+		line-height: 14px;
+	}
+
+	.reservation-form .summary-event strong {
+		width: 75px;
+	}
+
+	.reservation-form .additional-services fieldset legend {
+		font-size: 16px;
+	}
+
+	.control-submit {
+		height: 36px;
+	}
+
+	.reservation-well ul li label {
+		line-height: 16px;
+	}
+
+	.reservation-well .summary-event label,.summary-transport label {
+		width: 75px;
+
+		font-size: 12px;
+	}
+
+	.reservation-confirmation p label {
+		width: 130px;
+	}
+
+	.additional-services .price,.reservation-confirmation .price {
+		display: table-row;
+
+		margin: 0;
+		padding: 0;
+
+		line-height: 1em;
+	}
+
+	.additional-services .price strong,.additional-services .price .pre,.additional-services .price .end,.additional-services .price .pln,.reservation-confirmation .price strong,.reservation-confirmation .price .pre,.reservation-confirmation .price .end,.reservation-confirmation .price .pln {
+		display: table-cell;
+
+		margin: 0;
+		padding: 0;
+
+		vertical-align: top;
+	}
+
+	.additional-services .price .pre,.additional-services .price strong,.reservation-confirmation .price .pre,.reservation-confirmation .price strong {
+		height: 17px;
+
+		font-size: 17px;
+		font-weight: 400;
+		line-height: 17px;
+	}
+
+	.additional-services .price strong,.reservation-confirmation .price strong {
+		padding: 0 3px;
+
+		color: #f33;
+	}
+
+	.additional-services .price .pre,.reservation-confirmation .price .pre {
+		color: #10447d;
+
+		font-weight: normal;
+	}
+
+	.additional-services .price .pln,.reservation-confirmation .price .pln {
+		text-decoration: underline !important;
+		text-transform: uppercase;
+
+		color: #f33;
+	}
+
+	.additional-services .price .end,.reservation-confirmation .price .end {
+		color: #f33;
+	}
+
+	.additional-services .price .pln,.reservation-confirmation .price .pln {
+		font-size: 7.65px;
+	}
+
+	.reservation-confirmation .pay-info {
+		padding: 20px 105px;
+	}
+
+	.bd5.rezerwacja .well h3 {
+		font-size: 28px;
+	}
+
+	.bd5.rezerwacja .well h4 {
+		font-size: 16px;
+	}
+
+	.bd5.rezerwacja .dropdown-menu li a,.bd5.rezerwacja .fRow .dropdown-toggle,.bd5.rezerwacja .fRow label {
+		font-size: 14px;
+	}
+
+	.our_directions .fhotel_main .price .pre {
+		padding-top: 1.5px;
+
+		font-size: 14px;
+	}
+
+	.our_directions.fhotels .fhotel_main {
+		margin: 0 18px 0 0;
+	}
+
+	.fhotels.our_directions {
+		width: 960px;
+		margin-top: 20px;
+	}
+
+	.our_directions .fhotel_subregions .subregion_box {
+		width: 140px;
+	}
+
+	.destination_gallery {
+		float: left;
+
+		width: 680px;
+		margin-bottom: 20px;
+	}
+
+	.destination_summary {
+		float: right;
+
+		width: 220px;
+		margin-bottom: 10px;
+		padding: 10px;
+		padding: 10px;
+
+		border: 1px solid #dadfe6;
+		border-radius: 5px;
+		background-color: #eff5fc;
+	}
+
+	.destination_summary h3 {
+		margin: 0 0 10px 0;
+		padding: 0 0 10px 0;
+
+		border-bottom: 1px solid #d9e1ea;
+
+		font-size: 16px;
+	}
+
+	.subregion_box {
+		margin: 0 0 20px 0;
+	}
+
+	.subregion_box .fhotel_region_foto {
+		width: 360px;
+	}
+
+	.subregion_box .fhotel_region_description {
+		width: 550px;
+		margin-left: 20px;
+	}
+
+	.subregion_box .price {
+		display: table-row;
+
+		margin: 0;
+		padding: 0;
+
+		line-height: 1em;
+	}
+
+	.subregion_box .price strong,.subregion_box .price .pre,.subregion_box .price .end,.subregion_box .price .pln {
+		display: table-cell;
+
+		margin: 0;
+		padding: 0;
+
+		vertical-align: top;
+	}
+
+	.subregion_box .price .pre,.subregion_box .price strong {
+		height: 17px;
+
+		font-size: 17px;
+		font-weight: 400;
+		line-height: 17px;
+	}
+
+	.subregion_box .price strong {
+		padding: 0 3px;
+
+		color: #f33;
+	}
+
+	.subregion_box .price .pre {
+		color: #10447d;
+
+		font-weight: normal;
+	}
+
+	.subregion_box .price .pln {
+		text-decoration: underline !important;
+		text-transform: uppercase;
+
+		color: #f33;
+	}
+
+	.subregion_box .price .end {
+		color: #f33;
+	}
+
+	.subregion_box .price .pln {
+		font-size: 7.65px;
+	}
+
+	.subregion_box .price .pre strong {
+		margin-right: 20px;
+	}
+
+	.small_box .fhotel_region_name {
+		font-size: 17px;
+	}
+
+	.small_box .price {
+		display: table-row;
+
+		margin: 0;
+		padding: 0;
+
+		line-height: 1em;
+	}
+
+	.small_box .price strong,.small_box .price .pre,.small_box .price .end,.small_box .price .pln {
+		display: table-cell;
+
+		margin: 0;
+		padding: 0;
+
+		vertical-align: top;
+	}
+
+	.small_box .price .pre,.small_box .price strong {
+		height: 17px;
+
+		font-size: 17px;
+		font-weight: 400;
+		line-height: 17px;
+	}
+
+	.small_box .price strong {
+		padding: 0 3px;
+
+		color: #f33;
+	}
+
+	.small_box .price .pre {
+		color: #10447d;
+
+		font-weight: normal;
+	}
+
+	.small_box .price .pln {
+		text-decoration: underline !important;
+		text-transform: uppercase;
+
+		color: #f33;
+	}
+
+	.small_box .price .end {
+		color: #f33;
+	}
+
+	.small_box .price .pln {
+		font-size: 7.65px;
+	}
+
+	.destination_tabs {
+		width: 940px;
+	}
+
+	.inquiry.clipboard {
+		width: 620px;
+		margin: 20px 20px 20px 386px;
+	}
+
+	.inquiry label {
+		width: 130px;
+	}
+
+	.inquiry .checkbox-acceptation {
+		padding-left: 130px;
+	}
+
+	.head .search_hotel .search_form input {
+		width: 163px;
+	}
+
+	.head .search_hotel .search_popup {
+		width: 270px;
+	}
+
+	#head .lev3 div.menu_h {
+		padding: 30px 0 0 95px;
+	}
+
+	#foot .lev3 .plo {
+		width: 175px;
+		margin-right: 16px;
+	}
+
+	#foot .contact ul li {
+		width: 233px;
+	}
+
+	.bd0 #main .lev11 div.plo {
+		background-position: -25px center !important;
+	}
+}
+.form-bron .summary-box {
+	border: none;
+	margin-top: 35px;
+}

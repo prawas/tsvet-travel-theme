@@ -1,0 +1,1006 @@
+@media screen and (max-width: 1020px) and (min-width: 640px) {
+	.impt0.bd0 #main .lev11 > div p,.bd0 #main .lev11 > div strong,.bd0 #main .lev13 .td1 h2 {
+		font-size: 20px !important;
+	}
+
+	.impt0.bd0 #main .lev11 > div {
+		padding-left: 25px;
+
+		background-position: -377px -8px;
+	}
+
+	#top_na_dzis span {
+		font-size: 21px !important;
+	}
+}
+
+.impt5.bd0 #main .lev11 > div {
+	height: 140px;
+	padding-left: 405px;
+
+	border-radius: 5px;
+	background-image: url(/cms/img/u/bar_banner/wycieczka_maroko.jpg);
+	background-repeat: no-repeat;
+	background-position: 0 center;
+}
+
+.impt5.bd0 #main .lev11 {
+	clear: both;
+
+	margin-bottom: 20px;
+
+	background: transparent linear-gradient(to right, #fff 0%, #eff5fc 100%) repeat scroll 0 0;
+	box-shadow: none;
+}
+
+.impt5.bd0 #main .lev11:hover {
+	background: transparent linear-gradient(to right, #fff 0%, #e8f1fa 100%) repeat scroll 0 0;
+}
+
+.impt5.bd0 #main .lev11 > div a {
+	padding: 64px 0;
+
+	color: #fff;
+}
+
+.impt5.bd0 #main .lev11 > div a::before {
+	display: block;
+	float: right;
+
+	width: 25px;
+	height: 25px;
+	margin: 65px 30px 0 0;
+
+	content: '';
+
+	background: transparent url(https://www.itaka.pl/cms/img/1/ico/ikonymale.png) no-repeat scroll -25px -50px;
+}
+
+.impt5.bd0 #main .lev11 > div p,.bd0 #main .lev11 > div strong,.bd0 #main .lev13 .td1 h2 {
+	font-size: 22px;
+}
+
+.impt5.bd0 #main .lev11 > div a strong {
+	display: block;
+
+	padding-top: 50px;
+
+	color: #9a8369;
+	text-shadow: 1px 1px #fff;
+
+	font-family: ITAKA,Arial;
+	font-size: 22px;
+	line-height: 22px;
+}
+
+.maroko_itaka_class a:hover {
+	text-decoration: none;
+}
+
+@media screen and (max-width: 1200px) and (min-width: 1020px) {
+	.impt5.bd0 #main .lev11 > div p,.bd0 #main .lev11 > div strong,.bd0 #main .lev13 .td1 h2 {
+		font-size: 20px !important;
+	}
+
+	.impt5.bd0 #main .lev11 > div {
+		padding-left: 305px;
+
+		background-position: -388px 0 !important;
+	}
+
+	#top_na_dzis span {
+		font-size: 21px !important;
+		line-height: 140px !important;
+	}
+
+	.impt5.bd0 #main .lev11 > div {
+		height: 120px;
+	}
+
+	.impt5.bd0 #main .lev11 > div a::before {
+		margin: 58px 30px 0 0;
+	}
+}
+
+@media screen and (max-width: 1020px) and (min-width: 640px) {
+	.impt5.bd0 #main .lev11 > div p,.bd0 #main .lev11 > div strong,.bd0 #main .lev13 .td1 h2 {
+		font-size: 20px !important;
+	}
+
+	.impt5.bd0 #main .lev11 > div {
+		padding-left: 25px;
+
+		background-position: -377px -8px;
+	}
+
+	#top_na_dzis span {
+		font-size: 21px !important;
+	}
+}
+
+.impt0.bd0 #main .barbanner-2 > div {
+	height: 160px;
+	padding-left: 405px;
+
+	border-radius: 5px;
+	background-repeat: no-repeat;
+}
+
+.impt0.bd0 #main .barbanner-2 {
+	clear: both;
+
+	margin-bottom: 20px;
+
+	background-position: 0 center;
+	box-shadow: none;
+}
+
+.impt0.bd0 #main .barbanner-2 > div a {
+	padding: 34px 0;
+
+	color: #fff;
+}
+
+.impt0.bd0 #main .barbanner-2 > div a::before {
+	display: block;
+	float: right;
+
+	width: 25px;
+	height: 25px;
+	margin: 72px 40px 0 0;
+
+	content: '';
+
+	background: transparent url(https://www.itaka.pl/cms/img/1/ico/ikonymale.png) no-repeat scroll -123px -126px;
+}
+
+.impt0.bd0 #main .barbanner-2 > div p,.bd0 #main .barbanner-2 > div strong,.bd0 #main .lev13 .td1 h2 {
+	font-size: 22px;
+}
+
+.impt0.bd0 #main .barbanner-2 > div a strong {
+	display: block;
+
+	padding-top: 38px;
+
+	color: #ed4749;
+	text-shadow: 1px 1px #fff;
+
+	font-family: ITAKA,Arial;
+	font-size: 22px;
+	line-height: 70px;
+}
+
+.hotel_itaka_class a:hover {
+	text-decoration: none;
+}
+
+@media screen and (max-width: 1200px) and (min-width: 1020px) {
+	.impt0.bd0 #main .barbanner-2 > div p,.bd0 #main .barbanner-2 > div strong,.bd0 #main .lev13 .td1 h2 {
+		font-size: 20px !important;
+	}
+
+	.impt0.bd0 #main .barbanner-2 > div {
+		padding-left: 272px;
+	}
+
+	.impt0.bd0 #main .barbanner-2 {
+		background-position: -68px center !important;
+	}
+
+	#wycieczka_gratis span {
+		font-size: 20px !important;
+	}
+}
+
+@media screen and (max-width: 1020px) and (min-width: 640px) {
+	.impt0.bd0 #main .barbanner-2 > div p,.bd0 #main .barbanner-2 > div strong,.bd0 #main .lev13 .td1 h2 {
+		font-size: 20px !important;
+	}
+
+	.impt0.bd0 #main .barbanner-2 > div {
+		padding-left: 25px;
+	}
+
+	.impt0.bd0 #main .barbanner-2 {
+		background-position: -368px -6px;
+	}
+
+	#wycieczka_gratis span {
+		font-size: 20px !important;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.barbanner-2 {
+		display: none;
+	}
+}
+
+.impt0.bd0 #main .barbanner-3 > div {
+	height: 200px;
+	padding-left: 335px;
+
+	background-repeat: no-repeat;
+
+	font-family: 'ITAKA';
+}
+
+.impt0.bd0 #main .barbanner-3 {
+	clear: both;
+
+	margin-bottom: 20px;
+
+	border-radius: 5px;
+	background-position: 0 center;
+	box-shadow: none;
+}
+
+.impt0.bd0 #main .barbanner-3 > div a {
+	padding: 34px 0;
+
+	color: #fff;
+}
+
+.impt0.bd0 #main .barbanner-3 > div a:hover {
+	text-decoration: none !important;
+}
+
+.impt0.bd0 #main .barbanner-3 > div a::before {
+	display: block;
+	float: right;
+
+	width: 25px;
+	height: 25px;
+	margin: 95px 40px 0 0;
+
+	content: '';
+
+	background: transparent url(https://www.itaka.pl/cms/img/1/ico/ikonymale.png) no-repeat scroll -123px -126px;
+}
+
+#bon_baner_slub span:only-child {
+	padding: 60px 20px 0 100px;
+}
+
+.impt0.bd0 #main .barbanner-3 > div p,.bd0 #main .barbanner-3 > div strong,.bd0 #main .lev13 .td1 h2 {
+	font-size: 22px;
+}
+
+.impt0.bd0 #main .barbanner-3 > div p strong span {
+	font-family: ITAKALIGHT;
+	font-size: 26px;
+	font-weight: 100;
+}
+
+.impt0.bd0 #main .barbanner-3 > div a strong {
+	display: block;
+
+	padding-top: 48px;
+
+	color: #fff;
+	text-shadow: 1px 1px 0 rgba(0,0,0,.52);
+
+	font-family: ITAKA,Arial;
+	font-size: 26px;
+	line-height: 35px;
+}
+
+.hotel_itaka_class a:hover {
+	text-decoration: none;
+}
+
+.impt0.bd0 #main .barbanner-3 .bon_napis,.impt0.bd0 #main .barbanner-3 .bon_napis span {
+	text-shadow: 1px 1px 0 rgba(0,0,0,.52);
+
+	font-family: ITAKALIGHT,Arial;
+	font-size: 20px;
+}
+
+.impt0.bd0 #main .barbanner-3 .bon_napis span {
+	font-weight: 700;
+}
+
+@media screen and (max-width: 1200px) and (min-width: 1020px) {
+	.impt0.bd0 #main .barbanner-3 > div p,.bd0 #main .barbanner-3 > div strong,.bd0 #main .lev13 .td1 h2 {
+		font-size: 20px !important;
+	}
+
+	.impt0.bd0 #main .barbanner-3 > div {
+		padding-left: 272px;
+	}
+
+	.impt0.bd0 #main .barbanner-3 {
+		background-position: -68px center !important;
+	}
+
+	#wycieczka_gratis span {
+		font-size: 20px !important;
+	}
+
+	.impt0.bd0 #main .barbanner-3 > div a strong {
+		padding-top: 35px;
+	}
+}
+
+@media screen and (max-width: 1020px) and (min-width: 640px) {
+	.impt0.bd0 #main .barbanner-3 > div p,.bd0 #main .barbanner-3 > div strong,.bd0 #main .lev13 .td1 h2 {
+		font-size: 20px !important;
+	}
+
+	.impt0.bd0 #main .barbanner-3 > div {
+		padding-left: 25px;
+	}
+
+	.impt0.bd0 #main .barbanner-3 {
+		background-position: -405px -6px;
+	}
+
+	#wycieczka_gratis span {
+		font-size: 20px !important;
+	}
+
+	.impt0.bd0 #main .barbanner-3 > div a strong {
+		padding-top: 33px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.barbanner-3 {
+		display: none;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1020px) {
+	.plain .bon_itaka_class {
+		float: right;
+
+		width: 75%;
+	}
+
+	.impt0.bd0 #main .barbanner-3 {
+		background-position: -195px 0;
+	}
+
+	#bon_baner_slub span:only-child {
+		padding: 50px 80px 0 0;
+	}
+}
+
+.impt6.bd0 #main .lev11 > div a strong {
+	display: block;
+
+	color: #ed4749;
+	text-shadow: 1px 1px #fff;
+
+	font-family: ITAKA,Arial;
+	font-size: 22px;
+	line-height: 37px;
+}
+
+.impt6 .plaza_napis {
+	margin-top: -14px;
+}
+
+.impt6.bd0 #main .lev11 > div {
+	height: 160px;
+	padding-left: 405px;
+
+	border-radius: 5px;
+	background-image: url(/cms/img/u/bar_banner/bar_banner_hotel.jpg);
+	background-repeat: no-repeat;
+	background-position: 0 center;
+}
+
+@media screen and (max-width: 1200px) and (min-width: 1020px) {
+	.impt6.bd0 #main .lev11 > div p {
+		font-size: 20px !important;
+	}
+
+	.impt6.bd0 #main .lev11 > div {
+		padding-left: 335px;
+
+		background-image: url(/cms/img/u/bar_banner/bar_banner_hotel.jpg) !important;
+		background-position: -38px center !important;
+	}
+
+	.plaza_napis {
+		font-size: 16.5px !important;
+	}
+}
+
+@media screen and (max-width: 1020px) and (min-width: 640px) {
+	.impt6.bd0 #main .lev11 > div p {
+		font-size: 19px !important;
+	}
+
+	.impt6.bd0 #main .lev11 > div a::before {
+		display: none !important;
+	}
+
+	.impt6.bd0 #main .lev11 > div {
+		padding-left: 25px;
+
+		background-image: url(/cms/img/u/bar_banner/bar_banner_hotel.jpg) !important;
+		background-position: -360px -6px;
+	}
+}
+
+.impt6.bd0 #main .lev11 {
+	clear: both;
+
+	margin-bottom: 0;
+
+	background: transparent linear-gradient(to right, #fff 0%, #eff5fc 100%) repeat scroll 0 0;
+	box-shadow: none;
+}
+
+.impt0.bd0 #main .lev11:hover {
+	background: transparent linear-gradient(to right, #fff 0%, #e8f1fa 100%) repeat scroll 0 0;
+}
+
+.impt6.bd0 #main .lev11 > div a {
+	padding: 34px 0;
+
+	color: #fff;
+}
+
+.impt6.bd0 #main .lev11 > div p {
+	height: 60px;
+	padding: 20px 0;
+
+	color: #fff;
+
+	line-height: 43px;
+}
+
+.impt5.bd0 #main .lev11 > div p,.impt9.bd0 #main .lev11 > div p {
+	padding: 34px 0;
+
+	line-height: 20px;
+}
+
+.impt9.bd0 #main .lev11 > div a::before {
+	margin: 54px 40px 0 0;
+}
+
+.impt6.bd0 #main .lev11 > div a::before {
+	display: block;
+	float: right;
+
+	width: 25px;
+	height: 25px;
+	margin: 54px 40px 0 0;
+
+	content: '';
+
+	background: transparent url(https://www.itaka.pl/cms/img/1/ico/ikonymale.png) no-repeat scroll -123px -126px;
+}
+
+.impt6.bd0 #main .lev11 > div p {
+	font-size: 22px;
+}
+
+.impt6.bd0 #main .lev11 > div a strong {
+	display: block;
+
+	color: #ed4749;
+	text-shadow: 1px 1px #fff;
+
+	font-family: ITAKA,Arial;
+	font-size: 24px !important;
+	line-height: 37px;
+}
+
+.impt6.bd0 #main .lev11 > div a span.plaza_napis {
+	display: block;
+}
+
+.impt0 .kpi_wycieczki {
+	display: none;
+}
+
+.impt5 .kpi_wczasy {
+	display: none;
+}
+
+.impt11.bd0 #main .lev11 > div {
+	height: 510px;
+}
+
+.impt11.bd0 #main .barbanner-2 > div {
+	height: 220px;
+	margin-bottom: 20px;
+}
+
+.impt11.bd0 #main .barbanner-2 div.plo a {
+	position: relative!important;
+
+	display: block;
+
+	padding: 10px 0;
+
+	color: #fff;
+}
+
+.impt11.bd0 #main .lev11 div.plo {
+	padding-left: 0;
+}
+
+.impt11.bd0 #main .lev11 div.plo a::before {
+	background: transparent none repeat scroll 0 0;
+}
+
+.impt11.bd0 #main .lev11 > div {
+	border-radius: 0;
+}
+
+.impt11.bd0 .video {
+	opacity: 1;
+}
+
+.impt11.bd0 .video:hover {
+	opacity: .9;
+}
+
+@media (max-width: 1020px) {
+	.impt11.bd0 #main .lev11 div.plo {
+		background-position: 0 center;
+	}
+}
+
+#tdid_252371 {
+	display: none;
+}
+
+.impt7.bd0 .newsletter_lp_button,.impt5.bd0 .newsletter_lp_button,.impt0.bd0 .newsletter_lp_button {
+	margin-top: 2%;
+	margin-bottom: 30px;
+	margin-left: 39.9%;
+	padding: 8px 81px;
+
+	transition: background-color .3s linear 0;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+
+	color: #fff;
+	border: medium none;
+	border-radius: 3px;
+	background-color: #eb2f2f;
+	text-shadow: none;
+
+	font-family: 'ITAKALIGHT',Arial;
+	font-size: 21px;
+	font-weight: 600;
+	line-height: 39px;
+}
+
+.impt7 .bd0.newsletter_lp_button:hover,.impt5 .bd0.newsletter_lp_button:hover,.impt0 .bd0.newsletter_lp_button:hover {
+	text-decoration: none;
+
+	color: #fff;
+	background-color: #f33;
+}
+
+.impt7.bd0 .newsletter_lp label,.impt5.bd0 .newsletter_lp label,.impt0.bd0 .newsletter_lp label {
+	float: left;
+
+	width: 78%;
+	margin-top: 10px;
+	margin-left: 11.1%;
+	padding: 30px 0;
+
+	text-align: justify;
+
+	color: #6f6f6f;
+
+	font-family: ITAKALIGHT;
+	font-size: 28px;
+	line-height: 40px;
+}
+
+.impt7.bd0 .newsletter_lp input.txt,.impt5.bd0 .newsletter_lp input.txt,.impt0.bd0 .newsletter_lp input.txt {
+	float: left;
+
+	width: 76%;
+	height: 55px;
+	margin-top: -5px;
+	margin-left: 127px;
+	padding: 0 10px;
+
+	text-transform: uppercase;
+
+	color: #404040 !important;
+	border: 1px solid #dadfe6;
+	border-radius: 3px;
+
+	font-family: ITAKALIGHT;
+	font-size: 18px;
+	font-weight: 700;
+}
+
+.impt7.bd0 .newsletter_lp,.impt5.bd0 .newsletter_lp,.impt0.bd0 .newsletter_lp {
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+.impt7.bd0 .newsletter_lp .fRow,.impt5.bd0 .newsletter_lp .fRow,.impt0.bd0 .newsletter_lp .fRow {
+	height: auto;
+
+	background: #e6eff8 none repeat scroll 0 0;
+}
+
+.impt7.bd0 .newsletter_lp label::before,.impt5.bd0 .newsletter_lp label::before,.impt0.bd0 .newsletter_lp label::before {
+	margin-right: 8px;
+
+	content: '\f0e0';
+
+	font-family: FontAwesome !important;
+	font-size: 28px;
+	font-weight: 400 !important;
+	font-style: normal !important;
+	font-variant: normal !important;
+	font-size-adjust: none !important;
+	font-stretch: normal !important;
+	line-height: 1 !important;
+
+	font-feature-settings: normal !important;
+	font-kerning: auto !important;
+	font-language-override: normal !important;
+	font-synthesis: weight style !important;
+}
+
+@media (max-width: 1020px) {
+	.impt5.bd0 .newsletter_lp {
+		display: none;
+	}
+
+	.impt7.bd0 .newsletter_lp {
+		display: none;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1020px) {
+	.impt0.bd0 .newsletter_lp input.txt {
+		width: 46% !important;
+	}
+
+	.impt0.bd0 .newsletter_lp label {
+		width: 80%;
+		margin-left: 9%;
+
+		text-align: center;
+
+		font-size: 27px;
+		line-height: 37px;
+	}
+
+	.impt0.bd0 .newsletter_lp input.txt {
+		width: 87% !important;
+		margin-left: 6%;
+	}
+
+	.impt0.bd0 .newsletter_lp_button {
+		margin-left: 34%;
+	}
+}
+
+.impt11 .nav-tabs > li {
+	display: table !important;
+}
+
+@media (min-width: 1021px) and (max-width: 1200px) {
+	.impt0.bd0 .newsletter_lp input.txt {
+		width: 46% !important;
+	}
+
+	.impt0.bd0 .newsletter_lp label {
+		margin-left: 7%;
+
+		font-size: 25px;
+	}
+
+	.impt0.bd0 .newsletter_lp input.txt {
+		width: 87% !important;
+		margin-left: 6%;
+	}
+}
+
+@media (min-width: 641px) and (max-width: 767px) {
+	.impt0.bd0 .newsletter_lp input.txt {
+		width: 46% !important;
+	}
+
+	.impt0.bd0 .newsletter_lp label {
+		width: 80%;
+		margin-left: 9%;
+
+		text-align: center;
+
+		font-size: 27px;
+		line-height: 37px;
+	}
+
+	.impt0.bd0 .newsletter_lp input.txt {
+		width: 87% !important;
+		margin-left: 6%;
+	}
+
+	.impt0.bd0 .newsletter_lp_button {
+		margin-left: 34%;
+	}
+}
+
+@media (max-width: 767px) {
+	.impt0.bd0 .newsletter_lp {
+		display: none;
+	}
+
+	div.fhotel_main {
+		clear: none !important;
+	}
+}
+
+div[data-product-code='FUECCBR'] .kpi_wczasy img {
+	display: none;
+}
+
+div[data-product-code='FUECCBR'] .kpi_wczasy {
+	height: 235px;
+	margin-bottom: -24px;
+
+	background: url(/cms/img/u/product_banner/kpi_wczasy_1.jpg) no-repeat;
+	background-size: 100%;
+}
+
+@media screen and (min-width: 1020px) and (max-width: 1200px) {
+	div[data-product-code='FUECCBR'] .kpi_wczasy {
+		height: 181px;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1020px) {
+	div[data-product-code='FUECCBR'] .kpi_wczasy {
+		height: 118px;
+	}
+}
+
+#tdid_252358 .plain .samochod_class {
+	height: 200px;
+
+	text-align: left;
+
+	background-image: url(/cms/img/u/bar_banner/bar_baner_samochody2.jpg);
+}
+
+.impt0.bd0 #main #tdid_252358.barbanner-3 .plain {
+	height: 200px;
+	padding-left: 0;
+}
+
+.impt0.bd0 #main #tdid_252358.barbanner-3 .plain p {
+	padding-top: 10px;
+	padding-left: 350px;
+}
+
+@media screen and (min-width: 1020px) and (max-width: 1200px) {
+	#tdid_252358 .plain .samochod_class {
+		height: 200px;
+
+		text-align: left;
+
+		background-image: url(/cms/img/u/bar_banner/bar_baner_samochody2.jpg);
+		background-position: -70px 0;
+	}
+
+	.impt0.bd0 #main #tdid_252358.barbanner-3 .plain p {
+		padding-top: 0;
+		padding-left: 250px;
+	}
+
+	.impt0.bd0 #main #tdid_252358.barbanner-3 .plain p a {
+		padding-top: 10px;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1020px) {
+	#tdid_252358 .plain .samochod_class {
+		height: 200px;
+
+		text-align: left;
+
+		background-image: url(/cms/img/u/bar_banner/bar_baner_samochody3.jpg);
+	}
+
+	.impt0.bd0 #main #tdid_252358.barbanner-3 .plain p {
+		padding-top: 0;
+		padding-left: 320px;
+	}
+}
+
+.impt7 .plaza_napis {
+	margin-top: 0;
+}
+
+.impt7.bd0 #main .lev11 > div {
+	height: 175px;
+	margin-bottom: 15px;
+	padding-left: 405px;
+
+	border-radius: 5px;
+	background-repeat: no-repeat;
+	background-position: 0 center;
+}
+
+@media screen and (max-width: 1200px) and (min-width: 1020px) {
+	.impt7.bd0 #main .lev11 > div p {
+		font-size: 20px !important;
+	}
+
+	.impt7.bd0 #main .lev11 > div {
+		padding-left: 335px;
+
+		background-position: -8px center !important;
+	}
+
+	.impt7.bd0 #main .lev11 > div a::before {
+		margin: 83px 20px 0 0 !important;
+	}
+}
+
+@media screen and (max-width: 1020px) and (min-width: 640px) {
+	.impt7.bd0 #main .lev11 {
+		font-size: 19px !important;
+	}
+
+	.impt7.bd0 #main .lev11 > div {
+		padding-left: 18px;
+
+		background-position: -408px -1px;
+	}
+
+	.impt7.bd0 #main .lev11 > div a::before {
+		margin: 83px 25px 0 0 !important;
+	}
+}
+
+.impt7.bd0 #main .lev11 {
+	clear: both;
+
+	margin-bottom: 0;
+
+	background: transparent linear-gradient(to right, #fff 0%, #eff5fc 100%) repeat scroll 0 0;
+	box-shadow: none;
+}
+
+.impt7.bd0 #main .lev11:hover {
+	background: transparent linear-gradient(to right, #fff 0%, #e8f1fa 100%) repeat scroll 0 0;
+}
+
+.impt7.bd0 #main .lev11 > div a {
+	padding: 48px 0;
+
+	color: #fff;
+}
+
+.impt7.bd0 #main .lev11 > div p {
+	height: 60px;
+	padding: 0;
+
+	color: #fff;
+
+	font-size: 22px;
+	line-height: 43px;
+}
+
+.impt7.bd0 #main .lev11 > div a::before {
+	display: block;
+	float: right;
+
+	width: 25px;
+	height: 25px;
+	margin: 83px 40px 0 0;
+
+	content: '';
+
+	opacity: .8;
+	background: transparent url(https://www.itaka.pl/cms/img/1/ico/ikonymale.png) no-repeat scroll -25px -50px;
+}
+
+.impt7.bd0 #main .lev11 > div a strong {
+	display: inline;
+
+	color: #428cbf;
+	text-shadow: none;
+
+	font-family: ITAKA,Arial;
+	font-size: 25px;
+}
+
+.page_kierunki .mainbottom .main {
+	display: none;
+}
+
+#tdid_252789 .plain .bon_itaka_class p #bon_baner_slub::before {
+	display: block;
+	float: right;
+
+	width: 23px;
+	height: 23px;
+	margin: 95px 40px 0 0;
+
+	content: '';
+
+	background: transparent url('https://www.itaka.pl/cms/img/u/bar_banner/ico_arrow_blue.png') !important;
+}
+
+.ironman {
+	display: none;
+}
+
+div[data-product-code='ACEOTC1'] .ironman {
+	display: block;
+}
+
+@media screen and (min-width: 1200px) {
+	.calReservationIcon:before {
+		display: block;
+		float: left;
+
+		width: 25px;
+		height: 25px;
+
+		content: '';
+
+		background: url(https://www.itaka.pl/cms/img/1/ico/ikonymale.png) no-repeat -75px -200px;
+	}
+
+	.calReservationIcon {
+		position: relative!important;
+		top: -26px;
+		left: 135px;
+
+		display: block;
+
+		width: 24px;
+		height: 26px;
+		padding: 4px 6px;
+
+		cursor: pointer;
+
+		border-radius: 0 3px 3px 0;
+		background: #eff5fc;
+	}
+
+	#foot .contact {
+		margin-top: 50px;
+	}
+
+	#foot .contact .lev1 {
+		position: relative!important;
+	}
+
+	#foot .lev3 .plo {
+		margin-right: 55px;
+	}
+
+	.main div.lev1:empty, .main div.lev2:empty {
+		display: none;
+	}
+
+	.nagrody img {
+		width: 130px;
+		height: 130px;
+		margin: 1% 4%;
+	}
+
+	.lang-ru #foot .contact ul .lang-lt #foot .contact ul .lang-en #foot .contact ul {
+		margin-left: 145px;
+	}
+
+	.fDates .dropdown-menu {
+		max-height: none;
+		padding: 0;
+	}
+}

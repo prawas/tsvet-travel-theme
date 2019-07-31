@@ -1,0 +1,989 @@
+.bteaser {
+	margin-bottom: 10px;
+
+	background: #eff5fc;
+	-webkit-box-shadow: 0 -3px 10px -5px #afb5bb inset;
+	box-shadow: 0 -3px 10px -5px #afb5bb inset;
+}
+
+.bteaser .inner {
+	margin: 0 auto;
+	padding: 10px 0;
+}
+
+.bteaser .yeller {
+	display: block;
+
+	margin: 0;
+
+	color: #5f646f;
+
+	font-size: 20px;
+	line-height: 36px;
+}
+
+.bteaser .gogo {
+	display: block;
+	float: right;
+
+	height: 36px;
+	padding: 0 10px;
+
+	text-decoration: none;
+
+	color: #fff;
+	border: none;
+	border-radius: 3px;
+	background: #eb2f2f;
+	background: -moz-linear-gradient(top, #f33 0%, #eb2f2f 100%);
+	background: -webkit-linear-gradient(top, #f33 0%, #eb2f2f 100%);
+	background: -o-linear-gradient(top, #f33 0%, #eb2f2f 100%);
+	background: -ms-linear-gradient(top, #f33 0%, #eb2f2f 100%);
+	background: linear-gradient(to bottom, #f33 0%, #eb2f2f 100%);
+	text-shadow: none;
+
+	font-weight: normal;
+	line-height: 36px;
+}
+
+.bteaser .gogo:hover {
+	text-decoration: none;
+
+	color: #fff;
+	background: #f33;
+}
+
+.kontakt_box {
+	min-width: 250px;
+	margin-bottom: 20px;
+	padding: 10px;
+
+	border: 1px solid #dadfe6;
+	border-radius: 5px;
+	background-color: #eff5fc;
+}
+
+.kontakt_box td {
+	vertical-align: top;
+}
+
+.kontakt_box h3 {
+	margin-top: 0;
+}
+
+.kontakt_box img {
+	margin: 0 25px 0 0;
+	margin-bottom: 20px;
+	padding: 3px;
+
+	border-radius: 3px;
+	border-radius: 5px;
+	background-color: #fff;
+	box-shadow: 0 0 5px #999;
+}
+
+.select-language {
+	clear: both;
+
+	width: 100%;
+	max-width: 700px;
+	min-height: 60px;
+	margin: 100px auto 100px auto;
+	padding: 20px 0;
+
+	transition: all .4s ease;
+	-webkit-transform: scale(.7);
+	transform: scale(.7);
+
+	color: #333;
+	border-radius: 3px;
+	background-color: #fff;
+	box-shadow: 0 0 5px #666;
+}
+
+.select-language .select {
+	text-align: center;
+}
+
+.select-language .logo_img {
+	margin-bottom: 1em;
+}
+
+.wborder {
+	border-bottom: 6px solid #f33;
+}
+
+.apear {
+	-webkit-transform: scale(1) !important;
+	transform: scale(1) !important;
+}
+
+.select-language nav ul {
+	margin: 20px;
+	padding: 0;
+
+	list-style: none;
+
+	text-align: center;
+}
+
+.select-language h3 {
+	text-align: center;
+}
+
+.select-language nav li {
+	display: inline-block;
+
+	margin: 0 10px 20px 10px;
+	padding: 3px;
+
+	border-radius: 3px;
+	background-color: #fff;
+}
+
+.select-language nav li a {
+	display: block;
+
+	text-align: center;
+
+	color: #333;
+
+	font-size: 16px;
+}
+
+.select-language nav li a:hover {
+	text-decoration: none;
+
+	font-weight: bold;
+}
+
+.select-language nav li a:hover img {
+	-webkit-transform: scale(1.1) !important;
+	transform: scale(1.1) !important;
+	text-decoration: none;
+}
+
+.select-language nav li img {
+	display: block;
+
+	width: 90px;
+	height: auto;
+	margin-bottom: 10px;
+
+	transition: all .8s ease;
+	-webkit-transform: scale(.7);
+	transform: scale(.7);
+
+	border: 1px solid #999 !important;
+	border-radius: 5px;
+	box-shadow: 0 0 5px #999;
+}
+
+.blank_page .mainbottom {
+	margin-top: 0;
+
+	background: url('https://www.itaka.pl/cms/img/1/bg-sand.jpg') center top;
+}
+
+.blank_page #path {
+	display: none;
+}
+
+.blank_page #foot .contact {
+	margin-top: 0;
+}
+
+.blank_page .main .td0 .title {
+	margin: 0;
+}
+
+.blank_page #main .lev2 {
+	float: none;
+
+	width: 630px;
+	margin: 0 auto;
+	padding-bottom: 67px;
+
+	border-left: none !important;
+	background: none;
+	box-shadow: none;
+}
+
+.blank_page .main .td0 {
+	padding: 35px 45px 25px 45px;
+
+	border-radius: 3px 3px 3px 3px;
+	background: #fff;
+	box-shadow: 0 0 5px #999;
+}
+
+.blank_page .main .td0 h2.oldh1 {
+	margin: 0 0 8px 0;
+
+	color: #10447d;
+
+	font-size: 24px;
+}
+
+.blank_page .main .td0 h2.oldh1 span {
+	color: #f33;
+
+	font-size: 24px;
+}
+
+.blank_page .main .td0 p {
+	color: #10447d;
+}
+
+.blank_page .main .td1 {
+	overflow: hidden;
+
+	height: 150px;
+}
+
+.blank_page .main .td1 p {
+	text-align: center;
+}
+
+.blank_page #main .lev6 {
+	padding-top: 0;
+}
+
+.blank_page #main .lev2 > div {
+	margin: 0 130px 0 130px !important;
+}
+
+a.button_submit.button_stand_alone,.blank_page a.button_submit {
+	display: block;
+	float: left;
+
+	height: 36px;
+	margin-top: 25px;
+	padding: 0 10px;
+
+	text-decoration: none;
+
+	color: #fff;
+	border: none;
+	border-radius: 3px;
+	background: #eb2f2f;
+	background: -moz-linear-gradient(top, #f33 0%, #eb2f2f 100%);
+	background: -webkit-linear-gradient(top, #f33 0%, #eb2f2f 100%);
+	background: -o-linear-gradient(top, #f33 0%, #eb2f2f 100%);
+	background: -ms-linear-gradient(top, #f33 0%, #eb2f2f 100%);
+	background: linear-gradient(to bottom, #f33 0%, #eb2f2f 100%);
+	text-shadow: none;
+
+	font-weight: normal;
+	line-height: 36px;
+}
+
+a.button_submit.button_stand_alone:hover,.blank_page a.button_submit:hover {
+	text-decoration: none;
+
+	color: #fff;
+	background: #f33;
+}
+
+a.button_submit.button_stand_alone:after,.blank_page a.button_submit:after {
+	display: block;
+	float: left;
+	float: right;
+	clear: both;
+
+	width: 25px;
+	height: 25px;
+	margin: 5px 0 0 5px;
+
+	content: '';
+
+	background: url(https://www.itaka.pl/cms/img/1/ico/ikonymale.png) no-repeat -25px -75px;
+}
+
+a.button_submit.button_stand_alone {
+	margin-bottom: 35px;
+}
+
+.noscriptjs {
+	position: fixed;
+	top: 0;
+
+	width: 100%;
+
+	text-align: center;
+
+	color: #fff;
+	border: 1px solid #ef9a34;
+	background: #f4b525;
+	box-shadow: 0 -2px 13px 0 rgba(50,50,50,.27);
+	text-shadow: 0 1px 0 #cf6a04;
+
+	font-size: 16px;
+}
+
+.noscriptjs-text {
+	position: relative!important;
+	position: relative!important;
+
+	display: inline-block;
+
+	height: 40px;
+
+	line-height: 40px;
+}
+
+.noscriptjs-text:before {
+	position: absolute;
+	top: 7px;
+	left: -28px;
+
+	display: block;
+
+	width: 25px;
+	height: 25px;
+
+	content: '';
+
+	background: url(https://www.itaka.pl/cms/img/1/ico/ikonymale.png) no-repeat -100px -325px;
+}
+
+label[for='scoobyDoo-input'] span {
+	line-height: 25px;
+}
+
+.scooby-doo-teaser,.tur-viza-teaser {
+	padding: 0 10px 16px 10px;
+}
+
+.product-banner {
+	margin-bottom: 10px;
+	padding: 10px;
+
+	border: 1px solid #dadfe6;
+	border-radius: 5px;
+	background-color: #eff5fc;
+}
+
+.harmonogram table {
+	border: 1px solid #dadfe6;
+}
+
+.harmonogram table tr:first-child {
+	background: #dadfe6;
+}
+
+.harmonogram table tr:first-child td {
+	font-weight: bold;
+}
+
+.harmonogram table tr td {
+	padding: 10px;
+
+	border: 1px solid #dadfe6;
+
+	font-size: 12px;
+}
+
+.impt11 .well .data-js-nolimits {
+	display: none;
+}
+
+.impt11 .searchbig .fParticipants .dropdown-menu .data-js-nolimits {
+	display: none;
+}
+
+.impt11.search-results-page .nav-tabs > li {
+	display: none;
+}
+
+.search-results-page.impt11 .fRow:last-child {
+	display: none !important;
+}
+
+.event-short[data-product-code*='FOT'] img.nolimits-fot {
+	display: block !important;
+}
+
+.event-short:not([data-product-code*='FOT']) img.nolimits-nofot {
+	display: block !important;
+}
+
+.popupbased-select .clickblock {
+	position: fixed;
+	z-index: 999;
+	top: 0;
+	left: 0;
+
+	display: block;
+
+	width: 100%;
+	height: 100%;
+
+	content: ' ';
+}
+
+.popupbased-select .selectable-container {
+	-moz-user-select: none;
+	user-select: none;
+}
+
+.popupbased-select .selectable-container .options-container fieldset:nth-last-child(3) ul li {
+	float: left;
+	margin: 0 20px 2px 0;
+}
+
+.popupbased-select .selectable-container .options-container fieldset:nth-last-child(3) ul li:last-child {
+	margin-right: 0;
+}
+
+.popupbased-select .selectable-container .options-container fieldset.options-summary {
+	display: none !important;
+}
+
+.popupbased-select .selectable-container .options-container fieldset ul div.column-2,.popupbased-select .selectable-container .options-container fieldset ul div.column-3,.popupbased-select .selectable-container .options-container fieldset ul div.column-4 {
+	float: left;
+
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding-right: 10px;
+}
+
+.popupbased-select .selectable-container .options-container fieldset ul div.column-2 {
+	width: 50%;
+}
+
+.popupbased-select .selectable-container .options-container fieldset ul div.column-3 {
+	width: 33.333%;
+}
+
+.popupbased-select .selectable-container .options-container fieldset ul div.column-4 {
+	width: 25%;
+}
+
+@media (max-width: 767px) {
+	.popupbased-select .selectable-container .options-container fieldset ul div.column-3,.popupbased-select .selectable-container .options-container fieldset ul div.column-2,.popupbased-select .selectable-container .options-container fieldset ul div.column-4 {
+		float: none;
+
+		width: 100%;
+	}
+}
+
+.popupbased-select .selectable-container .options-container ul li {
+	-webkit-column-break-inside: avoid;
+}
+
+.popupbased-select .open > .dropdown-menu {
+	max-width: 1000px;
+	width: calc(100vw - 200px);
+}
+
+.popupbased-select .selectable-container .options-filter-container {
+	margin: 0;
+}
+
+.popupbased-select li.option-child {
+	width: 50%;
+}
+
+.popupbased-select li.option-child.option-disabled-search {
+	display: none;
+}
+
+.popupbased-select li.option-child.child-active {
+	display: inline-block;
+
+	vertical-align: top;
+
+	background: #e6eff8;
+}
+
+.popupbased-select .options-container li.child-active:hover,.popupbased-select .options-container li.parent-active:hover {
+	background: #225b99;
+}
+
+.popupbased-select li.option-parent.parent-active {
+	background: #e6eff8;
+}
+
+.popupbased-select li.option-child.last-child-odd {
+	width: 100%;
+}
+
+.popupbased-select li.option-child.last-child {
+	margin-bottom: 5px;
+}
+
+.popupbased-select span.option-parent-children-counter {
+	margin-left: 15px;
+	padding: 7px 0;
+
+	font-size: 10px;
+}
+
+.popupbased-select span.option-parent-children-counter .fa-chevron-down {
+	display: inline-block;
+
+	transform: none;
+}
+
+.popupbased-select span.option-parent-children-counter .fa-chevron-up {
+	display: none;
+
+	transform: none;
+}
+
+.popupbased-select .options-summary {
+	display: none;
+}
+
+.popupbased-select .parent-active span.option-parent-children-counter .fa-chevron-down {
+	display: none;
+}
+
+.popupbased-select .parent-active span.option-parent-children-counter .fa-chevron-up {
+	display: inline-block;
+}
+
+.popupbased-select .destination-submit {
+	cursor: pointer;
+}
+
+.popupbased-select li.option-child.child-active.option-disabled {
+	display: none;
+}
+
+.popupbased-select .selectable-container .options-container ul .option-common-appearance {
+	width: 100%;
+}
+
+.popupbased-select .selectable-container .options-container ul .option-common-appearance .option-parent-children-counter {
+	display: none;
+}
+
+.popupbased-select .selectable-container .options-container ul .option-common-appearance label {
+	margin-left: 0 !important;
+}
+
+.popupbased-select .destination-popup-header {
+	position: relative!important;
+}
+
+.popupbased-select .destination-popup-header h3 {
+	display: inline-block;
+	box-sizing: border-box;
+	width: 100%;
+	margin: 0;
+	margin-bottom: 12px;
+	cursor: move;
+	color: #10447d;
+	font-weight: 700;
+	font-size: 15px;
+}
+
+.popupbased-select .destination-popup-header .destination-popup-close {
+	position: absolute;
+	top: -10px;
+	right: 0;
+	width: 30px;
+	height: 30px;
+	padding: 4px;
+	cursor: pointer;
+	border-radius: 2px;
+	color: #fff;
+	background: #10447d;
+	text-align: center;
+}
+
+.popupbased-select .destination-popup-footer {
+	padding: 15px 5px 0 15px;
+	color: #10447d;
+	border-top: 1px solid #dadfe6;
+}
+
+.popupbased-select .destination-popup-footer span {
+	display: inline-block;
+}
+
+.popupbased-select .destination-popup-footer .left-side {
+	float: left;
+
+	text-align: left;
+
+	line-height: 36px;
+}
+
+.popupbased-select .destination-popup-footer .right-side {
+	float: right;
+
+	text-align: right;
+}
+
+.popupbased-select .destination-popup-footer:after {
+	display: table;
+	clear: both;
+
+	content: '';
+}
+
+.popupbased-select .destination-popup-footer .destination-regions,.popupbased-select .destination-popup-footer .destination-toggle {
+	cursor: pointer;
+
+	font-size: 13px;
+}
+
+.popupbased-select .destination-popup-footer .destination-toggle {
+	margin-right: 20px;
+}
+
+.popupbased-select .destination-popup-footer .destination-regions-close {
+	display: none;
+}
+
+.popupbased-select .selectable-container .options-container {
+	/* max-height: 346px !important; */
+}
+
+.popupbased-select .column-breaker {
+	break-before: right;
+	-webkit-column-break-before: right;
+}
+
+.impt6 .popupbased-select .selectable-container .options-container fieldset:first-child ul li {
+	float: none;
+}
+
+#search-panel .searchwell #search-form .popupbased-select .dropdown-menu,#search-form .searchbig .popupbased-select .dropdown-menu {
+	position: absolute;
+	top: 85px;
+	max-height: 500px !important;
+	left: 50%;
+	transform: translateX(-50%);
+	margin: auto auto;
+	box-shadow: 0 0 50px rgba(0,0,0,.8);
+}
+
+.bd0 #search-panel .searchwell #search-form .popupbased-select .dropdown-menu,.bd0 #search-form .searchbig .popupbased-select .dropdown-menu {
+	top: -50px;
+	left: 65px;
+}
+
+.search-results-page .popupbased-select .open > .dropdown-menu {
+	left: -245px;
+}
+
+.popup-bg {
+	position: fixed;
+	z-index: 500;
+	top: 0;
+
+	width: 100%;
+	height: 100%;
+
+	background: rgba(0,0,0,.4);
+}
+
+body:not(no_mobile).is_mobile form#search-form div.fRow > select.noneimportant,.noneimportant {
+	display: none !important;
+}
+
+.popupbased-select .options-filter-container {
+	width: 35%;
+}
+
+.popupbased-select .options-filter-no-matches {
+	display: none;
+}
+
+.popupbased-select .selectable .jspPane {
+	width: 100% !important;
+	left: 0%!important;
+}
+
+.reservation-error {
+	width: 100%;
+	margin: 50px 0;
+
+	font-size: 20px;
+	font-weight: normal;
+	line-height: 34px;
+}
+
+.lang-ru .reservation-form .accordion-body dl .btn-group {
+	width: 98px;
+}
+
+.lang-ru .reservation-form .accordion-body dl label.btn-primary {
+	display: block;
+
+	width: 100%;
+	margin-left: 15px;
+
+	text-align: left;
+}
+
+.lang-ru .reservation-form .accordion-body dl dt {
+	clear: both;
+}
+
+.lang-ru .reservation-form .accordion-body dl dt:first-child {
+	margin-bottom: 0;
+}
+
+.lang-en .nopl,.lang-ru .nopl {
+	display: none;
+}
+
+@media screen and (min-width: 1020px) and (max-width: 1200px) {
+	.popupbased-select .open > .dropdown-menu {
+		width: 830px;
+	}
+
+	.bd0 #search-panel .searchwell #search-form .popupbased-select .dropdown-menu,.bd0 #search-form .searchbig .popupbased-select .dropdown-menu {
+		left: 46px;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1020px) {
+	.popupbased-select .open > .dropdown-menu {
+		width: 600px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.popupbased-select .open > .dropdown-menu {
+		position: fixed;
+
+		height: 100%;
+	}
+
+	body.is_mobile form#search-form div.fRow.popupbased-select .open .selectable-container {
+		display: block;
+	}
+}
+
+.reservation-form .additional-services-link,.reservation-form .additional-local-trips-link,.reservation-form .additional-itaka-active-link {
+	overflow: hidden;
+
+	height: auto;
+	padding: 10px;
+
+	border: 1px solid #eee;
+	background: #fff none repeat scroll 0 0;
+}
+
+.przycisk_niebieski_wstecz,.przycisk_niebieski,.control-submit .change-params-button,.control-submit .btn,.reservation-form .accordion-body label,.reservation-form .accordion-body dl dt,.reservation-form .accordion-heading a,.reservation-form .accordion-body h3 {
+	font-weight: normal;
+}
+
+.rezerwacja .reservation-title .event-back {
+	font-weight: normal;
+}
+
+.impt0.bd0 .newsletter_lp .fRow {
+	background: #cde7f6;
+}
+
+.impt0 .newsletter_lp .fRow.fRow:after,.impt0 .newsletter_lp .fRow.fRow:before,.impt5 .newsletter_lp .fRow.fRow:after,.impt5 .newsletter_lp .fRow.fRow:before,.impt7 .newsletter_lp .fRow.fRow:after,.impt7 .newsletter_lp .fRow.fRow:before {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+
+	display: block;
+
+	width: 256px;
+	height: 217px;
+
+	content: '';
+
+	background: url('https://www.itaka.pl/cms/img/1/banners/lewa.png') no-repeat;
+}
+
+.impt0 .newsletter_lp .fRow.fRow:after,.impt5 .newsletter_lp .fRow.fRow:after,.impt7 .newsletter_lp .fRow.fRow:after {
+	right: 0;
+	left: auto;
+
+	height: 250px;
+
+	background: url('https://www.itaka.pl/cms/img/1/banners/prawa.png') no-repeat;
+}
+
+.newsletter_lp .fRow {
+	position: relative!important;
+}
+
+.newsletter_lp .fRow input.txt {
+	position: relative!important;
+	z-index: 10;
+}
+
+.newsletter_lp .fRow label:before {
+	display: none;
+}
+
+.newsletter_lp .fRow label span {
+	display: block;
+
+	margin-bottom: 15px;
+
+	text-align: center;
+
+	font-size: 24px;
+}
+
+.newsletter_lp .fRow label strong {
+	display: block;
+
+	text-align: center;
+
+	font-size: 26px;
+}
+
+.newsletter_lp .fRow label em {
+	color: #eb2f2f;
+
+	font-style: normal;
+}
+
+.catalog-email .catalogs-list-container:before,.loyalty-form .form-group:before,.payment-form:before,.catalog-email .catalogs-list-container:after,.loyalty-form .form-group:after,.payment-form:after {
+	display: table;
+
+	content: '';
+}
+
+.catalog-email .catalogs-list-container:after,.loyalty-form .form-group:after,.payment-form:after {
+	clear: both;
+}
+
+.loyalty-form .form-group .float-none {
+	float: none;
+}
+
+.searchwell .type31 input,.searchwell form #event-types label input,.rezerwacja #main .main > .lev5,.product-banner-hide,.datepicker .datepickerBlock .icon-arrow-none,.hotels-mainpage-hide,.own-departure-hidden,.hotel-list-gallery-info,#main .ws_real_time-booking,#main .ws_real_time_remembered,#main .ws_real_time_visitors,#main .ws_real_time-booking_additional,.ymaxPrice_search .person .fa-users,.ymaxPrice_clipboard .person .fa-users,.ymaxPrice_ourdirections .person .fa-users,.ymaxPrice_featuredlist .person .fa-users,.ymaxPrice_booking .person .fa-users,.ymaxPrice_search .family .fa-user,.ymaxPrice_clipboard .family .fa-user,.ymaxPrice_ourdirections .family .fa-user,.ymaxPrice_featuredlist .family .fa-user,.ymaxPrice_booking .family .fa-user,.ymaxPrice_search .family:after,.ymaxPrice_clipboard .family:after,.ymaxPrice_ourdirections .family:after,.ymaxPrice_featuredlist .family:after,.ymaxPrice_booking .family:after,.ymaxPrice_search .person:after,.ymaxPrice_clipboard .person:after,.ymaxPrice_ourdirections .person:after,.ymaxPrice_featuredlist .person:after,.ymaxPrice_booking .person:after,iframe[name='google_conversion_frame'] {
+	display: none;
+}
+
+.itakablue {
+	color: #10447d;
+}
+
+.iTo {
+	left: 50px;
+}
+
+.iFrom {
+	left: 10px;
+}
+
+.lt-ie9 .input {
+	line-height: 38px;
+}
+
+.input:focus {
+	border-color: #08c;
+	-webkit-box-shadow: 0 0 6px rgba(0,136,204,.4);
+	-moz-box-shadow: 0 0 6px rgba(0,136,204,.4);
+	box-shadow: 0 0 6px rgba(0,136,204,.4);
+}
+
+.fRow > span > label {
+	pointer-events: none;
+}
+
+.infield-label {
+	position: relative!important;
+	float: left;
+	width: 50%;
+}
+
+.infield-label:not(:last-child) {
+	padding-right: 1px;
+}
+
+.infield-label label {
+	cursor: text;
+	transition: line-height .5s,opacity .5s;
+	white-space: nowrap;
+	opacity: 1;
+	color: #777;
+	font-size: 14px;
+	line-height: 39px;
+	filter: alpha(opacity=100);
+	-moz-opacity: 1;
+}
+
+#date-range label.infield-from {
+	border: 1px solid #b1b8c1;
+	border-left: 3px solid #10447d;
+	background-color: green;
+	text-shadow: 0 0 2px white;
+
+	-webkit-text-shadow: 0 0 2px white;
+	-moz-text-shadow: 0 0 2px white;
+}
+
+#date-range label.infield-to {
+	border: 1px solid #b1b8c1;
+	border-right: 3px solid #f33;
+	background-color: #ff2525;
+}
+
+#date-range span.lightholder label.infield-to {
+	background-color: rgba(255,37,37,.65);
+}
+
+#date-range span.lightholder label.infield-from {
+	background-color: rgba(0,128,0,.65);
+}
+
+#date-range .placeholder-focus label {
+	top: -17px;
+	right: auto;
+	bottom: auto;
+
+	display: vlock;
+
+	min-width: 55px;
+	padding: 1px 7px 1px 7px;
+
+	color: #fff;
+	border-radius: 2px;
+	-webkit-box-shadow: 0 0 8px rgba(0,0,0,.3);
+	-moz-box-shadow: 0 0 8px rgba(0,0,0,.3);
+	box-shadow: 0 0 8px rgba(0,0,0,.3);
+
+	font-size: 12px;
+	line-height: 16px;
+}
+
+#date-range .placeholder-focus label.infield-from:after {
+	position: absolute;
+	bottom: -5px;
+	left: 10px;
+
+	display: block;
+
+	height: 0;
+
+	content: '';
+
+	border-top: 5px solid white;
+	border-right: 5px solid transparent;
+	border-left: 5px solid transparent;
+}
+
+#date-range .placeholder-focus label.infield-to:after {
+	position: absolute;
+	bottom: -5px;
+	left: 10px;
+
+	display: block;
+
+	height: 0;
+
+	content: '';
+
+	border-top: 5px solid white;
+	border-right: 5px solid transparent;
+	border-left: 5px solid transparent;
+}

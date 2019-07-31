@@ -1,0 +1,1020 @@
+.lm-tab ul {
+	margin: 0;
+	padding: 0;
+
+	list-style: none;
+
+	border-top: 1px solid #d9e1ea;
+}
+
+.lm-tab li {
+	clear: both;
+
+	margin: 0;
+	padding: 0;
+
+	border-bottom: 1px solid #d9e1ea;
+}
+
+.lm-tab li a {
+	display: block;
+
+	padding: 7px 15px;
+}
+
+.lm-tab li a:hover {
+	text-decoration: none;
+
+	background: #eff5fc;
+}
+
+.lm-tab strong {
+	font-weight: normal;
+	line-height: 22px;
+}
+
+.lm-tab .moreLM {
+	padding: 0;
+	padding: 0 15px;
+
+	text-align: right;
+
+	background: #fff;
+}
+
+.lm-tab .price {
+	float: right;
+}
+
+.lm-tab .btn {
+	padding-left: 25px;
+
+	font-weight: normal;
+	line-height: 50px;
+}
+
+.lm-tab .btn:after {
+	display: block;
+	float: left;
+	float: right;
+
+	width: 25px;
+	height: 25px;
+	margin-top: 12px;
+
+	content: '';
+
+	background: url(https://www.itaka.pl/cms/img/1/ico/ikonymale.png) no-repeat -25px -25px;
+}
+
+.lm-tab .fhotel_main {
+	background-color: #fff;
+}
+
+.mobile_promo_box {
+	display: none;
+}
+
+.bd0 #main .lev11 {
+	clear: both;
+}
+
+.bd0 #main .lev11 .pl0 {
+	margin-bottom: 0;
+}
+
+.bd0 #main .lev11 div.plo {
+	background-repeat: no-repeat;
+	background-position: 0 center;
+}
+
+.bd0 #main .lev11 div.plo p {
+	height: 60px;
+	padding: 10px 0;
+
+	color: #fff;
+
+	line-height: 30px;
+}
+
+.bd0 #main .lev11 div.plo a {
+	position: relative!important;
+
+	display: block;
+
+	padding: 10px 0;
+
+	color: #fff;
+}
+
+.bd0 #main .lev11 div.plo a strong {
+	display: block;
+}
+
+.bd0 #main .lev11 div.plo a:before {
+	display: block;
+	float: left;
+	float: right;
+
+	width: 25px;
+	height: 25px;
+	margin: 20px 20px 0 0;
+
+	content: '';
+
+	background: url(https://www.itaka.pl/cms/img/1/ico/ikonymale.png) no-repeat -25px -100px;
+}
+
+.bd0 #main .lev11:hover a {
+	text-decoration: none;
+}
+
+.bd0.lang-en #main .lev1 .oferty .oferyTOP .price .pre {
+	padding-top: 5px;
+}
+
+.searchbig {
+	background: #eff5fc;
+	border-bottom: 1px solid #ddd;
+}
+
+.searchbig .fRow {
+	position: relative!important;
+	display: block;
+	padding-left: 0;
+	padding-right: 1px;
+	margin-bottom: 6px;
+	flex: 1 0 25%;
+}
+.searchbig .fRow:nth-last-child(8), 
+.searchbig .fRow:nth-last-child(8) ~ .fRow {
+	width: 25%;
+	min-width: 234px;
+	flex: 1 0 25%;
+}
+.searchbig .fRow:nth-last-child(10), 
+.searchbig .fRow:nth-last-child(10) ~ .fRow {
+	width: 20%;
+	min-width: 230px;
+	flex: 1 0 20%;
+}
+.fRow_first .infield-label:first-child .input,
+.fRow_first .infield-label:first-child .dropdown-toggle.btn,
+.fRow_first > .selectable .dropdown-toggle.btn {
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+.fRow_last .infield-label:last-child .input,
+.fRow_last .infield-label:last-child .dropdown-toggle.btn,
+.fRow_last > .selectable .dropdown-toggle.btn {
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+
+.searchbig_filters .selectable .selectable-container.dropdown-menu {
+	width: 100%;
+}
+
+.searchbig_filters label,.searchbig .fRow label {
+	color: #333;
+
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 20px;
+}
+
+.searchbig_filters div label {
+	font-size: 14px;
+}
+
+.searchbig_filters .fRow .dropdown-toggle,.fParticipants .dropdown-menu .fPerson select,.searchbig .fRow .dropdown-toggle {
+	overflow: hidden;
+	box-sizing: border-box;
+	height: 40px;
+	padding: 0 10px 0 20px;
+	text-align: left;
+	color: #683c87;
+	border: 1px solid #dadfe6;
+	background: #fff;
+	line-height: 40px;
+	border-radius: 0;
+}
+
+.fParticipants .dropdown-menu .fPerson select,.searchbig .fRow .dropdown-toggle:hover {
+	text-decoration: none;
+}
+
+.searchbig .fRow .dropdown-toggle {
+	display: block;
+	color: #404040;
+	font-weight: 600;
+}
+
+.searchbig .fRow button.dropdown-toggle {
+	width: 100%;
+}
+
+.filters .selectable.dropdown-toggle.btn {
+	height: 40px;
+}
+
+.jspContainer,.jspPane {
+	-webkit-overflow-scrolling: touch;
+}
+
+.jspVerticalBar {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 15px;
+	height: 95%;
+	background: transparent;
+}
+
+.jspTrack {
+	width: 15px;
+	margin: 0 0;
+	background: transparent;
+}
+
+.jspDrag {
+	border-radius: 4px;
+	background: #10447d;
+	right: 5px;
+	left: 5px;
+	position: absolute!important;
+}
+
+.jspVerticalBar .jspArrow {
+	height: 16px;
+}
+
+.jspArrow {
+	opacity: .001;
+}
+
+.jspArrowUp {
+	height: 3px !important;
+
+	background: #eff5fc;
+}
+
+.jspArrowDown {
+	height: 10px !important;
+
+	background: #eff5fc;
+}
+
+.jspPane {
+	width: 96% !important;
+	padding: 0px 0 !important;
+}
+
+.dropdown-menu li {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.dropdown-menu {
+	min-width: 235px;
+}
+
+.fPerson .jspContainer li[role='presentation'] {
+	width: 60%;
+}
+
+.popupbased-select .open .jspContainer {
+	position: relative!important;
+
+	overflow: hidden;
+}
+
+.selectable .jspPane {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 96% !important;
+	padding: 0;
+	left: 2%!important;
+}
+
+.selectable .chosen-count {
+	padding: 2px 4px;
+
+	text-align: center;
+
+	color: #fff;
+	border-radius: 3px;
+	background-color: #f33;
+
+	font-size: 14px;
+}
+
+.selectable.btn-group {
+	position: relative!important;
+}
+
+.search-results-page .selectable-container .options-container {
+	position: relative!important;
+}
+
+.selectable-container {
+	margin: 0;
+}
+
+.selectable-container .options-container {
+	max-height: 280px;
+}
+
+.selectable-container .options-container legend {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	display: block;
+	margin: 0 auto;
+	padding: 5px 10px 5px 5px;
+	color: #999;
+	background: #eff5fc;
+	font-size: 13px;
+	font-style: italic;
+	z-index: 2; 2 */
+	width: auto;
+	border: none;
+	width: auto;
+	font-weight: 400;
+}
+
+.selectable-container .options-container ul {
+	list-style: none;
+	margin-bottom: 0;
+}
+.selectable-container .options-container ul:not(:only-child) {
+	margin: 15px 0 0 0;
+	padding: 20px 0 0;
+	border-top: 1px solid #d7dfe9;
+}
+
+.selectable-container .options-container ul li {
+	overflow: hidden;
+
+	margin: 0;
+}
+
+.selectable-container .options-container ul li label {
+	margin: 0 !important;
+	padding: 3px 5px;
+	font-size: 13px;
+	font-weight: normal;
+	line-height: 19px;
+}
+
+.selectable-container .options-container ul li .group-description {
+	display: block;
+
+	margin: 1px 0 6px 26px;
+
+	font-size: 12px;
+	font-style: italic;
+	line-height: 14px;
+}
+
+.selectable-container .options-container ul .option-child label {
+	margin-left: 20px !important;
+}
+
+.selectable-container .options-container ul .option-disabled,.selectable-container .options-container ul .unavailable {
+	display: none;
+}
+
+.selectable-container.single ul li label {
+	padding-right: 6px;
+	padding-left: 6px;
+}
+
+.selectable-container .options-filter-container {
+	position: relative!important;
+
+	margin-top: -5px;
+	padding: 7px 10px 7px;
+
+	background: #c3d5eb;
+}
+
+.selectable-container .options-filter-container:after {
+	position: absolute;
+	top: 3px;
+	right: 10px;
+
+	display: block;
+	float: left;
+	float: right;
+
+	width: 25px;
+	height: 25px;
+	margin: 5px 0;
+
+	content: '';
+
+	background: url(https://www.itaka.pl/cms/img/1/ico/ikonymale.png) no-repeat 0 -225px;
+}
+
+.selectable-container .options-filter-container input {
+	overflow: hidden;
+
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 100%;
+	height: 26px;
+	padding: 0 3px 0 6px;
+
+	text-align: left;
+
+	border: 1px solid #b1b8c1;
+	border-radius: 5px;
+	background: #fff;
+
+	font-size: 12px;
+	line-height: 16px;
+}
+
+.selectable-container .options-filter-no-matches {
+	padding: 15px 10px 0 10px;
+
+	text-align: center;
+
+	color: #999;
+}
+
+.local-trip-banner {
+	padding: 20px;
+}
+
+.local-trip-banner img {
+	width: 100%;
+}
+
+.selectable-container .options-container li.focused,.selectable-container .options-container li:hover,.selectable-container.single .options-container ul .active {
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	background: #225b99;
+}
+
+.selectable-container .options-container li.focused label,.selectable-container .options-container li:hover label,.selectable-container.single .options-container ul .active label {
+	color: white;
+}
+
+.selectable-container label {
+	display: block;
+}
+
+.selectable-container.multi li label:before {
+	display: block;
+	float: left;
+	width: 16px;
+	height: 16px;
+	margin-right: 7px;
+	margin-top: 2px;
+	content: '';
+	background: url('https://www.itaka.pl/cms/img/1/ico/ikonymale.png');
+	background-position: -104px -729px;
+}
+.selectable-container.multi li.active label:before {
+	background-position: -128px -729px;
+}
+
+.selectable-container.multi li.half-active label:before {
+	background-position: -126px -702px;
+}
+.maintop_sletat .destination-popup .selectable-container.multi li.option-parent label:before {
+	background: #fff;
+	border-radius: 8px;
+	box-shadow: inset 1px 1px 2px rgba(0,0,0,0.2);
+}
+.maintop_sletat .destination-popup .selectable-container.multi li.active.option-parent label:before {
+	box-shadow: inset 1px 1px 2px rgba(0,0,0,0.2), inset 0 0 0 5px #fff, inset 0 0 0 8px #000;
+}
+.unselect-all {
+	display: inline-block;
+
+	width: 16px;
+	height: 16px;
+	padding: 0;
+
+	text-align: center;
+	vertical-align: -2px;
+
+	color: #f33;
+	border: none;
+	background: transparent;
+
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 16px;
+}
+
+.fRow:not(.fDates) .open .dropdown-toggle:after,.searchwell form .fTo .open button:after,.searchwell form .fFrom .open button:after,.searchwell form .fPerson .open button:after,.fParticipants.dropdown.open #participants-count:before,.fParticipants.dropdown.open button:after,.btn-group.selectable.open button:after,.btn-group.selectable.open button:before {
+	-webkit-transition: -webkit-transform .2s ease-in;
+	-moz-transition: -moz-transform .2s ease-in;
+	-o-transition: -o-transform .2s ease-in;
+	transition: transform .2s ease-in;
+	-webkit-transform: rotate(-180deg);
+	-moz-transform: rotate(-180deg);
+	-ms-transform: rotate(-180deg);
+
+	tranform: rotate(-180deg);
+}
+
+.searchwell form .activity button:after,.searchwell form .difficulty button:after,.fRow .dropdown-toggle:after,.searchwell form .fTo button:after,.searchwell form .fToPopup button:after,.searchwell form .fFrom button:after,.searchwell form .fPerson button:after,.fParticipants.dropdown #participants-count:before,.btn-group.selectable.open button:after,.btn-group.selectable button:before,.searchwell form .fake-input:after,#archive-weather .dropdown-toggle:after,.fParticipants.dropdown button:after {
+	-webkit-transition: -webkit-transform .2s ease-in;
+	-moz-transition: -moz-transform .2s ease-in;
+	-o-transition: -o-transform .2s ease-in;
+	transition: transform .2s ease-in;
+	-webkit-transform: rotate(0deg);
+	-moz-transform: rotate(0deg);
+	-ms-transform: rotate(0deg);
+	transform: rotate(0deg);
+}
+
+.searchbig ul.nav-tabs {
+	clear: both;
+	margin-top: -19px;
+}
+
+.searchbig #daterange-popover {
+	margin-top: 2px;
+}
+
+#search-form select:not(#adults-select):not(#childs-select):not(#duration-select):not(#duration-select-popup) {
+	/* display: none; */
+}
+
+.well .fPerson .fake-input {
+	display: none;
+}
+
+.searchwell #search-form .fake-input {
+	padding: 4px 6px;
+
+	text-align: left;
+	white-space: normal;
+
+	color: #556d93;
+	border: 1px solid #dadfe6;
+	border-radius: 1px;
+	background-color: white;
+
+	line-height: 24px;
+}
+
+.fake-input {
+	display: none;
+}
+
+.searchwell #search-form .fRow.fToPopup .fake-input,.searchwell #search-form .fRow.fTo .fake-input,.searchwell #search-form .fRow.fFrom .fake-input {
+	display: block;
+
+	width: 211px;
+	height: 24px;
+	margin-left: 55px;
+	padding: 5px 6px;
+}
+
+.searchwell #search-form #adults-select,.searchwell #childs-select {
+	display: block;
+
+	width: 50px;
+	height: 32px;
+	margin-left: 55px;
+}
+
+.searchwell #search-form .fRow.fTo .fake-input .fa.fa-circle-o-notch.fa-spin,.searchwell #search-form .fRow.fToPopup .fake-input .fa.fa-circle-o-notch.fa-spin,.searchwell #search-form .fRow.fFrom .fake-input .fa.fa-circle-o-notch.fa-spin {
+	display: block;
+	float: left;
+
+	margin: 6px 85px;
+}
+
+@media screen and (min-width: 1200px) {
+	.searchwell #search-form .fRow.fTo .fake-input,.searchwell #search-form .fRow.fToPopup .fake-input,.searchwell #search-form .fRow.fFrom .fake-input {
+		width: 232px;
+		margin-left: 72px;
+	}
+
+	.searchwell #search-form .fRow.fTo .fake-input .fa.fa-circle-o-notch.fa-spin,.searchwell #search-form .fRow.fToPopup .fake-input .fa.fa-circle-o-notch.fa-spin,.searchwell #search-form .fRow.fFrom .fake-input .fa.fa-circle-o-notch.fa-spin {
+		margin: 6px 99px;
+	}
+
+	.searchwell #search-form .fPerson.fAdults .fake-input,.searchwell #search-form .fPerson.fKids .fake-input {
+		width: 57px;
+		margin-left: 73px;
+	}
+}
+
+@media screen and (max-width: 1020px) and (min-width: 768px) {
+	.searchwell #search-form .fRow.fTo .fake-input,.searchwell #search-form .fRow.fToPopup .fake-input,.searchwell #search-form .fRow.fFrom .fake-input {
+		width: 243px;
+		margin-left: 55px;
+	}
+
+	.searchwell #search-form .fRow.fTo .fake-input .fa.fa-circle-o-notch.fa-spin,.searchwell #search-form .fRow.fToPopup .fake-input .fa.fa-circle-o-notch.fa-spin,.searchwell #search-form .fRow.fFrom .fake-input .fa.fa-circle-o-notch.fa-spin {
+		margin: 6px 99px;
+	}
+
+	.searchwell #search-form .fPerson.fAdults .fake-input,.searchwell #search-form .fPerson.fKids .fake-input {
+		width: 50px;
+		margin-left: 55px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.searchwell #search-form .fRow .fake-input {
+		display: none !important;
+	}
+}
+
+.searchbig_filters .dropdown-menu,.searchbig .dropdown-menu {
+	width: auto;
+}
+
+.searchbig_filters .dropdown-menu > div,.searchbig .fDate .dropdown-menu {
+	max-height: none;
+}
+
+.fDate .dropdown-menu > div {
+	padding: 10px;
+}
+
+.fParticipants .dropdown-menu {
+	width: 290px;
+	padding: 12px 5px;
+	line-height: 0;
+	letter-spacing: -0.33em;
+	right: 0;
+	left: auto;
+}
+
+.fParticipants .dropdown-menu .fPerson {
+	display: inline-block;
+	width: 50%;
+	padding-left: 5px;
+	padding-right: 5px;
+	letter-spacing: 0;
+	text-align: right;
+}
+
+.searchbig .fParticipants .dropdown-menu .fPerson label {
+	font-weight: normal;
+	line-height: 28px;
+	margin-bottom: 0;
+	padding-right: 20px;
+	display: inline-block;
+	letter-spacing: 0;
+}
+
+.searchbig .fParticipants .dropdown-menu .fPerson select {
+	display: inline-block;
+	letter-spacing: 0;
+	width: 52px;
+	height: 28px;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 5px;
+}
+
+.searchbig .fParticipants .dropdown-menu #childs-ages,.fParticipants .dropdown-menu .childs-ages-footer {
+	display: none;
+	clear: both;
+	padding: 10px;
+}
+
+.fParticipants .dropdown-menu #childs-ages {
+	background-color: #fff;
+	letter-spacing: 0;
+	margin: 10px 0;
+}
+
+.fParticipants .dropdown-menu #childs-ages label {
+	font-size: 12px;
+	font-weight: normal;
+}
+
+.searchbig_filters .fRow .dropdown-toggle:before,.searchbig .fRow ~ .fRow .dropdown-toggle:before {
+	display: block;
+	float: right;
+	width: 18px;
+	height: 18px;
+	margin: 10px 0 0 0;
+	content: '';
+	background: url(https://www.itaka.pl/cms/img/1/ico/ikonymale.png) no-repeat -54px -255px;
+}
+
+.childs-ages-commit,.childs-ages-rollback {
+	display: block;
+	display: inline-block;
+
+	height: 36px;
+	height: 26px;
+	padding: 0 10px;
+
+	text-decoration: none;
+
+	color: #fff;
+	border: none;
+	border-radius: 3px;
+	background: #eb2f2f;
+	background: -moz-linear-gradient(top, #f33 0%, #eb2f2f 100%);
+	background: -webkit-linear-gradient(top, #f33 0%, #eb2f2f 100%);
+	background: -o-linear-gradient(top, #f33 0%, #eb2f2f 100%);
+	background: -ms-linear-gradient(top, #f33 0%, #eb2f2f 100%);
+	background: linear-gradient(to bottom, #f33 0%, #eb2f2f 100%);
+	text-shadow: none;
+
+	font-weight: normal;
+	font-weight: normal;
+	line-height: 36px;
+	line-height: 26px;
+}
+
+.childs-ages-commit:hover,.childs-ages-rollback:hover {
+	text-decoration: none;
+
+	color: #fff;
+	background: #f33;
+}
+
+.childs-ages-commit {
+	float: right;
+
+	border: 1px solid #10447d;
+	background: #225b99;
+}
+
+.childs-ages-commit:hover {
+	background: #10447d;
+}
+
+.childs-ages-rollback {
+	float: left;
+
+	color: #10447d;
+	border: 1px solid #ccc;
+	background: #f5f5f5;
+}
+
+.searchbig .affix {
+	position: fixed !important;
+	top: 0;
+	left: 0;
+	width: 100% !important;
+	background: #eff5fc;
+	box-shadow: 3px 3px 3px #999;
+}
+
+.searchbig #search-form .affix {
+	position: relative!important;
+
+	margin: 0 auto;
+
+	background: #eff5fc;
+}
+
+.searchbig .affix-wrapper {
+	display: flex!important;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding-top: 30px;
+	padding-bottom: 40px;
+}
+
+.sort-type .searchbig_filters .dropdown-menu {
+	width: inherit;
+}
+
+.sort-type .btn {
+	width: 250px;
+	margin-left: 10px;
+}
+
+.searchbig_filters label,.searchbig_filters .dropdown a.dropdown-toggle {
+	display: inline-block;
+
+	line-height: 28px;
+}
+
+.searchbig_filters .dropdown a.dropdown-toggle {
+	width: 225px;
+}
+
+.searchbig_filters .dropdown label {
+	margin-right: 10px;
+}
+
+.searchbig_filters .dropdown-menu {
+	max-height: none !important;
+	margin-left: 52px;
+}
+
+.searchbig_filters .dropdown-menu > div {
+	padding: 5px 10px;
+}
+
+.searchbig_filters .dropdown-menu li {
+	list-style: none;
+}
+
+.searchbig_filters .dropdown-menu li a {
+	display: block;
+
+	margin: 0;
+	padding: 5px 10px;
+
+	text-decoration: none;
+}
+
+.searchbig_filters .viewType {
+	float: left;
+
+	margin-right: 25px;
+}
+
+.searchbig_filters .priceType {
+	float: right;
+}
+
+.searchbig_filters label,.searchbig_filters .switchType a {
+	float: left;
+}
+
+.searchbig_filters #view-types,.searchbig_filters #price-types {
+	display: inline-block;
+}
+
+.searchbig_filters .switchType a {
+	display: block;
+
+	width: 30px;
+	height: 36px;
+	height: 30px;
+	margin: 2px 0 2px 5px;
+	padding: 0 10px;
+	padding: 0;
+
+	text-decoration: none;
+
+	color: #10447d;
+	border: none;
+	border-radius: 3px;
+	background: #fff;
+	background: -moz-linear-gradient(top, #fff 0%, #fff 100%);
+	background: -webkit-linear-gradient(top, #fff 0%, #fff 100%);
+	background: -o-linear-gradient(top, #fff 0%, #fff 100%);
+	background: -ms-linear-gradient(top, #fff 0%, #fff 100%);
+	background: linear-gradient(to bottom, #fff 0%, #fff 100%);
+	text-shadow: none;
+
+	line-height: 36px;
+}
+
+.searchbig_filters .switchType a.active {
+	background-color: #10447d;
+}
+
+.searchbig_filters .switchType .pt_perperson a {
+	display: block;
+	float: left;
+
+	width: 25px;
+	height: 25px;
+
+	background-image: url(https://www.itaka.pl/cms/img/1/ico/ikonymale.png);
+	background-repeat: no-repeat;
+	background-position: -25px -275px;
+}
+
+.searchbig_filters .switchType .pt_perfamily a {
+	display: block;
+	float: left;
+
+	width: 25px;
+	height: 25px;
+
+	background-image: url(https://www.itaka.pl/cms/img/1/ico/ikonymale.png);
+	background-repeat: no-repeat;
+	background-position: -75px -275px;
+}
+
+.searchbig_filters .switchType .pt_perperson a.active {
+	display: block;
+	float: left;
+
+	width: 25px;
+	height: 25px;
+
+	background-image: url(https://www.itaka.pl/cms/img/1/ico/ikonymale.png);
+	background-repeat: no-repeat;
+	background-position: 0 -275px;
+}
+
+.searchbig_filters .switchType .pt_perfamily a.active {
+	display: block;
+	float: left;
+
+	width: 25px;
+	height: 25px;
+
+	background-image: url(https://www.itaka.pl/cms/img/1/ico/ikonymale.png);
+	background-repeat: no-repeat;
+	background-position: -50px -275px;
+}
+
+.searchbig_filters .switchType .vt_list a {
+	display: block;
+	float: left;
+
+	width: 25px;
+	height: 25px;
+
+	background-image: url(https://www.itaka.pl/cms/img/1/ico/ikonymale.png);
+	background-repeat: no-repeat;
+	background-position: -26px -325px;
+}
+
+.searchbig_filters .switchType .vt_thum a {
+	display: block;
+	float: left;
+
+	width: 25px;
+	height: 25px;
+
+	background-image: url(https://www.itaka.pl/cms/img/1/ico/ikonymale.png);
+	background-repeat: no-repeat;
+	background-position: -75px -325px;
+}
+
+.searchbig_filters .switchType .vt_list a.active {
+	display: block;
+	float: left;
+
+	width: 25px;
+	height: 25px;
+
+	background-image: url(https://www.itaka.pl/cms/img/1/ico/ikonymale.png);
+	background-repeat: no-repeat;
+	background-position: 1px -325px;
+}
+
+.searchbig_filters .switchType .vt_thum a.active {
+	display: block;
+	float: left;
+
+	width: 25px;
+	height: 25px;
+
+	background-image: url(https://www.itaka.pl/cms/img/1/ico/ikonymale.png);
+	background-repeat: no-repeat;
+	background-position: -50px -325px;
+}
+
+.results-info {
+	background: #f9f9f9;
+}
+
+.results-info,.results-loading {
+	padding: 10px 15px 30px;
+	text-align: center;
+	color: #f5f5f5;
+	text-shadow: 1px 1px 5px #666;
+	font-weight: bold;
+}
+
+.results-loading {
+	background: url(https://www.itaka.pl/cms/img/1/ajax-loader.gif) no-repeat center 25px;
+}
+
+.results-info span {
+	display: block;
+
+	margin: 30px 0;
+
+	color: #868686;
+	text-shadow: none;
+
+	font-weight: normal;
+}
+
+#search-results {
+	clear: both;
+	padding-top: 20px;
+}
+
+.hotel-list-item {
+	position: relative!important;
+
+	clear: both;
+}
+
+.hotel-list-item .hotel-list-photo-preview,.hotel-list-item .hotel-list-content {
+	position: relative!important;
+}

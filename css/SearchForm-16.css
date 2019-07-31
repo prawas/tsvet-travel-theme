@@ -1,0 +1,1028 @@
+.modal.fade.in {
+	top: 31%;
+}
+
+.onlyOne label {
+	cursor: default;
+}
+
+.onlyOne .dropdown-toggle {
+	cursor: default;
+	background-color: #eff5fc;
+}
+
+.onlyOne .dropdown-toggle:after, .onlyOne .dropdown-menu {
+	display: none;
+}
+
+.product_page_info > div {
+	padding: 0 9px 20px;
+
+	border: 1px solid #dadfe6;
+	border-radius: 5px;
+}
+
+.product_page_info h3 {
+	clear: both;
+
+	border: none;
+	border-bottom: 1px solid #d9e1ea;
+
+	font-size: 13px !important;
+	font-weight: 400;
+}
+
+.product_page_info ul {
+	margin: 0;
+	padding: 0;
+
+	list-style: none;
+}
+
+.product_page_info p,.product_page_info li,.product_page_info li.hours span {
+	font-size: 12px;
+	line-height: 1.2em;
+}
+
+.product_page_info li.tel,.product_page_info li.tel_pl,.product_page_info li.tel_second,.product_page_info li.pl,.product_page_info li.gsm,.product_page_info li.hours {
+	clear: left;
+
+	padding-left: 30px;
+}
+
+.product_page_info li.tel,.product_page_info li.tel_pl,.product_page_info li.tel_second,.product_page_info li.gsm {
+	position: relative!important;
+
+	font-size: 18px;
+	line-height: 30px;
+}
+
+.product_page_info li.tel:before {
+	display: block;
+	float: left;
+
+	width: 25px;
+	height: 25px;
+	margin: 0 5px 5px 0;
+	margin-left: -30px;
+
+	content: '';
+
+	background: url(https://www.itaka.pl/cms/img/1/ico/ikonymale.png) no-repeat 0 -500px;
+}
+
+.product_page_info li.gsm:before {
+	display: block;
+	float: left;
+
+	width: 25px;
+	height: 25px;
+	margin-right: 5px;
+	margin-left: -30px;
+
+	content: '';
+
+	background: url(https://www.itaka.pl/cms/img/1/ico/ikonymale.png) no-repeat -50px -500px;
+}
+
+.product_page_info li.hours span {
+	display: block;
+}
+
+.product_page_info a.fb-share,.product_page_info a.gplus-share,.product_page_info a.twitter-share {
+	overflow: hidden;
+
+	width: 25px;
+	height: 25px;
+	margin: 0 5px 0 0;
+
+	text-indent: -5000px;
+}
+
+.product_page_info a.fb-share {
+	display: block;
+	display: inline-block;
+	float: left;
+	float: none;
+
+	width: 25px;
+	height: 25px;
+
+	background-image: url(https://www.itaka.pl/cms/img/1/ico/ikonymale.png);
+	background-repeat: no-repeat;
+	background-position: 0 -525px;
+}
+
+.product_page_info a.gplus-share {
+	display: block;
+	display: inline-block;
+	float: left;
+	float: none;
+
+	width: 25px;
+	height: 25px;
+
+	background-image: url(https://www.itaka.pl/cms/img/1/ico/ikonymale.png);
+	background-repeat: no-repeat;
+	background-position: -25px -525px;
+}
+
+.product_page_info a.twitter-share {
+	display: block;
+	display: inline-block;
+	float: left;
+	float: none;
+
+	width: 25px;
+	height: 25px;
+
+	background-image: url(https://www.itaka.pl/cms/img/1/ico/ikonymale.png);
+	background-repeat: no-repeat;
+	background-position: -75px -525px;
+}
+
+.product_page_info li.tel_pl,.product_page_info li.tel_second {
+	display: none;
+}
+
+.lang-ru .product_page_info li.tel_pl,.lang-ru .product_page_info li.tel_second {
+	display: block;
+}
+
+.lang-ru .product_page_info li.tel:before,.lang-ru .product_page_info li.tel_pl:before,.lang-ru .product_page_info li.tel_second:before {
+	position: absolute;
+	top: 7px;
+	left: 0;
+
+	display: block;
+	float: left;
+
+	width: 13px;
+	height: 10px;
+	margin: 1px 4px;
+
+	content: '';
+
+	border: 1px solid #ddd;
+	background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAKCAIAAADgjEOTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH4AYcDQEr8mD39wAAACVJREFUGNNj/P//PwMRgImBOECsOkZl1wkDYS/R7vvEzDwQ9gIANXIE/+NE7G8AAAAASUVORK5CYII=');
+}
+
+.lang-ru .product_page_info li.tel_second:before {
+	background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAKCAYAAABv7tTEAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH4AYcDQQoFh5SCAAAAEtJREFUKM9jvOXm9v/Trl0MpAAmRkZGBlIBEwM5mhhZWUnX9O/nTzJsYmYmWRPLCV1mhnsfSdQ02+03wyF1EjWx/GVgYPhDapCTAQBvqw91or2KAwAAAABJRU5ErkJggg==');
+}
+
+.lang-ru .product_page_info li.tel_pl:before {
+	background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAKCAYAAABv7tTEAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH4AcTDAEewBJgBQAAACBJREFUKM9j/P///38GEgETAxlgkGti/MTMPBoQDAwMAE/HBgbbldFbAAAAAElFTkSuQmCC');
+}
+
+.rezerwacja .tn_trading_post,.rezerwacja #head .head:after {
+	display: none;
+}
+
+.rezerwacja #main .lev5 {
+	margin-bottom: 50px;
+}
+
+.rezerwacja .reservation-title:before,.rezerwacja .reservation-title:after {
+	display: table;
+
+	content: ' ';
+}
+
+.rezerwacja .reservation-title:after {
+	clear: both;
+}
+
+.rezerwacja .reservation-title h2.oldh1 {
+	float: right;
+
+	margin: 20px 0;
+
+	color: #f33;
+}
+
+.rezerwacja .reservation-title .event-back {
+	display: block;
+	float: left;
+
+	margin: 20px 20px 0 0;
+	padding: 2px 0;
+
+	font-weight: bold;
+	line-height: 25px;
+}
+
+.rezerwacja .reservation-title .event-back:before {
+	display: block;
+	float: left;
+
+	width: 25px;
+	height: 25px;
+
+	content: '';
+
+	background: url(https://www.itaka.pl/cms/img/1/ico/ikonymale.png) no-repeat -75px -25px;
+}
+
+.rezerwacja .mainbottom {
+	margin-top: 0;
+}
+
+.rezerwacja .tn_cli,.rezerwacja .tn_moi,.rezerwacja .tn_lng,.rezerwacja .lev3 .menu_h,.rezerwacja #path,.rezerwacja .search_hotel,.rezerwacja #foot .lev3,.rezerwacja #foot .lev4 {
+	display: none;
+}
+
+.rezerwacja #head .lev3:after {
+	display: block;
+	float: right;
+	clear: right;
+
+	width: 125px;
+	height: 45px;
+	margin: 10px 0;
+
+	content: 'Zabezpieczenie';
+	vertical-align: top;
+
+	color: #10447d;
+	background: url(https://www.itaka.pl/cms/img/1/ico/thawte.gif) no-repeat bottom;
+}
+
+.rezerwacja .maintop {
+	padding: 5px 0;
+
+	background-color: #f33;
+}
+
+.rezerwacja .maintop p {
+	margin-bottom: 6px;
+
+	color: #fff;
+
+	line-height: 25px;
+}
+
+.rezerwacja .maintop p strong {
+	line-height: inherit;
+}
+
+.rezerwacja .maintop p em {
+	font-style: normal;
+}
+
+.rezerwacja .maintop p:before {
+	display: block;
+	float: left;
+
+	width: 25px;
+	height: 25px;
+
+	content: '';
+
+	background: url(https://www.itaka.pl/cms/img/1/ico/ikonymale.png) no-repeat -75px -302px;
+}
+
+.rezerwacja #foot .lev5 {
+	border: none;
+}
+
+#main .reservation-details-mobile {
+	display: none;
+}
+
+#main .reservation-details-desktop {
+	display: block;
+}
+
+.rezerwacja.bd15 #main .lev6 {
+	padding: 0;
+}
+
+.rezerwacja .alert.reservation-fatality {
+	padding: 10px;
+
+	font-size: 30px;
+}
+
+.reservation-form .accordion-group {
+	margin: 0;
+
+	border: 1px solid #d9e1ea;
+	border-radius: 0;
+}
+
+.reservation-form .accordion-heading a {
+	display: block;
+
+	padding: 12px 20px;
+
+	text-transform: uppercase;
+
+	font-weight: bold;
+	line-height: 25px;
+}
+
+.reservation-form .accordion-heading a.accordion-toggle {
+	color: #fff;
+	background-color: #10447d;
+}
+
+.reservation-form .accordion-heading a.accordion-toggle:before {
+	display: block;
+	float: left;
+	float: right;
+
+	width: 25px;
+	height: 25px;
+
+	content: '';
+
+	background: url(https://www.itaka.pl/cms/img/1/ico/ikonymale.png) no-repeat 0 -575px;
+}
+
+.reservation-form .accordion-heading a:hover {
+	text-decoration: none;
+}
+
+.reservation-form .accordion-heading a span.step-summary {
+	margin-left: 5px;
+
+	font-weight: normal;
+	font-style: italic;
+}
+
+.reservation-form .accordion-body h3 {
+	color: #10447d;
+
+	font-size: 20px;
+}
+
+.reservation-form .accordion-body h3 p {
+	padding-top: 10px;
+
+	font-weight: normal;
+}
+
+.reservation-form .accordion-body h3 span {
+	font-style: italic;
+}
+
+.reservation-form .reservation-payment-info {
+	padding: 0 0 0 20px;
+
+	line-height: 1.5em;
+}
+
+.reservation-payment-info {
+	position: relative!important;
+
+	margin-bottom: 1em;
+	padding: 17px 17px 17px 45px;
+
+	border: 2px solid #10447d;
+	background: #eff5fc;
+
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.reservation-payment-info:before {
+	position: absolute;
+	top: 13px;
+	left: 13px;
+
+	display: block;
+	float: left;
+
+	width: 25px;
+	height: 25px;
+
+	content: '';
+
+	background: url(https://www.itaka.pl/cms/img/1/ico/ikonymale.png) no-repeat 0 -900px;
+}
+
+.reservation-payment-info span {
+	font-weight: normal;
+}
+
+.reservation-form .ajax-loading {
+	display: inline-block;
+}
+
+.reservation-form .validation-success a.accordion-toggle {
+	color: #10447d;
+	background-color: #fff;
+}
+
+.reservation-form .validation-success a.accordion-toggle:after {
+	float: right;
+
+	margin-right: 15px;
+
+	content: 'Edytuj';
+}
+
+.reservation-form .validation-success a.accordion-toggle:before {
+	display: block;
+	float: left;
+	float: right;
+
+	width: 25px;
+	height: 25px;
+
+	content: '';
+
+	background: url(https://www.itaka.pl/cms/img/1/ico/ikonymale.png) no-repeat -75px -575px;
+}
+
+.reservation-form .accordion-heading a.inactive {
+	color: #999;
+	background-color: #fff;
+}
+
+.reservation-form .accordion-heading a.inactive:before {
+	display: block;
+	float: left;
+	float: right;
+
+	width: 25px;
+	height: 25px;
+
+	content: '';
+
+	background: url(https://www.itaka.pl/cms/img/1/ico/ikonymale.png) no-repeat -25px -575px;
+}
+
+.reservation-form .accordion-body:after,.reservation-form .validation-success .accordion-body:after {
+	position: absolute;
+	top: -2px;
+	left: 20px;
+
+	display: inline-block;
+
+	content: '';
+
+	border-width: 9px 9px 0 9px;
+	border-style: solid;
+}
+
+.reservation-form .accordion-body:after {
+	border-color: #10447d transparent;
+}
+
+.reservation-form .validation-success .accordion-body:after {
+	border-color: #fff transparent;
+}
+
+.reservation-form .accordion-body:before {
+	position: absolute;
+	top: 0;
+	left: 17px;
+
+	display: inline-block;
+
+	content: '';
+
+	border-width: 11px 11px 0 11px;
+	border-style: solid;
+	border-color: #e5eaf1 transparent;
+}
+
+.reservation-form .accordion-body {
+	background-color: #eff5fc;
+	box-shadow: 0 3px 9px -5px #10447d inset;
+}
+
+.reservation-form .accordion-body .accordion-inner {
+	padding: 20px;
+}
+
+.reservation-form .accordion-body h3 {
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+
+	border-bottom: 1px solid #d9e1ea;
+}
+
+.reservation-form .accordion-body h3 span {
+	font-weight: normal;
+}
+
+.reservation-form .accordion-body dl {
+	margin: 0;
+	padding: 0;
+}
+
+.reservation-form .accordion-body dl dt,.reservation-form .accordion-body dl dd {
+	display: block;
+
+	margin: 0 0 20px 0;
+}
+
+.reservation-form .accordion-body label,.reservation-form .accordion-body dl dt {
+	float: left;
+
+	line-height: 25px;
+}
+
+.reservation-form .accordion-body dl .btn-group {
+	float: right;
+}
+
+@media screen and (max-width: 1200px) and (min-width: 1020px) {
+	.reservation-form .accordion-body dl .btn-group {
+		float: left;
+	}
+}
+
+.reservation-form .popover ul {
+	margin-top: 5px;
+}
+
+.reservation-form .popover ul li {
+	margin-left: 20px;
+
+	list-style-type: square;
+
+	font-size: 14px;
+	font-size: 12px;
+	line-height: 16px;
+}
+
+.reservation-form .popover i {
+	font-size: 12px;
+}
+
+.popover-long {
+	min-width: 430px !important;
+	max-width: 510px !important;
+}
+
+.controls .popover.popover-long .popover-close {
+	right: -4px !important;
+}
+
+.reservation-form .accordion-body dl label.btn-primary {
+	width: 49px;
+	height: 25px;
+	margin: 0;
+	padding: 0;
+
+	border: none;
+	border-radius: 3px;
+	background: transparent;
+	box-shadow: none;
+}
+
+.reservation-form .gender span {
+	position: relative!important;
+
+	display: inline-block;
+
+	width: 8px;
+	height: 8px;
+	margin-top: -2px;
+	margin-right: 3px;
+
+	vertical-align: middle;
+
+	border-radius: 100%;
+}
+
+.reservation-form .gender span:before {
+	position: absolute;
+	top: -3px;
+	left: -3px;
+
+	display: block;
+
+	width: 12px;
+	height: 12px;
+
+	content: '';
+
+	border: 1px solid #b9cadd;
+	border-radius: 100%;
+}
+
+.reservation-form .gender.active span {
+	background: #10447d;
+}
+
+.reservation-form .gender input {
+	display: none;
+}
+
+.reservation-form .accordion-body input[type='text'],.reservation-form .accordion-body input[type='email'] {
+	height: 25px;
+	margin: 0;
+	margin-left: 20px;
+	padding: 0 5px;
+
+	color: #10447d;
+	border: 1px solid #dadfe6;
+	border-radius: 3px;
+	background-color: #fff;
+
+	font-weight: bold;
+	font-weight: normal;
+	line-height: 25px;
+}
+
+.reservation-form .accordion-body input.participant-nationality {
+	color: #a3aab1;
+	background: #e3eaf1 none repeat scroll 0 0;
+}
+
+.reservation-form .accordion-body input.participant-birthdate {
+	float: right;
+
+	background: #fff url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6QTZFRUE5OTVGQjRDMTFFMjkyMUFGRjYyOUJCQjgyRTciIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6QTZFRUE5OTZGQjRDMTFFMjkyMUFGRjYyOUJCQjgyRTciPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpBNkVFQTk5M0ZCNEMxMUUyOTIxQUZGNjI5QkJCODJFNyIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpBNkVFQTk5NEZCNEMxMUUyOTIxQUZGNjI5QkJCODJFNyIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PlazORUAAAGjSURBVHja7NZLKERRGMDxucZghpFXlGLBihSSbCVsZYWyILK0wNpCykKWNjZk4bFmN2VlIcpj4VEWXiuPkvJIMtf/1HfruN07c2cMSb76dWdOc+93znfu+RrDNE3fd0ea7wfi7yRJtw/kt43rX+vQj0ncujxjGrtY1gfvIxNxVxJEFqoxjCLkoVhTggyMoQMBhJwm7pRkBNfYxLOMqQRnuNRcoBkPuJFkd3JfQ7wkqjRhWY0q0R6ekI1MGwNbOJWVq3ua0BIvSVCuYZntoNv+EQUYwIKU1Ir3mBuvRRmu5Aa/y2+W8CaT9Xt+u2wPeJHPpn12En4pmYooepCTSJIh2YtEotUpSazDWChX9brOylmoQiV2xKGo1VaWULmsztmFRpTLG3aMPtmLOXnwQbJtxar1PDrxqu2Lmn0F6jGait71KAkDchasw6naySK2U5GkBlPIlYNail7V5jCTVIPUIipX1SrWsSa9Se3FEdpx/tUkITn9KsmqNq7KtmHrDvZ9NLwm2dfeMK8RtFXBNckKuh1m6TVOEPm0vP8/Er8uyYcAAwD9Y1FsdsNH+wAAAABJRU5ErkJggg==') right center no-repeat;
+}
+
+.reservation-form .error {
+	position: relative!important;
+
+	color: #f33;
+}
+
+.reservation-form .accordion-body .error input[type='text'] {
+	color: #f33;
+	border-color: #f33;
+}
+
+.reservation-form .error .input-error {
+	position: absolute;
+	top: 0;
+	left: 375px;
+
+	margin-left: 20px;
+
+	color: #f33;
+
+	line-height: 25px;
+}
+
+.reservation-form .step-add-serv .error .input-error {
+	left: 0 !important;
+
+	clear: both;
+
+	margin-left: 5px !important;
+}
+
+.reservation-form .step1 .control-group {
+	display: inline-block;
+
+	vertical-align: top;
+}
+
+.reservation-form .step1 .error {
+	margin: 0 0 30px 0;
+}
+
+.reservation-form .step1 .idcard .error:not(.error-required) {
+	margin: 0 0 50px 0;
+}
+
+.reservation-form .step1 .error .input-error {
+	position: absolute;
+	top: 30px;
+	left: 0;
+
+	width: 170px;
+	margin-left: 20px;
+
+	color: #f33;
+
+	font-size: 10px;
+	line-height: 12px;
+}
+
+.reservation-form .step2 .control-required:nth-of-type(3).error .controls span {
+	display: none;
+}
+
+.reservation-form .step2 .error .input-error {
+	position: absolute;
+	top: 0;
+	left: 375px;
+
+	margin-left: 20px;
+
+	color: #f33;
+
+	font-size: 10px;
+	line-height: 25px;
+}
+
+.reservation-form .error .input-error:before {
+	display: block;
+	float: left;
+
+	width: 25px;
+	height: 25px;
+	margin-right: 5px;
+
+	content: '';
+
+	background: url(https://www.itaka.pl/cms/img/1/ico/ikonymale.png) no-repeat 0 -150px;
+}
+
+.reservation-form .error:last-child .input-error {
+	width: 160px;
+}
+
+.reservation-form .checkbox-acceptation .error .input-error {
+	position: relative!important;
+
+	margin-left: 25px;
+}
+
+.reservation-form .control-group {
+	clear: both;
+
+	margin: 0 0 10px 0;
+}
+
+.reservation-form .control-group.infield-label {
+	float: none;
+}
+
+.reservation-form .control-required label:after {
+	margin-left: 5px;
+
+	content: '*';
+
+	color: #f33;
+}
+
+.lang-en .reservation-form .step-add-serv .control-required label:after {
+	display: none;
+}
+
+.lang-en .reservation-form .step-add-serv .control-required label span:after {
+	margin-left: 5px;
+
+	content: '*';
+
+	color: #f33;
+}
+
+.reservation-form label {
+	text-align: right;
+}
+
+.reservation-form .help-inline {
+	font-style: italic;
+}
+
+.reservation-form .reservation-foto {
+	float: left;
+
+	margin-right: 20px;
+
+	text-align: center;
+
+	background: url(https://www.itaka.pl/cms/img/1/ajax-loader.gif) no-repeat center center;
+}
+
+.participants-client-summary,.in-price-summary {
+	clear: both;
+
+	margin-top: 20px;
+	padding-top: 20px;
+
+	border-top: 1px solid #d9e1ea;
+}
+
+.participants-client-summary fieldset {
+	display: inline-block;
+
+	vertical-align: top;
+}
+
+.participants-client-summary fieldset legend,.in-price-summary fieldset legend {
+	margin-bottom: 10px;
+
+	border: none;
+
+	font-weight: bold;
+}
+
+.participants-client-summary ul {
+	margin: 0;
+	padding: 0;
+
+	list-style: none;
+}
+
+.in-price-summary ul {
+	margin-left: 20px;
+}
+
+.in-price-summary ul li {
+	float: left;
+
+	width: 47.5%;
+	margin-left: 2.5%;
+
+	list-style-type: square;
+}
+
+.reservation-form .step2 .popover .popover-content {
+	text-align: left;
+
+	font-size: 13px;
+	line-height: 16px;
+}
+
+.reservation-form ul {
+	margin: 0;
+	padding: 0;
+
+	list-style: none;
+}
+
+.reservation-form ul li {
+	line-height: 2em;
+}
+
+.reservation-form .summary-event strong {
+	display: inline-block;
+
+	margin-right: 20px;
+
+	text-align: right;
+}
+
+.reservation-form .step-add-serv {
+	clear: both;
+
+	margin-top: 20px;
+	padding-top: 20px;
+
+	border-top: 1px solid #d9e1ea;
+}
+
+.reservation-form .additional-services-link,.reservation-form .additional-local-trips-link,.reservation-form .additional-itaka-active-link {
+	height: 40px;
+}
+
+.reservation-form .additional-services-link a strong,.reservation-form .additional-local-trips-link a strong,.reservation-form .additional-itaka-active-link a strong {
+	display: block;
+	float: left;
+
+	line-height: 25px;
+}
+
+.reservation-form .additional-services-link a:after,.reservation-form .additional-local-trips-link a:after,.reservation-form .additional-itaka-active-link a:after {
+	display: block;
+	float: left;
+
+	width: 25px;
+	height: 25px;
+
+	content: '';
+
+	background: url(https://www.itaka.pl/cms/img/1/ico/ikonymale.png) no-repeat -50px -25px;
+}
+
+.reservation-form .additional-services {
+	clear: both;
+
+	padding: 0 10px;
+
+	border-right: 1px solid #eee;
+	border-bottom: medium none;
+	border-left: 1px solid #eee;
+	background: #fff none repeat scroll 0 0;
+}
+
+.reservation-form .local-trips-list {
+	clear: both;
+
+	border-bottom: 1px solid #d9e1ea;
+}
+
+.reservation-form .local-trips-list.ajax-loading {
+	border-bottom: 0;
+}
+
+.reservation-form .additional-services fieldset {
+	clear: both;
+
+	margin-top: 20px;
+}
+
+.reservation-form .additional-services fieldset legend {
+	width: 100%;
+	margin-bottom: 5px;
+
+	border: none;
+
+	font-weight: normal;
+}
+
+.reservation-form .additional-services-link,.reservation-form .additional-local-trips-link,.reservation-form .additional-itaka-active-link {
+	overflow: hidden;
+
+	height: auto;
+	padding: 10px;
+
+	border: 1px solid #eee;
+	background: #fff none repeat scroll 0 0;
+}
+
+.reservation-form .step-add-serv .controls {
+	clear: both;
+}
+
+.reservation-form .step-add-serv input {
+	float: left;
+
+	margin-top: 7px;
+}
+
+.reservation-form .step-add-serv label {
+	width: 90%;
+	margin-left: 10px;
+
+	text-align: left;
+
+	font-weight: normal;
+}
+
+.reservation-form .step-add-serv label[for='service-unicef-input'] {
+	display: inline-block;
+
+	width: auto;
+	margin-bottom: 10px;
+}
+
+.reservation-form .step-add-serv .submit-unicef {
+	display: none;
+
+	height: 27px;
+
+	cursor: pointer;
+
+	line-height: 27px;
+}
+
+.reservation-form .step-add-serv .submit-unicef.submit-active {
+	display: inline-block;
+}
+
+.reservation-form .step-add-serv .submit-unicef:after {
+	display: none;
+}
+
+.reservation-form .regulationsAcceptation {
+	overflow: hidden;
+}
+
+.reservation-form .regulationsAcceptation label {
+	line-height: 22px;
+}
+
+.reservation-form .payment-method p {
+	clear: both;
+
+	margin: 20px;
+
+	font-style: italic;
+}
+
+.reservation-form .service-price {
+	margin-left: 20px;
+
+	color: #f33;
+
+	font-weight: bold;
+}
+
+.reservation-form .additional-box .info {
+	padding: 0 12px;
+
+	border: 1px solid #dadfe6;
+	border-radius: 5px;
+	background-color: #e3eaf1;
+
+	font-size: 13px;
+}
+
+.reservation-form .additional-box .info .text {
+	padding: 12px 0;
+
+	font-size: 13px;
+
+	corsor: pointer;
+}
+
+.reservation-form .additional-box .info input {
+	float: left;
+
+	margin: 13px 5px 0 0;
+}

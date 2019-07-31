@@ -1,0 +1,1064 @@
+#head .search_hotel .search_popup {
+	z-index: 500;
+}
+
+.searchbig .affix {
+	z-index: 1000;
+}
+
+#head .lev2 li.tn_lng .tn_lng_menu {
+	z-index: 600;
+}
+
+.btn-group .open,.searchbig .open {
+	z-index: 700;
+}
+
+.cookie-bar,.abandon-reservation-bar {
+	z-index: 750;
+}
+
+.ajax-loading.dummy {
+	z-index: 1000;
+}
+
+p,a,li,span,div,h1,h2,h3,h4,h5,h6 {
+	margin: 0;
+	padding: 0;
+
+	font-size: 14px;
+	line-height: 1em;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+body {
+	overflow-y: scroll;
+
+	margin: 0;
+	padding: 0;
+
+	font-family: Arial,Helvetica, sans-serif;
+}
+
+a img {
+	border: 0 !important;
+}
+
+img {
+	max-width: none;
+}
+
+:focus {
+	outline: none;
+}
+
+a {
+	text-decoration: none;
+
+	color: #10447d;
+	outline: none;
+
+	font-size: inherit;
+}
+
+strong {
+	font-size: inherit;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+form {
+	margin: 0;
+}
+
+table {
+	border-spacing: 0;
+
+	border-collapse: collapse;
+}
+
+fieldset {
+	margin: 0;
+	padding: 0;
+
+	border: 0;
+}
+
+hr {
+	margin: 0 0 10px 0;
+	padding: 0;
+}
+
+.mobile_only,.mobile_only_active,.mobileopinion,.mobileweather {
+	display: none;
+}
+
+input,input:focus,.btn:active,.btn:focus {
+	-webkit-box-shadow: none !important;
+	box-shadow: none !important;
+}
+
+.btn-back {
+	display: block;
+	float: left;
+
+	margin: 20px 20px 0 0;
+	padding: 2px 0;
+
+	line-height: 25px;
+}
+
+.btn-back:before {
+	display: block;
+	float: left;
+
+	width: 25px;
+	height: 25px;
+
+	content: '';
+
+	background: url(https://www.itaka.pl/cms/img/1/ico/ikonymale.png) no-repeat -75px -25px;
+}
+
+.ajax-loading {
+	min-width: 25px;
+	min-height: 25px;
+
+	background: url(https://www.itaka.pl/cms/img/1/ajax-loader.gif) no-repeat center center;
+}
+
+.ajax-loading.dummy {
+	position: absolute;
+
+	opacity: .5;
+	background-color: #fff;
+}
+
+body.block-body {
+	position: fixed;
+
+	width: 100%;
+	height: 100%;
+}
+
+html,body {
+	width: 100%;
+	height: 100%;
+}
+
+.zdjecie_w_ramce {
+	margin-bottom: 20px;
+
+	border-radius: 3px;
+	border-radius: 5px;
+	background-color: #fff;
+	box-shadow: 0 0 5px #999;
+	box-shadow: none;
+}
+
+.zdjecie_w_ramce[style*='left'] {
+	margin-right: 25px;
+}
+
+.zdjecie_w_ramce[style*='right'] {
+	margin-left: 25px;
+}
+
+.przycisk_czerwony_wstecz,.przycisk_czerwony {
+	display: block;
+	display: inline-block;
+
+	height: 36px;
+	padding: 0 10px;
+
+	text-decoration: none;
+
+	color: #fff;
+	border: none;
+	border-radius: 3px;
+	background: #eb2f2f;
+	background: -moz-linear-gradient(top, #f33 0%, #eb2f2f 100%);
+	background: -webkit-linear-gradient(top, #f33 0%, #eb2f2f 100%);
+	background: -o-linear-gradient(top, #f33 0%, #eb2f2f 100%);
+	background: -ms-linear-gradient(top, #f33 0%, #eb2f2f 100%);
+	background: linear-gradient(to bottom, #f33 0%, #eb2f2f 100%);
+	text-shadow: none;
+
+	font-weight: normal;
+	line-height: 36px;
+}
+
+.przycisk_czerwony_wstecz:hover,.przycisk_czerwony:hover {
+	text-decoration: none;
+
+	color: #fff;
+	background: #f33;
+}
+
+.przycisk_niebieski_wstecz,.przycisk_niebieski {
+	display: block;
+	display: inline-block;
+
+	height: 36px;
+	padding: 0 10px;
+
+	text-decoration: none;
+
+	color: #fff;
+	border: none;
+	border-radius: 3px;
+	background: #023772;
+	background: -moz-linear-gradient(top, #10447d 0%, #023772 100%);
+	background: -webkit-linear-gradient(top, #10447d 0%, #023772 100%);
+	background: -o-linear-gradient(top, #10447d 0%, #023772 100%);
+	background: -ms-linear-gradient(top, #10447d 0%, #023772 100%);
+	background: linear-gradient(to bottom, #10447d 0%, #023772 100%);
+	text-shadow: none;
+
+	line-height: 36px;
+}
+
+.przycisk_niebieski_wstecz:hover,.przycisk_niebieski:hover {
+	text-decoration: none;
+
+	color: #fff;
+	background: #10447d;
+}
+
+.przycisk_czerwony:after,.przycisk_niebieski:after {
+	display: block;
+	float: left;
+	float: right;
+
+	width: 25px;
+	height: 25px;
+	margin: 5px 0 0 5px;
+
+	content: '';
+
+	background: url(https://www.itaka.pl/cms/img/1/ico/ikonymale.png) no-repeat -25px -75px;
+}
+
+.przycisk_czerwony_wstecz:after,.przycisk_niebieski_wstecz:after {
+	display: block;
+	float: left;
+	float: left;
+
+	width: 25px;
+	height: 25px;
+	margin: 5px 5px 0 0;
+
+	content: '';
+
+	background: url(https://www.itaka.pl/cms/img/1/ico/ikonymale.png) no-repeat -75px -75px;
+}
+
+.przycisk_czerwony_wstecz:hover,.przycisk_czerwony:hover {
+	text-decoration: none;
+
+	color: #fff;
+	background-color: #f33;
+}
+
+.przycisk_niebieski_wstecz:hover,.przycisk_niebieski:hover {
+	text-decoration: none;
+
+	color: #fff;
+	background-color: #10447d;
+}
+
+#head,#main,#foot {
+	clear: both;
+
+	margin: 0;
+	padding: 0;
+}
+
+.head,.main,#foot > section > div {
+	position: relative!important;
+
+	margin: 0 auto;
+	padding: 0;
+}
+
+#foot .contact {
+	clear: both;
+
+	background-color: #0394d0;
+}
+
+#foot .foot {
+	clear: both;
+
+	background-color: #10447d;
+}
+
+#head {
+	margin: 0;
+
+	background-color: #fff;
+}
+
+#main:after {
+	display: table;
+	clear: both;
+
+	content: '';
+}
+
+.bd0 .maintop {
+	background-color: #fff;
+}
+
+.maintop {
+	clear: both;
+}
+
+.search-results-page .maintop {
+	clear: both;
+
+	background-color: #eff5fc;
+}
+
+.search-results-page .mainbottom {
+	margin-top: 50px;
+}
+
+.page_kierunki .maintop {
+	clear: both;
+
+	background-color: transparent;
+}
+
+.page_kierunki .mainbottom .main {
+	display: none;
+}
+
+.menu_v ul,.menu_h ul {
+	margin: 0;
+	padding: 0;
+
+	list-style: none;
+}
+
+.menu_h li {
+	float: left;
+}
+
+.menu_v a {
+	display: block;
+}
+
+.itaka_logo {
+	display: block;
+	float: left;
+
+	width: 83px;
+	height: 82px;
+
+	text-indent: -5000px;
+
+	background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFIAAABSCAYAAADHLIObAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NEUzNzU0RUM5N0VCMTFFNDlCRDFDQzQzQTM5N0RDNTkiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6NEUzNzU0RUQ5N0VCMTFFNDlCRDFDQzQzQTM5N0RDNTkiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo0RTM3NTRFQTk3RUIxMUU0OUJEMUNDNDNBMzk3REM1OSIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo0RTM3NTRFQjk3RUIxMUU0OUJEMUNDNDNBMzk3REM1OSIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PudW5yYAABBSSURBVHja7F0JdBXV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');
+}
+
+@media screen and (min-width: 768px) {
+	.impt11 .itaka_logo {
+		background: url('data:image/png;base64,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');
+	}
+}
+
+.main .td6 {
+	padding: 10px;
+
+	border: 1px solid #dadfe6;
+	border-radius: 5px;
+	background-color: #eff5fc;
+}
+
+.page_ramka .mainbottom .main {
+	padding: 10px 20px;
+}
+
+.main p,.main .lev2 .plain li,.accordion-inner .accordionTabBody {
+	margin-bottom: 5px;
+
+	line-height: 1.3em;
+}
+
+.main .movie {
+	text-align: center;
+}
+
+.main .more {
+	clear: both;
+}
+
+.main .more a,.main .more span {
+	display: inline-block;
+
+	font-weight: normal;
+	line-height: 25px;
+}
+
+.main .more span {
+	cursor: pointer;
+
+	color: #10447d;
+}
+
+.main .more a:before,.main .more span:before,.news-related .more {
+	display: block;
+	float: left;
+	float: right;
+
+	width: 25px;
+	height: 25px;
+
+	content: '';
+
+	background: url(https://www.itaka.pl/cms/img/1/ico/ikonymale.png) no-repeat -25px -25px;
+}
+
+.lev1 .title {
+	padding: 9px 15px;
+}
+
+.lev1 .title h2 {
+	color: #10447d;
+}
+
+.main .lev1 .menu_v li {
+	margin: 0;
+
+	background-color: #eff5fc;
+}
+
+.main .lev1 .menu_v li + li {
+	border-top: 1px solid #d9e1ea;
+}
+
+.main .lev1 .menu_v li.menu_active {
+	background-color: #10447d;
+}
+
+.main .lev1 .menu_v li:hover {
+	color: #fff;
+	background-color: #225b99;
+}
+
+.main .lev1 .menu_v li a {
+	padding: 9px 15px;
+
+	line-height: 20px;
+}
+
+.main .lev1 .menu_v li.menu_active a {
+	color: #fff;
+}
+
+.main .lev1 .menu_v li:hover a {
+	text-decoration: none;
+
+	color: #fff;
+}
+
+.main .lev1 .menu_v li:first-child {
+	border-radius: 3px 3px 0 0;
+}
+
+.main .lev1 .menu_v li:last-child {
+	border-radius: 0 0 3px 3px;
+}
+
+.main .lev1 .menusub {
+	padding-left: 0;
+
+	background-color: #225b99;
+}
+
+.main .lev1 .menusub .menu_v li {
+	border-top: 1px solid #10447d;
+	border-radius: 0;
+	background-color: #225b99;
+}
+
+.main .lev1 .menusub .menu_v li a {
+	padding: 0 5px;
+	padding-left: 25px;
+
+	line-height: 25px;
+}
+
+.main .lev1 .menusub .menu_v li.menu_active a {
+	padding-left: 25px;
+}
+
+.main .lev1 .menusub .menu_v li.menu_active a:before {
+	display: block;
+	float: left;
+
+	width: 25px;
+	height: 25px;
+	margin-left: -25px;
+
+	content: '';
+
+	background: url(https://www.itaka.pl/cms/img/1/ico/ikonymale.png) no-repeat -25px 0;
+}
+
+.main .lev1 .menusub .menu_v li:hover {
+	background-color: #10447d;
+}
+
+.main .lev2 .menu_v li {
+	margin: 0;
+
+	background-color: #eff5fc;
+}
+
+.main .lev2 .menu_v li + li {
+	border-top: 1px solid #d9e1ea;
+}
+
+.main .lev2 .menu_v li.menu_active {
+	background-color: #10447d;
+}
+
+.main .lev2 .menu_v li:hover {
+	color: #fff;
+	background-color: #225b99;
+}
+
+.main .lev2 .menu_v li a {
+	padding: 9px 15px;
+
+	line-height: 20px;
+}
+
+.main .lev2 .menu_v li.menu_active a {
+	color: #fff;
+}
+
+.main .lev2 .menu_v li:hover a {
+	text-decoration: none;
+
+	color: #fff;
+}
+
+.main .lev2 .menu_v li:first-child {
+	border-radius: 3px 3px 0 0;
+}
+
+.main .lev2 .menu_v li:last-child {
+	border-radius: 0 0 3px 3px;
+}
+
+.main .lev2 .menusub {
+	padding-left: 0;
+
+	background-color: #225b99;
+}
+
+.main .lev2 .menusub .menu_v li {
+	border-top: 1px solid #10447d;
+	border-radius: 0;
+	background-color: #225b99;
+}
+
+.main .lev2 .menusub .menu_v li a {
+	padding: 0 5px;
+	padding-left: 25px;
+
+	line-height: 25px;
+}
+
+.main .lev2 .menusub .menu_v li.menu_active a {
+	padding-left: 25px;
+}
+
+.main .lev2 .menusub .menu_v li.menu_active a:before {
+	display: block;
+	float: left;
+
+	width: 25px;
+	height: 25px;
+	margin-left: -25px;
+
+	content: '';
+
+	background: url(https://www.itaka.pl/cms/img/1/ico/ikonymale.png) no-repeat -25px 0;
+}
+
+.main .lev2 .menusub .menu_v li:hover {
+	background-color: #10447d;
+}
+
+.newsPriviewPage {
+	margin-left: -25px;
+}
+
+.newsPriviewPage li {
+	display: block;
+
+	margin-left: -15px;
+}
+
+.newsPriviewPage ul {
+	margin: 0;
+}
+
+.newsPriviewPage hr {
+	border-top: none;
+	border-bottom: 1px solid #ece5e5;
+}
+
+.publishDateTime {
+	margin: 10px 0 10px 0;
+
+	color: #999;
+}
+
+.publishDateTime .span {
+	font-size: 12px;
+}
+
+.newsColumn .row {
+	margin: 0 0 0 10px;
+	padding: 0 0 10px 0;
+}
+
+.tab-page-main {
+	clear: both;
+
+	margin: 0 0 10px 10px;
+	padding: 10px 0 0 0;
+
+	border: 1px solid #d9e1ea;
+	background-color: #eff5fc;
+}
+
+.tab-page-main .nav {
+	margin-bottom: 0;
+}
+
+.tab-page-main .nav-tabs {
+	margin-bottom: 0;
+	padding-left: 10px;
+
+	border-bottom: 1px solid #d9e1ea;
+}
+
+.tab-page-main .tab-content {
+	padding: 20px;
+
+	background-color: #fff;
+}
+
+.tab-page-main .tab-content .title {
+	display: none;
+}
+
+.nav-tabs {
+	padding: 0;
+	border: none;
+}
+@media (min-width: 578px) {
+	.nav-tabs > li:first-child > a {
+		border-top-left-radius: 8px;
+	}
+	.nav-tabs > li:last-child > a {
+		border-top-right-radius: 8px;
+	}
+}
+
+.nav-tabs > li > a {
+	color: #fff;
+	background: #10447d;
+	font-weight: 400;
+	margin-right: 0;
+	line-height: 2.4;
+	border-radius: 0;
+	text-transform: uppercase;
+	padding-left: 10px;
+	padding-right: 10px;
+	border: none;
+	font-size: 11px;
+}
+@media (min-width: 768px) {
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 12px;
+}
+
+.nav-tabs > li.active > a {
+	color: #10447d;
+	border: none;
+	background: #fff;
+}
+
+.nav-tabs > li > a:hover {
+	color: #fff;
+	border-color: #225b99;
+	background: #225b99;
+}
+
+.nav-tabs > li > a.experts-tab,.nav-tabs > li.active > a.experts-tab,.nav.nav-tabs#event-tabs a[href*='#product-tab-experts'] {
+	color: black;
+	border-color: #fed502;
+	background: #fed502;
+
+	font-weight: bold;
+}
+
+.nav-tabs > li > a.experts-tab:before,a[href*='#product-tab-experts']:before {
+	display: none;
+
+	padding-left: 17px;
+
+	content: ' ';
+
+	background-image: url('https://www.itaka.pl/cms/img/1/ico/ng.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.nav-tabs > li > a.experts-tab:hover,.nav.nav-tabs#event-tabs a[href*='#product-tab-experts']:hover {
+	background: #ead444;
+}
+
+.tab-pane.experts {
+	padding: 20px;
+}
+
+.dropdown-menu {
+	max-height: 300px;
+}
+
+.dropdown-menu {
+	border-width: 1px;
+	border-color: #dadfe6;
+	border-radius: 3px;
+	background-color: #eff5fc;
+}
+
+.dropdown-menu li a {
+	display: block;
+
+	margin: 1px 10px;
+	padding: 5px 5px;
+
+	color: #10447d;
+	border-radius: 3px;
+}
+
+.dropdown-menu li.active a,.dropdown-menu li.selected a {
+	color: #fff;
+	background: #10447d;
+}
+
+.dropdown-menu li:hover a,.dropdown-menu li a:hover {
+	text-decoration: none;
+
+	color: #fff;
+	background: #225b99;
+}
+
+.dropdown-menu li > a {
+	margin-left: 0;
+}
+
+.dropdown-menu {
+	max-height: 310px !important;
+}
+
+.dropdown-menu input[type='checkbox'] {
+	display: none;
+}
+
+.event-navi {
+	position: absolute;
+
+	display: block;
+
+	height: 25px;
+	margin-top: -33px;
+}
+
+.event-navi .event-print {
+	display: block;
+	float: right;
+
+	width: 25px;
+	height: 25px;
+
+	text-indent: -5000px;
+
+	background-image: url(https://www.itaka.pl/cms/img/1/ico/ikonymale.png);
+	background-position: -100px -50px;
+}
+
+.results-counter {
+	padding-left: 10px;
+
+	color: #999;
+
+	font-weight: normal;
+	font-style: italic;
+}
+
+#head .head:after {
+	display: block;
+
+	width: 100%;
+	height: 1px;
+	margin-top: -1px;
+
+	content: ' ';
+	content: ' ';
+
+	background: #fff;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIyNSUiIHN0b3AtY29sb3I9IiNmZmZmZmYiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9IiNmMmYyZjIiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjZTllOWU5IiBzdG9wLW9wYWNpdHk9IjEiLz4KICA8L2xpbmVhckdyYWRpZW50PgogIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjZ3JhZC11Y2dnLWdlbmVyYXRlZCkiIC8+Cjwvc3ZnPg==);
+	background: -moz-linear-gradient(left, #fff 25%, #f2f2f2 50%, #e9e9e9 100%);
+	background: -webkit-linear-gradient(left, #fff 25%, #f2f2f2 50%, #e9e9e9 100%);
+	background: -o-linear-gradient(left, #fff 25%, #f2f2f2 50%, #e9e9e9 100%);
+	background: -ms-linear-gradient(left, #fff 25%, #f2f2f2 50%, #e9e9e9 100%);
+	background: linear-gradient(to right, #fff 25%, #f2f2f2 50%, #e9e9e9 100%);
+}
+
+#head .lev2 {
+	float: right;
+
+	height: 25px;
+	margin-top: 4px;
+}
+
+#head .lev2 div.menu_h {
+	float: left;
+}
+
+#head .lev2 div.menu_h li {
+	height: 25px;
+	margin-right: 15px;
+	padding-right: 5px;
+}
+
+#head .lev2 div.menu_h ul li:last-child {
+	margin-right: 0;
+	padding-right: 0;
+}
+
+#head .lev2 div.menu_h li,#head .lev2 div.menu_h strong,#head .lev2 div.menu_h a {
+	font-weight: normal;
+	line-height: 24px;
+}
+
+#head .lev2 li.tn_tel:before {
+	display: block;
+	float: left;
+
+	width: 25px;
+	height: 25px;
+
+	content: '';
+
+	background: url(https://www.itaka.pl/cms/img/1/ico/ikonymale.png) no-repeat -25px -200px;
+}
+
+#head .lev2 li.tn_gsm:before {
+	display: block;
+	float: left;
+
+	width: 25px;
+	height: 25px;
+
+	content: '';
+
+	background: url(https://www.itaka.pl/cms/img/1/ico/ikonymale.png) no-repeat -50px -200px;
+}
+
+#head .lev2 li.tn_cli strong,#head .lev2 li.tn_lng > a:after {
+	display: inline-block;
+
+	width: 36px;
+	height: 25px;
+	margin-left: 5px;
+
+	border-radius: 3px 3px 0 0;
+}
+
+#head .lev2 li.tn_cli strong {
+	text-align: center;
+
+	color: #fff;
+	background-color: #10447d;
+}
+
+#head .lev2 li.tn_cli strong i {
+	margin-right: 4px;
+
+	font-size: 12px !important;
+}
+
+#head .lev2 li.tn_lng > a:after {
+	background-color: #999 !important;
+}
+
+#head .lev2 div.menu_h li.tn_lng {
+	position: relative!important;
+
+	margin-right: 0;
+	padding-right: 0;
+}
+
+#head .lev2 li.tn_lng > a {
+	display: inline-block;
+}
+
+#head .lev2 li.tn_lng .tn_lng_menu {
+	position: absolute;
+	top: 25px;
+	right: 0;
+
+	display: none;
+
+	width: 162px;
+	margin: 0;
+	padding: 10px 10px;
+
+	border: 3px solid #10447d;
+	border-radius: 3px 0 3px 3px;
+	background-color: #fff;
+}
+
+#head .lev2 li.tn_lng .tn_lng_menu .currency-list {
+	margin-top: 15px;
+}
+
+#head .lev2 li.tn_lng .tn_lng_menu ul {
+	margin: 5px 0 0 0;
+}
+
+#head .lev2 li.tn_lng .tn_lng_menu li {
+	display: inline-block;
+	float: none;
+
+	margin: 0 0 0 10px;
+	padding: 0;
+}
+
+#head .lev2 li.tn_lng .tn_lng_menu li:first-child {
+	margin-left: 0;
+}
+
+#head .lev2 li.tn_lng .tn_lng_menu li + li {
+	border-top: 1px solid #f5f5f5;
+}
+
+#head .lev2 li.tn_lng .tn_lng_menu a {
+	display: block;
+
+	font-weight: normal;
+}
+
+#head .lev2 li.tn_lng .tn_lng_menu li.active a,#head .lev2 li.tn_lng .tn_ln.tn_lng_menug_menu li:hover a {
+	color: #10447d;
+}
+
+#head .lev2 li.tn_lng .tn_lng_menu a {
+	display: block;
+
+	color: #8e8e8e;
+
+	font-weight: normal;
+}
+
+#head .lev2 li.tn_lng .tn_lng_menu li.active a,#head .lev2 li.tn_lng .tn_lng_menu li:hover a {
+	color: #10447d;
+}
+
+#head .lev2 li.tn_lng a[rel='PL']:after {
+	display: block;
+	float: left;
+	float: right;
+
+	width: 25px;
+	height: 25px;
+
+	content: '';
+
+	background: url(https://www.itaka.pl/cms/img/1/ico/ikonymale.png) no-repeat -25px -225px;
+}
+
+#head .lev2 li.tn_lng a[rel='EN']:after {
+	display: block;
+	float: left;
+	float: right;
+
+	width: 25px;
+	height: 25px;
+
+	content: '';
+
+	background: url(https://www.itaka.pl/cms/img/1/ico/ikonymale.png) no-repeat -50px -225px;
+}
+
+#head .lev2 li.tn_lng a[rel='RU']:after {
+	display: block;
+	float: left;
+	float: right;
+
+	width: 25px;
+	height: 25px;
+
+	content: '';
+
+	background: url(https://www.itaka.pl/cms/img/1/ico/ikonymale.png) no-repeat -100px -225px;
+}
+
+#head .lev2 li.tn_lng a[rel='LT']:after {
+	display: block;
+	float: left;
+	float: right;
+
+	width: 25px;
+	height: 25px;
+
+	content: '';
+
+	background: url(https://www.itaka.pl/cms/img/1/ico/ikonymale.png) no-repeat -125px -225px;
+}
+
+#head .lev2 li.tn_lng a[rel='CZ']:after {
+	display: block;
+	float: left;
+	float: right;
+
+	width: 25px;
+	height: 25px;
+
+	content: '';
+
+	background: url(https://www.itaka.pl/cms/img/1/ico/ikonymale.png) no-repeat -125px -252px;
+}
+
+#head .lev2 div.menu_h li.tn_lng:hover > a:after {
+	background-color: #10447d !important;
+}
+
+#head .lev2 div.menu_h li.tn_lng:hover .tn_lng_menu {
+	display: block;
+}
+
+.tn_telsecond,.tn_telpl {
+	display: none;
+}
+
+.lang-ru .tn_telsecond,.lang-ru .tn_telpl {
+	display: block;
+}

@@ -1,0 +1,1159 @@
+.impt5 .opinion_stats .client-best-choise h2 {
+	margin: 0 0 15px;
+}
+
+@media screen and (min-width: 1020px) {
+	.impt5 .product-opinions .opinion-accordion-group .opinion_ranks ul li {
+		width: 32%;
+	}
+}
+
+.lang-pl .product_page_opinions_info {
+	display: block;
+	float: right;
+
+	width: 100%;
+	height: 410px;
+
+	background-image: url('https://www.itaka.pl/cms/img/1/addopinion_impt5.png');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+@media screen and (max-width: 767px) {
+	.lang-pl .product_page_opinions_info {
+		display: none;
+	}
+}
+
+.event-opinion-flag {
+	display: inline-block;
+
+	padding: 25px 10px;
+
+	text-align: center;
+
+	color: white;
+	background-color: #7eb92f;
+
+	font-size: 14px;
+}
+
+.event-opinion-flag strong {
+	display: block;
+	float: left;
+
+	padding-right: 5px;
+
+	font-size: 36px;
+}
+
+.product_page .flex-gallery .event-opinion-flag,.cloned-gallery.flex-gallery .event-opinion-flag {
+	position: absolute;
+	z-index: 10;
+	right: 0;
+}
+
+.product-overall .event-opinion-flag {
+	font-size: 16px;
+}
+
+.product-overall .event-opinion-flag strong {
+	padding-right: 5px;
+
+	font-size: 33px;
+}
+
+.product-overall .opinion_stats.mobile_only .event-opinion-flag {
+	padding: 15px;
+}
+
+.product-overall .opinion_stats.mobile_only .best_people {
+	color: #7eb92f;
+
+	line-height: 33px;
+}
+
+.client-best-choise {
+	padding: 20px;
+
+	font-size: 22px;
+}
+
+.client-best-choise ul {
+	padding: 0;
+
+	list-style: none;
+}
+
+.client-best-choise ul li {
+	padding: 3px 0;
+
+	font-size: 16px;
+	line-height: 25px;
+}
+
+.client-best-choise ul li:before {
+	display: block;
+	float: left;
+
+	width: 25px;
+	height: 25px;
+	margin-right: 5px;
+
+	content: '';
+
+	background: url('https://www.itaka.pl/cms/img/1/ico/ikonymale.png') no-repeat -25px -500px;
+}
+
+.opinion_ranks ul {
+	margin: 0;
+	padding: 10px 0 0 0;
+}
+
+.opinion_ranks ul li {
+	padding: 4px 0;
+
+	list-style: none;
+}
+
+.opinion_ranks ul li label {
+	display: inline-block;
+
+	width: 33%;
+	padding-right: 10px;
+
+	text-align: right;
+}
+
+.opinion_ranks ul li .opinion-progress {
+	display: inline-block;
+	overflow: hidden;
+
+	width: 40%;
+	height: 9px;
+	margin: 0;
+
+	line-height: 7px;
+}
+
+.opinion_ranks ul li .opinion-progress .barHolder {
+	display: inline-block;
+
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 13%;
+	height: inherit;
+	margin: 0 .5%;
+
+	border: 1px solid #7eb92f;
+}
+
+.opinion_ranks ul li .opinion-progress .barHolder .bar {
+	height: inherit;
+
+	background-color: #7eb92f;
+}
+
+.opinion_ranks ul li .opinion-progress .barHolder .bar.empty {
+	width: 0;
+}
+
+.opinion_ranks ul li .opinion-progress .barHolder .bar.full {
+	width: 100%;
+}
+
+.opinion_ranks ul li .opinion-progress .barHolder .bar.bar10percent {
+	width: 10%;
+}
+
+.opinion_ranks ul li .opinion-progress .barHolder .bar.bar20percent {
+	width: 20%;
+}
+
+.opinion_ranks ul li .opinion-progress .barHolder .bar.bar30percent {
+	width: 30%;
+}
+
+.opinion_ranks ul li .opinion-progress .barHolder .bar.bar40percent {
+	width: 40%;
+}
+
+.opinion_ranks ul li .opinion-progress .barHolder .bar.bar50percent {
+	width: 50%;
+}
+
+.opinion_ranks ul li .opinion-progress .barHolder .bar.bar60percent {
+	width: 60%;
+}
+
+.opinion_ranks ul li .opinion-progress .barHolder .bar.bar70percent {
+	width: 70%;
+}
+
+.opinion_ranks ul li .opinion-progress .barHolder .bar.bar80percent {
+	width: 80%;
+}
+
+.opinion_ranks ul li .opinion-progress .barHolder .bar.bar90percent {
+	width: 90%;
+}
+
+.opinion_ranks ul li span {
+	display: inline-block;
+
+	padding-left: 10px;
+
+	font-size: 19px;
+	font-weight: bolder;
+}
+
+.product-opinions {
+	overflow: hidden;
+
+	padding: 10px;
+
+	font-family: 'ITAKA';
+}
+
+.product-opinions .acc-trigger {
+	font-family: Arial;
+}
+
+.product-opinions #load-more-opinions {
+	display: block;
+
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 100%;
+	margin-top: 10px;
+	padding: 20px;
+
+	text-align: center;
+	text-transform: uppercase;
+
+	color: white;
+	background-color: #033773;
+
+	font-size: 23px;
+}
+
+.product-opinions #load-more-opinions:after {
+	display: inline-block;
+
+	width: 23px;
+	height: 17px;
+	margin: 0 0 0 10px;
+
+	content: '';
+
+	background: url('https://www.itaka.pl/cms/img/1/ico/ikonymale.png') no-repeat -51px -79px;
+}
+
+.product-opinions .event-information h2,.product-opinions .event-information h3 {
+	margin: 15px 0;
+
+	font-weight: bolder;
+}
+
+.product-opinions .opinion_header .event-opinion-stats {
+	overflow: hidden;
+
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding-bottom: 10px;
+}
+
+.product-opinions .opinion_header .event-opinion-stats .hotel_stats {
+	display: inline-block;
+
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 55%;
+	padding-right: 10px;
+
+	border-right: 1px solid #dadfe6;
+
+	font-size: 17px;
+}
+
+.product-opinions .opinion_header .event-opinion-stats .hotel_stats .hotel_overall_header {
+	padding-right: 10px;
+	padding-bottom: 10px;
+
+	border-bottom: 1px solid #dadfe6;
+}
+
+.product-opinions .opinion_header .event-opinion-stats .hotel_stats .hotel_overall_header .opinion-preflag,.product-opinions .opinion_header .event-opinion-stats .hotel_stats .hotel_overall_header .opinion-postflag,.product-opinions .opinion_header .event-opinion-stats .hotel_stats .hotel_overall_header .event-opinion-flag {
+	display: inline-block;
+
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 35%;
+	padding: 0 10px;
+
+	font-size: 19px;
+	font-weight: bold;
+}
+
+.product-opinions .opinion_header .event-opinion-stats .hotel_stats .hotel_overall_header .opinion-preflag {
+	text-align: right;
+}
+
+.product-opinions .opinion_header .event-opinion-stats .hotel_stats .hotel_overall_header .event-opinion-flag {
+	width: 28%;
+	padding: 30px 20px;
+}
+
+.product-opinions .opinion_header .event-opinion-stats .hotel_stats .hotel_overall_header .event-opinion-flag strong {
+	font-family: 'ITAKA';
+}
+
+.product-opinions .opinion_header .event-opinion-stats .opinion_stats {
+	display: block;
+	float: right;
+
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 44%;
+}
+
+.product-opinions .opinion_header .event-opinion-stats .opinion_stats .client-best-choise {
+	padding-bottom: 0;
+}
+
+.product-opinions .opinion_header .event-opinion-stats .good-opinions {
+	border-bottom: 1px solid #dadfe6;
+}
+
+.product-opinions .opinion_header .event-opinion-stats .good-opinions .best_people {
+	padding: 16px 10px;
+}
+
+.product-opinions .opinion_header .event-opinion-stats .good-opinions .best_people strong {
+	display: block;
+	float: left;
+
+	margin-right: 10px;
+	padding: 20px 10px;
+
+	color: white;
+	background-color: #7eb92f;
+
+	font-size: 23px;
+}
+
+.product-opinions .opinion_header .event-opinion-stats .good-opinions .best_people div {
+	font-size: 20px;
+	line-height: 28px;
+}
+
+.product-opinions .opinions_filters {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+
+	color: #10447d;
+	background-color: #eff5fc;
+}
+
+.product-opinions .opinions_filters .opinions-sort-panel {
+	padding: 10px 20px;
+}
+
+.product-opinions .opinions_filters .opinions-sort-panel #opinions_sort {
+	display: inline-block;
+
+	width: 210px;
+}
+
+.product-opinions .opinions_filters .opinions-sort-panel #opinions_sort label {
+	float: left;
+
+	padding-right: 10px;
+
+	line-height: 26px;
+}
+
+.product-opinions .opinions_filters .opinions-sort-panel #opinions_sort .dropdown-toggle.btn {
+	display: block;
+	overflow: hidden;
+
+	width: 150px;
+	height: 27px;
+	padding: 0 3px 0 6px;
+
+	text-align: left;
+
+	border: 1px solid #dadfe6;
+	border-radius: 5px;
+	background: #fff;
+
+	font-size: 13px;
+	font-weight: normal;
+	line-height: 27px;
+}
+
+.product-opinions .opinions_filters .opinions-sort-panel #opinions_sort .dropdown-toggle.btn:after {
+	display: block;
+	float: left;
+	float: right;
+
+	width: 25px;
+	width: 18px;
+	height: 25px;
+	height: 18px;
+	margin: 3px 0 0 0;
+
+	content: '';
+
+	background: url('https://www.itaka.pl/cms/img/1/ico/ikonymale.png') no-repeat -54px -255px;
+}
+
+.product-opinions .opinions_filters #opinions_selected,.product-opinions .opinions_filters #opinions_lang {
+	position: relative!important;
+
+	float: right;
+
+	margin-left: 30px;
+
+	line-height: 26px;
+}
+
+.product-opinions .opinions_filters #opinions_selected label:before,.product-opinions .opinions_filters #opinions_lang label:before {
+	position: absolute;
+	top: 7px;
+	left: -24px;
+
+	display: block;
+
+	width: 10px;
+	height: 10px;
+
+	content: ' ';
+
+	border: 1px solid #90accb;
+	background: #fff;
+}
+
+.product-opinions .opinions_filters #opinions_selected input,.product-opinions .opinions_filters #opinions_lang input {
+	display: none;
+}
+
+.product-opinions .opinions_filters #opinions_selected input:checked + label:after,.product-opinions .opinions_filters #opinions_lang input:checked + label:after {
+	position: absolute;
+	top: 10px;
+	left: -21px;
+
+	display: block;
+
+	width: 6px;
+	height: 6px;
+
+	content: ' ';
+
+	background: #90accb;
+}
+
+.product-opinions .opinions_filters #opinions_filters {
+	display: table;
+
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 100%;
+
+	border-collapse: collapse;
+}
+
+.product-opinions .opinions_filters #opinions_filters .blank {
+	display: table-cell;
+
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 20%;
+}
+
+.product-opinions .opinions_filters #opinions_filters .opinion_filter {
+	display: table-cell;
+
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: auto;
+	padding: 0 10px;
+
+	text-align: center;
+
+	border: 1px solid #dadfe6;
+	background-color: white;
+
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 56px;
+}
+
+.product-opinions .opinions_filters #opinions_filters .opinion_filter span {
+	font-size: 16px;
+}
+
+.product-opinions .opinions_filters #opinions_filters .opinion_filter svg {
+	display: block;
+	float: left;
+
+	width: 30px;
+	height: 56px;
+}
+
+.product-opinions .opinions_filters #opinions_filters .opinion_filter svg .blueFilled {
+	fill: #023772;
+}
+
+.product-opinions .opinions_filters #opinions_filters .opinion_filter svg .whiteFilled {
+	fill: #fff;
+}
+
+.product-opinions .opinions_filters #opinions_filters .opinion_filter.filter_selected,.product-opinions .opinions_filters #opinions_filters .opinion_filter:hover {
+	color: white;
+	border: 1px solid #225b99;
+	background-color: #033773;
+}
+
+.product-opinions .opinions_filters #opinions_filters .opinion_filter.filter_selected svg .blueFilled,.product-opinions .opinions_filters #opinions_filters .opinion_filter:hover svg .blueFilled {
+	fill: #fff;
+}
+
+.product-opinions .opinions_filters #opinions_filters .opinion_filter.filter_selected svg .whiteFilled,.product-opinions .opinions_filters #opinions_filters .opinion_filter:hover svg .whiteFilled {
+	fill: #023772;
+}
+
+.product-opinions .opinions_filters #opinions_filters .opinion_filter input {
+	display: none;
+}
+
+.product-opinions .opinion-accordion-group {
+	padding-top: 10px;
+}
+
+.product-opinions .opinion-accordion-group a {
+	color: black;
+}
+
+.product-opinions .opinion-accordion-group .opinion-long {
+	display: none;
+}
+
+.product-opinions .opinion-accordion-group .expand {
+	cursor: pointer;
+
+	color: #10447d;
+
+	font-family: 'ITAKA';
+	font-size: 14px;
+	line-height: 23px;
+}
+
+.product-opinions .opinion-accordion-group .expand:after {
+	display: inline-block;
+
+	width: 12px;
+	height: 15px;
+	margin: 0 0 0 4px;
+
+	content: '';
+
+	background: url('https://www.itaka.pl/cms/img/1/ico/ikonymale.png') no-repeat -107px -26px;
+}
+
+.product-opinions .opinion-accordion-group .event-opinion-stats .opinion_ranks .expand {
+	float: right;
+}
+
+.product-opinions .opinion-accordion-group .event-opinion-stats .opinion_ranks .expand:after {
+	background: url('https://www.itaka.pl/cms/img/1/ico/ikonymale.png') no-repeat -107px 0;
+}
+
+.product-opinions .opinion-accordion-group .opinion_titlebar {
+	margin-bottom: 10px;
+
+	cursor: pointer;
+
+	background-color: #eff5fc;
+}
+
+.product-opinions .opinion-accordion-group .opinion_titlebar .event-opinion-flag {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 9%;
+	padding: 20px 15px;
+}
+
+.product-opinions .opinion-accordion-group .opinion_titlebar .opinion_titlebar_rest {
+	display: inline-block;
+
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 89%;
+	padding: 10px;
+
+	line-height: 20px;
+}
+
+.product-opinions .opinion-accordion-group .opinion_titlebar .opinion_titlebar_rest span {
+	font-size: 18px;
+}
+
+.product-opinions .opinion-accordion-group .opinion_titlebar .opinion_titlebar_rest span.tripdate {
+	color: black;
+
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.product-opinions .opinion-accordion-group blockquote {
+	margin: 0 10px;
+
+	color: black;
+
+	line-height: 20px;
+}
+
+.product-opinions .opinion-accordion-group blockquote.opinion-long {
+	overflow: hidden;
+}
+
+.product-opinions .opinion-accordion-group blockquote span {
+	font-family: ITAKA;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.product-opinions .opinion-accordion-group .opinion_ranks ul {
+	padding: 10px;
+}
+
+.product-opinions .opinion-accordion-group .opinion_ranks ul li {
+	position: relative!important;
+
+	display: inline-block;
+
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 24%;
+	padding: 10px 20px;
+}
+
+.product-opinions .opinion-accordion-group .opinion_ranks ul li label {
+	display: block;
+	float: left;
+
+	width: 80%;
+	padding-bottom: 5px;
+
+	text-align: left;
+}
+
+.product-opinions .opinion-accordion-group .opinion_ranks ul li .opinion-progress {
+	display: block;
+	float: left;
+
+	width: 80%;
+}
+
+.product-opinions .opinion-accordion-group .opinion_ranks ul li span {
+	position: absolute;
+	top: 16px;
+	right: 23px;
+
+	display: block;
+	float: right;
+
+	color: #7eb92f;
+
+	font-size: 26px;
+}
+
+@media screen and (max-width: 1200px) {
+	.product-opinions .opinion_header .event-opinion-stats .good-opinions .best_people div {
+		font-size: 16px;
+	}
+
+	.product-opinions .opinion_header .event-opinion-stats .opinion_stats .client-best-choise ul li {
+		font-size: 13px;
+	}
+
+	.product-opinions .opinion_header .event-opinion-stats .hotel_stats .hotel_overall_header .event-opinion-flag {
+		padding: 29px 10px;
+	}
+
+	.product-opinions .opinion_header .event-opinion-stats .hotel_stats .hotel_overall_header .event-opinion-flag strong {
+		font-size: 31px;
+	}
+
+	.product-opinions .opinion_header .event-opinion-stats .hotel_stats .hotel_overall_header .opinion-preflag {
+		text-align: center;
+	}
+
+	.product-opinions .opinions_filters #opinions_filters .opinion_filter {
+		padding: 5px;
+
+		vertical-align: middle;
+
+		line-height: 14px;
+	}
+
+	.product-opinions .opinions_filters #opinions_filters .opinion_filter svg {
+		display: none;
+	}
+
+	.product-opinions .opinion-accordion-group .opinion_titlebar .event-opinion-flag {
+		width: 11%;
+
+		font-size: 14px;
+	}
+
+	.product-opinions .opinion-accordion-group .opinion_titlebar .event-opinion-flag strong {
+		font-size: 27px;
+	}
+
+	.product-opinions .opinion-accordion-group .opinion_titlebar .opinion_titlebar_rest {
+		width: 87%;
+	}
+
+	.product-opinions .opinion-accordion-group .opinion_titlebar .opinion_ranks ul li {
+		width: 49%;
+	}
+}
+
+@media screen and (max-width: 1020px) {
+	.product-opinions .opinion_header .event-opinion-stats .good-opinions .best_people {
+		height: 60px;
+		padding: 6px 10px;
+	}
+
+	.product-opinions .opinion_header .event-opinion-stats .good-opinions .best_people strong {
+		font-size: 16px;
+	}
+
+	.product-opinions .opinion_header .event-opinion-stats .good-opinions .best_people div {
+		font-size: 13px;
+		line-height: 15px;
+	}
+
+	.product-opinions .opinion_header .event-opinion-stats .hotel_stats .hotel_overall_header {
+		padding-bottom: 14px;
+	}
+
+	.product-opinions .opinion_header .event-opinion-stats .hotel_stats .hotel_overall_header .event-opinion-flag {
+		padding: 21px 5px;
+
+		font-size: 16px;
+	}
+
+	.product-opinions .opinion_header .event-opinion-stats .hotel_stats .hotel_overall_header .event-opinion-flag strong {
+		font-size: 20px;
+	}
+
+	.product-opinions .opinion_header .event-opinion-stats .hotel_stats .hotel_overall_header .opinion-preflag,.product-opinions .opinion_header .event-opinion-stats .hotel_stats .hotel_overall_header .opinion-postflag {
+		width: 34%;
+
+		text-align: center !important;
+
+		font-size: 15px;
+	}
+
+	.product-opinions .opinion_header .event-opinion-stats .opinion_stats .client-best-choise ul li {
+		font-size: 13px;
+	}
+
+	.product-opinions .opinion-accordion-group .opinion_titlebar .event-opinion-flag {
+		width: 16%;
+	}
+
+	.product-opinions .opinion-accordion-group .opinion_titlebar .opinion_titlebar_rest {
+		width: 83%;
+
+		line-height: 18px;
+	}
+
+	.product-opinions .opinion-accordion-group .opinion_titlebar .opinion_titlebar_rest span {
+		font-size: 15px;
+	}
+
+	.product-opinions .opinion-accordion-group .opinion_ranks ul li {
+		width: 49%;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.product-opinions {
+		padding: 0;
+	}
+
+	.product-opinions .accord-new {
+		padding: 10px;
+	}
+
+	.product-opinions .opinion_header .event-opinion-stats {
+		padding-bottom: 0;
+	}
+
+	.product-opinions .opinion_header .event-opinion-stats .good-opinions .best_people div {
+		padding-top: 5px;
+
+		font-size: 15px;
+		font-weight: bold;
+		line-height: 20px;
+	}
+
+	.product-opinions .opinion_header .event-opinion-stats .good-opinions .best_people strong {
+		color: #7eb92f;
+		background: none;
+
+		font-size: 32px;
+	}
+
+	.product-opinions .opinion_header .event-opinion-stats .hotel_stats {
+		display: block;
+
+		width: 100%;
+		margin: 0 auto;
+		padding-right: 0;
+
+		border: 0;
+	}
+
+	.product-opinions .opinion_header .event-opinion-stats .hotel_stats .mobile-medium {
+		display: none !important;
+	}
+
+	.product-opinions .opinion_header .event-opinion-stats .hotel_stats .hotel_overall_header {
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		max-width: 400px;
+		margin: 0 auto;
+
+		border: none;
+	}
+
+	.product-opinions .opinion_header .event-opinion-stats .hotel_stats .hotel_overall_header .opinion-postflag {
+		float: right;
+
+		padding-top: 13px;
+		padding-right: 4px;
+	}
+
+	.product-opinions .opinion_header .event-opinion-stats .hotel_stats .hotel_overall_header .opinion-postflag,.product-opinions .opinion_header .event-opinion-stats .hotel_stats .hotel_overall_header .opinion-postflag span {
+		width: auto;
+
+		text-align: left !important;
+
+		font-size: 22px;
+		line-height: 25px;
+	}
+
+	.product-opinions .opinion_header .event-opinion-stats .hotel_stats .hotel_overall_header .event-opinion-flag {
+		display: block;
+		float: left;
+
+		width: auto;
+		margin-right: 5px;
+		padding: 27px 16px;
+
+		font-size: 18px;
+	}
+
+	.product-opinions .opinion_header .event-opinion-stats .hotel_stats .hotel_overall_header .event-opinion-flag strong {
+		font-size: 38px;
+	}
+
+	.product-opinions .opinion_header .event-opinion-stats .opinion_stats {
+		float: none;
+
+		width: auto;
+		max-width: 400px;
+		margin: 0 auto;
+		padding-top: 0;
+	}
+
+	.product-opinions .opinion_header .event-opinion-stats .opinion_stats .client-best-choise {
+		padding: 0;
+	}
+
+	.product-opinions .opinion_header .event-opinion-stats .opinion_stats .client-best-choise h2 {
+		font-size: 17px;
+		font-weight: bold;
+	}
+
+	.product-opinions .opinion_header .event-opinion-stats .opinion_stats .client-best-choise ul li {
+		padding: 1px 0;
+
+		font-size: 14px;
+	}
+
+	.product-opinions .opinion_header .event-opinion-stats .opinion_stats .mobile-medium {
+		display: block !important;
+	}
+
+	.product-opinions .opinion-accordion-group .opinion_titlebar {
+		background-color: white;
+	}
+
+	.product-opinions .opinion-accordion-group .opinion_titlebar .mobile-expand-holder {
+		padding: 10px;
+
+		border-right: 1px solid #dadfe6;
+
+		line-height: 7px;
+	}
+
+	.product-opinions .opinion-accordion-group .opinion_titlebar .mobile-expand-holder:after {
+		display: block;
+
+		width: 12px;
+		height: 17px;
+		margin: 0 auto;
+
+		content: '';
+
+		background: url('https://www.itaka.pl/cms/img/1/ico/ikonymale.png') no-repeat -107px -24px;
+	}
+
+	.product-opinions .opinion-accordion-group .opinion_titlebar .mobile-with-expander {
+		float: left;
+	}
+
+	.product-opinions .opinion-accordion-group .opinion_titlebar .mobile-with-expander .event-opinion-flag {
+		width: auto;
+	}
+
+	.product-opinions .opinion-accordion-group .opinion_titlebar .opinion_titlebar_rest {
+		float: right;
+
+		width: 75%;
+	}
+
+	.product-opinions .opinion-accordion-group .opinion_titlebar .opinion_titlebar_rest .mobile-medium {
+		display: none !important;
+	}
+
+	.product-opinions .opinion-accordion-group .opinion_titlebar .opinion_titlebar_rest span {
+		font-size: 15px;
+	}
+
+	.product-opinions .opinion-accordion-group .opinion_titlebar .opinion_titlebar_rest span.tripdate {
+		display: block;
+
+		width: 51px;
+		padding-top: 3px;
+
+		text-align: center;
+
+		line-height: 14px;
+	}
+
+	.product-opinions .opinion-accordion-group .opinion_titlebar .opinion_titlebar_rest .author_holder {
+		float: left;
+
+		width: 136px;
+	}
+
+	.product-opinions .opinion-accordion-group.isshow .opinion_titlebar .mobile-expand-holder:after {
+		background: url('https://www.itaka.pl/cms/img/1/ico/ikonymale.png') no-repeat -107px 0;
+	}
+
+	.product-opinions .opinion-accordion-group blockquote {
+		margin: 0;
+	}
+
+	.product-opinions .opinion-accordion-group .opinion_ranks ul {
+		padding: 0;
+	}
+
+	.product-opinions .opinion-accordion-group .opinion_ranks ul li {
+		padding: 5px 12px 5px 0;
+	}
+
+	.product-opinions .opinion-accordion-group .opinion_ranks ul li .opinion-progress {
+		width: 75%;
+	}
+
+	.product-opinions .opinion-accordion-group .opinion_ranks ul li label {
+		font-size: 12px;
+	}
+
+	.product-opinions .opinion-accordion-group .opinion_ranks ul li span {
+		top: 10px;
+	}
+}
+
+@media screen and (max-width: 767px) and (min-width: 451px) {
+	.product-opinions .opinion_header .event-opinion-stats .hotel_stats {
+		float: left;
+
+		width: 56%;
+		padding-right: 10px;
+	}
+
+	.product-opinions .opinion_header .event-opinion-stats .hotel_stats .mobile-medium {
+		display: block !important;
+	}
+
+	.product-opinions .opinion_header .event-opinion-stats .hotel_stats .hotel_overall_header .opinion-postflag {
+		float: left;
+	}
+
+	.product-opinions .opinion_header .event-opinion-stats .hotel_stats .hotel_overall_header .opinion-postflag,.product-opinions .opinion_header .event-opinion-stats .hotel_stats .hotel_overall_header .opinion-postflag span {
+		padding-top: 5px;
+
+		font-size: 17px;
+		line-height: 22px;
+	}
+
+	.product-opinions .opinion_header .event-opinion-stats .hotel_stats .hotel_overall_header .event-opinion-flag {
+		margin-right: 8px;
+		padding: 22px 14px;
+
+		font-size: 16px;
+	}
+
+	.product-opinions .opinion_header .event-opinion-stats .hotel_stats .hotel_overall_header .event-opinion-flag strong {
+		font-size: 28px;
+	}
+
+	.product-opinions .opinion_header .event-opinion-stats .good-opinions {
+		border: none;
+	}
+
+	.product-opinions .opinion_header .event-opinion-stats .good-opinions .best_people {
+		font-size: 16px;
+	}
+
+	.product-opinions .opinion_header .event-opinion-stats .good-opinions .best_people strong {
+		padding: 20px 0;
+
+		font-size: 23px;
+	}
+
+	.product-opinions .opinion_header .event-opinion-stats .opinion_stats {
+		float: right;
+
+		width: 44%;
+		padding-left: 10px;
+
+		border-left: 1px solid #dadfe6;
+	}
+
+	.product-opinions .opinion_header .event-opinion-stats .opinion_stats .mobile-medium {
+		display: none !important;
+	}
+
+	.product-opinions .opinion-accordion-group .opinion_titlebar .mobile-with-expander {
+		width: 16%;
+		max-width: 70px;
+	}
+
+	.product-opinions .opinion-accordion-group .opinion_titlebar .mobile-with-expander .mobile-expand-holder {
+		display: none;
+
+		padding-left: 20px;
+	}
+
+	.product-opinions .opinion-accordion-group .opinion_titlebar .opinion_titlebar_rest {
+		float: right;
+
+		width: 84%;
+		padding-bottom: 0;
+	}
+
+	.product-opinions .opinion-accordion-group .opinion_titlebar .opinion_titlebar_rest .mobile-expand-holder {
+		border: none;
+	}
+
+	.product-opinions .opinion-accordion-group .opinion_titlebar .opinion_titlebar_rest .mobile-medium {
+		display: block !important;
+	}
+
+	.product-opinions .opinion-accordion-group .opinion_titlebar .opinion_titlebar_rest span.tripdate {
+		display: block;
+		float: right;
+
+		width: auto;
+	}
+
+	.product-opinions .opinion-accordion-group .opinion_titlebar .opinion_titlebar_rest span.fellows {
+		display: block;
+	}
+
+	.product-opinions .opinion-accordion-group .opinion_titlebar .opinion_titlebar_rest span.author_holder {
+		display: block;
+		float: left;
+	}
+
+	.product-opinions .opinion_ranks ul li {
+		width: 24%;
+	}
+}
+
+.product-opinions .clear {
+	clear: both;
+}
+
+.product-opinions .opinion-placeholder {
+	box-sizing: border-box;
+	width: 100%;
+	margin-top: 10px;
+	padding: 5px;
+
+	text-align: center;
+
+	color: white;
+	background-color: #7eb92f;
+}
+
+.product-opinions .opinion-placeholder .opinion-placeholder-icon {
+	float: left;
+
+	padding: 5px;
+}
+
+.product-opinions .opinion-placeholder .opinion-placeholder-text {
+	float: left;
+
+	width: 725px;
+	padding: 20px 15px;
+
+	font-size: 18px;
+}
+
+@media screen and (max-width: 1200px) {
+	.product-opinions .opinion-placeholder .opinion-placeholder-text {
+		width: 540px;
+		padding: 11px 15px;
+	}
+}
+
+@media screen and (max-width: 1020px) {
+	.product-opinions .opinion-placeholder .opinion-placeholder-icon {
+		display: none;
+	}
+
+	.product-opinions .opinion-placeholder .opinion-placeholder-text {
+		float: none;
+
+		box-sizing: border-box;
+		width: 100%;
+		padding: 10px;
+	}
+}

@@ -1,0 +1,1079 @@
+@media screen and (max-width: 480px) {
+	.impt0.bd0 #main .lev1 {
+		min-height: 180px;
+	}
+
+	.promo_gallery {
+		height: 180px;
+	}
+}
+
+@media screen and (max-width: 1452px) and (min-width: 1200px) {
+	.bd1.impt0 .datepicker.datepicker-dropdown {
+		margin: 0 0 0 -100px;
+	}
+}
+
+@media screen and (max-width: 1320px) and (min-width: 1201px) {
+	.fRow.standard .selectable-container.dropdown-menu.single {
+		margin: 0 0 0 -50px;
+	}
+}
+
+.results-loading {
+	z-index: 110;
+
+	width: 100%;
+	height: 100%;
+	margin: 30px auto 86px auto;
+	padding: 0;
+	padding-top: 50px;
+
+	background: url(https://www.itaka.pl/cms/img/1/ajax-loader.gif) no-repeat center 25px;
+}
+
+.hotel-list-photo-preview {
+	position: relative!important;
+}
+
+#search-results {
+	position: relative!important;
+
+	min-height: 140px;
+}
+
+#loader-wrapper {
+	position: relative!important;
+
+	padding: 0;
+}
+
+#loader-wrapper .results-loading {
+	position: absolute;
+	top: 0;
+}
+
+.hotel-list-item .hotel-list-photo-preview-blank {
+	position: relative!important;
+
+	background: #fff;
+}
+
+.hotel-list-item .hotel-list-photo-preview-blank:before {
+	display: block;
+
+	width: 128px;
+	height: 100px;
+	margin: 40px auto;
+
+	content: ' ';
+
+	background: url(https://www.itaka.pl/cms/img/1/ico/ikonymale.png) no-repeat 0 -1564px;
+}
+
+.overlay {
+	position: absolute;
+	z-index: 100;
+
+	width: 100%;
+	height: 100%;
+
+	background: rgba(255,255,255,.7);
+}
+
+.hotel-list-photo-preview .hotel-list-rating,.hotel-list-rating {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.as-thumbs .hotel-list-rating {
+	top: -60px;
+}
+
+.hotel-list-item.plus7 .hotel-event-flag {
+	left: 0;
+}
+
+.hotel-list-configuration .offer-variants {
+	color: #10447d;
+}
+
+.hotel-list-configuration .offer-variants:before {
+	height: 23px;
+
+	content: '';
+
+	background: url(https://www.itaka.pl/cms/img/1/ico/ikonymale.png) no-repeat -126px -79px;
+}
+
+.hotel-list-order {
+	display: inline-block;
+
+	width: 50px;
+	margin: 0 20px 0 10px;
+
+	color: #348e99;
+
+	font-family: 'ITAKA';
+	font-size: 50px;
+	line-height: 150px;
+}
+
+.hotel-list-left-places {
+	display: block;
+	float: right;
+
+	padding: 5px 10px;
+
+	color: #555;
+	border: 1px dashed #bbb;
+	border-radius: 3px;
+}
+
+.hotel-list-left-places-empty {
+	border: none;
+}
+
+.hotel-list-landing-page .hotel-list-description li + li + li + li {
+	display: none;
+}
+
+.hotel-list-landing-page .hotel-list-bottom ul.hotel-list-description li {
+	max-width: 400px;
+}
+
+.hotel-list-landing-page .hotel-list-bottom div.hotel-list-description ul {
+	margin-top: -15px;
+}
+
+.event-weather .weather_box .weather_header,.event-short .weather_box .weather_header,.event-information .weather_box .weather_header,.event-information .weather_box .weather_header {
+	height: 22px;
+}
+
+.info-dummy {
+	position: absolute;
+	z-index: 10;
+	top: 0;
+	left: 0;
+
+	width: 100%;
+	height: 100%;
+
+	background: rgba(255,255,255,.3);
+}
+
+.info-dummy .popover {
+	top: 200px;
+	right: 0;
+	left: 0;
+
+	display: block;
+
+	width: 180px;
+	margin: auto auto;
+	padding: 20px;
+
+	text-align: center;
+
+	line-height: 20px;
+}
+
+.info-dummy .popover .btn-details {
+	display: inline-block;
+
+	margin-top: 20px;
+
+	cursor: pointer;
+}
+
+.info-dummy .popover .btn-cancel {
+	margin-right: 20px;
+
+	cursor: pointer;
+}
+
+.info-dummy .popover .btn-details:after {
+	display: none;
+
+	width: 0;
+}
+
+.info-dummy .popover ul {
+	text-align: left;
+}
+
+@media screen and (max-width: 640px) {
+	.hotel-list-rating {
+		top: 0 !important;
+	}
+
+	body {
+		overflow-x: hidden;
+	}
+
+	.product_page_form {
+		position: absolute;
+		top: 0;
+
+		box-sizing: border-box;
+		width: 100%;
+
+		-webkit-transition: .3s ease-in-out;
+		-moz-transition: .3s ease-in-out;
+		-o-transition: .3s ease-in-out;
+		transition: .3s ease-in-out;
+		-webkit-transform: translate3d(100%, 0px, 0px);
+		-moz-transform: translate3d(100%, 0px, 0px);
+		-o-transform: translate3d(100%, 0px, 0px);
+		transform: translate3d(100%, 0px, 0px);
+	}
+
+	.mobileReservation .product_page_form {
+		-webkit-transform: translate3d(0%, 0px, 0px);
+		-moz-transform: translate3d(0%, 0px, 0px);
+		-o-transform: translate3d(0%, 0px, 0px);
+		transform: translate3d(0%, 0px, 0px);
+	}
+}
+
+.description-full {
+	display: none;
+}
+
+.description-teaser {
+	display: none;
+}
+
+#scoobyDoo {
+	display: none;
+}
+
+.reservation-form .step1 .error-required {
+	margin: 0 0 10px 0;
+}
+
+.confirmed-trip a:before {
+	display: block;
+	float: left;
+
+	width: 20px;
+	height: 25px;
+	margin-right: 5px;
+
+	content: '';
+
+	background: url(https://www.itaka.pl/cms/img/1/ico/ikonymale.png) no-repeat -101px -523px;
+}
+
+.confirmed-trip.selected a:before,.confirmed-trip a:hover:before {
+	display: block;
+	float: left;
+
+	width: 20px;
+	height: 25px;
+	margin-right: 5px;
+
+	content: '';
+
+	background: url(https://www.itaka.pl/cms/img/1/ico/ikonymale.png) no-repeat -126px -523px;
+}
+
+#form-and-offers *[data-js-value='date-selected'].confirmed-trip:before {
+	display: block;
+	float: left;
+
+	width: 20px;
+	height: 25px;
+	margin-right: 5px;
+
+	content: '';
+
+	background: url(https://www.itaka.pl/cms/img/1/ico/ikonymale.png) no-repeat -100px -522px;
+}
+
+.btn-group.open .dropdown-toggle {
+	background-color: #fff;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+
+.btn-group.open .btn.dropdown-toggle {
+	background-color: #fff;
+}
+
+div.fRow.fFrom input[type='checkbox'] {
+	display: none;
+
+	width: auto !important;
+}
+
+.additional-icon-holder {
+	display: none;
+}
+
+li.expert-trip .additional-icon-holder {
+	display: block;
+	display: block;
+	float: left;
+
+	width: 20px;
+	height: 25px;
+	margin-right: 4px;
+
+	content: '';
+
+	background: url(https://www.itaka.pl/cms/img/1/ico/icons_ng.png) no-repeat 2px 3px;
+}
+
+li.expert-trip.selected .additional-icon-holder,li.expert-trip:hover .additional-icon-holder {
+	display: block;
+	display: block;
+	float: left;
+
+	width: 20px;
+	height: 25px;
+	margin-right: 5px;
+
+	content: '';
+
+	background-position: -17px 3px;
+}
+
+#form-and-offers *[data-js-value='date-selected'].expert-trip .additional-icon-holder {
+	display: block;
+	float: left;
+
+	width: 20px;
+	height: 18px;
+	margin-top: 5px;
+	margin-right: 4px;
+
+	background: url(https://www.itaka.pl/cms/img/1/ico/icons_ng.png) no-repeat 2px 0;
+}
+
+.summary-box .price-box > .price-black {
+	padding-top: 7px;
+	padding-top: 18px;
+
+	color: #000;
+}
+
+.summary-box .price-box > .price-black strong,.summary-box .price-box > .price-black .pln {
+	color: #000;
+}
+
+.summary-box .price-box > .price-black strong {
+	font-size: 21px;
+	line-height: 20px;
+}
+
+.summary-box .price-box > .price-black .pln {
+	font-size: 9px;
+}
+
+.summary-box .price-box > .price-black .ajax-loading {
+	background: url(https://www.itaka.pl/cms/img/1/ajax-loader.gif) no-repeat center top;
+}
+
+.summary-box .price-box > strong.price-common-info {
+	clear: both;
+
+	padding-top: 19px;
+}
+
+.summary-box .price-box > .price-black:after {
+	position: absolute;
+	right: 0;
+	bottom: 5px;
+
+	display: block;
+	float: left;
+
+	width: 22px;
+	height: 20px;
+
+	content: '';
+
+	background: url(https://www.itaka.pl/cms/img/1/ico/ikonymale.png) no-repeat -125px -325px;
+}
+
+.fDates ul li .pricesmall:after {
+	position: absolute;
+	right: -5px;
+	bottom: -5px;
+
+	display: block;
+	float: left;
+
+	width: 25px;
+	height: 25px;
+
+	content: '';
+
+	background: url(https://www.itaka.pl/cms/img/1/ico/ikonymale.png) no-repeat -100px -275px;
+}
+
+.fDates ul li a:hover .pricesmall:after {
+	position: absolute;
+	right: -5px;
+	bottom: -5px;
+
+	display: block;
+	float: left;
+
+	width: 25px;
+	height: 25px;
+
+	content: '';
+
+	background: url(https://www.itaka.pl/cms/img/1/ico/ikonymale.png) no-repeat -100px -300px;
+}
+
+@media screen and (min-width: 300px) and (max-width: 1020px) {
+	.summary-box .price-box > .price-black:after {
+		position: absolute;
+		right: 0;
+		bottom: 1px;
+
+		display: block;
+		float: left;
+
+		width: 22px;
+		height: 20px;
+
+		content: '';
+
+		background: url(https://www.itaka.pl/cms/img/1/ico/ikonymale.png) no-repeat -125px -325px;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	.summary-box .price-box > .price-black strong {
+		font-size: 21px !important;
+		line-height: 22px !important;
+	}
+}
+
+.reservation-form .step-add-serv label[for='service-parking-select'] {
+	float: left;
+	clear: left;
+
+	width: auto;
+	margin-left: 23px;
+}
+
+.reservation-form .step-add-serv #service-parking-select {
+	float: left;
+
+	margin: 1px 0 0 8px;
+}
+
+@media screen and (max-width: 640px) {
+	.reservation-form .step-add-serv label[for='service-parking-select'] {
+		clear: both;
+
+		margin-left: 23px;
+	}
+}
+
+.ibtn {
+	display: block;
+	display: inline-block;
+
+	box-sizing: border-box;
+	height: 36px;
+	padding: 0 10px;
+
+	cursor: pointer;
+	text-decoration: none;
+	text-decoration: none;
+
+	color: white;
+	border: none;
+	border-radius: 3px;
+	background: #eb2f2f;
+	background: -moz-linear-gradient(top, #f33 0%, #eb2f2f 100%);
+	background: -webkit-linear-gradient(top, #f33 0%, #eb2f2f 100%);
+	background: -o-linear-gradient(top, #f33 0%, #eb2f2f 100%);
+	background: -ms-linear-gradient(top, #f33 0%, #eb2f2f 100%);
+	background: linear-gradient(to bottom, #f33 0%, #eb2f2f 100%);
+	text-shadow: none;
+
+	font-weight: normal;
+	font-weight: bold;
+	line-height: 36px;
+}
+
+.ibtn .ibtn:before {
+	display: block;
+	float: right;
+	float: right;
+
+	width: 25px;
+	height: 25px;
+	margin: 5px 0 0 5px;
+
+	content: '';
+
+	background: url(https://www.itaka.pl/cms/img/1/ico/ikonymale.png) no-repeat -25px -75px;
+}
+
+.ibtn:hover {
+	text-decoration: none;
+}
+
+.ibtn .ibtn-blue {
+	background: #023772;
+	background: -moz-linear-gradient(top, #10447d 0%, #023772 100%);
+	background: -webkit-linear-gradient(top, #10447d 0%, #023772 100%);
+	background: -o-linear-gradient(top, #10447d 0%, #023772 100%);
+	background: -ms-linear-gradient(top, #10447d 0%, #023772 100%);
+	background: linear-gradient(to bottom, #10447d 0%, #023772 100%);
+
+	font-weight: normal;
+}
+
+.ibtn .ibtn-blue:hover {
+	text-decoration: none;
+
+	background: #10447d;
+}
+
+.ibtn .ibtn-down:before {
+	background: url(https://www.itaka.pl/cms/img/1/ico/ikonymale.png) no-repeat -50px -75px;
+}
+
+a[href*='time-limit-prices'] {
+	display: none !important;
+}
+
+#time-limit-prices {
+	padding: 20px;
+}
+
+.nav-time-months {
+	float: left;
+
+	width: 100%;
+
+	border-top: 1px solid #eee;
+}
+
+.nav-time-months ul {
+	float: left;
+
+	margin: 12px 0;
+	padding-left: 200px;
+}
+
+.nav-time-months ul li {
+	float: left;
+
+	list-style-type: none;
+
+	border-radius: 5px;
+}
+
+.nav-time-months ul li a {
+	display: block;
+
+	padding: 8px 12px;
+
+	border-radius: 5px;
+
+	font-weight: bold;
+}
+
+.nav-time-months ul li.active {
+	background: #10447d;
+}
+
+.nav-time-months ul li.active a {
+	color: #fff;
+}
+
+#time-limit-prices table {
+	width: 100%;
+}
+
+#time-limit-prices table td,#time-limit-prices table th {
+	border: 1px solid #ddd;
+}
+
+#time-limit-prices table td {
+	padding: 14px 10px;
+}
+
+#time-limit-prices table th {
+	padding: 10px 10px;
+
+	text-align: left;
+}
+
+#time-limit-prices table th td {
+	background: #fff;
+
+	font-weight: bold;
+}
+
+#time-limit-prices table tbody tr:nth-child(odd) {
+	background: #f9f9f9;
+}
+
+#time-limit-prices table td * {
+	display: table-cell;
+	float: left;
+}
+
+#time-limit-prices table td strong {
+	height: 18px;
+	padding: 0 3px;
+
+	color: #f33;
+
+	font-size: 18px;
+	font-weight: normal;
+	line-height: 18px;
+}
+
+#time-limit-prices table td span {
+	text-decoration: underline;
+
+	color: #f33;
+
+	font-size: 11px;
+}
+
+#time-limit-prices table td input {
+	margin-top: 1px;
+}
+
+#time-limit-prices .fly-info {
+	float: left;
+}
+
+#time-limit-prices .fly-info > li {
+	float: left;
+	clear: both;
+
+	margin-bottom: 10px;
+
+	list-style-type: none;
+}
+
+#time-limit-prices .fly-info > li > span {
+	float: left;
+
+	width: 200px;
+
+	line-height: 28px;
+}
+
+#time-limit-prices .fly-info > li > strong {
+	line-height: 28px;
+}
+
+#time-limit-prices .fly-info .dropdown {
+	float: left;
+}
+
+#time-limit-prices .dropdown-toggle {
+	display: block;
+	float: left;
+
+	width: 223px;
+	padding: 4px 6px;
+
+	text-align: left;
+
+	color: #556d93;
+	border: solid #dadfe6;
+	border-width: 1px;
+	border-radius: 3px;
+	background: white;
+
+	line-height: 24px;
+}
+
+#time-limit-prices .dropdown-toggle:after {
+	display: block;
+	float: left;
+	float: right;
+
+	width: 25px;
+	height: 25px;
+
+	content: '';
+
+	background: url(https://www.itaka.pl/cms/img/1/ico/ikonymale.png) no-repeat -50px -50px;
+}
+
+.carousel-inner > .item_without_carousel {
+	display: block;
+}
+
+.month > a {
+	display: none;
+}
+
+.impt0.bd0 #main .barbanner-3 {
+	clear: both;
+
+	margin-bottom: 20px;
+
+	border-radius: 5px;
+	background-position: 0 center;
+	box-shadow: none;
+}
+
+.impt0.bd0 #main #tdid_252358.barbanner-3 .plain {
+	height: 200px;
+	padding-left: 0;
+}
+
+.impt0.bd0 #main .barbanner-3 > div {
+	height: 200px;
+	padding-left: 335px;
+
+	background-repeat: no-repeat;
+
+	font-family: 'ITAKA';
+}
+
+#tdid_252358 .plain .samochod_class {
+	height: 200px;
+
+	text-align: left;
+
+	background-image: url(/cms/img/u/bar_banner/bar_baner_samochody2.jpg);
+}
+
+.impt0.bd0 #main #tdid_252358.barbanner-3 .plain p {
+	padding-top: 10px;
+	padding-left: 350px;
+}
+
+.impt0.bd0 #main .barbanner-3 > div a:hover {
+	text-decoration: none !important;
+}
+
+.impt0.bd0 #main .barbanner-3 > div {
+	background-repeat: no-repeat;
+
+	font-family: 'ITAKA';
+}
+
+#bon_baner_slub span:only-child {
+	padding: 60px 20px 0 100px;
+}
+
+.impt7.bd0 .newsletter_lp,.impt5.bd0 .newsletter_lp,.impt0.bd0 .newsletter_lp {
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+.impt7.bd0 .newsletter_lp .fRow,.impt5.bd0 .newsletter_lp .fRow,.impt0.bd0 .newsletter_lp .fRow {
+	height: auto;
+
+	background: #e6eff8 none repeat scroll 0 0;
+}
+
+.impt7.bd0 .newsletter_lp label,.impt5.bd0 .newsletter_lp label,.impt0.bd0 .newsletter_lp label {
+	float: left;
+
+	width: 78%;
+	margin-top: 10px;
+	margin-left: 11.1%;
+	padding: 30px 0;
+
+	text-align: justify;
+
+	color: #6f6f6f;
+
+	font-family: ITAKALIGHT;
+	font-size: 28px;
+	line-height: 40px;
+}
+
+.impt7.bd0 .newsletter_lp label::before,.impt5.bd0 .newsletter_lp label::before,.impt0.bd0 .newsletter_lp label::before {
+	margin-right: 8px;
+
+	content: '\f0e0';
+
+	font-family: FontAwesome !important;
+	font-size: 28px;
+	font-weight: 400 !important;
+	font-style: normal !important;
+	font-variant: normal !important;
+	font-size-adjust: none !important;
+	font-stretch: normal !important;
+	line-height: 1 !important;
+
+	font-feature-settings: normal !important;
+	font-kerning: auto !important;
+	font-language-override: normal !important;
+	font-synthesis: weight style !important;
+}
+
+.impt7.bd0 .newsletter_lp label,.impt5.bd0 .newsletter_lp label,.impt0.bd0 .newsletter_lp label {
+	float: left;
+
+	width: 78%;
+	margin-top: 10px;
+	margin-left: 11.1%;
+	padding: 30px 0;
+
+	text-align: justify;
+
+	color: #6f6f6f;
+
+	font-family: ITAKALIGHT;
+	font-size: 28px;
+	line-height: 40px;
+}
+
+.impt7.bd0 .newsletter_lp input.txt,.impt5.bd0 .newsletter_lp input.txt,.impt0.bd0 .newsletter_lp input.txt {
+	float: left;
+
+	width: 76%;
+	height: 55px;
+	margin-top: -5px;
+	margin-left: 127px;
+	padding: 0 10px;
+
+	text-transform: uppercase;
+
+	color: #404040 !important;
+	border: 1px solid #dadfe6;
+	border-radius: 3px;
+
+	font-family: ITAKALIGHT;
+	font-size: 18px;
+	font-weight: 700;
+}
+
+.impt7.bd0 .newsletter_lp_button,.impt5.bd0 .newsletter_lp_button,.impt0.bd0 .newsletter_lp_button {
+	margin-top: 2%;
+	margin-bottom: 30px;
+	margin-left: 39.9%;
+	padding: 8px 81px;
+
+	transition: background-color .3s linear 0;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+
+	color: #fff;
+	border: medium none;
+	border-radius: 3px;
+	background-color: #eb2f2f;
+	text-shadow: none;
+
+	font-family: 'ITAKALIGHT',Arial;
+	font-size: 21px;
+	font-weight: 600;
+	line-height: 39px;
+}
+
+.impt0.bd0 #main .barbanner-3 > div a::before {
+	display: block;
+	float: right;
+
+	width: 25px;
+	height: 25px;
+	margin: 95px 40px 0 0;
+
+	content: '';
+
+	background: transparent url(https://www.itaka.pl/cms/img/1/ico/ikonymale.png) no-repeat scroll -123px -126px;
+}
+
+.impt0.bd0 #main .barbanner-3 > div a::before {
+	display: block;
+	float: right;
+
+	width: 25px;
+	height: 25px;
+	margin: 95px 40px 0 0;
+
+	content: '';
+
+	background: transparent url(https://www.itaka.pl/cms/img/1/ico/ikonymale.png) no-repeat scroll -123px -126px;
+}
+
+.impt5.bd0 #main .lev11 > div {
+	height: 140px;
+	padding-left: 405px;
+
+	border-radius: 5px;
+	background-image: url(/cms/img/u/bar_banner/bb_hit.jpg);
+	background-repeat: no-repeat;
+	background-position: 0 center;
+}
+
+.impt5.bd0 #main .lev11 > div a::before {
+	display: block;
+	float: right;
+
+	width: 25px;
+	height: 25px;
+	margin: 65px 30px 0 0;
+
+	content: '';
+
+	background: transparent url(https://www.itaka.pl/cms/img/1/ico/ikonymale.png) no-repeat scroll -25px -50px;
+}
+
+.bon_baner_slub span:only-child {
+	padding: 60px 20px 0 100px;
+}
+
+.impt11.bd0 #main .lev11 > div {
+	height: 510px;
+}
+
+.impt11.bd0 #main .lev11 div.plo {
+	background-position: 0 center;
+}
+
+.impt11.bd0 .video:hover {
+	opacity: .9;
+}
+
+.impt7.bd0 #main .lev11 {
+	clear: both;
+
+	margin-bottom: 0;
+
+	background: transparent linear-gradient(to right, #fff 0%, #eff5fc 100%) repeat scroll 0 0;
+	box-shadow: none;
+}
+
+.impt7.bd0 #main .lev11 > div {
+	height: 175px;
+	margin-bottom: 15px;
+	padding-left: 405px;
+
+	border-radius: 5px;
+	background-repeat: no-repeat;
+	background-position: 0 center;
+}
+
+.impt7.bd0 #main .lev11 > div p {
+	height: 60px;
+	padding: 0;
+
+	color: #fff;
+
+	font-size: 22px;
+	line-height: 43px;
+}
+
+.impt7.bd0 #main .lev11 > div a {
+	padding: 48px 0;
+
+	color: #fff;
+}
+
+.impt7.bd0 #main .lev11 > div a::before {
+	display: block;
+	float: right;
+
+	height: 25px;
+
+	content: '';
+
+	background: transparent url(https://www.itaka.pl/cms/img/1/ico/ikonymale.png) no-repeat scroll -25px -50px;
+}
+
+.impt7.bd0 #main .lev11 > div a strong {
+	display: inline;
+
+	color: #428cbf;
+	text-shadow: none;
+
+	font-family: ITAKA,Arial;
+	font-size: 25px;
+}
+
+.impt7 .plaza_napis {
+	margin-top: 0;
+}
+
+.plaza_napis {
+	display: block;
+
+	margin-top: -43px;
+}
+
+.impt7 .plaza_napis {
+	margin-top: 0;
+}
+
+@media screen and (max-width: 1200px) and (min-width: 1020px) {
+	#top_na_dzis span {
+		font-size: 21px !important;
+		line-height: 140px !important;
+	}
+
+	.impt5.bd0 #main .lev11 > div {
+		height: 120px;
+		padding-left: 305px;
+
+		background-position: -388px 0 !important;
+	}
+
+	.impt0.bd0 #main #tdid_252358.barbanner-3 .plain p a {
+		padding-top: 10px;
+	}
+
+	.impt0.bd0 #main .barbanner-3 > div a {
+		padding: 34px 0;
+
+		color: #fff;
+	}
+
+	.impt0.bd0 #main .barbanner-3 {
+		background-position: -195px 0;
+	}
+
+	.impt0.bd0 .newsletter_lp input.txt {
+		width: 87% !important;
+		margin-left: 6%;
+	}
+
+	.impt0.bd0 .newsletter_lp label {
+		margin-left: 7%;
+
+		font-size: 25px;
+	}
+
+	.impt0.bd0 .newsletter_lp input.txt {
+		width: 87% !important;
+		margin-left: 6%;
+	}
+
+	.plaza_napis {
+		font-size: 16.5px !important;
+	}
+}
+
+@media screen and (max-width: 1200px) and (min-width: 1020px) {
+	.impt7.bd0 #main .lev11 > div {
+		padding-left: 335px;
+
+		background-position: -8px center !important;
+	}
+}
+
+.impt7.bd0 #main .lev11 > div {
+	height: 175px;
+	margin-bottom: 15px;
+	padding-left: 405px;
+
+	border-radius: 5px;
+	background-repeat: no-repeat;
+	background-position: 0 center;
+}

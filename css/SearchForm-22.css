@@ -1,0 +1,1154 @@
+.dropdown-menu.hotels-autosuggest-list {
+	max-height: none !important;
+}
+
+.searchwell form .fRow .dropdown-menu.hotels-autosuggest-list {
+	top: 31px;
+}
+
+.hotels-autocomplete-header {
+	position: relative!important;
+
+	margin-top: 1rem;
+}
+
+.hotels-autocomplete-header {
+	display: block;
+
+	height: 1px;
+	margin: 15px 10px;
+
+	content: '';
+	text-align: center;
+
+	background: #e7e7e7;
+}
+
+.hotels-objects_count {
+	position: absolute;
+	right: 0;
+
+	display: inline-block;
+
+	padding: 3px 4px;
+
+	color: #fff;
+	border-radius: 3px;
+	background: #10447d;
+
+	font-size: .75rem;
+}
+
+.hotels-row_count {
+	position: relative!important;
+	top: -8px;
+
+	padding: 0 15px 0 15px;
+
+	color: #5e6f85;
+	background-color: #eff5fc;
+
+	font-size: 15px;
+	font-style: italic;
+}
+
+.cars-label-desktop:after {
+	position: relative!important;
+	top: -7px;
+	left: -3px;
+
+	content: 'Nowość';
+
+	color: #f60;
+
+	font-size: 10px;
+}
+
+.cars-label-desktop a:hover {
+	text-decoration: none;
+}
+
+.hotels-autosuggest-list .found {
+	font-weight: bold;
+}
+
+.hotels-autosuggest-list .selectedByKeyboard a {
+	background: #d4e6f8;
+}
+
+.own-departure-label {
+	float: right;
+
+	margin: 8px 0 5px 0;
+
+	line-height: 17px;
+}
+
+.product-icon-own {
+	margin: 6px 14px 2px 14px;
+}
+
+.product-icon-own .product-icon-promotion li {
+	width: 100%;
+
+	line-height: 26px;
+}
+
+.product-icon-own .product-icon-promotion {
+	margin-bottom: 5px;
+}
+
+.hotel-list-photo-preview:hover .hotel-list-gallery {
+	position: absolute;
+	top: 0;
+	right: 0;
+
+	display: block;
+
+	width: 100%;
+	height: 100%;
+
+	cursor: pointer;
+
+	opacity: .8;
+	background-color: #10447d;
+}
+
+.hotel-list-photo-preview:hover .hotel-list-gallery-info {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+
+	display: block;
+
+	width: 100px;
+	height: 10px;
+	margin: auto;
+	padding-top: 50px;
+
+	cursor: pointer;
+
+	color: white;
+}
+
+.hotel-list-photo-preview:hover:before {
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+
+	display: block;
+	float: left;
+	float: none;
+
+	width: 25px;
+	width: 50px;
+	height: 25px;
+	height: 41px;
+	margin: auto;
+
+	content: '';
+	cursor: pointer;
+	pointer-events: none;
+
+	background: url(https://www.itaka.pl/cms/img/1/ico/ikonymale.png) no-repeat -50px -1200px;
+}
+
+.hotel-list-photo-preview.hotel-list-landing-page:hover:before {
+	display: none;
+}
+
+.as-thumbs .hotel-list-photo-preview:hover:before {
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+
+	display: block;
+	float: left;
+
+	width: 25px;
+	width: 50px;
+	height: 25px;
+	height: 51px;
+	margin: auto;
+
+	content: '';
+	cursor: pointer;
+
+	background: url(https://www.itaka.pl/cms/img/1/ico/ikonymale.png) no-repeat -50px -1200px;
+}
+
+.as-thumbs .hotel-list-photo-preview:hover .hotel-list-gallery {
+	position: absolute;
+	top: 0;
+	right: 0;
+
+	display: block;
+
+	width: 100%;
+	height: 100%;
+
+	opacity: .8;
+	background-color: #10447d;
+}
+
+.plus7 .hotel-list-photo-preview:hover:after {
+	top: inherit;
+	right: inherit;
+	bottom: inherit;
+	left: inherit;
+
+	background: none;
+}
+
+.cliphead + .as-list .hotel-list-photo-preview:hover:before {
+	content: none;
+}
+
+.nolimits_main_filters_hide {
+	display: none !important;
+}
+
+.clipboard-box .fa.fa-heart,.add_to_clipboard {
+	color: #10447d;
+
+	font-weight: bold;
+}
+
+.ws_wrapper {
+	position: fixed;
+	z-index: 15;
+	bottom: 60px;
+
+	width: 0;
+}
+
+.ws_real_time_clipboard_remembered {
+	float: right;
+
+	color: #10447d;
+
+	font-size: 12px;
+}
+
+.ws_real_time_clipboard_remembered .fa-heart {
+	padding: 0 10px 0 0;
+
+	font-size: 26px;
+}
+
+.ws_real_time {
+	position: relative!important;
+	left: -301px;
+
+	display: block !important;
+
+	width: 275px;
+	margin-bottom: 10px;
+	padding: 10px 30px 10px 10px;
+
+	-webkit-transition: all 1s ease-in-out;
+	-moz-transition: all 1s ease-in-out;
+	-o-transition: all 1s ease-in-out;
+	transition: all 1s ease-in-out;
+
+	color: #10447d;
+	border: 2px solid #d9e1ea;
+	border-radius: 5px;
+	background-color: white;
+}
+
+.ws_real_time .fa {
+	display: inline-block;
+
+	width: 25px;
+	height: 25px;
+	padding: 0 5px 0 0;
+
+	vertical-align: middle;
+
+	font-size: 26px !important;
+}
+
+.ws_real_time .popover-close {
+	position: absolute;
+	top: 0;
+	right: 0;
+
+	width: 16px;
+	height: 100%;
+
+	text-align: center;
+
+	color: #10447d;
+}
+
+.ws_real_time .popover-close .fa {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+
+	width: 100%;
+	height: 100%;
+	margin: auto;
+	padding: 0;
+
+	font-size: 14px !important;
+}
+
+.ws_real_time .popover-close .fa:before {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+
+	height: 15px;
+	margin: auto;
+
+	line-height: 100%;
+}
+
+.ws_real_time .popover-close .fa-times {
+	display: none;
+}
+
+.ws_real_time .popover-close .fa-chevron-right {
+	display: block;
+}
+
+.ws_real_time .popover-close .fa-chevron-right:before {
+	height: 12px;
+}
+
+.ws_real_time.active {
+	left: 20px;
+}
+
+.ws_real_time.active .fa-times {
+	display: block;
+}
+
+.ws_real_time.active .fa-chevron-right {
+	display: none;
+}
+
+.ws_real_time_visitors .ws_real_time_visitors__text {
+	display: inline-block;
+
+	width: 85%;
+
+	vertical-align: middle;
+
+	line-height: 18px;
+}
+
+.ws_real_time_remembered .ws_real_time_remembered__text {
+	display: inline-block;
+
+	width: 85%;
+
+	vertical-align: middle;
+
+	line-height: 18px;
+}
+
+.ws_real_time-booking .ws_real_time-booking__text {
+	display: inline-block;
+
+	width: 85%;
+
+	vertical-align: middle;
+
+	line-height: 18px;
+}
+
+.ws_real_time-booking_additional .ws_real_time-booking__text {
+	display: inline-block;
+
+	width: 85%;
+
+	vertical-align: middle;
+
+	line-height: 18px;
+}
+
+.product-hotelextradescription a,.product-nolimitshoteldescription a {
+	text-decoration: none;
+}
+
+.product-hotelextradescription h3,.product-nolimitshoteldescription h3 {
+	height: 42px;
+	margin: 15px 0;
+
+	color: black;
+
+	font-size: 17px;
+	font-weight: normal;
+	line-height: 1em;
+	line-height: 17px;
+}
+
+.product-hotelextradescription h3 .destination-title,.product-nolimitshoteldescription h3 .destination-title {
+	display: block;
+
+	padding-top: 10px;
+
+	color: #999;
+
+	font-size: 14px;
+	font-weight: normal;
+}
+
+.hotel-list-item .person .fa-user {
+	position: absolute;
+	right: 11px;
+	bottom: 3px;
+
+	color: #f33;
+
+	font-size: 15px;
+}
+
+.hotel-list-item .family .fa-users {
+	position: absolute;
+	top: 12px;
+	right: 5px;
+	bottom: auto;
+
+	color: #789;
+
+	font-size: 11px;
+}
+
+.ymaxPrice_search,.ymaxPrice_clipboard,.ymaxPrice_ourdirections,.ymaxPrice_featuredlist,.ymaxPrice_booking {
+	margin-top: 15px;
+	margin-bottom: 0px;
+}
+
+.ymaxPrice_search .price,.ymaxPrice_clipboard .price,.ymaxPrice_ourdirections .price,.ymaxPrice_featuredlist .price,.ymaxPrice_booking .price {
+	clear: none;
+}
+
+.ymaxPrice_search .price strong,.ymaxPrice_clipboard .price strong,.ymaxPrice_ourdirections .price strong,.ymaxPrice_featuredlist .price strong,.ymaxPrice_booking .price strong {
+	position: relative!important;
+
+	height: 25px;
+
+	color: lightslategray;
+
+	font-size: 25px;
+	line-height: 25px;
+}
+
+.ymaxPrice_search .price .pln,.ymaxPrice_clipboard .price .pln,.ymaxPrice_ourdirections .price .pln,.ymaxPrice_featuredlist .price .pln,.ymaxPrice_booking .price .pln {
+	color: lightslategray;
+
+	font-size: 11px;
+}
+
+.ymaxPrice_search .ymax_percent,.ymaxPrice_clipboard .ymax_percent,.ymaxPrice_ourdirections .ymax_percent,.ymaxPrice_featuredlist .ymax_percent,.ymaxPrice_booking .ymax_percent {
+	float: right;
+	margin-left: 5px;
+	padding: 2px 5px;
+	color: white;
+	background-color: #e54a4a;
+	font-size: 11px;
+}
+
+.ymaxPrice_search .person:after,.ymaxPrice_clipboard .person:after,.ymaxPrice_ourdirections .person:after,.ymaxPrice_featuredlist .person:after,.ymaxPrice_booking .person:after {
+	-webkit-filter: grayscale(50%);
+}
+
+.ymaxPrice_search .price-line_through,.ymaxPrice_clipboard .price-line_through,.ymaxPrice_ourdirections .price-line_through,.ymaxPrice_featuredlist .price-line_through,.ymaxPrice_booking .price-line_through {
+	top: 50%;
+}
+
+.ymaxPrice_search:after,.ymaxPrice_clipboard:after,.ymaxPrice_ourdirections:after,.ymaxPrice_featuredlist:after,.ymaxPrice_booking:after {
+	display: table;
+	clear: both;
+
+	content: '';
+}
+
+.hotel-list-item .ymaxPrice_search .fa-user,.hotel-list-item .ymaxPrice_ourdirections .fa-user,.ymaxPrice_featuredlist .fa-user,.ymaxPrice_booking .fa-user,.hotel-list-item .ymaxPrice_clipboard .fa-user {
+	position: absolute;
+	top: 12px;
+	right: 5px;
+	bottom: auto;
+
+	color: #789;
+
+	font-size: 11px;
+}
+
+.hotel-list-item-ourdirections.hotel-list-item .ymaxPrice_search .fa-user {
+	right: 41px;
+}
+
+.hotel-list-item-ourdirections.hotel-list-item .ymaxPrice_search .price {
+	margin-top: 0;
+}
+
+.ymaxPrice_ourdirections {
+	margin-top: 0;
+}
+
+.ymaxPrice_search:after,.ymaxPrice_product:after,.ymaxPrice_clipboard:after {
+	display: block;
+	clear: both;
+
+	content: '';
+}
+
+.ymaxPrice_product,.ymaxPrice_ourdirections,.ymaxPrice_featuredlist {
+	float: right;
+	margin: 0;
+}
+
+.ymaxPrice_product .price,.ymaxPrice_ourdirections .price,.ymaxPrice_featuredlist .price {
+	position: relative!important;
+
+	display: inline-block;
+	clear: none;
+}
+
+.ymaxPrice_product .price strong,.ymaxPrice_ourdirections .price strong,.ymaxPrice_featuredlist .price strong {
+	position: relative!important;
+	padding: 1px 5px 0 0;
+	color: #b09ec4;
+	font-size: 20px;
+	line-height: 25px;
+}
+
+.ymaxPrice_product .price .pln,.ymaxPrice_ourdirections .price .pln, .ymaxPrice_featuredlist .price .pln {
+	color: lightslategray;
+	font-size: 11px;
+	vertical-align: top;
+}
+
+.ymaxPrice_product .ymax_percent,.ymaxPrice_ourdirections .ymax_percent,.ymaxPrice_featuredlist .ymax_percent {
+	display: inline-block;
+	padding: 2px 5px;
+	vertical-align: top;
+	color: white;
+	background-color: #e54a4a;
+	font-size: 11px;
+}
+
+.ymaxPrice_product .person:after,.ymaxPrice_ourdirections .person:after,.ymaxPrice_featuredlist .person:after {
+	-webkit-filter: grayscale(50%);
+}
+
+.ymaxPrice_product + .price-box_price {
+	clear: right;
+}
+
+.ymaxPrice_featuredlist {
+	margin: 0 0 5px 0;
+}
+
+.ymaxPrice_ourdirections {
+	margin: 0 0 5px 0;
+}
+
+.ymaxPrice_featuredlist .price strong {
+	height: 18px;
+
+	font-size: 20px;
+	line-height: 18px;
+}
+
+.price-line_through {
+	position: absolute!important;
+	top: 50%;
+	right: 0;
+	left: 0;
+	border-bottom: 1px solid lightslategray;
+}
+
+.ymaxPrice_booking .price strong {
+	height: 7px;
+
+	font-size: 14px;
+	line-height: 14px;
+}
+
+.ymaxPrice_booking .price .pln {
+	font-size: 7px;
+}
+
+.ymaxPrice_booking .fa-user {
+	top: 9px;
+	right: 5px;
+
+	font-size: 7px;
+}
+
+.ymaxPrice_booking {
+	margin-top: 5px;
+	margin-bottom: 15px;
+}
+
+.hotel-list-bottom div.hotel-list-description ul {
+}
+
+.ymaxPrice_search_wrapper .hotel-list-bottom div.hotel-list-description ul {
+}
+
+.fhotel_region_header .fa-user,.price-box .ymaxPrice_product .fa-user {
+	position: absolute;
+	right: 6px;
+	bottom: 0px;
+	color: #789;
+	font-size: 11px;
+}
+
+.promo_gallery {
+	position: absolute;
+	right: 0;
+
+	width: 100%;
+	height: 328px;
+}
+
+.promo_gallery ol {
+	display: block;
+
+	-webkit-margin-after: 0;
+	-webkit-margin-before: 0;
+	-webkit-margin-end: 0;
+	-webkit-margin-start: 0;
+	-webkit-padding-start: 0;
+}
+
+.promo_gallery .flexslider {
+	width: 100%;
+	height: 100%;
+
+	border-radius: 3px;
+	box-shadow: 0 0 5px #aaa inset;
+}
+
+.promo_gallery .flexslider .emptySlide {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+
+	width: 250px;
+	height: 250px;
+	margin-top: -125px;
+	margin-left: -125px;
+
+	opacity: .1;
+
+	filter: alpha(opacity=10);
+	-moz-opacity: .1;
+}
+
+.promo_gallery .flexslider .flex-viewport {
+	width: 100%;
+	height: 100%;
+}
+
+.promo_gallery .flex-control-nav {
+	position: absolute;
+	z-index: 5;
+	top: 5px;
+	right: 15px;
+
+	display: -webkit-box;
+	float: right;
+
+	list-style: none;
+}
+
+.promo_gallery .flex-control-nav li {
+	display: inline-block;
+}
+
+.promo_gallery .flex-control-nav li a {
+	display: block;
+
+	width: 9px;
+	height: 9px;
+	margin: 5px 2px;
+
+	cursor: pointer;
+	text-indent: -99999px;
+
+	color: transparent;
+	border-radius: 20px;
+	background: #b2aeaf;
+}
+
+.promo_gallery .flex-control-nav li a.flex-active {
+	background-color: #fff;
+}
+
+.promo_gallery .slides {
+	float: left;
+
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+
+	list-style: none;
+}
+
+.promo_gallery .slides li {
+	position: relative!important;
+
+	display: none;
+
+	width: 100%;
+	height: 100%;
+}
+
+.promo_gallery .slides li a {
+	display: block;
+
+	width: 100%;
+	height: 100%;
+
+	text-align: right;
+
+	border-radius: 3px;
+}
+
+.promo_gallery .slides li .btn:after {
+	position: absolute;
+	top: 0;
+	right: 10px;
+	bottom: 0;
+
+	margin: auto auto;
+}
+
+.promo_gallery .slides .promo_gallery_price {
+	position: absolute;
+
+	width: auto;
+	height: 47px;
+
+	font-size: 25px;
+}
+
+.promo_gallery .slides .promo_gallery_price span {
+	display: inline-block;
+
+	margin-top: 14px;
+	padding: 0 30px 0 6px;
+
+	vertical-align: top;
+
+	font-size: 17px;
+}
+
+.promo_gallery .slides .price {
+	position: absolute;
+
+	text-decoration: none;
+
+	font-family: 'ITAKA';
+}
+
+.promo_gallery .slides img {
+	width: 100%;
+}
+
+.hidden {
+	display: none !important;
+}
+
+.smartbanner-full {
+	position: relative !important;
+	z-index: 99991;
+
+	width: 100%;
+	height: 100%;
+	margin-top: -41px;
+
+	background: url('https://www.itaka.pl/cms/img/1/img/mobile_popup.jpg') center top no-repeat;
+	background-size: 100%;
+
+	font-family: 'ITAKA';
+}
+
+.smartbanner-full,.smartbanner-full * {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.smartbanner-full > div {
+	position: absolute;
+	bottom: 0;
+
+	padding: 10px;
+
+	background: #fff;
+	background: #eef5fd;
+}
+
+.smartbanner-full > div a {
+	display: block;
+}
+
+.smartbanner-full h2 {
+	margin-bottom: 8px;
+
+	text-align: center;
+
+	color: #50504e;
+
+	font-size: 18px;
+	line-height: 30px;
+}
+
+.smartbanner-full .sb-button {
+	padding: 15px 0;
+
+	text-align: center;
+	text-transform: uppercase;
+
+	color: #fff;
+	background: #10447d;
+
+	font-weight: bold;
+}
+
+.smartbanner-full .sb-app-link-scroll {
+	padding: 15px 0;
+
+	text-align: center;
+
+	color: #10447d;
+
+	line-height: 20px;
+}
+
+.smartbanner-full .sb-icon {
+	display: block;
+
+	width: 110px;
+	height: 110px;
+	margin: -80px auto 5px auto;
+
+	border: 15px solid #fff;
+	border-radius: 25px;
+	background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFIAAABSCAYAAADHLIObAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NEUzNzU0RUM5N0VCMTFFNDlCRDFDQzQzQTM5N0RDNTkiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6NEUzNzU0RUQ5N0VCMTFFNDlCRDFDQzQzQTM5N0RDNTkiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo0RTM3NTRFQTk3RUIxMUU0OUJEMUNDNDNBMzk3REM1OSIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo0RTM3NTRFQjk3RUIxMUU0OUJEMUNDNDNBMzk3REM1OSIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PudW5yYAABBSSURBVHja7F0JdBXV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');
+	background-color: #fff;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-position-x: 5px;
+}
+
+.smartbanner-full .sb-icon-main {
+	background-size: 74px;
+}
+
+@media screen and (max-width: 1200px) and (min-width: 1020px) {
+	.reservation-form .accordion-body dl dt {
+		height: 70px;
+	}
+
+	.reservation-form .control-group {
+		clear: both;
+
+		margin: 0 0 20px 0;
+	}
+
+	.impt0.bd0 #main .lev1 {
+		top: 0;
+
+		width: 620px;
+	}
+
+	.promo_gallery .slides li a.slide-10 {
+		background: url('https://www.itaka.pl/cms/img/1/u/10_620x328.jpg?v=2.0728');
+	}
+
+	.promo_gallery .slides li a.slide-11 {
+		background: url('https://www.itaka.pl/cms/img/1/u/11_620x328.jpg?v=2.0728');
+	}
+
+	.promo_gallery .slides li a.slide-12 {
+		background: url('https://www.itaka.pl/cms/img/1/u/12_620x328.jpg?v=2.0728');
+	}
+
+	.promo_gallery .slides li a.slide-13 {
+		background: url('https://www.itaka.pl/cms/img/1/u/13_620x328.jpg?v=2.0728');
+	}
+
+	.promo_gallery .slides li a.slide-14 {
+		background: url('https://www.itaka.pl/cms/img/1/u/14_620x328.jpg?v=2.0728');
+	}
+
+	.promo_gallery .slides li a.slide-15 {
+		background: url('https://www.itaka.pl/cms/img/1/u/15_620x328.jpg?v=2.0728');
+	}
+
+	.promo_gallery .slides li a.slide-16 {
+		background: url('https://www.itaka.pl/cms/img/1/u/16_620x328.jpg?v=2.0728');
+	}
+
+	.promo_gallery .slides li a.slide-17 {
+		background: url('https://www.itaka.pl/cms/img/1/u/17_620x328.jpg?v=2.0728');
+	}
+
+	.promo_gallery .slides li a.slide-18 {
+		background: url('https://www.itaka.pl/cms/img/1/u/18_620x328.jpg?v=2.0728');
+	}
+
+	.promo_gallery .slides li a.slide-19 {
+		background: url('https://www.itaka.pl/cms/img/1/u/19_620x328.jpg?v=2.0728');
+	}
+
+	.promo_gallery .slides li a.slide-20 {
+		background: url('https://www.itaka.pl/cms/img/1/u/20_620x328.jpg?v=2.0728');
+	}
+
+	.promo_gallery .slides li a.slide-21 {
+		background: url('https://www.itaka.pl/cms/img/1/u/21_620x328.jpg?v=2.0728');
+	}
+
+	.promo_gallery .slides li a.slide-22 {
+		background: url('https://www.itaka.pl/cms/img/1/u/22_620x328.jpg?v=2.0728');
+	}
+}
+
+@media screen and (max-width: 1020px) and (min-width: 640px) {
+	.reservation-form .control-group {
+		clear: both;
+
+		margin: 0 0 20px 0;
+	}
+
+	.itaka_gala .fhotels.tab-pane .fhotel_main:last-child {
+		display: none;
+	}
+
+	.itaka_gala .fhotels.tab-pane .fhotel_main + .fhotel_main {
+		margin: 0;
+	}
+
+	.impt0.bd0 #main .lev1 {
+		float: right;
+
+		width: 365px;
+	}
+
+	.promo_gallery .slides li a.slide-1 {
+		background: url('https://www.itaka.pl/cms/img/1/u/1_365x328.jpg?v=2.0728');
+	}
+
+	.promo_gallery .slides li a.slide-2 {
+		background: url('https://www.itaka.pl/cms/img/1/u/2_365x328.jpg?v=2.0728');
+	}
+
+	.promo_gallery .slides li a.slide-3 {
+		background: url('https://www.itaka.pl/cms/img/1/u/3_365x328.jpg?v=2.0728');
+	}
+
+	.promo_gallery .slides li a.slide-4 {
+		background: url('https://www.itaka.pl/cms/img/1/u/4_365x328.jpg?v=2.0728');
+	}
+
+	.promo_gallery .slides li a.slide-5 {
+		background: url('https://www.itaka.pl/cms/img/1/u/5_365x328.jpg?v=2.0728');
+	}
+
+	.promo_gallery .slides li a.slide-10 {
+		background: url('https://www.itaka.pl/cms/img/1/u/10_365x328.jpg?v=2.0728');
+	}
+
+	.promo_gallery .slides li a.slide-11 {
+		background: url('https://www.itaka.pl/cms/img/1/u/11_365x328.jpg?v=2.0728');
+	}
+
+	.promo_gallery .slides li a.slide-12 {
+		background: url('https://www.itaka.pl/cms/img/1/u/12_365x328.jpg?v=2.0728');
+	}
+
+	.promo_gallery .slides li a.slide-13 {
+		background: url('https://www.itaka.pl/cms/img/1/u/13_365x328.jpg?v=2.0728');
+	}
+
+	.promo_gallery .slides li a.slide-14 {
+		background: url('https://www.itaka.pl/cms/img/1/u/14_365x328.jpg?v=2.0728');
+	}
+
+	.promo_gallery .slides li a.slide-15 {
+		background: url('https://www.itaka.pl/cms/img/1/u/15_365x328.jpg?v=2.0728');
+	}
+
+	.promo_gallery .slides li a.slide-16 {
+		background: url('https://www.itaka.pl/cms/img/1/u/16_365x328.jpg?v=2.0728');
+	}
+
+	.promo_gallery .slides li a.slide-17 {
+		background: url('https://www.itaka.pl/cms/img/1/u/17_365x328.jpg?v=2.0728');
+	}
+
+	.promo_gallery .slides li a.slide-18 {
+		background: url('https://www.itaka.pl/cms/img/1/u/18_365x328.jpg?v=2.0728');
+	}
+
+	.promo_gallery .slides li a.slide-19 {
+		background: url('https://www.itaka.pl/cms/img/1/u/19_365x328.jpg?v=2.0728');
+	}
+
+	.promo_gallery .slides li a.slide-20 {
+		background: url('https://www.itaka.pl/cms/img/1/u/20_365x328.jpg?v=2.0728');
+	}
+
+	.promo_gallery .slides li a.slide-21 {
+		background: url('https://www.itaka.pl/cms/img/1/u/21_365x328.jpg?v=2.0728');
+	}
+
+	.promo_gallery .slides li a.slide-22 {
+		background: url('https://www.itaka.pl/cms/img/1/u/22_365x328.jpg?v=2.0728');
+	}
+}
+
+@media screen and (max-width: 640px) {
+	.control-group.infield-label label {
+		margin-left: 0;
+	}
+
+	.itaka_gala .fhotels.tab-pane .fhotel_main:not(:first-child) {
+		display: block;
+	}
+
+	.impt0.bd0 #main .lev1 {
+		top: 0;
+
+		clear: both;
+
+		width: 100%;
+		min-height: 185px;
+	}
+
+	.promo_gallery .flexslider {
+		left: 0;
+	}
+
+	.promo_gallery .flex-control-nav li {
+		left: 0;
+	}
+
+	.impt0.bd0 #main .lev1 {
+		min-height: 300px;
+	}
+
+	.promo_gallery {
+		top: 2px;
+
+		height: 300px;
+	}
+
+	.promo_gallery a {
+		background-position: center left !important;
+	}
+
+	.promo_gallery .slides li a.slide-1 {
+		background: url('https://www.itaka.pl/cms/img/1/u/1_640x300.jpg?v=2.0728');
+	}
+
+	.promo_gallery .slides li a.slide-2 {
+		background: url('https://www.itaka.pl/cms/img/1/u/2_640x300.jpg?v=2.0728');
+	}
+
+	.promo_gallery .slides li a.slide-3 {
+		background: url('https://www.itaka.pl/cms/img/1/u/3_640x300.jpg?v=2.0728');
+	}
+
+	.promo_gallery .slides li a.slide-4 {
+		background: url('https://www.itaka.pl/cms/img/1/u/4_640x300.jpg?v=2.0728');
+	}
+
+	.promo_gallery .slides li a.slide-5 {
+		background: url('https://www.itaka.pl/cms/img/1/u/5_640x300.jpg?v=2.0728');
+	}
+
+	.promo_gallery .slides li a.slide-10 {
+		background: url('https://www.itaka.pl/cms/img/1/u/10_640x300.jpg?v=2.0728');
+	}
+
+	.promo_gallery .slides li a.slide-11 {
+		background: url('https://www.itaka.pl/cms/img/1/u/11_640x300.jpg?v=2.0728');
+	}
+
+	.promo_gallery .slides li a.slide-12 {
+		background: url('https://www.itaka.pl/cms/img/1/u/12_640x300.jpg?v=2.0728');
+	}
+
+	.promo_gallery .slides li a.slide-13 {
+		background: url('https://www.itaka.pl/cms/img/1/u/13_640x300.jpg?v=2.0728');
+	}
+
+	.promo_gallery .slides li a.slide-14 {
+		background: url('https://www.itaka.pl/cms/img/1/u/14_640x300.jpg?v=2.0728');
+	}
+
+	.promo_gallery .slides li a.slide-15 {
+		background: url('https://www.itaka.pl/cms/img/1/u/15_640x300.jpg?v=2.0728');
+	}
+
+	.promo_gallery .slides li a.slide-16 {
+		background: url('https://www.itaka.pl/cms/img/1/u/16_640x300.jpg?v=2.0728');
+	}
+
+	.promo_gallery .slides li a.slide-17 {
+		background: url('https://www.itaka.pl/cms/img/1/u/17_640x300.jpg?v=2.0728');
+	}
+
+	.promo_gallery .slides li a.slide-18 {
+		background: url('https://www.itaka.pl/cms/img/1/u/18_640x300.jpg?v=2.0728');
+	}
+
+	.promo_gallery .slides li a.slide-19 {
+		background: url('https://www.itaka.pl/cms/img/1/u/19_640x300.jpg?v=2.0728');
+	}
+
+	.promo_gallery .slides li a.slide-20 {
+		background: url('https://www.itaka.pl/cms/img/1/u/20_640x300.jpg?v=2.0728');
+	}
+
+	.promo_gallery .slides li a.slide-21 {
+		background: url('https://www.itaka.pl/cms/img/1/u/21_640x300.jpg?v=2.0728');
+	}
+
+	.promo_gallery .slides li a.slide-22 {
+		background: url('https://www.itaka.pl/cms/img/1/u/22_640x300.jpg?v=2.0728');
+	}
+
+	.promo_gallery .slides li a {
+		background-repeat: no-repeat !important;
+		background-size: 100% auto !important;
+	}
+
+	.promo_gallery .slides .promo_gallery_price span {
+		margin-top: 10px;
+	}
+
+	.promo_gallery .slides .promo_gallery_price {
+		height: 37px;
+	}
+}
+@media (min-width: 768px) {
+	.product_page_form {
+		float: right;
+	}
+}
