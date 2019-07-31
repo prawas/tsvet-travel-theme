@@ -101,9 +101,8 @@ add_action('widgets_init', 'tsvet_widgets_init');
  */
 function tsvet_scripts()
 {
-	//wp_enqueue_style('font-family-open-sans', "https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,700italic", [], null);
-	//wp_enqueue_style('font-family-cuprum', "https://fonts.googleapis.com/css?family=Cuprum:400,400i,700,700i&amp;subset=cyrillic", [], null);
-	//wp_enqueue_style('tsvet-style', get_stylesheet_uri(), ['font-family-open-sans', 'font-family-cuprum'], null);
+	init_bootstrap();
+
 	wp_enqueue_style('tsvet-style', get_stylesheet_uri(), array_filter([
 		'bxslider',
 		'select2',
@@ -136,11 +135,9 @@ function tsvet_scripts()
 		$deps_scripts[] = 'ajax-load-more';
 		$deps_scripts[] = 'ajax-load-more-progress';
 	}
-	wp_enqueue_script('tsvet-script', get_template_directory_uri() . "/app" . SUFFIX . ".js", array_filter($deps_scripts, function ($script) {
+	wp_enqueue_script('tsvet-script', get_template_directory_uri() . "/app.js", array_filter($deps_scripts, function ($script) {
 		return wp_script_is($script, 'registered');
 	}), null, true);
-	
-// 	init_bootstrap();
 }
 add_action('wp_enqueue_scripts', 'tsvet_scripts', 11);
 
@@ -177,17 +174,19 @@ add_shortcode('slider', 'slider_shortcode');
 
 function init_form()
 {
-	init_bootstrap();
+	// init_bootstrap();
 	init_datepicker();
 
 	wp_enqueue_script('jScrollPane', get_template_directory_uri() . "/plugins/jScrollPane/jquery.jscrollpane" . SUFFIX . ".js", ['jquery-migrate'], '2.0.23', true);
 }
+
 function init_bootstrap()
 {
-	wp_enqueue_style('bootstrap', get_template_directory_uri() . "/plugins/bootstrap/css/bootstrap" . SUFFIX . ".css", [], '3.3.7');
-
-	wp_enqueue_script('bootstrap', get_template_directory_uri() . "/plugins/bootstrap/js/bootstrap" . SUFFIX . ".js", ['jquery-migrate'], '3.3.7');
+	wp_enqueue_style('bootstrap', get_template_directory_uri() . "/bootstrap/dist/css/bootstrap.css", [], '3.3.7');
+	wp_enqueue_style('bootstrap-theme', get_template_directory_uri() . "/bootstrap/dist/css/bootstrap-theme.css", ['bootstrap'], '3.3.7');
+	wp_enqueue_script('bootstrap', get_template_directory_uri() . "/bootstrap/dist/js/bootstrap.js", ['jquery-migrate'], '3.3.7');
 }
+
 function init_datepicker()
 {
 	wp_enqueue_style('datepicker', get_template_directory_uri() . "/plugins/bootstrap-datepicker/css/bootstrap-datepicker" . SUFFIX . ".css", ['bootstrap'], '1.6.4');
@@ -197,6 +196,7 @@ function init_datepicker()
 	wp_add_inline_script('datepicker-locale', "$('input.datepicker').datepicker({format: 'dd/mm/yyyy', language: 'ru'})");
 	wp_enqueue_script('stackblur', get_template_directory_uri() . "/plugins/StackBlur/stackblur" . SUFFIX . ".js", ['bootstrap'], '0.5', true);
 }
+
 function init_searchform()
 {
 	wp_deregister_script('select2');
@@ -207,6 +207,7 @@ function init_searchform()
 
 	init_form();
 }
+
 function searchform_shortcode($atts, $content)
 {
 	global $product_search_form_index;
