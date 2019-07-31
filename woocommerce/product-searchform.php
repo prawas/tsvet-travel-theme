@@ -6,7 +6,6 @@
 		<div class="container search-form__group">
 			<div class="search-form__container-tabs">
                 <label class="search-form__radio radio">
-<!--				<div class="search-form__label-tabs">Туры от tsvet.by</div>-->
                     <input type="radio" name="turoperator" class="radio__input" checked="checked" value="Tsvet" />
                     <span class="radio__label search-form__label-radio">Туры от tsvet</span>
                 </label>

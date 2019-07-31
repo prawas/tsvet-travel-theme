@@ -316,6 +316,7 @@ jQuery.each(['transition', 'animation'], function (index, style) {
     $section_gallery.$image.attr('src', new_src);
     $section_gallery.fadeIn(200);
   });
+
   $('body').on('error', 'img', function () {
     var $img = $(this);
     var imagesData = $img.nextAll('.hotel-list-gallery').data('search-gallery');
@@ -330,6 +331,7 @@ jQuery.each(['transition', 'animation'], function (index, style) {
       $img.data('original', 'https:' + src).trigger('appear');
     }
   });
+
   var $departure = $('[name="departure"]'),
     $destination = $('[name="destination"]'),
     $warshawa_departure_itaka = $departure.find('[data-turoperator="itaka"] option')
@@ -351,7 +353,7 @@ jQuery.each(['transition', 'animation'], function (index, style) {
     },
     $turoperator = $('[name="turoperator"]').on('change', function () {
       var turoperator = $(this).val(),
-        href = $section_more_show.attr('href');
+          href = $section_more_show.attr('href');
       $departure.val(dep_default_values[turoperator]).trigger('change');
 
       if (pages[href].default === undefined) {
@@ -363,7 +365,8 @@ jQuery.each(['transition', 'animation'], function (index, style) {
         };
       }
       $section_more_show.trigger('click');
-    });
+  });
+
   $departure.add($destination).each(function () {
     var select2 = $(this).data('select2');
     if (select2) {
@@ -608,5 +611,9 @@ jQuery.each(['transition', 'animation'], function (index, style) {
     e.preventDefault();
     e.stopPropagation();
     $('#transfer-modal').modal('show');
+  });
+
+  $('.search-form label.radio').click(function(e) {
+    $(this).find('input').prop('checked', true);
   });
 })(jQuery);

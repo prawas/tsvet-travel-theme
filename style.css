@@ -884,11 +884,6 @@ svg[height="0"] {
 	.mobile-menu > *:first-child {
 		max-height: 60px;
 	}
-	.subbrands {
-		width: 290px;
-		margin-left: auto;
-		margin-right:  auto;
-	}
 	.subbrands__link {
 		padding-left: 10px;
 		padding-right: 10px;
@@ -927,12 +922,7 @@ svg[height="0"] {
 }
 @media (min-width: 630px) {
 	.search-form {
-		height: 168px;
-	}
-}
-@media (min-width: 1200px) {
-	.search-form {
-		height: 94px;
+		margin-top: 0;
 	}
 }
 .search-form__group:not(:only-child) {
@@ -986,6 +976,9 @@ svg[height="0"] {
 		bottom: auto;
 
 		height: 36px;
+	}
+	.search-form__row:not(.search-form__tabs) {
+		display: none;
 	}
 }
 .search-form__content {
@@ -3624,4 +3617,11 @@ p:empty {
 }
 #transfer-modal h4.modal-title {
 	font-size: 18px;
+}
+
+.tab-content .tab-pane:not(.active) {
+	display: none;
+}
+.tab-content .tab-pane.active {
+	display: block;
 }

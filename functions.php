@@ -2701,3 +2701,11 @@ function site_the_content($content)
 	return $content;
 }
 add_filter('the_content', 'site_the_content');
+
+function tours_tabs_shortcode($atts, $content)
+{
+	return tsvet_render_file("template-parts/tours-tabs", null, [
+		'content' => do_shortcode($content)
+	]) ? : '';
+}
+add_shortcode('tours_tabs', 'tours_tabs_shortcode');
