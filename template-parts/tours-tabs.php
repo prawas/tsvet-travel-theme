@@ -65,7 +65,7 @@
             var monthes = ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12"];
             var teztourSearchSettings = {
                 "fromCountryId":[1102],
-                "fromCityId":[786],
+                "fromCityId":[345],
                 "toCountryId":1104,
                 "departureDateMin":( now.getDate() < 10 ? "0"+now.getDate() : now.getDate() )+"."+monthes[now.getMonth()]+"."+now.getFullYear(),
                 "departureDateMax":( dateTo.getDate() < 10 ? "0"+dateTo.getDate() : dateTo.getDate() )+"."+monthes[dateTo.getMonth()]+"."+dateTo.getFullYear(),
