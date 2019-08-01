@@ -1,10 +1,4 @@
 <?php /* @var $content string */ ?>
-<?php //$css = []; for($i = 1; $i < 33; $i++) {
-	//if(file_exists(__DIR__ . "/css/SearchForm-{$i}.css")) {
-	//	$css[] = file_get_contents(__DIR__ . "/css/SearchForm-{$i}.css");
-	//}
-	//file_put_contents(__DIR__ . "/css/SearchForm.css", implode("\n", $css));
-//} ?>
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
@@ -15,11 +9,13 @@
 </head>
 <body>
 <div class="site-container">
-    <?php get_header(); ?>
-
-    <?= $content ?>
-
-    <?php get_footer(); ?>
+    <?php if (is_page('tez-order-tour')): ?>
+        <?= $content ?>
+    <?php else: ?>
+        <?php get_header(); ?>
+        <?= $content ?>
+        <?php get_footer(); ?>
+    <?php endif; ?>
 </div>
 <?php wp_footer(); ?>
 </body>
