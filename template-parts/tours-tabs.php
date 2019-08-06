@@ -42,7 +42,24 @@
   <div id="itaka" class="tab-pane fade in active">
     <section class="section">
       <div class="section__container container">
-        <h2 class="section__title">Вылеты из&nbsp;Варшавы</h2>
+        <div class="section__flex-title">
+          <h2 class="section__title">Вылеты из&nbsp;Варшавы</h2>
+          <div class="section__title-curr-calc">
+            <h5>Пересчет PLN в&nbsp;BYN</h5>
+            <div class="form-group">
+            <div class="input-group">
+              <input type="number" step="0.01" class="form-control" name="pln" id="curr-calc-pln" data-course="<?= do_shortcode('[exrate cur="PLN"]') ?>">
+              <span class="input-group-addon">PLN</span>
+            </div>
+            </div>
+            <div class="form-group">
+            <div class="input-group">
+              <input type="number" step="0.01" class="form-control" name="byn" id="curr-calc-byn" data-course="<?= do_shortcode('[exrate cur="PLN"]') ?>">
+              <span class="input-group-addon" readonly>BYN</span>
+            </div>
+            </div>
+          </div>
+        </div>
         <div class="section__content">
           <iframe src="https://tsvet.itaka24.eu/ru/" style="width: 100%; height: 5800px" frameborder="no"></iframe>
         </div>

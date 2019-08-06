@@ -1,7 +1,7 @@
 /*
 Theme Name: tsvet.by
 Author: Viktor Truhanmovich, Sasha Prawas
-Version: 1.35
+Version: 1.36
 GitHub Theme URI: prawas/tsvet-travel-theme
 */
 
@@ -1310,6 +1310,16 @@ input[type="radio"]:checked + .search-form__label-radio {
 	font-size: 40px;
 	font-weight: 700;
 	line-height: 1;
+}
+@media (min-width: 768px) {
+	.section__flex-title {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+}
+.section__title-curr-calc {
+	margin-top: 20px;
 }
 @media (min-width: 768px) {
 	.section__title {

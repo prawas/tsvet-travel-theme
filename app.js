@@ -616,4 +616,24 @@ jQuery.each(['transition', 'animation'], function (index, style) {
   $('.search-form label.radio').click(function(e) {
     $(this).find('input').prop('checked', true);
   });
+
+  function pln_changed(e) {
+    var $target = $(e.target);
+    var course = $target.data('course').replace(',','.');
+    var pln = +$target.val();
+    $('#curr-calc-byn').val(Number(pln * course).toFixed(2));
+  }
+
+  function byn_changed(e) {
+    var $target = $(e.target);
+    var course = $target.data('course').replace(',','.');
+    var byn = +$target.val();
+    $('#curr-calc-pln').val(Number(byn / course).toFixed(2));
+  }
+
+  $('#curr-calc-pln').keyup(pln_changed);
+  $('#curr-calc-pln').change(pln_changed);
+  $('#curr-calc-byn').keyup(byn_changed);
+  $('#curr-calc-byn').change(byn_changed);
+  
 })(jQuery);
