@@ -314,6 +314,8 @@ function gmaps_shortcode($atts)
 	wp_enqueue_script('gmaps', "https://maps.googleapis.com/maps/api/js?key=AIzaSyAzAvN4B9FEABFIHuC14r14IoF_OOqCPdA&callback=initMap", [], '', true);
 	wp_add_inline_script('gmaps', "function initMap() {
 		var myLatLng = {lat: {$atts['lat']}, lng: {$atts['lng']}};
+		" . ((isset($atts['lat1']) && isset($atts['lng1'])) ? "var myLatLng1 = {lat: {$atts['lat1']}, lng: {$atts['lng1']}};" : "var myLatLng1 = null;")
+		  . "
 		var map = new google.maps.Map(document.getElementById('map'), {
 			zoom: {$atts['zoom']},
 			center: myLatLng
@@ -322,6 +324,12 @@ function gmaps_shortcode($atts)
 			position: myLatLng,
 			map: map
 		});
+		if (myLatLng1) {
+			var marker1 = new google.maps.Marker({
+				position: myLatLng1,
+				map: map
+			});
+		}
 	}", 'before');
 	return "<div id=\"map\"></div>";
 }
