@@ -305,7 +305,9 @@ function gmaps_shortcode($atts)
 	$atts = shortcode_atts([
 		'lat' => '',
 		'lng' => '',
-		'zoom' => 17
+		'lat1' => '',
+		'lng1' => '',
+		'zoom' => 15
 	], $atts);
 	if (!$atts['lat'] || !$atts['lng']) {
 		return '';
@@ -316,9 +318,10 @@ function gmaps_shortcode($atts)
 		var myLatLng = {lat: {$atts['lat']}, lng: {$atts['lng']}};
 		" . ((isset($atts['lat1']) && isset($atts['lng1'])) ? "var myLatLng1 = {lat: {$atts['lat1']}, lng: {$atts['lng1']}};" : "var myLatLng1 = null;")
 		  . "
+		var center = myLatLng1 ? {lat: 0.5 * (myLatLng.lat + myLatLng1.lat), lng: 0.5 * (myLatLng.lng + myLatLng1.lng)} : myLatLng;
 		var map = new google.maps.Map(document.getElementById('map'), {
 			zoom: {$atts['zoom']},
-			center: myLatLng
+			center: center
 		});
 		var marker = new google.maps.Marker({
 			position: myLatLng,
