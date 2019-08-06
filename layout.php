@@ -17,6 +17,8 @@
         <?php get_footer(); ?>
     <?php endif; ?>
 </div>
+<?php if ( ! is_page('tez-order-tour')): ?>
 <?php wp_footer(); ?>
+<?php endif; ?>
 </body>
 </html>
