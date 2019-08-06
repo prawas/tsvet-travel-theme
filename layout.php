@@ -1,6 +1,6 @@
 <?php /* @var $content string */ ?>
 <!DOCTYPE html>
-<html <?php language_attributes(); ?>>
+<html <?php language_attributes(); ?> <?php if (is_page('tez-order-tour')): ?>style="margin-top:0 !important;"<?php endif; ?>>
 <head>
     <meta charset="<?php bloginfo('charset'); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
