@@ -3636,3 +3636,49 @@ p:empty {
 .tab-content .tab-pane.active {
 	display: block;
 }
+
+.btn-secondary {
+	background: #5c3c81;
+	color: white !important;
+}
+
+.btn-secondary:hover {
+	background: #7c50af;
+}
+
+.section_404 {
+	background-image: url(/wp-content/themes/tsvet-travel-theme/images/404.jpg);
+	background-size: cover;
+	background-position-x: center;
+	background-position-y: top;
+	padding-top: 130px;
+	padding-bottom: 260px;
+}
+
+.content-404 {
+	text-align: center;
+	max-width: 360px;
+	padding: 30px;
+	background: rgba(255,255,255,0.25);
+}
+
+@media (max-width: 640px) {
+	.content-404 {
+		margin: auto;
+		background: rgba(255,255,255,0.75);
+	}
+}
+
+.content-404__title {
+	font-size: 100px;
+}
+
+.content-404__text {
+	font-size: 20px;
+	font-weight: normal;
+	color: #5c3c81;
+}
+
+.content-404 .btn {
+	margin-top: 2rem;
+}
