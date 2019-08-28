@@ -75,7 +75,7 @@
 
         <script type="text/javascript">
         function showteztourSearch() {
-            var path = 'http://json.tez-tour.com/static/ats/';
+            var path = 'https://json.tez-tour.com/static/ats/';
             var now = new Date();
             var dateTo = new Date();
             dateTo.setDate(now.getDate()+7);
