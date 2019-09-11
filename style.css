@@ -1436,6 +1436,16 @@ input[type="radio"]:checked + .search-form__label-radio {
     line-height: 1;
 }
 
+.section_gutenberg p {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	color: #666;
+}
+
+.section_gutenberg ul {
+	list-style: square inside;
+}
+
 .section_gutenberg .section__container {
 	max-width: 1000px;
 }
