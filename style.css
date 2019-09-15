@@ -1443,6 +1443,7 @@ input[type="radio"]:checked + .search-form__label-radio {
 
 .section_gutenberg p, .section_gutenberg ul {
 	color: #666;
+	font-weight: 300;
 }
 
 .section_gutenberg ul {
