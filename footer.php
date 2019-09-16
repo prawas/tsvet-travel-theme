@@ -8,85 +8,88 @@
 		?>
 		</div>
 
-        <div class="footer-center hidden-lg">
+    <div class="footer-center hidden-lg">
 
 			<div style="text-align:center">				
 				<img class="site-footer__logo" src="/wp-content/uploads/2019/07/logo-white.svg" alt="цвет трэвел"/>
 			</div>
 			
+		  <div class="footer-center__bottom">
+          <?php
+              wp_nav_menu([
+                  'theme_location' => 'footer',
 
+                  'container'   => false,
+                  'menu_id'     => 'footer-menu_copy',
+                  'menu_class'  => 'menu horizontal-menu socials',
+                  'items_class' => 'horizontal-menu__item socials__item',
+                  'link_class'  => 'menu__link socials__link',
 
-		    <div class="footer-center__bottom">
-                <?php
-                    wp_nav_menu([
-                        'theme_location' => 'footer',
+                  'fallback_cb' => '__return_empty_string'
+              ]);
 
-                        'container'   => false,
-                        'menu_id'     => 'footer-menu_copy',
-                        'menu_class'  => 'menu horizontal-menu socials',
-                        'items_class' => 'horizontal-menu__item socials__item',
-                        'link_class'  => 'menu__link socials__link',
+              wp_nav_menu([
+                  'theme_location' => 'legal-information',
 
-                        'fallback_cb' => '__return_empty_string'
-                    ]);
+                  'container'   => false,
+                  'menu_id'     => 'ur-menu_copy',
+                  'menu_class'  => 'menu horizontal-menu ur-menu',
+                  'items_class' => 'horizontal-menu__item ur-menu__item',
+                  'link_class'  => 'menu__link ur-menu__link',
 
-                    wp_nav_menu([
-                        'theme_location' => 'legal-information',
-
-                        'container'   => false,
-                        'menu_id'     => 'ur-menu_copy',
-                        'menu_class'  => 'menu horizontal-menu ur-menu',
-                        'items_class' => 'horizontal-menu__item ur-menu__item',
-                        'link_class'  => 'menu__link ur-menu__link',
-
-                        'fallback_cb' => '__return_empty_string'
-                    ]);
-                ?>
-            </div>
-        </div>
+                  'fallback_cb' => '__return_empty_string'
+              ]);
+          ?>
+      </div>
+    </div>
 
 		<div class="footer-right-sidebar float-right">
-		<?php
-			if(is_active_sidebar('footer-right')) {
-				dynamic_sidebar('footer-right');
-			}
-        ?>
+    		<?php
+			  if(is_active_sidebar('footer-right')) {
+				  dynamic_sidebar('footer-right');
+			  } ?>
 		</div>
+
 		<div class="footer-center visible-lg">
 			
-			<div style="text-align:center">
-				<img class="site-footer__logo" src="/wp-content/uploads/2019/07/logo-white.svg" alt="цвет трэвел"/>	
-			</div>
-			
-			<div class="footer-center__bottom">
-                <?php
-                    wp_nav_menu( [
-                        'theme_location' => 'footer',
-
-                        'container'   => false,
-                        'menu_id'     => 'footer-menu',
-                        'menu_class'  => 'menu horizontal-menu socials',
-                        'items_class' => 'horizontal-menu__item socials__item',
-                        'link_class'  => 'menu__link socials__link',
-
-                        'fallback_cb' => '__return_empty_string'
-                    ] );
-
-                    wp_nav_menu( [
-                        'theme_location' => 'legal-information',
-
-                        'container'   => false,
-                        'menu_id'     => 'ur-menu',
-                        'menu_class'  => 'menu horizontal-menu ur-menu',
-                        'items_class' => 'horizontal-menu__item ur-menu__item',
-                        'link_class'  => 'menu__link ur-menu__link',
-
-                        'fallback_cb' => '__return_empty_string'
-                    ] );
-                ?>
-            </div>
+			  <div style="text-align:center">
+			  	<img class="site-footer__logo" src="/wp-content/uploads/2019/07/logo-white.svg" alt="цвет трэвел"/>	
+			  </div>
+      
+			  <div class="footer-center__bottom">
+            <?php
+                wp_nav_menu( [
+                    'theme_location' => 'footer',
+                
+                    'container'   => false,
+                    'menu_id'     => 'footer-menu',
+                    'menu_class'  => 'menu horizontal-menu socials',
+                    'items_class' => 'horizontal-menu__item socials__item',
+                    'link_class'  => 'menu__link socials__link',
+                
+                    'fallback_cb' => '__return_empty_string'
+                ] );
+                
+                wp_nav_menu( [
+                    'theme_location' => 'legal-information',
+                
+                    'container'   => false,
+                    'menu_id'     => 'ur-menu',
+                    'menu_class'  => 'menu horizontal-menu ur-menu',
+                    'items_class' => 'horizontal-menu__item ur-menu__item',
+                    'link_class'  => 'menu__link ur-menu__link',
+                
+                    'fallback_cb' => '__return_empty_string'
+                ] );
+            ?>
+        </div>
 		</div>
 	</div>
+
+  <div class="container site-footer__content onest-copyright">
+      Разработка сайта — <a href="https://onest.by" target="_blank">onest.by</a>
+  </div>
+
 </footer>
 
 <div id="transfer-modal" class="modal">
