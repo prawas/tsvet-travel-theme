@@ -2720,3 +2720,11 @@ function tours_tabs_shortcode($atts, $content)
 	]) ? : '';
 }
 add_shortcode('tours_tabs', 'tours_tabs_shortcode');
+
+function poll_shortcode($atts, $content)
+{
+	return tsvet_render_file("template-parts/poll", null, [
+		'content' => do_shortcode($content)
+	]) ? : '';
+}
+add_shortcode('poll', 'poll_shortcode');

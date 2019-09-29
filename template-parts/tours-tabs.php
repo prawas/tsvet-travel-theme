@@ -5,17 +5,17 @@
 	<div class="search-form__row search-form__tabs">
 		<div class="container search-form__group">
 			<div class="search-form__container-tabs">
-                <label class="search-form__radio radio">
-                    <input type="radio" name="turoperator" class="radio__input" value="Tsvet" />
-                    <span class="radio__label search-form__label-radio" data-toggle="tab" href="#tsvet">Туры от «Цвет трэвел»</span>
-                </label>
+        <label class="search-form__radio radio">
+            <input type="radio" name="turoperator" class="radio__input" checked="checked" value="Tsvet" />
+            <span class="radio__label search-form__label-radio" data-toggle="tab" href="#tsvet">Туры от «Цвет трэвел»</span>
+        </label>
 				<label class="search-form__radio radio">
-					<input type="radio" name="turoperator" class="radio__input" checked="checked" value="Itaka" />
-					<span class="radio__label search-form__label-radio" data-toggle="tab" href="#itaka">Вылеты из Варшавы</span>
+					  <input type="radio" name="turoperator" class="radio__input" value="Itaka" />
+					  <span class="radio__label search-form__label-radio" data-toggle="tab" href="#itaka">Вылеты из Варшавы</span>
 				</label>
 				<label class="search-form__radio radio">
-					<input type="radio" name="turoperator" class="radio__input" value="Sletat"/>
-					<span class="radio__label search-form__label-radio" data-toggle="tab" href="#sletat">Вылеты из Беларуси и России</span>
+					  <input type="radio" name="turoperator" class="radio__input" value="Sletat"/>
+					  <span class="radio__label search-form__label-radio" data-toggle="tab" href="#sletat">Вылеты из Беларуси и России</span>
 				</label>
 			</div>
 		</div>
@@ -30,16 +30,15 @@
 
 
 <div class="tab-content">
-  <div id="tsvet" class="tab-pane fade">
+  <div id="tsvet" class="tab-pane fade in active">
     <section class="section">
       <div class="section__container container">
         <h2 class="section__title">Наши предложения</h2>
-        <div class="section__content"><?= do_shortcode('[recent_products columns="3" per_page="12"]') ?></div>
+        <div class="section__content"><?= do_shortcode('[poll]') ?></div>
       </div>
-      <p><a class="section__show-more" href="get_products">Загрузить еще</a></p>
     </section>
   </div>
-  <div id="itaka" class="tab-pane fade in active">
+  <div id="itaka" class="tab-pane fade">
     <section class="section">
       <div class="section__container container">
         <div class="section__flex-title">
