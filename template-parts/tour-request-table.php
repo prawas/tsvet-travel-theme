@@ -3,7 +3,7 @@
     <tr><td>Имя</td><td><?= $data['info']['name'] ?></td></tr>
     <tr><td>Телефон</td><td><?= $data['info']['phone'] ?></td></tr>
     <tr><td>email</td><td><?= $data['info']['email'] ?></td></tr>
-    <tr><td>Отправить ответ в</td><td><?= $data['info']['whereToSend'] ?></td></tr>
+    <tr><td>Отправить ответ:</td><td><?= $data['info']['whereToSend'] ?></td></tr>
 </table>
 
 <h2>Тип отдыха, куда и когда</h2>
