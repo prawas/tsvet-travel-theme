@@ -132,23 +132,15 @@ jQuery.each(['transition', 'animation'], function (index, style) {
     max_pages = {
       get_products: 0
     };
-  $('.wrapper-slider').each(function () {
-    var $slider = $(this),
-      $wrapper = $slider.children('.bx-wrapper'),
-      $bottom = $slider.children('.wrapper-slider__bottom');
-    $wrapper.find('.bx-prev').bind('click touchend', function () {
-      $bottom.find('.bx-prev').trigger('click');
-    });
-    $wrapper.find('.bx-next').bind('click touchend', function () {
-      $bottom.find('.bx-next').trigger('click');
-    });
-  });
-  $('.bx-prev').bind('click touchend', function () {
-    $('.search-form__background .bx-prev').trigger('click');
-  });
 
-  // var exchange_rate_rub = parseFloat($('.exchange-rates__value_rub').text());
-  // var exchange_rate_pln = parseFloat($('.exchange-rates__value_pln').text());
+  $('.slider__item a.full-block').click(function(e) {
+    var target = $(e.target).closest('a');
+    var href = target.attr('href');
+
+    if (href === '#') {
+      e.preventDefault();
+    }
+  });
 
   var exchange_rate_rub = 0.0305 /* parseFloat($($('.exchange-rates ul li')[3]).text().replace(/[^0-9,.]/g, "").replace(/[,]/g, ".")) */ ;
   var exchange_rate_pln = parseFloat($($('.exchange-rates ul li')[0]).text().replace(/[^0-9,.]/g, "").replace(/[,]/g, "."));
@@ -177,7 +169,6 @@ jQuery.each(['transition', 'animation'], function (index, style) {
       return false;
     }
 
-    // $this.attr('disabled', 'disabled');
     $.ajax({
       url: '/wp-admin/admin-ajax.php',
       method: 'post',
@@ -613,9 +604,9 @@ jQuery.each(['transition', 'animation'], function (index, style) {
     $('#transfer-modal').modal('show');
   });
 
-  $('.search-form label.radio').click(function(e) {
-    $(this).find('input').prop('checked', true);
-  });
+  // $('.search-form label.radio').click(function(e) {
+  //   $(this).find('input').prop('checked', true);
+  // });
 
   function pln_changed(e) {
     var $target = $(e.target);

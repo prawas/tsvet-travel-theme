@@ -4,19 +4,27 @@
 <div class="search-form">
 	<div class="search-form__row search-form__tabs">
 		<div class="container search-form__group">
-			<div class="search-form__container-tabs">
+			<div class="search-form__container-tabs" id="opmenu">
+        <a href="/#opmenu">
         <label class="search-form__radio radio">
-            <input type="radio" name="turoperator" class="radio__input" checked="checked" value="Tsvet" />
-            <span class="radio__label search-form__label-radio" data-toggle="tab" href="#tsvet">Туры от «Цвет трэвел»</span>
+          <span class="radio__label search-form__label-radio <?= ($active === 'tsvet' ? 'active' : '') ?>">Туры от «Цвет трэвел»</span>
         </label>
+        </a>
+        <a href="/туры-из-польши/#opmenu"> 
 				<label class="search-form__radio radio">
-					  <input type="radio" name="turoperator" class="radio__input" value="Itaka" />
-					  <span class="radio__label search-form__label-radio" data-toggle="tab" href="#itaka">Вылеты из Варшавы</span>
+					<span class="radio__label search-form__label-radio <?= ($active === 'itaka' ? 'active' : '') ?>">Вылеты из Варшавы</span>
 				</label>
+        </a>
+        <a href="/туры-из-беларуси/#opmenu">
 				<label class="search-form__radio radio">
-					  <input type="radio" name="turoperator" class="radio__input" value="Sletat"/>
-					  <span class="radio__label search-form__label-radio" data-toggle="tab" href="#sletat">Вылеты из Беларуси и России</span>
+					<span class="radio__label search-form__label-radio <?= ($active === 'sletat' ? 'active' : '') ?>">Вылеты из Беларуси, России и Украины</span>
 				</label>
+        </a>
+        <a href="/автобусные-туры/#opmenu">
+				<label class="search-form__radio radio">
+					<span class="radio__label search-form__label-radio <?= ($active === 'bus' ? 'active' : '') ?>">Автобусные туры</span>
+				</label>
+        </a>
 			</div>
 		</div>
 	</div>
@@ -30,15 +38,27 @@
 
 
 <div class="tab-content">
-  <div id="tsvet" class="tab-pane fade in active">
+  <div id="tsvet" class="tab-pane fade <?= ($active === 'tsvet' ? 'in active' : '') ?>">
+   <?php if ($active === 'tsvet'): ?>
     <section class="section">
       <div class="section__container container">
-        <h2 class="section__title">Наши предложения</h2>
-        <div class="section__content"><?= do_shortcode('[poll]') ?></div>
+        <div class="row">
+          <div class="col-lg-1"></div>
+          <div class="col-lg-10">
+            <h2 class="section__title">Заявка на подбор тура</h2>
+
+            <p>Уважаемый клиент!</p>
+            <p>Мы хотим сделать Ваш отдых качественным и незабываемым. Чтобы вернувшись, Вы еще несколько месяцев были полны энергий и&nbsp;эмоционально заряжены для&nbsp;новых целей и&nbsp;подвигов.</p>
+            <p>Для этого нам необходимо максимально полно представлять о&nbsp;Ваших пожеланиях, прошлом опыте путешествий и&nbsp;цели текущего путешествия. Чем точнее Вы расскажете нам об&nbsp;этом, тем лучше и&nbsp;счастливее мы сможем подобрать для Вас идеальный отдых.</p>
+          </div>
+        </div>
+        <div class="section__content"><?= do_shortcode('[tsvet_poll]') ?></div>
       </div>
     </section>
+    <?php endif; ?>
   </div>
-  <div id="itaka" class="tab-pane fade">
+  <div id="itaka" class="tab-pane fade <?= ($active === 'itaka' ? 'in active' : '') ?>">
+    <?php if ($active === 'itaka'): ?>
     <section class="section">
       <div class="section__container container">
         <div class="section__flex-title">
@@ -60,15 +80,17 @@
           </div>
         </div>
         <div class="section__content">
-          <iframe src="https://tsvet.itaka24.eu/ru/" style="width: 100%; height: 5800px" frameborder="no"></iframe>
+          <iframe id="iframe-itaka" src="https://tsvet.itaka24.eu/ru/" style="width: 100%; height: 5800px" frameborder="no"></iframe>
         </div>
       </div>
     </section>
+    <?php endif; ?>
   </div>
-  <div id="sletat" class="tab-pane fade">
+  <div id="sletat" class="tab-pane fade <?= ($active === 'sletat' ? 'in active' : '') ?>">
+    <?php if ($active === 'sletat'): ?>
     <section class="section">
       <div class="section__container container">
-        <h2 class="section__title">Вылеты из&nbsp;Беларуси и&nbsp;России</h2>
+        <h2 class="section__title">Вылеты из&nbsp;Беларуси, России и&nbsp;Украины</h2>
         <div class="section__content">
 
 
@@ -117,7 +139,25 @@
         </div>
       </div>
     </section>
+    <?php endif; ?>
   </div>
+
+  <div id="bus" class="tab-pane fade <?= ($active === 'bus' ? 'in active' : '') ?>">
+    <?php if ($active === 'bus'): ?>
+    <section class="section">
+      <div class="section__container container">
+        <h2 class="section__title">Автобусные туры</h2>
+        <div class="section__content">
+
+        <script language="javascript" src="https://widget.belturizm.by:55590/3rd/foo/platform.js?partyId=ivrgwymaaut" async></script>
+        <div class="foo-widget" data-foo-id="1"></div>
+
+        </div>
+      </div>
+    </section>
+    <?php endif; ?>
+  </div>
+
 </div>
 
 

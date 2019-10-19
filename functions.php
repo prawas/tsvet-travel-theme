@@ -117,8 +117,8 @@ function tsvet_scripts()
 	wp_deregister_script('jquery');
 	wp_deregister_script('jquery-migrate');
 
-	wp_enqueue_script('ga', "https://www.googletagmanager.com/gtag/js?id=UA-119417579-1", [], null);
-	wp_add_inline_script('ga', "window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'UA-119417579-1');");
+	// wp_enqueue_script('ga', "https://www.googletagmanager.com/gtag/js?id=UA-119417579-1", [], null);
+	// wp_add_inline_script('ga', "window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'UA-119417579-1');");
 
 	wp_enqueue_script('jquery', get_template_directory_uri() . "/js/jquery" . SUFFIX . ".js", [], '3.2.1', true);
 	wp_add_inline_script('jquery', 'jQuery.migrateMute = true');
@@ -141,6 +141,27 @@ function tsvet_scripts()
 }
 add_action('wp_enqueue_scripts', 'tsvet_scripts', 11);
 
+function tsvet_init_poll() {
+	$PATH = get_template_directory() . "/poll/build/";
+	$URI = get_template_directory_uri() . "/poll/build/";
+	$ASSETS_JSON = file_get_contents($PATH . "asset-manifest.json");
+	$ASSETS = json_decode($ASSETS_JSON, true);
+	$FILES = $ASSETS["files"];
+
+	wp_enqueue_style("main.css", $URI . $FILES["main.css"]);
+
+	wp_enqueue_script("main.js", $URI . $FILES["main.js"]);
+
+	foreach ($FILES as $file => $hashed) {
+		$js = substr( $file, -strlen( ".js" ) ) === ".js";
+		$chunk2 = strpos($file, "static/js/2.") !== FALSE;
+		if ($js && $chunk2) {
+			wp_enqueue_script($file, $URI . $hashed);
+		}
+	}
+}
+add_action('wp_enqueue_scripts', 'tsvet_init_poll', 12);
+
 function tsvet_alm_js_dependencies()
 {
 	return ['jquery-migrate'];
@@ -151,7 +172,7 @@ function init_bxslider()
 {
 	wp_enqueue_style('bxslider', get_template_directory_uri() . "/plugins/bxslider/jquery.bxslider" . SUFFIX . ".css", [], '4.2.12');
 	wp_enqueue_script('bxslider', get_template_directory_uri() . "/plugins/bxslider/jquery.bxslider" . SUFFIX . ".js", ['jquery-migrate'], '4.2.12', true);
-	wp_add_inline_script('bxslider', "$('.slider').bxSlider({pager: false})");
+	wp_add_inline_script('bxslider', "$('.slider').bxSlider({pager: false, oneToOneTouch: false, touchEnabled: false})");
 }
 
 // [slider label="slider"]$content[/slider]
@@ -286,16 +307,24 @@ function init_vk_comments()
 function vk_comments_shortcode($atts)
 {
 	add_action('wp_enqueue_scripts', 'init_vk_comments');
-	return "<div id=\"vk_comments\"></div>" .
+	return
+		"<div id=\"vk_comments\"></div>" .
 		"<script type=\"text/javascript\">
 			window.onload = function () {
-				VK.init({apiId: 6481404, onlyWidgets: true});
-				VK.Widgets.Comments('vk_comments', {
-	                limit: 10, 
-	                attach: 'photo', 
-	                autoPublish: 1
- 				});
-            }
+				$(window).scroll(function() {
+					if ($(window).scrollTop() + $(window).height() >= $('#vk_comments').offset().top) {
+						if(!$('#vk_comments').attr('loaded')) {
+							$('#vk_comments').attr('loaded', true);               
+							VK.init({apiId: 6481404, onlyWidgets: true});
+							VK.Widgets.Comments('vk_comments', {
+	            			    limit: 10, 
+	            			    attach: 'photo', 
+	            			    autoPublish: 1
+ 							});
+						}
+					}
+				});	  
+			}
         </script>";
 }
 add_shortcode('vk_comments', 'vk_comments_shortcode');
@@ -419,25 +448,6 @@ function tsvet_search_itaka()
 add_action('wp_ajax_search_itaka', 'tsvet_search_itaka');
 add_action('wp_ajax_nopriv_search_itaka', 'tsvet_search_itaka');
 
-function get_filters_sletat()
-{
-	if (!$countries = get_option('countries_sletat')) {
-		$countries = tsvet_remote_get('https://sletat.ru/Main.svc/GetCountries', ['source' => 'sletat']);
-		$countries = json_decode($countries['body'], true)['GetCountriesResult']['Data']['aaData'];
-		sleep(0.5);
-		foreach ($countries as &$country) {
-			$cities = tsvet_remote_get('https://module.sletat.ru/Main.svc/GetCities', [
-				'body' => [
-					'countryId' => $country['Id']
-				],
-				'source' => 'sletat'
-			]);
-			$country['cities'] = json_decode($cities['body'], true)['GetCitiesResult']['Data']['aaData'];
-			sleep(rand(5, 10) / 10);
-		}
-		add_option('countries_sletat', $countries);
-	}
-}
 
 /**
  * @param $handle
@@ -488,677 +498,6 @@ function tsvet_formatted_woocommerce_price($price)
 }
 add_filter('formatted_woocommerce_price', 'tsvet_formatted_woocommerce_price');
 
-function get_sletat_products()
-{
-	$page = tsvet_get_query_var('page', 1);
-
-	$hash_request = md5("tours|sletat|" . date('d.m.Y'));
-	$dir = __DIR__ . "/backups_tours/sletat";
-	if (!is_dir($dir)) {
-		mkdir($dir, '0777', true);
-	}
-	$file = $dir . "/" . $hash_request . ".json";
-	$tours = [];
-	$count_continue_countries = 0;
-	if (file_exists($file)) {
-		$tours = json_decode(file_get_contents($file), true);
-		$count_continue_countries = $tours['count_continue_countries'];
-		$tours = $tours['tours'];
-	}
-	if (count($tours) < $page * 12) {
-		$countries = array_index(get_cities_sletat(), 'id', ["countryId"]);
-		$index_country = 0;
-		foreach ($countries as $country => $cities) {
-			if ($index_country++ < $count_continue_countries) {
-				continue;
-			}
-			$data = ['countryId' => $country];
-			$tours_result = get_tours_sletat($data);
-			$tours_result = isset($tours_result['aaData']) ? $tours_result['aaData'] : [];
-			$_tours = [];
-			foreach ($tours_result as $tour) {
-				$_tours[] = [
-					'hotelId' => $tour[3],
-					'id' => $tour[68],
-					'gallery' => '',
-					'sale' => '',
-					'image' => preg_replace("/\.(jpg|png)/", "_180_370.$1", $tour[29]),
-					'price' => $tour[42],
-					'title' => trim(preg_replace("/\s*[0-5]\*\s*/", "\s", $tour[7])),
-					'url' => "/sletat/{$tour[0]}/{$tour[1]}",
-				];
-			}
-			foreach (array_map(function ($tours_hotel) {
-				$tours_hotel = array_values($tours_hotel);
-				return $tours_hotel[0];
-			}, array_index($_tours, 'id', ['hotelId'])) as $tour) {
-				$tours[] = $tour;
-			}
-			if (count($tours) >= $page * 12) {
-				break;
-			}
-		}
-		file_put_contents($file, json_encode([
-			'tours' => $tours,
-			'count_continue_countries' => $index_country
-		]));
-	}
-	return "<div class=\"woocommerce columns-4\"><ul class=\"products\">" . implode("\n", array_map(function ($tour) {
-		return template_product($tour);
-	}, array_slice($tours, 12 * ($page - 1), 12))) . "</ul></div>";
-}
-function template_product($product)
-{
-	$gallery_images = implode(',', $product['gallery']);
-	$is_sale = isset($product['sale']) && $product['sale'] ? '<span class="onsale">Распродажа!</span>' : '';
-	$sale = isset($product['sale']) && $product['sale'] ? ("<del><span class=\"woocommerce-Price-amount amount\">{$product['sale']}</span></del>") : '';
-	$price = isset($product['price']) && $product['price'] ? ("<ins><span class=\"woocommerce-Price-amount amount\">{$product['price']}</span></ins>") : '';
-	if (($pos = strpos($product['url'], "?")) !== false) {
-		$product['url'] = substr($product['url'], 0, $pos);
-	}
-	return <<<HTML
-		<li class="product type-product status-publish has-post-thumbnail first instock sale shipping-taxable purchasable product-type-simple">   					
-            <div class="product__container-thumbnail">
-		        <div class="product__buttons">
-		            <a href="http://tsvet.local/product{$product['url']}" class="product__button woocommerce-LoopProduct-link woocommerce-loop-product__link">Узнать подробности</a>
-		        </div>	
-	
-				{$is_sale}
-				<img width="370" height="180" src="{$product['image']}" class="product__thumbnail wp-post-image" data-original="{$gallery_images}">
-			</div>
-            <a href="http://tsvet.local/product{$product['url']}" class="product__footer">
-	            <h2 class="woocommerce-loop-product__title">{$product['title']}</h2>
-				<span class="price">{$sale} {$price}</span>
-			</a>
-		</li>
-HTML;
-}
-function get_itaka_products()
-{
-	$page = tsvet_get_query_var('page', 1);
-	$response = request_url('https://www.itaka.pl/ru/strony/4466.php', [
-		'package-type' => 'wczasy',
-		'page' => ceil($page / 2),
-		'currency' => 'PLN'
-	], 'itaka');
-	return "<div class=\"woocommerce columns-4\"><ul class=\"products\">" . implode("\n", array_map(function ($tour) {
-		return template_product([
-			'image' => "https://itaka.pl" . $tour['photo'],
-			'gallery' => explode(',', $tour['searchGallery']),
-			'sale' => intval(str_replace("&nbsp;", "", $tour['price'])),
-			'price' => intval(str_replace("&nbsp;", "", $tour['ymaxPriceItakaHit'])),
-			'url' => "/itaka" . $tour['url'],
-			'title' => $tour['title']
-		]);
-	}, array_slice($response['results'], ($page % 2) * 12, 12))) . "</ul></div>";
-}
-function get_products()
-{
-	$turoperator = tsvet_get_query_var('turoperator', 'Tsvet');
-	$content = $turoperator == "Itaka" ? get_itaka_products() : ($turoperator == "Sletat" ? get_sletat_products() : WC_Shortcodes::recent_products([
-		'per_page' => 12
-	]));
-	wp_send_json_success([
-		'content' => $content,
-		'selector_container' => '.products'
-	]);
-}
-add_action('wp_ajax_get_products', 'get_products');
-add_action('wp_ajax_nopriv_get_products', 'get_products');
-
-function search_products()
-{
-	$query_args = array(
-		'post_type' => 'product',
-		'post_status' => 'publish',
-		'ignore_sticky_posts' => 1,
-		'posts_per_page' => 12,
-		'orderby' => 'date',
-		'order' => 'desc',
-		'meta_query' => WC()->query->get_meta_query(),
-		'tax_query' => WC()->query->get_tax_query(),
-	);
-	$products = get_posts($query_args);
-	$result_products = [];
-	$filter = [];
-
-	$post = array_filter($_POST);
-
-	foreach ($products as $product) {
-		/* @var $product WP_Post */
-		$is_added_product = true;
-		foreach (['departure-date', 'adults'] as $taxonomy) {
-			/* @var $terms WP_Term[] */
-			$terms = wp_get_object_terms($product->ID, 'pa_' . $taxonomy);
-			$name_term = $terms[0]->name;
-			if ($taxonomy == 'departure-date') {
-				$post[$taxonomy] = strtotime($post[$taxonomy]);
-				$name_term = strtotime($name_term);
-			}
-			if (isset($post[$taxonomy]) && $post[$taxonomy] > $name_term) {
-				$is_added_product = false;
-				break;
-			}
-		}
-		$terms = wp_get_object_terms($product->ID, 'pa_arrival-date');
-		if ($is_added_product && (!isset($post['arrival-date']) || strtotime($post['arrival-date']) >= strtotime($terms[0]->name))) {
-			$result_products[] = $product;
-			foreach (['country', 'city-of-departure'] as $taxonomy) {
-				$terms = wp_get_object_terms($product->ID, 'pa_' . $taxonomy);
-				if (!isset($filter[$taxonomy])) {
-					$filter[$taxonomy] = [];
-				}
-				if (!in_array($terms[0]->name, $filter[$taxonomy])) {
-					$filter[$taxonomy][] = $terms[0]->name;
-				}
-			}
-		}
-	}
-	wp_send_json_success([
-		'content' => $result_products,
-		'selector_container' => '.products',
-		'filter' => $filter
-	]);
-}
-add_action('wp_ajax_search_products', 'search_products');
-add_action('wp_ajax_nopriv_search_products', 'search_products');
-
-function itaka_query()
-{
-	$url_itaka = [
-		'strony' => 'strony' . (isset($_GET['_page']) ? ('/' . $_GET['_page'] . '.php') : ''),
-		'ekskursii' => 'ekskursii/rezultaty-poiska',
-		'citybreak' => 'citybreak/rezultaty-poiska',
-		'gornolyzhnyj-otdyh' => 'gornolyzhnyj-otdyh/rezultaty-poiska',
-		'otdyh' => 'otdyh/rezultaty-poiska'
-	][$_GET['url']];
-	foreach (['action', 'url', '_page'] as $prop_name) {
-		if (isset($_GET[$prop_name])) {
-			unset($_GET[$prop_name]);
-		}
-	}
-
-	$request = request_url("https://www.itaka.pl/ru/{$url_itaka}", array_filter($_GET, function ($attr) {
-		return is_array($attr) ? array_filter($attr) : !!$attr;
-	}), 'itaka');
-
-	//SIPL-V2 REQUEST BEGIN
-	// $itakaSipl2Data = [
-	// 	''
-	// ]
-	// $itakaRequest = request_url("https://www.itaka.pl/sipl-v2/data/search-results/search")
-	//SIPL-V2 REQUEST END
-
-	if (isset($_GET['departures'])
-		&& is_array($_GET['departures'])
-		&& count(array_filter($_GET['departures'], function ($departure) {
-		return strpos($departure, ',') !== false;
-	})) > 0
-		&& isset($request['results'])
-		&& is_array($request['results'])
-		&& count($request['results']) == 0) {
-		$_GET['departures'] = array_map(function ($departure) {
-			return implode(',', array_reverse(explode(',', $departure)));
-		}, $_GET['departures']);
-		$request = request_url("https://www.itaka.pl/ru/{$url_itaka}", array_filter($_GET, function ($attr) {
-			return is_array($attr) ? array_filter($attr) : !!$attr;
-		}), 'itaka');
-	}
-	if (isset($request['results']) && is_array($request['results'])) {
-		foreach ($request['results'] as $key => $product) {
-			$request['results'][$key]['photo'] = "https://www.itaka.pl" . $product['photo'];
-			if (($pos = strpos($product['url'], "?")) !== false) {
-				$product['url'] = substr($product['url'], 0, $pos);
-			}
-			$request['results'][$key]['url'] = "/product/itaka" . $product['url'];
-		}
-	}
-	$request['source'] = 'itaka';
-	wp_send_json_success($request);
-}
-add_action('wp_ajax_itaka_query', 'itaka_query');
-add_action('wp_ajax_nopriv_itaka_query', 'itaka_query');
-
-function get_tours_sletat(&$data)
-{
-	$data = array_merge([
-//		'pageSize' => '24',
-		'updateResult' => '1',
-
-		'countryId' => '119',
-		'cityFromId' => '832',
-		'requestId' => '0',
-		'visibleOperators' => '',
-		's_hotelIsNotInStop' => 'true',
-		's_hasTickets' => 'true',
-		's_ticketsIncluded' => 'true',
-		'jskey' => '1',
-		'rtb' => 'true',
-		'requestTimeout' => '0',
-		's_showcase' => 'false',
-		'groupBy' => 'all_sortedHotels',
-		'calcFullPrice' => '1',
-		'showHotelFacilities' => '1'
-	], $data);
-
-	$url_get_tours = 'https://module.sletat.ru/Main.svc/GetTours';
-	$response = request_url($url_get_tours, $data, 'sletat');
-	$data['requestId'] = isset($response['GetToursResult']['Data']) ? (isset($response['GetToursResult']['Data']['requestId']) ?
-		$response['GetToursResult']['Data']['requestId'] : 0) : 0;
-	$response = request_url($url_get_tours, $data, 'sletat');
-
-	return isset($response['GetToursResult']['Data']) ?
-		$response['GetToursResult']['Data'] : [];
-}
-function sletat_query()
-{
-	$page = intval(tsvet_get_query_var('currpage', 1));
-	$date_from = new DateTime(tsvet_get_query_var('date_from', date('d-m-Y')));
-	if (!$date_to = tsvet_get_query_var('date_to', '')) {
-		$date_to = clone $date_from;
-		$date_to->add(new DateInterval("P45D"));
-	} else {
-		$date_to = new DateTime($date_to);
-	}
-	$data = [
-		'pageSize' => '24',
-		's_departFrom' => $date_from->format("d/m/Y"),
-		's_departTo' => $date_to->format("d/m/Y"),
-		'pageNumber' => $page,
-	];
-
-	foreach ([
-		'adults' => 's_adults',
-		'departures' => 'cityFromId',
-		'childs' => 's_kids',
-		'child_age' => 's_kids_ages',
-		'foods' => 'meals',
-		'grade' => 'minHotelRating'
-	] as $filter_name => $filter_param) {
-		if ($value = tsvet_get_query_var($filter_name, '', $_GET)) {
-			if (is_array($value)) {
-				if (($value = array_filter($value)) && !empty($value)) {
-					$data[$filter_param] = implode(',', $value);
-				}
-			} else {
-				$data[$filter_param] = $value;
-			}
-		}
-	}
-	if ($destinations = tsvet_get_query_var('destinations', [], $_GET)) {
-		$cities = array_index(get_cities_sletat(), 'id');
-		$countries = get_countries_sletat();
-		foreach ($destinations as $destination) {
-			if (isset($cities[$destination])) {
-				if (!isset($data['cities'])) {
-					$data['cities'] = [];
-				}
-				$data['cities'][] = $destination;
-			}
-			if (isset($countries[$destination])) {
-				$data['countryId'] = $destination;
-			}
-		}
-		if (isset($data['cities'])) {
-			$data['cities'] = implode(',', $data['cities']);
-		}
-	}
-	if ($duration = tsvet_get_query_var('duration', '', $_GET)) {
-		$durations = [
-			'short' => [0, 5],
-			'mid1' => [6, 9],
-			'mid2' => [10, 12],
-			'long' => [13, 0]
-		];
-		if (isset($durations[$duration])) {
-			list($duration_min, $duration_max) = $durations[$duration];
-			if ($duration_min !== 0) {
-				$data['s_nightsMin'] = $duration_min;
-			}
-			if ($duration_max !== 0) {
-				$data['s_nightsMax'] = $duration_max;
-			}
-		}
-	}
-	if ($standard = tsvet_get_query_var('standard', '', $_GET)) {
-		$standards = [
-			'3plus' => '402,403,404,405,410,411,406',
-			'4plus' => '403,404,405,410,411,406',
-			'5plus' => '404,405,410,411,406'
-		];
-		if (isset($standards[$standard])) {
-			$data['stars'] = $standards[$standard];
-		}
-	}
-	if ($price = tsvet_get_query_var('price', '', $_GET)) {
-		$prices = [
-			'upto2' => [0, 1000],
-			'2to3' => [1000, 1600],
-			'3to4' => [1600, 2100],
-			'4andup' => [2100, 0]
-		];
-		if (isset($prices[$price])) {
-			$exchange_rates = 0.0305; // Курс русского рубля
-			list($price_min, $price_max) = $prices[$price];
-			if ($price_min != 0) {
-				$data['s_priceMin'] = $price_min * $exchange_rates;
-			}
-			if ($price_max != 0) {
-				$data['s_priceMax'] = $price_max * $exchange_rates;
-			}
-		}
-	}
-
-	$tours_result = get_tours_sletat($data);
-
-	$tours = isset($tours_result['aaData']) ? $tours_result['aaData'] : [];
-
-	$facilities_data = $tours_result['hotelFacilitiesData'] ? $tours_result['hotelFacilitiesData'] : [];
-	$facilities = array_custom_map(isset($facilities_data['facilities']) ? $facilities_data['facilities'] : [], 'id', 'name');
-	$groups = array_custom_map(isset($facilities_data['groups']) ? $facilities_data['groups'] : [], 'id', 'name');
-	$hotel_facilities = array_custom_map(isset($facilities_data['hotelFacilities']) ? $facilities_data['hotelFacilities'] : [], 'hotelId', 'facilities');
-	$tours = array_index($tours, 68, [3]);
-	$count = $tours_result['hotelsCount'] ? $tours_result['hotelsCount'] : 0;
-
-	wp_send_json_success([
-		'source' => 'sletat',
-		'additionals' => ['interval' => ["5"]],
-		'count' => $count,
-		'has_more' => $page * 24 <= $count,
-		'page' => $page,
-		'priceTypeClass' => "person",
-		'priceTypeLabel' => "Цена за человека",
-		'sorter_debug' => [],
-		'results' => array_map(function ($tours_hotel) use ($facilities, $groups, $hotel_facilities, $data) {
-			array_custom_multisort($tours_hotel, [35, 42], [SORT_DESC, SORT_ASC], SORT_NUMERIC);
-			$tour = array_values($tours_hotel)[0];
-			$price = $tour[42];
-			$date_from = strtotime($tour[12]);
-			$date_to = strtotime($tour[13]);
-			$days = ["Sun" => "Вс", "Mon" => "Пн", "Tue" => "Вт", "Wed" => "Ср", "Thu" => "Чт", "Fri" => "Пт", "Sat" => "Сб"];
-			$hotel_facilities = isset($hotel_facilities[$tour[3]]) ? $hotel_facilities[$tour[3]] : [];
-			return [
-				'assetsList' => array_map(function ($group) {
-					return $group['name'] . ": " . $group['value'];
-				}, array_filter(array_map(function ($group_id, $group_name) use ($facilities, $hotel_facilities) {
-					return [
-						'name' => $group_name,
-						'value' => implode(', ', array_map(function ($facility) use ($facilities) {
-							return isset($facilities[$facility['facilityId']]) ? $facilities[$facility['facilityId']] : '';
-						}, array_filter($hotel_facilities, function ($facility) use ($group_id) {
-							return $facility['groupId'] == $group_id;
-						})))
-					];
-				}, array_keys($groups), array_values($groups)), function ($group) {
-					return $group['value'];
-				})),
-				'attributesList' => [],
-				'dateFrom' => strtr(date("D d.m", $date_from), $days),
-				'dateFromFull' => strtr(date("D d.m.Y", $date_from), $days),
-				'dateToFull' => strtr(date("D d.m.Y", $date_to), $days),
-				'depName' => $tour[33],
-				'departure' => $tour[33],
-				'departureName' => $tour[33],
-				'destination' => $tour[31] . " \ " . $tour[19],
-				'duration' => $tour[14],
-				'isPromotionPriceAvailable' => false,
-				'mostPopular' => "",
-				'offerId' => $tour[3],
-				'ownDeparture' => false,
-				'percentItakaHit' => 0,
-				'photo' => preg_replace("/\.(jpg|png)/", "_180_360.$1", $tour[29]),
-				'price' => $price,
-				'productCode' => $tour[0],
-				'promotionIcon' => [],
-				'rating' => round($tour[35], 1),
-				'searchGallery' => "",
-				'showOpinionsProjectIframe' => true,
-				'stars' => "<span class=\"stars star" . (intval($tour[8]) * 10) . "\"></span>",
-				'startDate' => date("Ymd", $date_from),
-				'title' => trim(preg_replace("/\s*[0-5]\*\s*/", "\s", $tour[7])),
-				'url' => "/product/sletat/{$tour[0]}/{$tour[1]}",
-				'ymaxPriceItakaHit' => $price,
-			];
-		}, array_values($tours))
-	]);
-}
-add_action('wp_ajax_sletat_query', 'sletat_query');
-add_action('wp_ajax_nopriv_sletat_query', 'sletat_query');
-
-function tsvet_query()
-{
-	global $wp_query;
-
-	$get = array_filter($_GET, function ($attr) {
-		return is_array($attr) ? array_filter($attr) : !!$attr;
-	});
-	$query_args = [
-		'post_type' => 'product',
-		'post_status' => 'publish',
-		'orderby' => 'date',
-		'order' => 'desc',
-		'numberposts' => -1
-	];
-
-	$not_posts = $wp_query->query([
-		'post_type' => 'product',
-		'name' => 'temp'
-	]);
-	if (count($not_posts) > 0) {
-		$query_args['post__not_in'] = array_map(function ($post) {
-			return $post->ID;
-		}, $not_posts);
-	}
-
-	$is_sort_date = false;
-	$sort_date_duration = 'asc';
-	if (isset($get['order']) && $get['order']) {
-		$get['order'] = explode("|", $get['order']);
-		if ($get['order'][0] == 'name') {
-			$query_args['orderby'] = 'title';
-			$query_args['order'] = $get['order'][1];
-		}
-		if ($get['order'][0] == 'price') {
-			$query_args['meta_key'] = '_price';
-			$query_args['orderby'] = 'meta_value';
-			$query_args['order'] = $get['order'][1];
-		}
-		if ($get['order'][0] == 'date') {
-			$is_sort_date = true;
-			$sort_date_duration = $get['order'][1] == 'asc' ? SORT_ASC : SORT_DESC;
-		}
-	}
-
-	if (isset($get['price']) && $get['price']) {
-		$prices = [
-			'upto2' => [0, 1000],
-			'2to3' => [1000, 1600],
-			'3to4' => [1600, 2100],
-			'4andup' => [2100, 0]
-		];
-		if (isset($prices[$get['price']])) {
-			$price = $prices[$get['price']];
-			$query_args['meta_query'] = [];
-			if ($price[0] != 0) {
-				$query_args['meta_query'][] = [
-					'key' => '_price',
-					'value' => $price[0],
-					'compare' => '>='
-				];
-			}
-			if ($price[1] != 0) {
-				$query_args['meta_query'][] = [
-					'key' => '_price',
-					'value' => $price[1],
-					'compare' => '<='
-				];
-			}
-		}
-	}
-
-	$productsEmptyCountry = [];
-//	unset($get['date_from']);
-	$products = array_filter(get_posts($query_args), function ($product) use ($get, &$productsEmptyCountry) {
-		$product->date_from = strtotime(date('d.m.Y'));
-		/* @var $terms WP_Term[] */
-		$terms = wp_get_object_terms($product->ID, 'pa_terms_and_prices');
-
-		if ($terms && count($terms) > 0) {
-			$result = false;
-			$dates_for_min = [];
-			foreach ($terms as $term) {
-				$terms_and_prices = explode("_", $term->name);
-				$dates = explode("-", $terms_and_prices[0]);
-				if (isset($get['date_from']) && $get['date_from']) {
-					$get['date_from'] = strtotime($get['date_from']);
-					if ($get['date_from'] > strtotime($dates[0])) {
-						$result = true;
-						break;
-					}
-				}
-				if (isset($get['date_to']) && $get['date_to']) {
-					$get['date_to'] = strtotime($get['date_to']);
-					if ($get['date_to'] < strtotime($dates[1])) {
-						$result = true;
-						break;
-					}
-				}
-				$dates_for_min[] = strtotime($dates[0]);
-			}
-			if ($result) {
-				return false;
-			}
-			$product->date_from = min($dates_for_min);
-		}
-
-		foreach ([
-			'destinations' => 'pa_country',
-			'departures' => 'pa_city-of-departure',
-			'foods' => 'pa_foods'
-		] as $prop => $taxonomy) {
-			$product->{$prop} = [];
-			/* @var $terms WP_Term[] */
-			$terms = wp_get_object_terms($product->ID, $taxonomy);
-			if ($terms && count($terms) > 0) {
-				if (isset($get[$prop]) && $get[$prop]) {
-					$props = array_map(function ($term) {
-						return str_replace(",", "_", trim(strtolower($term), ","));
-					}, is_array($get[$prop]) ? $get[$prop] : explode(',', $get[$prop]));
-					$terms = array_filter($terms, function ($term) use ($props) {
-						return in_array(urldecode($term->slug), $props);
-					});
-					if (count($terms) == 0) {
-						return false;
-					}
-				}
-				$product->{$prop} = array_map(function ($term) {
-					return [
-						'slug' => urldecode($term->slug),
-						'name' => urldecode($term->name),
-					];
-				}, $terms);
-			}
-			if ($taxonomy == 'pa_country' && count($terms) == 0) {
-				$productsEmptyCountry[] = $product->post_title;
-			}
-		}
-
-		foreach ([
-			'adults' => 'pa_adults',
-			'childs' => 'pa_childs',
-			'standard' => 'pa_standard'
-		] as $prop => $taxonomy) {
-			$product->{$prop} = '';
-			/* @var $terms WP_Term[] */
-			$terms = wp_get_object_terms($product->ID, $taxonomy);
-			if ($terms && count($terms) > 0 && !($terms instanceof WP_Error)) {
-				if (isset($get[$prop]) && $get[$prop] && intval($get[$prop]) > intval($terms[0]->slug)) {
-					return false;
-				}
-				$product->{$prop} = $terms[0]->slug;
-			}
-		}
-
-		return true;
-	});
-
-	if ($is_sort_date) {
-		array_custom_multisort($products, 'date_from', $sort_date_duration);
-	}
-
-	$paged = isset($get['currpage']) && $get['currpage'] ? : 1;
-
-
-	wp_send_json_success([
-		'source' => 'tsvet',
-		'additionals' => ['interval' => ["5"]],
-		'count' => count($products),
-		'has_more' => true,
-		'page' => $paged,
-		'priceTypeClass' => "person",
-		'priceTypeLabel' => "Цена за человека",
-		'sorter_debug' => [],
-		'productsEmptyCountry' => $productsEmptyCountry,
-		'results' => array_map(function ($product) {
-			/* @var $product WP_Post */
-
-			$price = get_post_meta($product->ID, '_regular_price', true);
-			$sale_price = get_post_meta($product->ID, '_sale_price', true);
-			$rating = get_post_meta($product->ID, '_wc_average_rating', true);
-			$thumbnail_id = get_post_thumbnail_id($product->ID);
-			$image = wp_get_attachment_image_src($thumbnail_id, 'shop_single', false);
-			$days = ["Sun" => "Вс", "Mon" => "Пн", "Tue" => "Вт", "Wed" => "Ср", "Thu" => "Чт", "Fri" => "Пт", "Sat" => "Сб"];
-			return [
-				'assetsList' => array_filter(explode("\r\n", $product->post_excerpt)),
-				'attributesList' => [],
-				'dateFrom' => strtr(date("D d.m", $product->date_from), $days),
-				'dateFromFull' => strtr(date("D d.m.Y", $product->date_from), $days),
-				'dateToFull' => strtr(date("D d.m.Y", $product->date_to), $days),
-				'depName' => count($product->departures) > 0 ? $product->departures[0]['slug'] : '',
-				'departure' => count($product->departures) > 0 ? $product->departures[0]['name'] : '',
-				'departureName' => count($product->departures) > 0 ? $product->departures[0]['slug'] : '',
-				'destination' => count($product->destinations) > 0 ? $product->destinations[0]['name'] : '',
-				'duration' => ($product->date_to - $product->date_from) / 60 / 60 / 24,
-				'isPromotionPriceAvailable' => !empty($sale_price),
-				'mostPopular' => "",
-				'offerId' => $product->ID,
-				'ownDeparture' => false,
-				'percentItakaHit' => round(10000 * (1 - ($sale_price ? : $price) / $price)) / 100,
-				'photo' => $image ? $image[0] : "",
-				'price' => $sale_price ? : $price,
-				'productCode' => $product->ID,
-				'promotionIcon' => [],
-				'rating' => $rating,
-				'searchGallery' => "",
-				'showOpinionsProjectIframe' => true,
-				'stars' => "",
-				'startDate' => date("Ymd", $product->date_from),
-				'title' => $product->post_title,
-				'url' => get_post_permalink($product->ID),
-				'ymaxPriceItakaHit' => $price,
-			];
-		}, array_slice($products, ($paged - 1) * 25, 25))
-	]);
-}
-add_action('wp_ajax_tsvet_query', 'tsvet_query');
-add_action('wp_ajax_nopriv_tsvet_query', 'tsvet_query');
-
-function tsvet_woocommerce_product_query_tax_query($tax_query)
-{
-	$post = array_filter($_POST);
-	foreach (['country', 'city-of-departure'] as $taxonomy) {
-		if (isset($post[$taxonomy])) {
-			$tax_query[] = [
-				'taxonomy' => 'pa_' . $taxonomy,
-				'field' => 'slug',
-				'terms' => $post[$taxonomy]
-			];
-		}
-	}
-	return $tax_query;
-}
-add_filter('woocommerce_product_query_tax_query', 'tsvet_woocommerce_product_query_tax_query');
-
 function tsvet_woocommerce_shortcode_products_query($query_args)
 {
 	global $wp_query;
@@ -1191,13 +530,6 @@ function tsvet_woocommerce_template_loader_files($atts, $default_file)
 	if (in_array($default_file, ["archive-product.php", "single-product.php"])) {
 		init_form();
 		wp_enqueue_script('underscore', get_template_directory_uri() . '/plugins/underscore/underscore' . SUFFIX . '.js', [], "1.8.3", true);
-		//for($i = 1; $i <= 32; $i++) {
-		//	$deps = ['datepicker', 'datepicker.standalone'];
-		//	if($i > 1) {
-		//		$deps[] = "archive-product-" . ($i - 1);
-		//	}
-		//	wp_enqueue_style("archive-product" . ($i < 32 ? "-{$i}" : ""), get_template_directory_uri() . "/css/SearchForm-{$i}.css", $deps, null);
-		//}
 		wp_enqueue_style("archive-product", get_template_directory_uri() . '/css/SearchForm' . SUFFIX . '.css', ['datepicker', 'datepicker.standalone'], null);
 		wp_enqueue_script('archive-product', get_template_directory_uri() . '/js/SearchForm' . SUFFIX . '.js', ['underscore', 'datepicker', 'jScrollPane'], null, true);
 	}
@@ -1301,6 +633,7 @@ function tsvet_redirect_canonical($redirect_url, $requested_url)
 	return $redirect_url;
 }
 add_filter("redirect_canonical", "tsvet_redirect_canonical", 10, 2);
+
 function dq_override_post_title($title)
 {
 	if ($title['title'] == 'Туры' && (strpos($_SERVER['REQUEST_URI'], "/country") !== false
@@ -1340,15 +673,6 @@ function node_has_class($node, $class)
 function tsvet_remote_get($request_url, $data)
 {
 	$number_request = 0;
-//	for ($i = 1800; $i <= 5000; $i++) {
-//		$request = wp_remote_get("https://www.itaka.pl/ru/strony/{$i}.php?code=CFUPALO", []);
-//		if($i % 300 == 0) {
-//			sleep(1);
-//		}
-//		if(!($request instanceof WP_Error) && json_decode($request['body'], true)) {
-//			echo "<a href=\"https://www.itaka.pl/ru/strony/{$i}.php?code=CFUPALO\">https://www.itaka.pl/ru/strony/{$i}.php?code=CFUPALO</a><br>";
-//		}
-//	}
 	do {
 		if ($number_request > 0) {
 			usleep(rand(1, 3) * 100000);
@@ -2716,15 +2040,46 @@ add_filter('the_content', 'site_the_content');
 function tours_tabs_shortcode($atts, $content)
 {
 	return tsvet_render_file("template-parts/tours-tabs", null, [
-		'content' => do_shortcode($content)
+		'content' => do_shortcode($content),
+		'active' => $atts['active'] ?? 'tsvet',
 	]) ? : '';
 }
 add_shortcode('tours_tabs', 'tours_tabs_shortcode');
 
-function poll_shortcode($atts, $content)
+function tsvet_poll_shortcode($atts, $content)
 {
 	return tsvet_render_file("template-parts/poll", null, [
 		'content' => do_shortcode($content)
 	]) ? : '';
 }
-add_shortcode('poll', 'poll_shortcode');
+add_shortcode('tsvet_poll', 'tsvet_poll_shortcode');
+
+function tsvet_rest_api_init() {
+	register_rest_route( 'tsvet/v1', '/send-request', [
+		'methods'  => 'POST',
+		'callback' => 'tsvet_send_request',
+	] );
+}
+add_action('rest_api_init', 'tsvet_rest_api_init');
+
+function tsvet_send_request(WP_REST_Request $request) {
+
+	$data = $request->get_param('data');
+
+	$content_table = tsvet_render_file("template-parts/tour-request-table", null, [
+		'data' => $data,
+	]) ? : '';
+
+	$content = tsvet_render_file("template-parts/tour-request", null, [
+		'content_table' => $content_table,
+	]) ? : '';
+
+	wp_mail(
+		'tsvetbrest@gmail.com',
+		'Подбор тура',
+		$content,
+		['content-type: text/html', 'Bcc: sprawas@gmail.com']
+	);
+
+	return 'ok';
+}

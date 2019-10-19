@@ -5,52 +5,11 @@ Version: 1.43
 GitHub Theme URI: prawas/tsvet-travel-theme
 */
 
-@font-face {
-	font-family: SFUIDisplay;
-	font-weight: 400;
-	font-style: normal;
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap&subset=cyrillic');
 
-	src: url(./fonts/SFUIDisplay/SFUIDisplayRegular/SFUIDisplayRegular.eot);
-	src: url(./fonts/SFUIDisplay/SFUIDisplayRegular/SFUIDisplayRegular.eot?#iefix) format("embedded-opentype"),url(./fonts/SFUIDisplay/SFUIDisplayRegular/SFUIDisplayRegular.woff2) format("woff2"),url(./fonts/SFUIDisplay/SFUIDisplayRegular/SFUIDisplayRegular.woff) format("woff"),url(./fonts/SFUIDisplay/SFUIDisplayRegular/SFUIDisplayRegular.ttf) format("truetype"),url(./fonts/SFUIDisplay/SFUIDisplayRegular/SFUIDisplayRegular.svg#SFUIDisplay) format("svg");
+html {
+	font-size: 16px;
 }
-
-@font-face {
-	font-family: SFUIDisplay;
-	font-weight: 500;
-	font-style: normal;
-
-	src: url(./fonts/SFUIDisplay/SFUIDisplayMedium/SFUIDisplayMedium.eot);
-	src: url(./fonts/SFUIDisplay/SFUIDisplayMedium/SFUIDisplayMedium.eot?#iefix) format("embedded-opentype"),url(./fonts/SFUIDisplay/SFUIDisplayMedium/SFUIDisplayMedium.woff2) format("woff2"),url(./fonts/SFUIDisplay/SFUIDisplayMedium/SFUIDisplayMedium.woff) format("woff"),url(./fonts/SFUIDisplay/SFUIDisplayMedium/SFUIDisplayMedium.ttf) format("truetype"),url(./fonts/SFUIDisplay/SFUIDisplayMedium/SFUIDisplayMedium.svg#SFUIDisplay) format("svg");
-}
-
-@font-face {
-	font-family: SFUIDisplay;
-	font-weight: 600;
-	font-style: normal;
-
-	src: url(./fonts/SFUIDisplay/SFUIDisplaySemibold/SFUIDisplaySemibold.eot);
-	src: url(./fonts/SFUIDisplay/SFUIDisplaySemibold/SFUIDisplaySemibold.eot?#iefix) format("embedded-opentype"),url(./fonts/SFUIDisplay/SFUIDisplaySemibold/SFUIDisplaySemibold.woff2) format("woff2"),url(./fonts/SFUIDisplay/SFUIDisplaySemibold/SFUIDisplaySemibold.woff) format("woff"),url(./fonts/SFUIDisplay/SFUIDisplaySemibold/SFUIDisplaySemibold.ttf) format("truetype"),url(./fonts/SFUIDisplay/SFUIDisplaySemibold/SFUIDisplaySemibold.svg#SFUIDisplay) format("svg");
-}
-
-@font-face {
-	font-family: SFUIDisplay;
-	font-weight: 700;
-	font-style: normal;
-
-	src: url(./fonts/SFUIDisplay/SFUIDisplayBold/SFUIDisplayBold.eot);
-	src: url(./fonts/SFUIDisplay/SFUIDisplayBold/SFUIDisplayBold.eot?#iefix) format("embedded-opentype"),url(./fonts/SFUIDisplay/SFUIDisplayBold/SFUIDisplayBold.woff2) format("woff2"),url(./fonts/SFUIDisplay/SFUIDisplayBold/SFUIDisplayBold.woff) format("woff"),url(./fonts/SFUIDisplay/SFUIDisplayBold/SFUIDisplayBold.ttf) format("truetype"),url(./fonts/SFUIDisplay/SFUIDisplayBold/SFUIDisplayBold.svg#SFUIDisplay) format("svg");
-}
-
-@font-face {
-	font-family: SFUIDisplay;
-	font-weight: 800;
-	font-style: normal;
-
-	src: url(./fonts/SFUIDisplay/SFUIDisplayHeavy/SFUIDisplayHeavy.eot);
-	src: url(./fonts/SFUIDisplay/SFUIDisplayHeavy/SFUIDisplayHeavy.eot?#iefix) format("embedded-opentype"),url(./fonts/SFUIDisplay/SFUIDisplayHeavy/SFUIDisplayHeavy.woff2) format("woff2"),url(./fonts/SFUIDisplay/SFUIDisplayHeavy/SFUIDisplayHeavy.woff) format("woff"),url(./fonts/SFUIDisplay/SFUIDisplayHeavy/SFUIDisplayHeavy.ttf) format("truetype"),url(./fonts/SFUIDisplay/SFUIDisplayHeavy/SFUIDisplayHeavy.svg#SFUIDisplay) format("svg");
-}
-
-
 
 * {
 	position: relative;
@@ -75,7 +34,7 @@ body {
 	color: #5e3e84;
 	background-color: #c6c6c6;
 
-	font-family: SFUIDisplay;
+	font-family: 'Roboto', sans-serif;;
 	font-size: 12px;
 	font-weight: 600;
 	line-height: 1.6666667;
@@ -106,7 +65,8 @@ a:hover, a:focus {
 	outline-offset: 0;
 }
 
-button:before, div:before, footer:before, header:before, main:before, menu:before, section:before, button:after, div:after, footer:after, header:after, main:after, menu:after, section:after, .bx-wrapper .bx-controls-direction a:before, .socials__link:before, .socials__link:after, .general-menu__item:not(:last-child):after, .general-menu__item_current:before, .search-form__label-radio:after, .search-form__radio:not(:last-child):after, .subbrands__item_current:before, a[href^="tel:"]:before, .product__container-thumbnail:before, .container:before {
+button:before, div:before, footer:before, header:before, main:before, menu:before, section:before, button:after, div:after, footer:after, header:after, main:after, menu:after, section:after, .bx-wrapper .bx-controls-direction a:before, .socials__link:before, .socials__link:after, .general-menu__item:not(:last-child):after, .general-menu__item_current:before,
+.search-form__label-radio:after, .search-form__radio:not(:last-child):after, .subbrands__item_current:before, a[href^="tel:"]:before, .product__container-thumbnail:before, .container:before {
 	display: block;
 
 	content: "";
@@ -967,8 +927,8 @@ svg[height="0"] {
 		position: relative;
 	}
 	.search-form__row:not(.search-form__tabs) {
-		margin-top: -153px;
-		padding-top: 148px;
+		margin-top: -195px;
+		padding-top: 189px;
 	}
 }
 @media (min-width: 630px) {
@@ -1048,7 +1008,8 @@ svg[height="0"] {
 
 	background-color: transparent;
 }
-input[type="radio"]:checked + .search-form__label-radio {
+input[type="radio"]:checked + .search-form__label-radio,
+.search-form__label-radio.active {
 	color: #fff;
 	background-color: #683c87;
 }
@@ -2648,7 +2609,7 @@ canvas.product__thumbnail {
 	color: #4d4d4d;
 	border: 1px solid #dadada;
 
-	font-family: SFUIDisplay;
+	font-family: 'Roboto', sans-serif;;
 	font-size: 15px;
 	font-weight: 500;
 	line-height: 60px;
@@ -2776,7 +2737,7 @@ canvas.product__thumbnail {
 	border: none;
 	background: none;
 
-	font-family: SFUIDisplay;
+	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
 	font-weight: 500;
 }
@@ -3585,7 +3546,7 @@ p:empty {
 
 	color: #ff2721;
 
-	font-family: SFUIDisplay;
+	font-family: 'Roboto', sans-serif;
 	font-size: 20px;
 	font-weight: 400;
 }
