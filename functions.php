@@ -2,6 +2,8 @@
 //remove_filter('show_admin_bar', 'wc_disable_admin_bar', 10);
 //add_filter('show_admin_bar', '__return_false');
 
+require __DIR__ . '/vendor/autoload.php';
+
 require __DIR__ . '/inc/disabled-rest-api.php';
 require __DIR__ . '/inc/template-functions.php';
 require __DIR__ . '/inc/override-functions.php';
@@ -9,7 +11,15 @@ require __DIR__ . '/inc/customizer.php';
 
 require __DIR__ . '/inc/class/simple_html_dom.php';
 
+use Sendpulse\RestApi\ApiClient;
+use Sendpulse\RestApi\Storage\FileStorage;
+
 define('SUFFIX', SCRIPT_DEBUG ? '' : '.min');
+
+define('API_USER_ID', 'ee70451c8fee76d0e0cdadab70aa5a27');
+define('API_SECRET', '5bbe1d01643c15c10a14fde095035a95');
+define('SP_BOOK_ID', 88982519);
+define('PATH_TO_ATTACH_FILE', __FILE__);
 
 /**
  * Устанавливает тему по умолчанию и регистрирует поддержку различных функций WordPress.
@@ -2066,6 +2076,13 @@ function tsvet_send_request(WP_REST_Request $request) {
 
 	$data = $request->get_param('data');
 
+	$spam_me = $data['additional_info']['receive_newsletter'];
+	$email = empty($data['info']['email']) ? null : $data['info']['email'];
+
+	if ($spam_me && $email) {
+		tsvet_spam_me($email, $data['info']['phone'], $data['info']['name']);
+	}
+
 	$content_table = tsvet_render_file("template-parts/tour-request-table", null, [
 		'data' => $data,
 	]) ? : '';
@@ -2082,4 +2099,18 @@ function tsvet_send_request(WP_REST_Request $request) {
 	);
 
 	return 'ok';
+}
+
+function tsvet_spam_me($email, $phone, $name) {
+	$SPApiClient = new ApiClient(API_USER_ID, API_SECRET, new FileStorage());
+
+	$result = $SPApiClient->addEmails(SP_BOOK_ID, [[
+		'email' => $email,
+		'variables' => [
+			'phone' => $phone,
+			'name' => $name,
+		],
+	]]);
+	
+	return $result;
 }
