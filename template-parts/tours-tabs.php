@@ -45,7 +45,7 @@
         <div class="row">
           <div class="col-lg-1"></div>
           <div class="col-lg-10">
-            <h2 class="section__title">Заявка на подбор тура</h2>
+            <h1 class="section__title">Заявка на подбор тура</h1>
 
             <p>Уважаемый клиент!</p>
             <p>Мы хотим сделать Ваш отдых качественным и незабываемым. Чтобы вернувшись, Вы еще несколько месяцев были полны энергий и&nbsp;эмоционально заряжены для&nbsp;новых целей и&nbsp;подвигов.</p>
@@ -62,7 +62,7 @@
     <section class="section">
       <div class="section__container container">
         <div class="section__flex-title">
-          <h2 class="section__title">Вылеты из&nbsp;Варшавы</h2>
+          <h1 class="section__title">Туры с вылетом из&nbsp;Польши</h1>
           <div class="section__title-curr-calc">
             <h5>Пересчет PLN в&nbsp;BYN</h5>
             <div class="form-group">
@@ -90,7 +90,7 @@
     <?php if ($active === 'sletat'): ?>
     <section class="section">
       <div class="section__container container">
-        <h2 class="section__title">Вылеты из&nbsp;Беларуси, России и&nbsp;Украины</h2>
+        <h1 class="section__title">Вылеты из&nbsp;Беларуси, России и&nbsp;Украины</h1>
         <div class="section__content">
 
 
@@ -146,7 +146,7 @@
     <?php if ($active === 'bus'): ?>
     <section class="section">
       <div class="section__container container">
-        <h2 class="section__title">Автобусные туры</h2>
+        <h1 class="section__title">Автобусные туры из Бреста</h1>
         <div class="section__content">
 
         <script language="javascript" src="https://widget.belturizm.by:55590/3rd/foo/platform.js?partyId=ivrgwymaaut" async></script>
