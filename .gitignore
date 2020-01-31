@@ -2,3 +2,4 @@
 backups_tours
 node_modules
 yarn.lock
+vendor
