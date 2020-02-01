@@ -27,7 +27,8 @@ if ( empty( $product ) || ! $product->is_visible() ) {
 	return;
 }
 ?>
-<li <?php post_class(); ?>>
+<div class="col-md-3">
+<div <?php post_class(); ?>>
     <div class="product__container-thumbnail">
         <div class="product__buttons">
             <a href="<?= get_the_permalink(); ?>" class="woocommerce-LoopProduct-link woocommerce-loop-product__link product__button">Узнать подробности</a>
@@ -60,4 +61,5 @@ if ( empty( $product ) || ! $product->is_visible() ) {
 	do_action( 'woocommerce_after_shop_loop_item_title' );
 	?>
     </a>
-</li>
+</div>
+</div>

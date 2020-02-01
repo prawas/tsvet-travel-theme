@@ -1131,8 +1131,37 @@ function get_departures_tsvet() { return []; }
 function get_countries_tsvet() { return []; }
 function get_cities_tsvet() { return []; }
 function get_geos_for_filters() { return []; }
-function get_default_params_tout() { return []; }
-function get_params_tout($tour_id) { return []; }
+
+function get_default_params_tout() {
+	return [
+		'_product_image_gallery' => [],
+		'category_name' => '',
+		'_wc_average_rating' => 0,
+		'stars' => '',
+		'_sku' => '',
+		'adults' => 2,
+		'childs' => 0,
+		'rooms' => [],
+		'foods' => [],
+		'city-of-departure' => [],
+		'country' => '',
+		'region' => '',
+		'terms_and_prices' => [],
+		'_regular_price' => 0,
+		'_sale_price' => 0,
+		'percent_rating' => 0,
+		'child_price_6' => 0,
+		'child_price_13' => 0,
+		'bus_tour' => 'Нет'
+	];
+}
+function get_params_tout($tour_id) {
+	$results = [];
+	foreach (get_default_params_tout() as $param => $value) {
+		$results[$param] = get_cache_post_meta($tour_id, $param, $value);
+	}
+	return $results;
+}
 
 function site_the_content($content)
 {

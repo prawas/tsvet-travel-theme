@@ -1499,7 +1499,7 @@ input[type="radio"]:checked + .search-form__label-radio,
 	min-width: 290px;
 }
 .product__container-thumbnail:before {
-	padding-top: 48.65%;
+	padding-top: 30px;
 }
 .woocommerce .product__thumbnail {
 	position: absolute;
