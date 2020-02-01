@@ -408,56 +408,6 @@ function request_url($url, $data, $source = '')
 	return json_decode($response instanceof WP_Error ? "" : $response['body'], true);
 }
 
-function tsvet_get_filters_itaka()
-{
-	$data = [
-		'language' => 'ru',
-		'date-from' => tsvet_get_query_var('date-from', date('Y-m-d'))
-	];
-
-	// children-age - даты рождения детей, '2016-06-01,2012-06-26'
-	// dest-region - Куда
-	// dep-region - Вылет из, список городов (alanya-province,antalya-province,belek-province) или название страны (turcja)
-
-	foreach (['date-to', 'package-type', 'adults', 'children-age', 'dest-region', 'dep-region'] as $filter_name) {
-		if ($value = tsvet_get_query_var($filter_name, '')) {
-			$data[$filter_name] = $value;
-		}
-	}
-	$response = request_url('https://www.itaka.pl/sipl-v2/data/filters', $data, 'itaka');
-	wp_send_json_success($response['data']);
-}
-//add_action('wp_ajax_get_filters_itaka', 'tsvet_get_filters_itaka');
-//add_action('wp_ajax_nopriv_get_filters_itaka', 'tsvet_get_filters_itaka');
-
-function tsvet_search_itaka()
-{
-	$data = [
-		'language' => 'ru',
-		'package-type' => 'wczasy',
-		'date-from' => tsvet_get_query_var('date-from', date('Y-m-d')),
-		'page' => tsvet_get_query_var('page', date('1'))
-	];
-
-	// children-age - даты рождения детей, '2016-06-01,2012-06-26'
-	// dest-region - Куда, список городов (alanya-province,antalya-province,belek-province) или название страны (turcja)
-	// dep-region - Вылет из
-
-	foreach (['date-to', 'adults', 'kids', 'children-age', 'dest-region', 'dep-region', 'country-to'] as $filter_name) {
-		if ($value = tsvet_get_query_var($filter_name, false)) {
-			$data[$filter_name] = $value;
-		}
-	}
-	if (isset($data['country-to'])) {
-		$data['dest-region'] .= $data['country-to'];
-		unset($data['country-to']);
-	}
-	$response = request_url('https://www.itaka.pl/sipl-v2/data/holiday/search', $data, 'itaka');
-	wp_send_json_success($response['data']);
-}
-add_action('wp_ajax_search_itaka', 'tsvet_search_itaka');
-add_action('wp_ajax_nopriv_search_itaka', 'tsvet_search_itaka');
-
 
 /**
  * @param $handle
@@ -862,6 +812,10 @@ function tsvet_the_posts($posts)
 			$GLOBALS['post'] = $posts[0];
 			$wp_object_cache->replace($wp_query->post->ID, $wp_query->post, 'posts');
 			return $posts;
+		} else {
+			$wp_query->set_404();
+			status_header( 404 );
+			nocache_headers();
 		}
 	}
 	return $posts;

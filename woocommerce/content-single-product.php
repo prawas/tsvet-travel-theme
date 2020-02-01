@@ -63,13 +63,26 @@ $params = get_params_tout($id_product);
 
             <div class="summary-box" itemprop="offers" data-lang="ru">
 
-                <p style="padding-left:10px;padding-right:10px">Чтобы уточнить детали предложения, оставьте заявку, и&nbsp;мы обязательно свяжемся с&nbsp;Вами.</p>
+                <?php if ($product->get_id() == 512): ?>
+                <p style="font-size:16px;padding-left:10px;padding-right:10px">Чтобы уточнить детали предложения, оставьте заявку, и&nbsp;мы обязательно свяжемся с&nbsp;Вами.</p>
 
                 <div class="submit-box">
-                    <a href="#"
-                       class="button_submit" data-js-value="reservationUrl"
-                       style="display: block;">Оставить заявку</a>
+                    <?= do_shortcode('[contact-form-7 id="2279" title="Хочу в Калининград"]') ?>
                 </div>
+
+                <p style="font-size:16px;padding-left:10px;padding-right:10px">или позвоните нам по&nbsp;телефонам:</p>
+
+                <?php else: ?>
+                    <p style="font-size:16px;padding-left:10px;padding-right:10px">Чтобы уточнить детали предложения, позвоните нам по&nbsp;телефонам:</p>
+                <?php endif; ?>
+
+                <p style="font-size:28px;">
+                    <a href="tel:+375295555190">+375 29 5555 190</a>
+                </p>
+                <p style="font-size:28px;">
+                    <a href="tel:+375333228888">+375 33 322 8888</a>
+                </p>
+
             </div>
 
         </div>

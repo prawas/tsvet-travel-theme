@@ -3,6 +3,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly
 }
 ?>
+
 <section class="section">
     <div class="section__container container">
         <h2 class="section__title"><?php woocommerce_page_title(); ?></h2>
